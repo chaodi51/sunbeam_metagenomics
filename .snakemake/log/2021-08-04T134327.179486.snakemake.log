@@ -1,0 +1,16 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	1	all_mapping
+	1
+
+[Wed Aug  4 13:43:32 2021]
+localrule all_mapping:
+    jobid: 0
+
+[Wed Aug  4 13:43:32 2021]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/.snakemake/log/2021-08-04T134327.179486.snakemake.log

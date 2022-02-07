@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 20
+Job counts:
+	count	jobs
+	148	aggregate_results
+	1	all_annotate
+	148	prodigal
+	148	run_blastn
+	148	run_blastp
+	148	run_blastx
+	741
+
+[Fri Aug 13 21:57:20 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029168-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029168.xml
+    jobid: 650
+    wildcards: db=nt, contigs=contig, sample=SRR10029168
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 21:57:21 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029142-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029142.xml
+    jobid: 614
+    wildcards: db=nt, contigs=contig, sample=SRR10029142
+    threads: 4
+

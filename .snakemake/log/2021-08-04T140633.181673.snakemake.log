@@ -1,0 +1,34 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	148	aggregate_reads
+	148	align_to_host
+	1	all_decontam
+	1	build_host_index
+	296	filter_reads
+	148	get_mapped_reads
+	742
+
+[Wed Aug  4 14:07:42 2021]
+rule build_host_index:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/host_genomes/human.fasta
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/host_genomes/human.fasta.amb
+    jobid: 1335
+    wildcards: host=human
+
+Submitted job 1335 with external jobid 'Submitted batch job 5862862'.
+[Wed Aug  4 15:07:25 2021]
+Error in rule build_host_index:
+    jobid: 1335
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/host_genomes/human.fasta.amb
+    shell:
+        cd /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/host_genomes && bwa index /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/host_genomes/human.fasta
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 5862862
+
+Error executing rule build_host_index on cluster (jobid: 1335, external: Submitted batch job 5862862, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.i2018p7x/snakejob.build_host_index.1335.sh). For detailed error see the cluster log.
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/.snakemake/log/2021-08-04T140633.181673.snakemake.log

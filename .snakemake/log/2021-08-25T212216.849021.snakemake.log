@@ -1,0 +1,878 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 40
+Job counts:
+	count	jobs
+	1	all_classify
+	1	classic_k2_biom
+	1	kraken2_biom
+	283	kraken2_classify_report
+	286
+
+[Wed Aug 25 21:23:16 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s3_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s3_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s3-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s3-taxa.tsv
+    jobid: 106
+    wildcards: sample=s3
+    threads: 4
+
+Submitted job 106 with external jobid 'Submitted batch job 6476130'.
+
+[Wed Aug 25 21:23:16 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.175.VEO.Feces.Baseline-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.175.VEO.Feces.Baseline-taxa.tsv
+    jobid: 190
+    wildcards: sample=s.175.VEO.Feces.Baseline
+    threads: 4
+
+Submitted job 190 with external jobid 'Submitted batch job 6476131'.
+
+[Wed Aug 25 21:23:16 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s102.IBD.Therapy.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s102.IBD.Therapy.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s102.IBD.Therapy.Feces.Week.8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s102.IBD.Therapy.Feces.Week.8-taxa.tsv
+    jobid: 205
+    wildcards: sample=s102.IBD.Therapy.Feces.Week.8
+    threads: 4
+
+Submitted job 205 with external jobid 'Submitted batch job 6476132'.
+
+[Wed Aug 25 21:23:16 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s55.IBD_Therapy.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s55.IBD_Therapy.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s55.IBD_Therapy.Feces.Baseline-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s55.IBD_Therapy.Feces.Baseline-taxa.tsv
+    jobid: 59
+    wildcards: sample=s55.IBD_Therapy.Feces.Baseline
+    threads: 4
+
+Submitted job 59 with external jobid 'Submitted batch job 6476133'.
+
+[Wed Aug 25 21:23:16 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.3.2873_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.3.2873_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.359.IBDC.Diff.Stool.3.2873-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.359.IBDC.Diff.Stool.3.2873-taxa.tsv
+    jobid: 102
+    wildcards: sample=s.359.IBDC.Diff.Stool.3.2873
+    threads: 4
+
+Submitted job 102 with external jobid 'Submitted batch job 6476134'.
+
+[Wed Aug 25 21:23:16 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Week_4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.175.VEO.Feces.Week_4-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.175.VEO.Feces.Week_4-taxa.tsv
+    jobid: 13
+    wildcards: sample=s.175.VEO.Feces.Week_4
+    threads: 4
+
+Submitted job 13 with external jobid 'Submitted batch job 6476135'.
+
+[Wed Aug 25 21:23:16 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s30.IBDNaturalHistory.Feces.Visit3_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s30.IBDNaturalHistory.Feces.Visit3_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s30.IBDNaturalHistory.Feces.Visit3-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s30.IBDNaturalHistory.Feces.Visit3-taxa.tsv
+    jobid: 118
+    wildcards: sample=s30.IBDNaturalHistory.Feces.Visit3
+    threads: 4
+
+Submitted job 118 with external jobid 'Submitted batch job 6476136'.
+
+[Wed Aug 25 21:23:16 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s078.IBD.Therapy.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s078.IBD.Therapy.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s078.IBD.Therapy.Feces.Week.8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s078.IBD.Therapy.Feces.Week.8-taxa.tsv
+    jobid: 130
+    wildcards: sample=s078.IBD.Therapy.Feces.Week.8
+    threads: 4
+
+Submitted job 130 with external jobid 'Submitted batch job 6476137'.
+
+[Wed Aug 25 21:23:16 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s31.IBDNaturalHistory.Feces.Visit1_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s31.IBDNaturalHistory.Feces.Visit1_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s31.IBDNaturalHistory.Feces.Visit1-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s31.IBDNaturalHistory.Feces.Visit1-taxa.tsv
+    jobid: 89
+    wildcards: sample=s31.IBDNaturalHistory.Feces.Visit1
+    threads: 4
+
+Submitted job 89 with external jobid 'Submitted batch job 6476138'.
+
+[Wed Aug 25 21:23:16 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.235.C_Diff_Oncology.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.235.C_Diff_Oncology.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.235.C_Diff_Oncology.Feces.Baseline-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.235.C_Diff_Oncology.Feces.Baseline-taxa.tsv
+    jobid: 161
+    wildcards: sample=s.235.C_Diff_Oncology.Feces.Baseline
+    threads: 4
+
+Submitted job 161 with external jobid 'Submitted batch job 6476139'.
+
+[Wed Aug 25 21:23:17 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s097.IBD.Antibiotics.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s097.IBD.Antibiotics.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s097.IBD.Antibiotics.Feces.Baseline-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s097.IBD.Antibiotics.Feces.Baseline-taxa.tsv
+    jobid: 26
+    wildcards: sample=s097.IBD.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 26 with external jobid 'Submitted batch job 6476160'.
+
+[Wed Aug 25 21:23:18 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s159.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s159.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s159.Healthy.Antibiotics.Feces.Week.8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s159.Healthy.Antibiotics.Feces.Week.8-taxa.tsv
+    jobid: 91
+    wildcards: sample=s159.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 91 with external jobid 'Submitted batch job 6476161'.
+
+[Wed Aug 25 21:23:18 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.1.910_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.1.910_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.109.Healthy.greaterthan5.Stool.1.910-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.109.Healthy.greaterthan5.Stool.1.910-taxa.tsv
+    jobid: 33
+    wildcards: sample=s.109.Healthy.greaterthan5.Stool.1.910
+    threads: 4
+
+Submitted job 33 with external jobid 'Submitted batch job 6476162'.
+
+[Wed Aug 25 21:23:18 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s30.IBDNaturalHistory.Feces.Visit2_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s30.IBDNaturalHistory.Feces.Visit2_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s30.IBDNaturalHistory.Feces.Visit2-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s30.IBDNaturalHistory.Feces.Visit2-taxa.tsv
+    jobid: 101
+    wildcards: sample=s30.IBDNaturalHistory.Feces.Visit2
+    threads: 4
+
+Submitted job 101 with external jobid 'Submitted batch job 6476163'.
+
+[Wed Aug 25 21:23:19 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s17_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s17_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s17-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s17-taxa.tsv
+    jobid: 184
+    wildcards: sample=s17
+    threads: 4
+
+Submitted job 184 with external jobid 'Submitted batch job 6476164'.
+
+[Wed Aug 25 21:23:19 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.190.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.190.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.190.Healthy.Antibiotics.Feces.Week.8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.190.Healthy.Antibiotics.Feces.Week.8-taxa.tsv
+    jobid: 7
+    wildcards: sample=s.190.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 7 with external jobid 'Submitted batch job 6476165'.
+
+[Wed Aug 25 21:23:19 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s58.Healthy_greaterthan5.Feces.Baseline-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s58.Healthy_greaterthan5.Feces.Baseline-taxa.tsv
+    jobid: 120
+    wildcards: sample=s58.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+Submitted job 120 with external jobid 'Submitted batch job 6476166'.
+
+[Wed Aug 25 21:23:19 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.361.C.DiffOncology.Stool.1.2876_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.361.C.DiffOncology.Stool.1.2876_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.361.C.DiffOncology.Stool.1.2876-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.361.C.DiffOncology.Stool.1.2876-taxa.tsv
+    jobid: 78
+    wildcards: sample=s.361.C.DiffOncology.Stool.1.2876
+    threads: 4
+
+Submitted job 78 with external jobid 'Submitted batch job 6476167'.
+
+[Wed Aug 25 21:23:19 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s159.Healthy.Antibiotics.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s159.Healthy.Antibiotics.Feces.Week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s159.Healthy.Antibiotics.Feces.Week.4-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s159.Healthy.Antibiotics.Feces.Week.4-taxa.tsv
+    jobid: 56
+    wildcards: sample=s159.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 56 with external jobid 'Submitted batch job 6476168'.
+
+[Wed Aug 25 21:23:19 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.2.1046_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.2.1046_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.109.Healthy.greaterthan5.Stool.2.1046-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.109.Healthy.greaterthan5.Stool.2.1046-taxa.tsv
+    jobid: 143
+    wildcards: sample=s.109.Healthy.greaterthan5.Stool.2.1046
+    threads: 4
+
+Submitted job 143 with external jobid 'Submitted batch job 6476169'.
+
+[Wed Aug 25 21:23:19 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s078.IBD.Therapy.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s078.IBD.Therapy.Feces.Week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s078.IBD.Therapy.Feces.Week.4-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s078.IBD.Therapy.Feces.Week.4-taxa.tsv
+    jobid: 154
+    wildcards: sample=s078.IBD.Therapy.Feces.Week.4
+    threads: 4
+
+Submitted job 154 with external jobid 'Submitted batch job 6476170'.
+
+[Wed Aug 25 21:23:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s35.IBD_Therapy.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s35.IBD_Therapy.Feces.Week_4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s35.IBD_Therapy.Feces.Week_4-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s35.IBD_Therapy.Feces.Week_4-taxa.tsv
+    jobid: 213
+    wildcards: sample=s35.IBD_Therapy.Feces.Week_4
+    threads: 4
+
+Submitted job 213 with external jobid 'Submitted batch job 6476171'.
+
+[Wed Aug 25 21:23:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s067.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s067.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s067.Healthy.Antibiotics.Feces.Week.8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s067.Healthy.Antibiotics.Feces.Week.8-taxa.tsv
+    jobid: 258
+    wildcards: sample=s067.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 258 with external jobid 'Submitted batch job 6476172'.
+
+[Wed Aug 25 21:23:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s20.C_diff.Feces.Visit1_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s20.C_diff.Feces.Visit1_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s20.C_diff.Feces.Visit1-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s20.C_diff.Feces.Visit1-taxa.tsv
+    jobid: 212
+    wildcards: sample=s20.C_diff.Feces.Visit1
+    threads: 4
+
+Submitted job 212 with external jobid 'Submitted batch job 6476173'.
+
+[Wed Aug 25 21:23:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.235.C_Diff_Oncology.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.235.C_Diff_Oncology.Feces.Week_8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.235.C_Diff_Oncology.Feces.Week_8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.235.C_Diff_Oncology.Feces.Week_8-taxa.tsv
+    jobid: 82
+    wildcards: sample=s.235.C_Diff_Oncology.Feces.Week_8
+    threads: 4
+
+Submitted job 82 with external jobid 'Submitted batch job 6476174'.
+
+[Wed Aug 25 21:23:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s48_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s48_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s48-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s48-taxa.tsv
+    jobid: 4
+    wildcards: sample=s48
+    threads: 4
+
+Submitted job 4 with external jobid 'Submitted batch job 6476175'.
+
+[Wed Aug 25 21:23:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.201.IBD_Therapy.Feces.Week_8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.201.IBD_Therapy.Feces.Week_8-taxa.tsv
+    jobid: 43
+    wildcards: sample=s.201.IBD_Therapy.Feces.Week_8
+    threads: 4
+
+Submitted job 43 with external jobid 'Submitted batch job 6476176'.
+
+[Wed Aug 25 21:23:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s25.IBD_Therapy.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s25.IBD_Therapy.Feces.Week_8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s25.IBD_Therapy.Feces.Week_8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s25.IBD_Therapy.Feces.Week_8-taxa.tsv
+    jobid: 174
+    wildcards: sample=s25.IBD_Therapy.Feces.Week_8
+    threads: 4
+
+Submitted job 174 with external jobid 'Submitted batch job 6476177'.
+
+[Wed Aug 25 21:23:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s102.IBD.Therapy.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s102.IBD.Therapy.Feces.Week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s102.IBD.Therapy.Feces.Week.4-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s102.IBD.Therapy.Feces.Week.4-taxa.tsv
+    jobid: 90
+    wildcards: sample=s102.IBD.Therapy.Feces.Week.4
+    threads: 4
+
+Submitted job 90 with external jobid 'Submitted batch job 6476178'.
+
+[Wed Aug 25 21:23:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.347.IBDTherapy.Stool.1.2668-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.347.IBDTherapy.Stool.1.2668-taxa.tsv
+    jobid: 253
+    wildcards: sample=s.347.IBDTherapy.Stool.1.2668
+    threads: 4
+
+Submitted job 253 with external jobid 'Submitted batch job 6476179'.
+
+[Wed Aug 25 21:23:21 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.135.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.135.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.135.Healthy.Antibiotics.Feces.Week.8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.135.Healthy.Antibiotics.Feces.Week.8-taxa.tsv
+    jobid: 42
+    wildcards: sample=s.135.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 42 with external jobid 'Submitted batch job 6476180'.
+
+[Wed Aug 25 21:23:21 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s143.VEO.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s143.VEO.Feces.Week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s143.VEO.Feces.Week.4-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s143.VEO.Feces.Week.4-taxa.tsv
+    jobid: 86
+    wildcards: sample=s143.VEO.Feces.Week.4
+    threads: 4
+
+Submitted job 86 with external jobid 'Submitted batch job 6476181'.
+
+[Wed Aug 25 21:23:21 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s32.C_diff.Feces.Visit3_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s32.C_diff.Feces.Visit3_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s32.C_diff.Feces.Visit3-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s32.C_diff.Feces.Visit3-taxa.tsv
+    jobid: 6
+    wildcards: sample=s32.C_diff.Feces.Visit3
+    threads: 4
+
+Submitted job 6 with external jobid 'Submitted batch job 6476182'.
+
+[Wed Aug 25 21:23:21 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.222.IBD_CDiff.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.222.IBD_CDiff.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.222.IBD_CDiff.Feces.Baseline-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.222.IBD_CDiff.Feces.Baseline-taxa.tsv
+    jobid: 171
+    wildcards: sample=s.222.IBD_CDiff.Feces.Baseline
+    threads: 4
+
+Submitted job 171 with external jobid 'Submitted batch job 6476183'.
+
+[Wed Aug 25 21:23:21 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s152.Healthy.Antibiotics.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s152.Healthy.Antibiotics.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s152.Healthy.Antibiotics.Feces.Baseline-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s152.Healthy.Antibiotics.Feces.Baseline-taxa.tsv
+    jobid: 9
+    wildcards: sample=s152.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 9 with external jobid 'Submitted batch job 6476184'.
+
+[Wed Aug 25 21:23:21 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.201.IBD_Therapy.Feces.Week_4-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.201.IBD_Therapy.Feces.Week_4-taxa.tsv
+    jobid: 267
+    wildcards: sample=s.201.IBD_Therapy.Feces.Week_4
+    threads: 4
+
+Submitted job 267 with external jobid 'Submitted batch job 6476185'.
+
+[Wed Aug 25 21:23:21 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s38.IBD.Antibiotics.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s38.IBD.Antibiotics.Feces.Week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s38.IBD.Antibiotics.Feces.Week.4-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s38.IBD.Antibiotics.Feces.Week.4-taxa.tsv
+    jobid: 147
+    wildcards: sample=s38.IBD.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 147 with external jobid 'Submitted batch job 6476186'.
+
+[Wed Aug 25 21:23:21 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.2.2872_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.2.2872_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.359.IBDC.Diff.Stool.2.2872-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.359.IBDC.Diff.Stool.2.2872-taxa.tsv
+    jobid: 12
+    wildcards: sample=s.359.IBDC.Diff.Stool.2.2872
+    threads: 4
+
+Submitted job 12 with external jobid 'Submitted batch job 6476187'.
+
+[Wed Aug 25 21:23:21 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s46.Healthy_greaterthan5.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s46.Healthy_greaterthan5.Feces.Week_8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s46.Healthy_greaterthan5.Feces.Week_8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s46.Healthy_greaterthan5.Feces.Week_8-taxa.tsv
+    jobid: 164
+    wildcards: sample=s46.Healthy_greaterthan5.Feces.Week_8
+    threads: 4
+
+Submitted job 164 with external jobid 'Submitted batch job 6476188'.
+
+[Wed Aug 25 21:23:21 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s067.Healthy.Antibiotics.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s067.Healthy.Antibiotics.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s067.Healthy.Antibiotics.Feces.Baseline-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s067.Healthy.Antibiotics.Feces.Baseline-taxa.tsv
+    jobid: 73
+    wildcards: sample=s067.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 73 with external jobid 'Submitted batch job 6476189'.
+[Wed Aug 25 21:32:04 2021]
+Error in rule kraken2_classify_report:
+    jobid: 106
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s3-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s3-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s3-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s3_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s3_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s3-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476130
+
+Error executing rule kraken2_classify_report on cluster (jobid: 106, external: Submitted batch job 6476130, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.106.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:32:44 2021]
+Error in rule kraken2_classify_report:
+    jobid: 190
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.175.VEO.Feces.Baseline-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.175.VEO.Feces.Baseline-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.175.VEO.Feces.Baseline-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Baseline_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Baseline_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.175.VEO.Feces.Baseline-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476131
+
+Error executing rule kraken2_classify_report on cluster (jobid: 190, external: Submitted batch job 6476131, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.190.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:32:44 2021]
+Error in rule kraken2_classify_report:
+    jobid: 130
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s078.IBD.Therapy.Feces.Week.8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s078.IBD.Therapy.Feces.Week.8-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s078.IBD.Therapy.Feces.Week.8-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s078.IBD.Therapy.Feces.Week.8_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s078.IBD.Therapy.Feces.Week.8_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s078.IBD.Therapy.Feces.Week.8-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476137
+
+Error executing rule kraken2_classify_report on cluster (jobid: 130, external: Submitted batch job 6476137, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.130.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:32:44 2021]
+Error in rule kraken2_classify_report:
+    jobid: 26
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s097.IBD.Antibiotics.Feces.Baseline-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s097.IBD.Antibiotics.Feces.Baseline-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s097.IBD.Antibiotics.Feces.Baseline-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s097.IBD.Antibiotics.Feces.Baseline_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s097.IBD.Antibiotics.Feces.Baseline_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s097.IBD.Antibiotics.Feces.Baseline-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476160
+
+Error executing rule kraken2_classify_report on cluster (jobid: 26, external: Submitted batch job 6476160, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.26.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:32:57 2021]
+Error in rule kraken2_classify_report:
+    jobid: 59
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s55.IBD_Therapy.Feces.Baseline-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s55.IBD_Therapy.Feces.Baseline-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s55.IBD_Therapy.Feces.Baseline-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s55.IBD_Therapy.Feces.Baseline_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s55.IBD_Therapy.Feces.Baseline_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s55.IBD_Therapy.Feces.Baseline-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476133
+
+Error executing rule kraken2_classify_report on cluster (jobid: 59, external: Submitted batch job 6476133, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.59.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:33:11 2021]
+Error in rule kraken2_classify_report:
+    jobid: 13
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.175.VEO.Feces.Week_4-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.175.VEO.Feces.Week_4-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.175.VEO.Feces.Week_4-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Week_4_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Week_4_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.175.VEO.Feces.Week_4-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476135
+
+Error executing rule kraken2_classify_report on cluster (jobid: 13, external: Submitted batch job 6476135, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.13.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:33:11 2021]
+Error in rule kraken2_classify_report:
+    jobid: 89
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s31.IBDNaturalHistory.Feces.Visit1-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s31.IBDNaturalHistory.Feces.Visit1-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s31.IBDNaturalHistory.Feces.Visit1-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s31.IBDNaturalHistory.Feces.Visit1_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s31.IBDNaturalHistory.Feces.Visit1_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s31.IBDNaturalHistory.Feces.Visit1-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476138
+
+Error executing rule kraken2_classify_report on cluster (jobid: 89, external: Submitted batch job 6476138, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.89.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:34:03 2021]
+Error in rule kraken2_classify_report:
+    jobid: 118
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s30.IBDNaturalHistory.Feces.Visit3-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s30.IBDNaturalHistory.Feces.Visit3-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s30.IBDNaturalHistory.Feces.Visit3-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s30.IBDNaturalHistory.Feces.Visit3_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s30.IBDNaturalHistory.Feces.Visit3_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s30.IBDNaturalHistory.Feces.Visit3-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476136
+
+Error executing rule kraken2_classify_report on cluster (jobid: 118, external: Submitted batch job 6476136, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.118.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:34:03 2021]
+Error in rule kraken2_classify_report:
+    jobid: 161
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.235.C_Diff_Oncology.Feces.Baseline-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.235.C_Diff_Oncology.Feces.Baseline-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.235.C_Diff_Oncology.Feces.Baseline-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.235.C_Diff_Oncology.Feces.Baseline_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.235.C_Diff_Oncology.Feces.Baseline_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.235.C_Diff_Oncology.Feces.Baseline-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476139
+
+Error executing rule kraken2_classify_report on cluster (jobid: 161, external: Submitted batch job 6476139, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.161.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:34:03 2021]
+Error in rule kraken2_classify_report:
+    jobid: 91
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s159.Healthy.Antibiotics.Feces.Week.8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s159.Healthy.Antibiotics.Feces.Week.8-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s159.Healthy.Antibiotics.Feces.Week.8-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s159.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s159.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s159.Healthy.Antibiotics.Feces.Week.8-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476161
+
+Error executing rule kraken2_classify_report on cluster (jobid: 91, external: Submitted batch job 6476161, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.91.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:34:03 2021]
+Error in rule kraken2_classify_report:
+    jobid: 120
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s58.Healthy_greaterthan5.Feces.Baseline-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s58.Healthy_greaterthan5.Feces.Baseline-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s58.Healthy_greaterthan5.Feces.Baseline-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s58.Healthy_greaterthan5.Feces.Baseline-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476166
+
+Error executing rule kraken2_classify_report on cluster (jobid: 120, external: Submitted batch job 6476166, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.120.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:34:04 2021]
+Error in rule kraken2_classify_report:
+    jobid: 213
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s35.IBD_Therapy.Feces.Week_4-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s35.IBD_Therapy.Feces.Week_4-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s35.IBD_Therapy.Feces.Week_4-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s35.IBD_Therapy.Feces.Week_4_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s35.IBD_Therapy.Feces.Week_4_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s35.IBD_Therapy.Feces.Week_4-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476171
+
+Error executing rule kraken2_classify_report on cluster (jobid: 213, external: Submitted batch job 6476171, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.213.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:34:05 2021]
+Error in rule kraken2_classify_report:
+    jobid: 90
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s102.IBD.Therapy.Feces.Week.4-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s102.IBD.Therapy.Feces.Week.4-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s102.IBD.Therapy.Feces.Week.4-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s102.IBD.Therapy.Feces.Week.4_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s102.IBD.Therapy.Feces.Week.4_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s102.IBD.Therapy.Feces.Week.4-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476178
+
+Error executing rule kraken2_classify_report on cluster (jobid: 90, external: Submitted batch job 6476178, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.90.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:34:05 2021]
+Error in rule kraken2_classify_report:
+    jobid: 6
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s32.C_diff.Feces.Visit3-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s32.C_diff.Feces.Visit3-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s32.C_diff.Feces.Visit3-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s32.C_diff.Feces.Visit3_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s32.C_diff.Feces.Visit3_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s32.C_diff.Feces.Visit3-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476182
+
+Error executing rule kraken2_classify_report on cluster (jobid: 6, external: Submitted batch job 6476182, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.6.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:34:16 2021]
+Error in rule kraken2_classify_report:
+    jobid: 205
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s102.IBD.Therapy.Feces.Week.8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s102.IBD.Therapy.Feces.Week.8-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s102.IBD.Therapy.Feces.Week.8-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s102.IBD.Therapy.Feces.Week.8_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s102.IBD.Therapy.Feces.Week.8_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s102.IBD.Therapy.Feces.Week.8-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476132
+
+Error executing rule kraken2_classify_report on cluster (jobid: 205, external: Submitted batch job 6476132, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.205.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:34:16 2021]
+Error in rule kraken2_classify_report:
+    jobid: 143
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.109.Healthy.greaterthan5.Stool.2.1046-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.109.Healthy.greaterthan5.Stool.2.1046-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.109.Healthy.greaterthan5.Stool.2.1046-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.2.1046_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.2.1046_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.109.Healthy.greaterthan5.Stool.2.1046-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476169
+
+Error executing rule kraken2_classify_report on cluster (jobid: 143, external: Submitted batch job 6476169, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.143.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:34:18 2021]
+Error in rule kraken2_classify_report:
+    jobid: 73
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s067.Healthy.Antibiotics.Feces.Baseline-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s067.Healthy.Antibiotics.Feces.Baseline-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s067.Healthy.Antibiotics.Feces.Baseline-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s067.Healthy.Antibiotics.Feces.Baseline_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s067.Healthy.Antibiotics.Feces.Baseline_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s067.Healthy.Antibiotics.Feces.Baseline-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476189
+
+Error executing rule kraken2_classify_report on cluster (jobid: 73, external: Submitted batch job 6476189, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.73.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:34:29 2021]
+Error in rule kraken2_classify_report:
+    jobid: 82
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.235.C_Diff_Oncology.Feces.Week_8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.235.C_Diff_Oncology.Feces.Week_8-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.235.C_Diff_Oncology.Feces.Week_8-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.235.C_Diff_Oncology.Feces.Week_8_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.235.C_Diff_Oncology.Feces.Week_8_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.235.C_Diff_Oncology.Feces.Week_8-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476174
+
+Error executing rule kraken2_classify_report on cluster (jobid: 82, external: Submitted batch job 6476174, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.82.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:34:40 2021]
+Error in rule kraken2_classify_report:
+    jobid: 101
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s30.IBDNaturalHistory.Feces.Visit2-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s30.IBDNaturalHistory.Feces.Visit2-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s30.IBDNaturalHistory.Feces.Visit2-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s30.IBDNaturalHistory.Feces.Visit2_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s30.IBDNaturalHistory.Feces.Visit2_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s30.IBDNaturalHistory.Feces.Visit2-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476163
+
+Error executing rule kraken2_classify_report on cluster (jobid: 101, external: Submitted batch job 6476163, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.101.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:34:53 2021]
+Error in rule kraken2_classify_report:
+    jobid: 147
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s38.IBD.Antibiotics.Feces.Week.4-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s38.IBD.Antibiotics.Feces.Week.4-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s38.IBD.Antibiotics.Feces.Week.4-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s38.IBD.Antibiotics.Feces.Week.4_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s38.IBD.Antibiotics.Feces.Week.4_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s38.IBD.Antibiotics.Feces.Week.4-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476186
+
+Error executing rule kraken2_classify_report on cluster (jobid: 147, external: Submitted batch job 6476186, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.147.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:34:54 2021]
+Error in rule kraken2_classify_report:
+    jobid: 164
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s46.Healthy_greaterthan5.Feces.Week_8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s46.Healthy_greaterthan5.Feces.Week_8-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s46.Healthy_greaterthan5.Feces.Week_8-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s46.Healthy_greaterthan5.Feces.Week_8_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s46.Healthy_greaterthan5.Feces.Week_8_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s46.Healthy_greaterthan5.Feces.Week_8-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476188
+
+Error executing rule kraken2_classify_report on cluster (jobid: 164, external: Submitted batch job 6476188, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.164.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:35:04 2021]
+Error in rule kraken2_classify_report:
+    jobid: 102
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.359.IBDC.Diff.Stool.3.2873-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.359.IBDC.Diff.Stool.3.2873-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.359.IBDC.Diff.Stool.3.2873-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.3.2873_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.3.2873_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.359.IBDC.Diff.Stool.3.2873-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476134
+
+Error executing rule kraken2_classify_report on cluster (jobid: 102, external: Submitted batch job 6476134, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.102.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:35:04 2021]
+Error in rule kraken2_classify_report:
+    jobid: 258
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s067.Healthy.Antibiotics.Feces.Week.8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s067.Healthy.Antibiotics.Feces.Week.8-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s067.Healthy.Antibiotics.Feces.Week.8-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s067.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s067.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s067.Healthy.Antibiotics.Feces.Week.8-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476172
+
+Error executing rule kraken2_classify_report on cluster (jobid: 258, external: Submitted batch job 6476172, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.258.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:35:04 2021]
+Error in rule kraken2_classify_report:
+    jobid: 4
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s48-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s48-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s48-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s48_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s48_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s48-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476175
+
+Error executing rule kraken2_classify_report on cluster (jobid: 4, external: Submitted batch job 6476175, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.4.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:35:48 2021]
+Error in rule kraken2_classify_report:
+    jobid: 184
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s17-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s17-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s17-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s17_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s17_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s17-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476164
+
+Error executing rule kraken2_classify_report on cluster (jobid: 184, external: Submitted batch job 6476164, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.184.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:35:48 2021]
+Error in rule kraken2_classify_report:
+    jobid: 154
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s078.IBD.Therapy.Feces.Week.4-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s078.IBD.Therapy.Feces.Week.4-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s078.IBD.Therapy.Feces.Week.4-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s078.IBD.Therapy.Feces.Week.4_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s078.IBD.Therapy.Feces.Week.4_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s078.IBD.Therapy.Feces.Week.4-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476170
+
+Error executing rule kraken2_classify_report on cluster (jobid: 154, external: Submitted batch job 6476170, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.154.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:35:48 2021]
+Error in rule kraken2_classify_report:
+    jobid: 43
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.201.IBD_Therapy.Feces.Week_8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.201.IBD_Therapy.Feces.Week_8-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.201.IBD_Therapy.Feces.Week_8-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_8_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_8_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.201.IBD_Therapy.Feces.Week_8-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476176
+
+Error executing rule kraken2_classify_report on cluster (jobid: 43, external: Submitted batch job 6476176, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.43.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:35:59 2021]
+Error in rule kraken2_classify_report:
+    jobid: 212
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s20.C_diff.Feces.Visit1-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s20.C_diff.Feces.Visit1-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s20.C_diff.Feces.Visit1-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s20.C_diff.Feces.Visit1_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s20.C_diff.Feces.Visit1_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s20.C_diff.Feces.Visit1-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476173
+
+Error executing rule kraken2_classify_report on cluster (jobid: 212, external: Submitted batch job 6476173, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.212.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:35:59 2021]
+Error in rule kraken2_classify_report:
+    jobid: 42
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.135.Healthy.Antibiotics.Feces.Week.8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.135.Healthy.Antibiotics.Feces.Week.8-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.135.Healthy.Antibiotics.Feces.Week.8-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.135.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.135.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.135.Healthy.Antibiotics.Feces.Week.8-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476180
+
+Error executing rule kraken2_classify_report on cluster (jobid: 42, external: Submitted batch job 6476180, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.42.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:36:10 2021]
+Error in rule kraken2_classify_report:
+    jobid: 33
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.109.Healthy.greaterthan5.Stool.1.910-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.109.Healthy.greaterthan5.Stool.1.910-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.109.Healthy.greaterthan5.Stool.1.910-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.1.910_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.1.910_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.109.Healthy.greaterthan5.Stool.1.910-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476162
+
+Error executing rule kraken2_classify_report on cluster (jobid: 33, external: Submitted batch job 6476162, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.33.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:36:43 2021]
+Error in rule kraken2_classify_report:
+    jobid: 56
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s159.Healthy.Antibiotics.Feces.Week.4-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s159.Healthy.Antibiotics.Feces.Week.4-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s159.Healthy.Antibiotics.Feces.Week.4-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s159.Healthy.Antibiotics.Feces.Week.4_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s159.Healthy.Antibiotics.Feces.Week.4_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s159.Healthy.Antibiotics.Feces.Week.4-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476168
+
+Error executing rule kraken2_classify_report on cluster (jobid: 56, external: Submitted batch job 6476168, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.56.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:36:43 2021]
+Error in rule kraken2_classify_report:
+    jobid: 171
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.222.IBD_CDiff.Feces.Baseline-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.222.IBD_CDiff.Feces.Baseline-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.222.IBD_CDiff.Feces.Baseline-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.222.IBD_CDiff.Feces.Baseline_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.222.IBD_CDiff.Feces.Baseline_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.222.IBD_CDiff.Feces.Baseline-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476183
+
+Error executing rule kraken2_classify_report on cluster (jobid: 171, external: Submitted batch job 6476183, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.171.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:36:54 2021]
+Error in rule kraken2_classify_report:
+    jobid: 86
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s143.VEO.Feces.Week.4-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s143.VEO.Feces.Week.4-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s143.VEO.Feces.Week.4-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s143.VEO.Feces.Week.4_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s143.VEO.Feces.Week.4_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s143.VEO.Feces.Week.4-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476181
+
+Error executing rule kraken2_classify_report on cluster (jobid: 86, external: Submitted batch job 6476181, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.86.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:36:54 2021]
+Error in rule kraken2_classify_report:
+    jobid: 12
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.359.IBDC.Diff.Stool.2.2872-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.359.IBDC.Diff.Stool.2.2872-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.359.IBDC.Diff.Stool.2.2872-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.2.2872_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.2.2872_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.359.IBDC.Diff.Stool.2.2872-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476187
+
+Error executing rule kraken2_classify_report on cluster (jobid: 12, external: Submitted batch job 6476187, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.12.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:37:34 2021]
+Error in rule kraken2_classify_report:
+    jobid: 7
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.190.Healthy.Antibiotics.Feces.Week.8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.190.Healthy.Antibiotics.Feces.Week.8-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.190.Healthy.Antibiotics.Feces.Week.8-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.190.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.190.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.190.Healthy.Antibiotics.Feces.Week.8-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476165
+
+Error executing rule kraken2_classify_report on cluster (jobid: 7, external: Submitted batch job 6476165, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.7.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:37:34 2021]
+Error in rule kraken2_classify_report:
+    jobid: 78
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.361.C.DiffOncology.Stool.1.2876-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.361.C.DiffOncology.Stool.1.2876-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.361.C.DiffOncology.Stool.1.2876-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.361.C.DiffOncology.Stool.1.2876_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.361.C.DiffOncology.Stool.1.2876_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.361.C.DiffOncology.Stool.1.2876-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476167
+
+Error executing rule kraken2_classify_report on cluster (jobid: 78, external: Submitted batch job 6476167, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.78.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:39:04 2021]
+Error in rule kraken2_classify_report:
+    jobid: 9
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s152.Healthy.Antibiotics.Feces.Baseline-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s152.Healthy.Antibiotics.Feces.Baseline-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s152.Healthy.Antibiotics.Feces.Baseline-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s152.Healthy.Antibiotics.Feces.Baseline_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s152.Healthy.Antibiotics.Feces.Baseline_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s152.Healthy.Antibiotics.Feces.Baseline-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476184
+
+Error executing rule kraken2_classify_report on cluster (jobid: 9, external: Submitted batch job 6476184, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.9.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:39:44 2021]
+Error in rule kraken2_classify_report:
+    jobid: 267
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.201.IBD_Therapy.Feces.Week_4-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.201.IBD_Therapy.Feces.Week_4-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s.201.IBD_Therapy.Feces.Week_4-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_4_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_4_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s.201.IBD_Therapy.Feces.Week_4-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476185
+
+Error executing rule kraken2_classify_report on cluster (jobid: 267, external: Submitted batch job 6476185, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.267.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 21:44:25 2021]
+Error in rule kraken2_classify_report:
+    jobid: 174
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s25.IBD_Therapy.Feces.Week_8-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s25.IBD_Therapy.Feces.Week_8-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/s25.IBD_Therapy.Feces.Week_8-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s25.IBD_Therapy.Feces.Week_8_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s25.IBD_Therapy.Feces.Week_8_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/s25.IBD_Therapy.Feces.Week_8-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6476177
+
+Error executing rule kraken2_classify_report on cluster (jobid: 174, external: Submitted batch job 6476177, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.rc51gkeh/snakejob.kraken2_classify_report.174.sh). For error details see the cluster log and the log files of the involved rule(s).

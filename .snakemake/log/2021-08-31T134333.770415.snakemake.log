@@ -1,0 +1,2171 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	2077	align_to_genome
+	1	all_mapping
+	2172	samtools_convert
+	2830	samtools_get_coverage
+	2830	samtools_index
+	2830	samtools_mpileup
+	10	samtools_summarize_coverage
+	12750
+
+[Tue Aug 31 13:45:00 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.244.VEO.Stool.3.1964.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.244.VEO.Stool.3.1964.bam
+    jobid: 7287
+    wildcards: genome=Latilactobacillus_sakei, sample=s.244.VEO.Stool.3.1964
+    threads: 4
+
+Submitted job 7287 with external jobid 'Submitted batch job 6982834'.
+
+[Tue Aug 31 13:45:28 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Week_4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Levilactobacillus_brevis.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s58.Healthy_greaterthan5.Feces.Week_4.sam
+    jobid: 12349
+    wildcards: genome=Levilactobacillus_brevis, sample=s58.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 12349 with external jobid 'Submitted batch job 6982836'.
+
+[Tue Aug 31 13:45:29 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    jobid: 5998
+    wildcards: genome=Pediococcus_acidlactici, sample=s.209.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 5998 with external jobid 'Submitted batch job 6982837'.
+
+[Tue Aug 31 13:45:30 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.244.VEO.Stool.2.1952.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.244.VEO.Stool.2.1952.bam
+    jobid: 5962
+    wildcards: genome=Pediococcus_acidlactici, sample=s.244.VEO.Stool.2.1952
+    threads: 4
+
+Submitted job 5962 with external jobid 'Submitted batch job 6982838'.
+
+[Tue Aug 31 13:45:30 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.212.IBD.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.212.IBD.Feces.Week.4.bam
+    jobid: 5810
+    wildcards: genome=Staphylococcus_schleiferi, sample=s.212.IBD.Feces.Week.4
+    threads: 4
+
+Submitted job 5810 with external jobid 'Submitted batch job 6982839'.
+
+[Tue Aug 31 13:45:32 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.212.IBD.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.212.IBD.Feces.Week.4.bam
+    jobid: 7508
+    wildcards: genome=Clostridium_perfringens, sample=s.212.IBD.Feces.Week.4
+    threads: 4
+
+Submitted job 7508 with external jobid 'Submitted batch job 6982840'.
+
+[Tue Aug 31 13:45:32 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    jobid: 6799
+    wildcards: genome=Levilactobacillus_brevis, sample=s.314.Healthy.Antibiotics.Stool.1.2490
+    threads: 4
+
+Submitted job 6799 with external jobid 'Submitted batch job 6982841'.
+
+[Tue Aug 31 13:45:32 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    jobid: 6686
+    wildcards: genome=Levilactobacillus_brevis, sample=s.209.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 6686 with external jobid 'Submitted batch job 6982842'.
+
+[Tue Aug 31 13:45:32 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.244.VEO.Stool.3.1964.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.244.VEO.Stool.3.1964.bam
+    jobid: 8419
+    wildcards: genome=Enterococcus_gallinarum, sample=s.244.VEO.Stool.3.1964
+    threads: 4
+
+Submitted job 8419 with external jobid 'Submitted batch job 6982843'.
+
+[Tue Aug 31 13:45:32 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s70.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 6175
+    wildcards: genome=Pediococcus_acidlactici, sample=s70.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 6175 with external jobid 'Submitted batch job 6982844'.
+
+[Tue Aug 31 13:45:32 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.244.VEO.Stool.3.1964.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.244.VEO.Stool.3.1964.bam
+    jobid: 6155
+    wildcards: genome=Pediococcus_acidlactici, sample=s.244.VEO.Stool.3.1964
+    threads: 4
+
+Submitted job 6155 with external jobid 'Submitted batch job 6982845'.
+
+[Tue Aug 31 13:45:32 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s70.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 8439
+    wildcards: genome=Enterococcus_gallinarum, sample=s70.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 8439 with external jobid 'Submitted batch job 6982846'.
+
+[Tue Aug 31 13:45:32 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.212.IBD.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.212.IBD.Feces.Baseline.bam
+    jobid: 7891
+    wildcards: genome=Staphylococcus_epidermidis, sample=s.212.IBD.Feces.Baseline
+    threads: 4
+
+Submitted job 7891 with external jobid 'Submitted batch job 6982847'.
+
+[Tue Aug 31 13:45:32 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.212.IBD.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.212.IBD.Feces.Baseline.bam
+    jobid: 8174
+    wildcards: genome=Streptococcus_agalactiae, sample=s.212.IBD.Feces.Baseline
+    threads: 4
+
+Submitted job 8174 with external jobid 'Submitted batch job 6982848'.
+
+[Tue Aug 31 13:45:33 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    jobid: 7130
+    wildcards: genome=Latilactobacillus_sakei, sample=s.209.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 7130 with external jobid 'Submitted batch job 6982849'.
+
+[Tue Aug 31 13:45:33 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.244.VEO.Stool.2.1952.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.244.VEO.Stool.2.1952.bam
+    jobid: 7094
+    wildcards: genome=Latilactobacillus_sakei, sample=s.244.VEO.Stool.2.1952
+    threads: 4
+
+Submitted job 7094 with external jobid 'Submitted batch job 6982850'.
+
+[Tue Aug 31 13:45:33 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.212.IBD.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.212.IBD.Feces.Baseline.bam
+    jobid: 6476
+    wildcards: genome=Pseudomonas_aeruginosa, sample=s.212.IBD.Feces.Baseline
+    threads: 4
+
+Submitted job 6476 with external jobid 'Submitted batch job 6982851'.
+
+[Tue Aug 31 13:45:33 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.173.VEO.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.173.VEO.Feces.Week.8.bam
+    jobid: 7955
+    wildcards: genome=Streptococcus_agalactiae, sample=s.173.VEO.Feces.Week.8
+    threads: 4
+
+Submitted job 7955 with external jobid 'Submitted batch job 6982852'.
+
+[Tue Aug 31 13:45:33 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s60.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 7905
+    wildcards: genome=Staphylococcus_epidermidis, sample=s60.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 7905 with external jobid 'Submitted batch job 6982853'.
+
+[Tue Aug 31 13:45:33 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.173.VEO.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.173.VEO.Feces.Week.8.bam
+    jobid: 7672
+    wildcards: genome=Staphylococcus_epidermidis, sample=s.173.VEO.Feces.Week.8
+    threads: 4
+
+Submitted job 7672 with external jobid 'Submitted batch job 6982854'.
+
+[Tue Aug 31 13:45:33 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s60.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 8188
+    wildcards: genome=Streptococcus_agalactiae, sample=s60.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 8188 with external jobid 'Submitted batch job 6982855'.
+
+[Tue Aug 31 13:45:33 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.244.VEO.Stool.2.1952.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.244.VEO.Stool.2.1952.bam
+    jobid: 8226
+    wildcards: genome=Enterococcus_gallinarum, sample=s.244.VEO.Stool.2.1952
+    threads: 4
+
+Submitted job 8226 with external jobid 'Submitted batch job 6982856'.
+
+[Tue Aug 31 13:45:33 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s60.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 6490
+    wildcards: genome=Pseudomonas_aeruginosa, sample=s60.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 6490 with external jobid 'Submitted batch job 6982857'.
+
+[Tue Aug 31 13:45:33 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    jobid: 8262
+    wildcards: genome=Enterococcus_gallinarum, sample=s.209.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 8262 with external jobid 'Submitted batch job 6982858'.
+
+[Tue Aug 31 13:45:34 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s70.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 7307
+    wildcards: genome=Latilactobacillus_sakei, sample=s70.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 7307 with external jobid 'Submitted batch job 6982859'.
+
+[Tue Aug 31 13:45:34 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.173.VEO.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.173.VEO.Feces.Week.8.bam
+    jobid: 6257
+    wildcards: genome=Pseudomonas_aeruginosa, sample=s.173.VEO.Feces.Week.8
+    threads: 4
+
+Submitted job 6257 with external jobid 'Submitted batch job 6982860'.
+
+[Tue Aug 31 13:45:34 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.244.VEO.Stool.3.1964.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.244.VEO.Stool.3.1964.bam
+    jobid: 6438
+    wildcards: genome=Pseudomonas_aeruginosa, sample=s.244.VEO.Stool.3.1964
+    threads: 4
+
+Submitted job 6438 with external jobid 'Submitted batch job 6982861'.
+
+[Tue Aug 31 13:45:34 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.244.VEO.Stool.3.1964.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.244.VEO.Stool.3.1964.bam
+    jobid: 7853
+    wildcards: genome=Staphylococcus_epidermidis, sample=s.244.VEO.Stool.3.1964
+    threads: 4
+
+Submitted job 7853 with external jobid 'Submitted batch job 6982862'.
+
+[Tue Aug 31 13:45:34 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.212.IBD.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.212.IBD.Feces.Week.4.bam
+    jobid: 6659
+    wildcards: genome=Levilactobacillus_brevis, sample=s.212.IBD.Feces.Week.4
+    threads: 4
+
+Submitted job 6659 with external jobid 'Submitted batch job 6982863'.
+
+[Tue Aug 31 13:45:34 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.212.IBD.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.212.IBD.Feces.Baseline.bam
+    jobid: 6193
+    wildcards: genome=Pediococcus_acidlactici, sample=s.212.IBD.Feces.Baseline
+    threads: 4
+
+Submitted job 6193 with external jobid 'Submitted batch job 6982864'.
+
+[Tue Aug 31 13:45:34 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.244.VEO.Stool.3.1964.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.244.VEO.Stool.3.1964.bam
+    jobid: 8136
+    wildcards: genome=Streptococcus_agalactiae, sample=s.244.VEO.Stool.3.1964
+    threads: 4
+
+Submitted job 8136 with external jobid 'Submitted batch job 6982865'.
+
+[Tue Aug 31 13:45:34 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.154.VEO.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.154.VEO.Feces.Baseline.bam
+    jobid: 7410
+    wildcards: genome=Clostridium_perfringens, sample=s.154.VEO.Feces.Baseline
+    threads: 4
+
+Submitted job 7410 with external jobid 'Submitted batch job 6982866'.
+
+[Tue Aug 31 13:45:34 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.154.VEO.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.154.VEO.Feces.Baseline.bam
+    jobid: 5712
+    wildcards: genome=Staphylococcus_schleiferi, sample=s.154.VEO.Feces.Baseline
+    threads: 4
+
+Submitted job 5712 with external jobid 'Submitted batch job 6982867'.
+
+[Tue Aug 31 13:45:34 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s60.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 6207
+    wildcards: genome=Pediococcus_acidlactici, sample=s60.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 6207 with external jobid 'Submitted batch job 6982868'.
+
+[Tue Aug 31 13:45:35 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.173.VEO.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.173.VEO.Feces.Week.8.bam
+    jobid: 5974
+    wildcards: genome=Pediococcus_acidlactici, sample=s.173.VEO.Feces.Week.8
+    threads: 4
+
+Submitted job 5974 with external jobid 'Submitted batch job 6982869'.
+
+[Tue Aug 31 13:45:35 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    jobid: 7535
+    wildcards: genome=Clostridium_perfringens, sample=s.209.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 7535 with external jobid 'Submitted batch job 6982870'.
+
+[Tue Aug 31 13:45:35 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    jobid: 5837
+    wildcards: genome=Staphylococcus_schleiferi, sample=s.209.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 5837 with external jobid 'Submitted batch job 6982871'.
+
+[Tue Aug 31 13:45:35 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    jobid: 7648
+    wildcards: genome=Clostridium_perfringens, sample=s.314.Healthy.Antibiotics.Stool.1.2490
+    threads: 4
+
+Submitted job 7648 with external jobid 'Submitted batch job 6982872'.
+
+[Tue Aug 31 13:45:35 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    jobid: 5950
+    wildcards: genome=Staphylococcus_schleiferi, sample=s.314.Healthy.Antibiotics.Stool.1.2490
+    threads: 4
+
+Submitted job 5950 with external jobid 'Submitted batch job 6982873'.
+
+[Tue Aug 31 13:45:35 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.173.VEO.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.173.VEO.Feces.Week.8.bam
+    jobid: 8238
+    wildcards: genome=Enterococcus_gallinarum, sample=s.173.VEO.Feces.Week.8
+    threads: 4
+
+Submitted job 8238 with external jobid 'Submitted batch job 6982874'.
+
+[Tue Aug 31 13:45:35 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.244.VEO.Stool.2.1952.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.244.VEO.Stool.2.1952.bam
+    jobid: 7660
+    wildcards: genome=Staphylococcus_epidermidis, sample=s.244.VEO.Stool.2.1952
+    threads: 4
+
+Submitted job 7660 with external jobid 'Submitted batch job 6982875'.
+
+[Tue Aug 31 13:45:35 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Levilactobacillus_brevis.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.154.VEO.Feces.Baseline.sam
+    jobid: 12221
+    wildcards: genome=Levilactobacillus_brevis, sample=s.154.VEO.Feces.Baseline
+    threads: 4
+
+Submitted job 12221 with external jobid 'Submitted batch job 6982876'.
+
+[Tue Aug 31 13:45:35 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s60.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 8471
+    wildcards: genome=Enterococcus_gallinarum, sample=s60.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 8471 with external jobid 'Submitted batch job 6982877'.
+
+[Tue Aug 31 13:45:35 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    jobid: 6281
+    wildcards: genome=Pseudomonas_aeruginosa, sample=s.209.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 6281 with external jobid 'Submitted batch job 6982878'.
+
+[Tue Aug 31 13:45:36 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.244.VEO.Stool.2.1952.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.244.VEO.Stool.2.1952.bam
+    jobid: 7943
+    wildcards: genome=Streptococcus_agalactiae, sample=s.244.VEO.Stool.2.1952
+    threads: 4
+
+Submitted job 7943 with external jobid 'Submitted batch job 6982879'.
+
+[Tue Aug 31 13:45:36 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    jobid: 7979
+    wildcards: genome=Streptococcus_agalactiae, sample=s.209.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 7979 with external jobid 'Submitted batch job 6982880'.
+
+[Tue Aug 31 13:45:36 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.244.VEO.Stool.2.1952.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.244.VEO.Stool.2.1952.bam
+    jobid: 6245
+    wildcards: genome=Pseudomonas_aeruginosa, sample=s.244.VEO.Stool.2.1952
+    threads: 4
+
+Submitted job 6245 with external jobid 'Submitted batch job 6982881'.
+
+[Tue Aug 31 13:45:36 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.212.IBD.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.212.IBD.Feces.Baseline.bam
+    jobid: 7325
+    wildcards: genome=Latilactobacillus_sakei, sample=s.212.IBD.Feces.Baseline
+    threads: 4
+
+Submitted job 7325 with external jobid 'Submitted batch job 6982882'.
+
+[Tue Aug 31 13:45:36 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    jobid: 7696
+    wildcards: genome=Staphylococcus_epidermidis, sample=s.209.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 7696 with external jobid 'Submitted batch job 6982883'.
+
+[Tue Aug 31 13:45:36 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s70.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 8156
+    wildcards: genome=Streptococcus_agalactiae, sample=s70.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 8156 with external jobid 'Submitted batch job 6982884'.
+
+[Tue Aug 31 13:45:36 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s70.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 7873
+    wildcards: genome=Staphylococcus_epidermidis, sample=s70.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 7873 with external jobid 'Submitted batch job 6982885'.
+
+[Tue Aug 31 13:45:36 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.212.IBD.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.212.IBD.Feces.Baseline.bam
+    jobid: 8457
+    wildcards: genome=Enterococcus_gallinarum, sample=s.212.IBD.Feces.Baseline
+    threads: 4
+
+Submitted job 8457 with external jobid 'Submitted batch job 6982886'.
+
+[Tue Aug 31 13:45:36 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s60.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 7339
+    wildcards: genome=Latilactobacillus_sakei, sample=s60.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 7339 with external jobid 'Submitted batch job 6982887'.
+
+[Tue Aug 31 13:45:36 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s70.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 6458
+    wildcards: genome=Pseudomonas_aeruginosa, sample=s70.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 6458 with external jobid 'Submitted batch job 6982888'.
+
+[Tue Aug 31 13:45:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.173.VEO.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.173.VEO.Feces.Week.8.bam
+    jobid: 7106
+    wildcards: genome=Latilactobacillus_sakei, sample=s.173.VEO.Feces.Week.8
+    threads: 4
+
+Submitted job 7106 with external jobid 'Submitted batch job 6982889'.
+
+[Tue Aug 31 13:45:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    jobid: 6564
+    wildcards: genome=Levilactobacillus_brevis, sample=s.209.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 6564 with external jobid 'Submitted batch job 6982890'.
+
+[Tue Aug 31 13:45:37 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Streptococcus_agalactiae.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.154.VEO.Feces.Baseline.sam
+    jobid: 13636
+    wildcards: genome=Streptococcus_agalactiae, sample=s.154.VEO.Feces.Baseline
+    threads: 4
+
+Submitted job 13636 with external jobid 'Submitted batch job 6982891'.
+
+[Tue Aug 31 13:45:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.212.IBD.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.212.IBD.Feces.Baseline.bam
+    jobid: 7608
+    wildcards: genome=Clostridium_perfringens, sample=s.212.IBD.Feces.Baseline
+    threads: 4
+
+Submitted job 7608 with external jobid 'Submitted batch job 6982892'.
+
+[Tue Aug 31 13:45:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.212.IBD.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.212.IBD.Feces.Baseline.bam
+    jobid: 5910
+    wildcards: genome=Staphylococcus_schleiferi, sample=s.212.IBD.Feces.Baseline
+    threads: 4
+
+Submitted job 5910 with external jobid 'Submitted batch job 6982893'.
+
+[Tue Aug 31 13:45:37 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Staphylococcus_epidermidis.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.154.VEO.Feces.Baseline.sam
+    jobid: 13353
+    wildcards: genome=Staphylococcus_epidermidis, sample=s.154.VEO.Feces.Baseline
+    threads: 4
+
+Submitted job 13353 with external jobid 'Submitted batch job 6982894'.
+
+[Tue Aug 31 13:45:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.244.VEO.Stool.2.1952.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.244.VEO.Stool.2.1952.bam
+    jobid: 6528
+    wildcards: genome=Levilactobacillus_brevis, sample=s.244.VEO.Stool.2.1952
+    threads: 4
+
+Submitted job 6528 with external jobid 'Submitted batch job 6982895'.
+
+[Tue Aug 31 13:45:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.154.VEO.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.154.VEO.Feces.Baseline.bam
+    jobid: 5995
+    wildcards: genome=Pediococcus_acidlactici, sample=s.154.VEO.Feces.Baseline
+    threads: 4
+
+Submitted job 5995 with external jobid 'Submitted batch job 6982896'.
+
+[Tue Aug 31 13:45:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s60.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 7622
+    wildcards: genome=Clostridium_perfringens, sample=s60.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 7622 with external jobid 'Submitted batch job 6982897'.
+
+[Tue Aug 31 13:45:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s60.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 5924
+    wildcards: genome=Staphylococcus_schleiferi, sample=s60.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 5924 with external jobid 'Submitted batch job 6982898'.
+
+[Tue Aug 31 13:45:38 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s70.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 6741
+    wildcards: genome=Levilactobacillus_brevis, sample=s70.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 6741 with external jobid 'Submitted batch job 6982899'.
+
+[Tue Aug 31 13:45:38 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    jobid: 6120
+    wildcards: genome=Pediococcus_acidlactici, sample=s.209.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 6120 with external jobid 'Submitted batch job 6982900'.
+
+[Tue Aug 31 13:45:38 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.173.VEO.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.173.VEO.Feces.Week.8.bam
+    jobid: 7389
+    wildcards: genome=Clostridium_perfringens, sample=s.173.VEO.Feces.Week.8
+    threads: 4
+
+Submitted job 7389 with external jobid 'Submitted batch job 6982901'.
+
+[Tue Aug 31 13:45:38 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.173.VEO.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.173.VEO.Feces.Week.8.bam
+    jobid: 5691
+    wildcards: genome=Staphylococcus_schleiferi, sample=s.173.VEO.Feces.Week.8
+    threads: 4
+
+Submitted job 5691 with external jobid 'Submitted batch job 6982902'.
+
+[Tue Aug 31 13:45:38 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    jobid: 6233
+    wildcards: genome=Pediococcus_acidlactici, sample=s.314.Healthy.Antibiotics.Stool.1.2490
+    threads: 4
+
+Submitted job 6233 with external jobid 'Submitted batch job 6982903'.
+
+[Tue Aug 31 13:45:38 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    jobid: 8384
+    wildcards: genome=Enterococcus_gallinarum, sample=s.209.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 8384 with external jobid 'Submitted batch job 6982904'.
+
+[Tue Aug 31 13:45:38 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.212.IBD.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.212.IBD.Feces.Week.4.bam
+    jobid: 8074
+    wildcards: genome=Streptococcus_agalactiae, sample=s.212.IBD.Feces.Week.4
+    threads: 4
+
+Submitted job 8074 with external jobid 'Submitted batch job 6982905'.
+
+[Tue Aug 31 13:45:38 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    jobid: 8497
+    wildcards: genome=Enterococcus_gallinarum, sample=s.314.Healthy.Antibiotics.Stool.1.2490
+    threads: 4
+
+Submitted job 8497 with external jobid 'Submitted batch job 6982906'.
+
+[Tue Aug 31 13:45:38 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.244.VEO.Stool.3.1964.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.244.VEO.Stool.3.1964.bam
+    jobid: 6721
+    wildcards: genome=Levilactobacillus_brevis, sample=s.244.VEO.Stool.3.1964
+    threads: 4
+
+Submitted job 6721 with external jobid 'Submitted batch job 6982907'.
+
+[Tue Aug 31 13:45:38 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.212.IBD.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.212.IBD.Feces.Week.4.bam
+    jobid: 7791
+    wildcards: genome=Staphylococcus_epidermidis, sample=s.212.IBD.Feces.Week.4
+    threads: 4
+
+Submitted job 7791 with external jobid 'Submitted batch job 6982908'.
+
+[Tue Aug 31 13:45:39 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.154.VEO.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.154.VEO.Feces.Baseline.bam
+    jobid: 8259
+    wildcards: genome=Enterococcus_gallinarum, sample=s.154.VEO.Feces.Baseline
+    threads: 4
+
+Submitted job 8259 with external jobid 'Submitted batch job 6982909'.
+
+[Tue Aug 31 13:45:39 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.212.IBD.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.212.IBD.Feces.Week.4.bam
+    jobid: 6376
+    wildcards: genome=Pseudomonas_aeruginosa, sample=s.212.IBD.Feces.Week.4
+    threads: 4
+
+Submitted job 6376 with external jobid 'Submitted batch job 6982910'.
+
+[Tue Aug 31 13:45:39 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    jobid: 7252
+    wildcards: genome=Latilactobacillus_sakei, sample=s.209.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 7252 with external jobid 'Submitted batch job 6982911'.
+
+[Tue Aug 31 13:45:39 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    jobid: 7365
+    wildcards: genome=Latilactobacillus_sakei, sample=s.314.Healthy.Antibiotics.Stool.1.2490
+    threads: 4
+
+Submitted job 7365 with external jobid 'Submitted batch job 6982912'.
+
+[Tue Aug 31 13:45:39 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Latilactobacillus_sakei.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.154.VEO.Feces.Baseline.sam
+    jobid: 12787
+    wildcards: genome=Latilactobacillus_sakei, sample=s.154.VEO.Feces.Baseline
+    threads: 4
+
+Submitted job 12787 with external jobid 'Submitted batch job 6982913'.
+
+[Tue Aug 31 13:45:39 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    jobid: 5715
+    wildcards: genome=Staphylococcus_schleiferi, sample=s.209.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 5715 with external jobid 'Submitted batch job 6982914'.
+
+[Tue Aug 31 13:45:39 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    jobid: 7413
+    wildcards: genome=Clostridium_perfringens, sample=s.209.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 7413 with external jobid 'Submitted batch job 6982915'.
+
+[Tue Aug 31 13:45:39 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.244.VEO.Stool.2.1952.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.244.VEO.Stool.2.1952.bam
+    jobid: 5679
+    wildcards: genome=Staphylococcus_schleiferi, sample=s.244.VEO.Stool.2.1952
+    threads: 4
+
+Submitted job 5679 with external jobid 'Submitted batch job 6982916'.
+
+[Tue Aug 31 13:45:39 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.244.VEO.Stool.2.1952.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.244.VEO.Stool.2.1952.bam
+    jobid: 7377
+    wildcards: genome=Clostridium_perfringens, sample=s.244.VEO.Stool.2.1952
+    threads: 4
+
+Submitted job 7377 with external jobid 'Submitted batch job 6982917'.
+
+[Tue Aug 31 13:45:40 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.212.IBD.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.212.IBD.Feces.Baseline.bam
+    jobid: 6759
+    wildcards: genome=Levilactobacillus_brevis, sample=s.212.IBD.Feces.Baseline
+    threads: 4
+
+Submitted job 6759 with external jobid 'Submitted batch job 6982918'.
+
+[Tue Aug 31 13:45:40 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.212.IBD.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.212.IBD.Feces.Week.4.bam
+    jobid: 6093
+    wildcards: genome=Pediococcus_acidlactici, sample=s.212.IBD.Feces.Week.4
+    threads: 4
+
+Submitted job 6093 with external jobid 'Submitted batch job 6982919'.
+
+[Tue Aug 31 13:45:40 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.173.VEO.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.173.VEO.Feces.Week.8.bam
+    jobid: 6540
+    wildcards: genome=Levilactobacillus_brevis, sample=s.173.VEO.Feces.Week.8
+    threads: 4
+
+Submitted job 6540 with external jobid 'Submitted batch job 6982920'.
+
+[Tue Aug 31 13:45:40 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s70.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 7590
+    wildcards: genome=Clostridium_perfringens, sample=s70.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 7590 with external jobid 'Submitted batch job 6982921'.
+
+[Tue Aug 31 13:45:40 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s70.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 5892
+    wildcards: genome=Staphylococcus_schleiferi, sample=s70.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 5892 with external jobid 'Submitted batch job 6982922'.
+
+[Tue Aug 31 13:45:40 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s60.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 6773
+    wildcards: genome=Levilactobacillus_brevis, sample=s60.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 6773 with external jobid 'Submitted batch job 6982923'.
+
+[Tue Aug 31 13:45:40 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.244.VEO.Stool.3.1964.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.244.VEO.Stool.3.1964.bam
+    jobid: 7570
+    wildcards: genome=Clostridium_perfringens, sample=s.244.VEO.Stool.3.1964
+    threads: 4
+
+Submitted job 7570 with external jobid 'Submitted batch job 6982924'.
+
+[Tue Aug 31 13:45:40 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.244.VEO.Stool.3.1964.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.244.VEO.Stool.3.1964.bam
+    jobid: 5872
+    wildcards: genome=Staphylococcus_schleiferi, sample=s.244.VEO.Stool.3.1964
+    threads: 4
+
+Submitted job 5872 with external jobid 'Submitted batch job 6982925'.
+
+[Tue Aug 31 13:45:41 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.212.IBD.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.212.IBD.Feces.Week.4.bam
+    jobid: 7225
+    wildcards: genome=Latilactobacillus_sakei, sample=s.212.IBD.Feces.Week.4
+    threads: 4
+
+Submitted job 7225 with external jobid 'Submitted batch job 6982926'.
+
+[Tue Aug 31 13:45:41 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    jobid: 8101
+    wildcards: genome=Streptococcus_agalactiae, sample=s.209.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 8101 with external jobid 'Submitted batch job 6982927'.
+
+[Tue Aug 31 13:45:41 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.154.VEO.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.154.VEO.Feces.Baseline.bam
+    jobid: 6278
+    wildcards: genome=Pseudomonas_aeruginosa, sample=s.154.VEO.Feces.Baseline
+    threads: 4
+
+Submitted job 6278 with external jobid 'Submitted batch job 6982928'.
+
+[Tue Aug 31 13:45:41 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    jobid: 8214
+    wildcards: genome=Streptococcus_agalactiae, sample=s.314.Healthy.Antibiotics.Stool.1.2490
+    threads: 4
+
+Submitted job 8214 with external jobid 'Submitted batch job 6982929'.
+
+[Tue Aug 31 13:45:41 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.212.IBD.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.212.IBD.Feces.Week.4.bam
+    jobid: 8357
+    wildcards: genome=Enterococcus_gallinarum, sample=s.212.IBD.Feces.Week.4
+    threads: 4
+
+Submitted job 8357 with external jobid 'Submitted batch job 6982930'.
+
+[Tue Aug 31 13:45:41 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    jobid: 7818
+    wildcards: genome=Staphylococcus_epidermidis, sample=s.209.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 7818 with external jobid 'Submitted batch job 6982931'.
+
+[Tue Aug 31 13:45:41 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    jobid: 7931
+    wildcards: genome=Staphylococcus_epidermidis, sample=s.314.Healthy.Antibiotics.Stool.1.2490
+    threads: 4
+
+Submitted job 7931 with external jobid 'Submitted batch job 6982932'.
+
+[Tue Aug 31 13:45:41 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    jobid: 6403
+    wildcards: genome=Pseudomonas_aeruginosa, sample=s.209.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 6403 with external jobid 'Submitted batch job 6982933'.
+
+[Tue Aug 31 13:45:41 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    jobid: 6516
+    wildcards: genome=Pseudomonas_aeruginosa, sample=s.314.Healthy.Antibiotics.Stool.1.2490
+    threads: 4
+
+Submitted job 6516 with external jobid 'Submitted batch job 6982934'.
+[Tue Aug 31 13:58:36 2021]
+Error in rule samtools_convert:
+    jobid: 6773
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s60.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s60.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s60.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982923
+
+Error executing rule samtools_convert on cluster (jobid: 6773, external: Submitted batch job 6982923, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6773.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:37 2021]
+Error in rule samtools_convert:
+    jobid: 5872
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.244.VEO.Stool.3.1964.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.244.VEO.Stool.3.1964.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.244.VEO.Stool.3.1964.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.244.VEO.Stool.3.1964.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982925
+
+Error executing rule samtools_convert on cluster (jobid: 5872, external: Submitted batch job 6982925, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.5872.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:37 2021]
+Error in rule samtools_convert:
+    jobid: 7225
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.212.IBD.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.212.IBD.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.212.IBD.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.212.IBD.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982926
+
+Error executing rule samtools_convert on cluster (jobid: 7225, external: Submitted batch job 6982926, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7225.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:37 2021]
+Error in rule samtools_convert:
+    jobid: 8101
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.209.Healthy.Antibiotics.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.209.Healthy.Antibiotics.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982927
+
+Error executing rule samtools_convert on cluster (jobid: 8101, external: Submitted batch job 6982927, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8101.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:37 2021]
+Error in rule samtools_convert:
+    jobid: 6278
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.154.VEO.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.154.VEO.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.154.VEO.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.154.VEO.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982928
+
+Error executing rule samtools_convert on cluster (jobid: 6278, external: Submitted batch job 6982928, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6278.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:37 2021]
+Error in rule samtools_convert:
+    jobid: 7818
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.209.Healthy.Antibiotics.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.209.Healthy.Antibiotics.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982931
+
+Error executing rule samtools_convert on cluster (jobid: 7818, external: Submitted batch job 6982931, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7818.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:37 2021]
+Error in rule samtools_convert:
+    jobid: 7931
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.314.Healthy.Antibiotics.Stool.1.2490.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.314.Healthy.Antibiotics.Stool.1.2490.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982932
+
+Error executing rule samtools_convert on cluster (jobid: 7931, external: Submitted batch job 6982932, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7931.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:37 2021]
+Error in rule samtools_convert:
+    jobid: 6403
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.209.Healthy.Antibiotics.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.209.Healthy.Antibiotics.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982933
+
+Error executing rule samtools_convert on cluster (jobid: 6403, external: Submitted batch job 6982933, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6403.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:38 2021]
+Error in rule samtools_convert:
+    jobid: 6516
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.314.Healthy.Antibiotics.Stool.1.2490.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.314.Healthy.Antibiotics.Stool.1.2490.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982934
+
+Error executing rule samtools_convert on cluster (jobid: 6516, external: Submitted batch job 6982934, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6516.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:38 2021]
+Error in rule samtools_convert:
+    jobid: 5998
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.209.Healthy.Antibiotics.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.209.Healthy.Antibiotics.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982837
+
+Error executing rule samtools_convert on cluster (jobid: 5998, external: Submitted batch job 6982837, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.5998.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:38 2021]
+Error in rule samtools_convert:
+    jobid: 5810
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.212.IBD.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.212.IBD.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.212.IBD.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.212.IBD.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982839
+
+Error executing rule samtools_convert on cluster (jobid: 5810, external: Submitted batch job 6982839, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.5810.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:38 2021]
+Error in rule samtools_convert:
+    jobid: 7508
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.212.IBD.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.212.IBD.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.212.IBD.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.212.IBD.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982840
+
+Error executing rule samtools_convert on cluster (jobid: 7508, external: Submitted batch job 6982840, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7508.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:38 2021]
+Error in rule samtools_convert:
+    jobid: 6799
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.314.Healthy.Antibiotics.Stool.1.2490.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.314.Healthy.Antibiotics.Stool.1.2490.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982841
+
+Error executing rule samtools_convert on cluster (jobid: 6799, external: Submitted batch job 6982841, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6799.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:38 2021]
+Error in rule samtools_convert:
+    jobid: 6686
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.209.Healthy.Antibiotics.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.209.Healthy.Antibiotics.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982842
+
+Error executing rule samtools_convert on cluster (jobid: 6686, external: Submitted batch job 6982842, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6686.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:38 2021]
+Error in rule samtools_convert:
+    jobid: 8419
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.244.VEO.Stool.3.1964.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.244.VEO.Stool.3.1964.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.244.VEO.Stool.3.1964.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.244.VEO.Stool.3.1964.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982843
+
+Error executing rule samtools_convert on cluster (jobid: 8419, external: Submitted batch job 6982843, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8419.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:39 2021]
+Error in rule samtools_convert:
+    jobid: 6175
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s70.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s70.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s70.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982844
+
+Error executing rule samtools_convert on cluster (jobid: 6175, external: Submitted batch job 6982844, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6175.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:39 2021]
+Error in rule samtools_convert:
+    jobid: 6155
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.244.VEO.Stool.3.1964.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.244.VEO.Stool.3.1964.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.244.VEO.Stool.3.1964.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.244.VEO.Stool.3.1964.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982845
+
+Error executing rule samtools_convert on cluster (jobid: 6155, external: Submitted batch job 6982845, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6155.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:39 2021]
+Error in rule samtools_convert:
+    jobid: 8439
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s70.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s70.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s70.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982846
+
+Error executing rule samtools_convert on cluster (jobid: 8439, external: Submitted batch job 6982846, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8439.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:39 2021]
+Error in rule samtools_convert:
+    jobid: 7891
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.212.IBD.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.212.IBD.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.212.IBD.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.212.IBD.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982847
+
+Error executing rule samtools_convert on cluster (jobid: 7891, external: Submitted batch job 6982847, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7891.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:39 2021]
+Error in rule samtools_convert:
+    jobid: 8174
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.212.IBD.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.212.IBD.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.212.IBD.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.212.IBD.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982848
+
+Error executing rule samtools_convert on cluster (jobid: 8174, external: Submitted batch job 6982848, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8174.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:39 2021]
+Error in rule samtools_convert:
+    jobid: 7130
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.209.Healthy.Antibiotics.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.209.Healthy.Antibiotics.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982849
+
+Error executing rule samtools_convert on cluster (jobid: 7130, external: Submitted batch job 6982849, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7130.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:39 2021]
+Error in rule samtools_convert:
+    jobid: 6476
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.212.IBD.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.212.IBD.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.212.IBD.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.212.IBD.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982851
+
+Error executing rule samtools_convert on cluster (jobid: 6476, external: Submitted batch job 6982851, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6476.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:39 2021]
+Error in rule samtools_convert:
+    jobid: 7955
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.173.VEO.Feces.Week.8.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.173.VEO.Feces.Week.8.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.173.VEO.Feces.Week.8.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.173.VEO.Feces.Week.8.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982852
+
+Error executing rule samtools_convert on cluster (jobid: 7955, external: Submitted batch job 6982852, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7955.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:39 2021]
+Error in rule samtools_convert:
+    jobid: 7905
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s60.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s60.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s60.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982853
+
+Error executing rule samtools_convert on cluster (jobid: 7905, external: Submitted batch job 6982853, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7905.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:40 2021]
+Error in rule samtools_convert:
+    jobid: 7672
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.173.VEO.Feces.Week.8.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.173.VEO.Feces.Week.8.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.173.VEO.Feces.Week.8.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.173.VEO.Feces.Week.8.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982854
+
+Error executing rule samtools_convert on cluster (jobid: 7672, external: Submitted batch job 6982854, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7672.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:40 2021]
+Error in rule samtools_convert:
+    jobid: 8188
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s60.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s60.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s60.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982855
+
+Error executing rule samtools_convert on cluster (jobid: 8188, external: Submitted batch job 6982855, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8188.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:40 2021]
+Error in rule samtools_convert:
+    jobid: 8226
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.244.VEO.Stool.2.1952.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.244.VEO.Stool.2.1952.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.244.VEO.Stool.2.1952.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.244.VEO.Stool.2.1952.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982856
+
+Error executing rule samtools_convert on cluster (jobid: 8226, external: Submitted batch job 6982856, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8226.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:40 2021]
+Error in rule samtools_convert:
+    jobid: 6490
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s60.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s60.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s60.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982857
+
+Error executing rule samtools_convert on cluster (jobid: 6490, external: Submitted batch job 6982857, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6490.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:40 2021]
+Error in rule samtools_convert:
+    jobid: 7307
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s70.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s70.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s70.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982859
+
+Error executing rule samtools_convert on cluster (jobid: 7307, external: Submitted batch job 6982859, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7307.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:40 2021]
+Error in rule samtools_convert:
+    jobid: 6257
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.173.VEO.Feces.Week.8.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.173.VEO.Feces.Week.8.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.173.VEO.Feces.Week.8.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.173.VEO.Feces.Week.8.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982860
+
+Error executing rule samtools_convert on cluster (jobid: 6257, external: Submitted batch job 6982860, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6257.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:40 2021]
+Error in rule samtools_convert:
+    jobid: 6438
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.244.VEO.Stool.3.1964.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.244.VEO.Stool.3.1964.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.244.VEO.Stool.3.1964.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.244.VEO.Stool.3.1964.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982861
+
+Error executing rule samtools_convert on cluster (jobid: 6438, external: Submitted batch job 6982861, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6438.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:40 2021]
+Error in rule samtools_convert:
+    jobid: 7853
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.244.VEO.Stool.3.1964.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.244.VEO.Stool.3.1964.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.244.VEO.Stool.3.1964.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.244.VEO.Stool.3.1964.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982862
+
+Error executing rule samtools_convert on cluster (jobid: 7853, external: Submitted batch job 6982862, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7853.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:40 2021]
+Error in rule samtools_convert:
+    jobid: 6659
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.212.IBD.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.212.IBD.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.212.IBD.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.212.IBD.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982863
+
+Error executing rule samtools_convert on cluster (jobid: 6659, external: Submitted batch job 6982863, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6659.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:41 2021]
+Error in rule samtools_convert:
+    jobid: 6193
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.212.IBD.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.212.IBD.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.212.IBD.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.212.IBD.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982864
+
+Error executing rule samtools_convert on cluster (jobid: 6193, external: Submitted batch job 6982864, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6193.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:41 2021]
+Error in rule samtools_convert:
+    jobid: 8136
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.244.VEO.Stool.3.1964.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.244.VEO.Stool.3.1964.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.244.VEO.Stool.3.1964.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.244.VEO.Stool.3.1964.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982865
+
+Error executing rule samtools_convert on cluster (jobid: 8136, external: Submitted batch job 6982865, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8136.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:41 2021]
+Error in rule samtools_convert:
+    jobid: 7410
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.154.VEO.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.154.VEO.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.154.VEO.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.154.VEO.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982866
+
+Error executing rule samtools_convert on cluster (jobid: 7410, external: Submitted batch job 6982866, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7410.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:41 2021]
+Error in rule samtools_convert:
+    jobid: 7535
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.209.Healthy.Antibiotics.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.209.Healthy.Antibiotics.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982870
+
+Error executing rule samtools_convert on cluster (jobid: 7535, external: Submitted batch job 6982870, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7535.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:41 2021]
+Error in rule samtools_convert:
+    jobid: 5837
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.209.Healthy.Antibiotics.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.209.Healthy.Antibiotics.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982871
+
+Error executing rule samtools_convert on cluster (jobid: 5837, external: Submitted batch job 6982871, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.5837.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:41 2021]
+Error in rule samtools_convert:
+    jobid: 7648
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.314.Healthy.Antibiotics.Stool.1.2490.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.314.Healthy.Antibiotics.Stool.1.2490.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982872
+
+Error executing rule samtools_convert on cluster (jobid: 7648, external: Submitted batch job 6982872, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7648.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:41 2021]
+Error in rule samtools_convert:
+    jobid: 5950
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.314.Healthy.Antibiotics.Stool.1.2490.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.314.Healthy.Antibiotics.Stool.1.2490.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982873
+
+Error executing rule samtools_convert on cluster (jobid: 5950, external: Submitted batch job 6982873, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.5950.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:42 2021]
+Error in rule samtools_convert:
+    jobid: 8238
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.173.VEO.Feces.Week.8.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.173.VEO.Feces.Week.8.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.173.VEO.Feces.Week.8.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.173.VEO.Feces.Week.8.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982874
+
+Error executing rule samtools_convert on cluster (jobid: 8238, external: Submitted batch job 6982874, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8238.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:42 2021]
+Error in rule samtools_convert:
+    jobid: 7660
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.244.VEO.Stool.2.1952.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.244.VEO.Stool.2.1952.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.244.VEO.Stool.2.1952.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.244.VEO.Stool.2.1952.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982875
+
+Error executing rule samtools_convert on cluster (jobid: 7660, external: Submitted batch job 6982875, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7660.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:42 2021]
+Error in rule samtools_convert:
+    jobid: 8471
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s60.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s60.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s60.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982877
+
+Error executing rule samtools_convert on cluster (jobid: 8471, external: Submitted batch job 6982877, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8471.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:42 2021]
+Error in rule samtools_convert:
+    jobid: 6281
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.209.Healthy.Antibiotics.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.209.Healthy.Antibiotics.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982878
+
+Error executing rule samtools_convert on cluster (jobid: 6281, external: Submitted batch job 6982878, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6281.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:42 2021]
+Error in rule samtools_convert:
+    jobid: 7943
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.244.VEO.Stool.2.1952.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.244.VEO.Stool.2.1952.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.244.VEO.Stool.2.1952.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.244.VEO.Stool.2.1952.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982879
+
+Error executing rule samtools_convert on cluster (jobid: 7943, external: Submitted batch job 6982879, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7943.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:42 2021]
+Error in rule samtools_convert:
+    jobid: 7979
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.209.Healthy.Antibiotics.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.209.Healthy.Antibiotics.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982880
+
+Error executing rule samtools_convert on cluster (jobid: 7979, external: Submitted batch job 6982880, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7979.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:42 2021]
+Error in rule samtools_convert:
+    jobid: 7325
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.212.IBD.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.212.IBD.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.212.IBD.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.212.IBD.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982882
+
+Error executing rule samtools_convert on cluster (jobid: 7325, external: Submitted batch job 6982882, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7325.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:42 2021]
+Error in rule samtools_convert:
+    jobid: 7696
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.209.Healthy.Antibiotics.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.209.Healthy.Antibiotics.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982883
+
+Error executing rule samtools_convert on cluster (jobid: 7696, external: Submitted batch job 6982883, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7696.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:43 2021]
+Error in rule samtools_convert:
+    jobid: 8156
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s70.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s70.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s70.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982884
+
+Error executing rule samtools_convert on cluster (jobid: 8156, external: Submitted batch job 6982884, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8156.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:43 2021]
+Error in rule samtools_convert:
+    jobid: 7873
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s70.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s70.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s70.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982885
+
+Error executing rule samtools_convert on cluster (jobid: 7873, external: Submitted batch job 6982885, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7873.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:43 2021]
+Error in rule samtools_convert:
+    jobid: 7339
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s60.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s60.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s60.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982887
+
+Error executing rule samtools_convert on cluster (jobid: 7339, external: Submitted batch job 6982887, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7339.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:43 2021]
+Error in rule samtools_convert:
+    jobid: 6458
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s70.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s70.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s70.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982888
+
+Error executing rule samtools_convert on cluster (jobid: 6458, external: Submitted batch job 6982888, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6458.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:44 2021]
+Error in rule samtools_convert:
+    jobid: 6528
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.244.VEO.Stool.2.1952.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.244.VEO.Stool.2.1952.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.244.VEO.Stool.2.1952.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.244.VEO.Stool.2.1952.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982895
+
+Error executing rule samtools_convert on cluster (jobid: 6528, external: Submitted batch job 6982895, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6528.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:56 2021]
+Error in rule samtools_convert:
+    jobid: 7570
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.244.VEO.Stool.3.1964.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.244.VEO.Stool.3.1964.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.244.VEO.Stool.3.1964.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.244.VEO.Stool.3.1964.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982924
+
+Error executing rule samtools_convert on cluster (jobid: 7570, external: Submitted batch job 6982924, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7570.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:57 2021]
+Error in rule samtools_convert:
+    jobid: 5962
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.244.VEO.Stool.2.1952.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.244.VEO.Stool.2.1952.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.244.VEO.Stool.2.1952.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.244.VEO.Stool.2.1952.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982838
+
+Error executing rule samtools_convert on cluster (jobid: 5962, external: Submitted batch job 6982838, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.5962.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:57 2021]
+Error in rule samtools_convert:
+    jobid: 7094
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.244.VEO.Stool.2.1952.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.244.VEO.Stool.2.1952.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.244.VEO.Stool.2.1952.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.244.VEO.Stool.2.1952.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982850
+
+Error executing rule samtools_convert on cluster (jobid: 7094, external: Submitted batch job 6982850, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7094.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:57 2021]
+Error in rule samtools_convert:
+    jobid: 5712
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.154.VEO.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.154.VEO.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.154.VEO.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.154.VEO.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982867
+
+Error executing rule samtools_convert on cluster (jobid: 5712, external: Submitted batch job 6982867, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.5712.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:57 2021]
+Error in rule samtools_convert:
+    jobid: 6207
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s60.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s60.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s60.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982868
+
+Error executing rule samtools_convert on cluster (jobid: 6207, external: Submitted batch job 6982868, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6207.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:58 2021]
+Error in rule samtools_convert:
+    jobid: 6245
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.244.VEO.Stool.2.1952.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.244.VEO.Stool.2.1952.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.244.VEO.Stool.2.1952.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.244.VEO.Stool.2.1952.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982881
+
+Error executing rule samtools_convert on cluster (jobid: 6245, external: Submitted batch job 6982881, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6245.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:58 2021]
+Error in rule samtools_convert:
+    jobid: 7106
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.173.VEO.Feces.Week.8.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.173.VEO.Feces.Week.8.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.173.VEO.Feces.Week.8.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.173.VEO.Feces.Week.8.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982889
+
+Error executing rule samtools_convert on cluster (jobid: 7106, external: Submitted batch job 6982889, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7106.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:58 2021]
+Error in rule samtools_convert:
+    jobid: 6564
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.209.Healthy.Antibiotics.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.209.Healthy.Antibiotics.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982890
+
+Error executing rule samtools_convert on cluster (jobid: 6564, external: Submitted batch job 6982890, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6564.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:58 2021]
+Error in rule samtools_convert:
+    jobid: 5995
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.154.VEO.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.154.VEO.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.154.VEO.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.154.VEO.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982896
+
+Error executing rule samtools_convert on cluster (jobid: 5995, external: Submitted batch job 6982896, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.5995.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:59 2021]
+Error in rule samtools_convert:
+    jobid: 7622
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s60.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s60.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s60.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982897
+
+Error executing rule samtools_convert on cluster (jobid: 7622, external: Submitted batch job 6982897, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7622.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:58:59 2021]
+Error in rule samtools_convert:
+    jobid: 5924
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s60.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s60.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s60.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982898
+
+Error executing rule samtools_convert on cluster (jobid: 5924, external: Submitted batch job 6982898, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.5924.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:48 2021]
+Error in rule samtools_convert:
+    jobid: 8384
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.209.Healthy.Antibiotics.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.209.Healthy.Antibiotics.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982904
+
+Error executing rule samtools_convert on cluster (jobid: 8384, external: Submitted batch job 6982904, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8384.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:48 2021]
+Error in rule samtools_convert:
+    jobid: 8074
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.212.IBD.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.212.IBD.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.212.IBD.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.212.IBD.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982905
+
+Error executing rule samtools_convert on cluster (jobid: 8074, external: Submitted batch job 6982905, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8074.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:48 2021]
+Error in rule samtools_convert:
+    jobid: 8497
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.314.Healthy.Antibiotics.Stool.1.2490.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.314.Healthy.Antibiotics.Stool.1.2490.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982906
+
+Error executing rule samtools_convert on cluster (jobid: 8497, external: Submitted batch job 6982906, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8497.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:48 2021]
+Error in rule samtools_convert:
+    jobid: 6721
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.244.VEO.Stool.3.1964.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.244.VEO.Stool.3.1964.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.244.VEO.Stool.3.1964.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.244.VEO.Stool.3.1964.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982907
+
+Error executing rule samtools_convert on cluster (jobid: 6721, external: Submitted batch job 6982907, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6721.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:48 2021]
+Error in rule samtools_convert:
+    jobid: 7791
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.212.IBD.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.212.IBD.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_epidermidis/s.212.IBD.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.212.IBD.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982908
+
+Error executing rule samtools_convert on cluster (jobid: 7791, external: Submitted batch job 6982908, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7791.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:49 2021]
+Error in rule samtools_convert:
+    jobid: 8259
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.154.VEO.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.154.VEO.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.154.VEO.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.154.VEO.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982909
+
+Error executing rule samtools_convert on cluster (jobid: 8259, external: Submitted batch job 6982909, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8259.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:49 2021]
+Error in rule samtools_convert:
+    jobid: 6376
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.212.IBD.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.212.IBD.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pseudomonas_aeruginosa/s.212.IBD.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.212.IBD.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982910
+
+Error executing rule samtools_convert on cluster (jobid: 6376, external: Submitted batch job 6982910, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6376.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:49 2021]
+Error in rule samtools_convert:
+    jobid: 7252
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.209.Healthy.Antibiotics.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.209.Healthy.Antibiotics.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982911
+
+Error executing rule samtools_convert on cluster (jobid: 7252, external: Submitted batch job 6982911, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7252.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:49 2021]
+Error in rule samtools_convert:
+    jobid: 7365
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.314.Healthy.Antibiotics.Stool.1.2490.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.314.Healthy.Antibiotics.Stool.1.2490.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982912
+
+Error executing rule samtools_convert on cluster (jobid: 7365, external: Submitted batch job 6982912, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7365.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:49 2021]
+Error in rule samtools_convert:
+    jobid: 5715
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.209.Healthy.Antibiotics.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.209.Healthy.Antibiotics.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982914
+
+Error executing rule samtools_convert on cluster (jobid: 5715, external: Submitted batch job 6982914, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.5715.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:49 2021]
+Error in rule samtools_convert:
+    jobid: 7413
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.209.Healthy.Antibiotics.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.209.Healthy.Antibiotics.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982915
+
+Error executing rule samtools_convert on cluster (jobid: 7413, external: Submitted batch job 6982915, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7413.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:49 2021]
+Error in rule samtools_convert:
+    jobid: 5679
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.244.VEO.Stool.2.1952.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.244.VEO.Stool.2.1952.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.244.VEO.Stool.2.1952.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.244.VEO.Stool.2.1952.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982916
+
+Error executing rule samtools_convert on cluster (jobid: 5679, external: Submitted batch job 6982916, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.5679.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:49 2021]
+Error in rule samtools_convert:
+    jobid: 7377
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.244.VEO.Stool.2.1952.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.244.VEO.Stool.2.1952.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.244.VEO.Stool.2.1952.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.244.VEO.Stool.2.1952.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982917
+
+Error executing rule samtools_convert on cluster (jobid: 7377, external: Submitted batch job 6982917, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7377.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:50 2021]
+Error in rule samtools_convert:
+    jobid: 6759
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.212.IBD.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.212.IBD.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.212.IBD.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.212.IBD.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982918
+
+Error executing rule samtools_convert on cluster (jobid: 6759, external: Submitted batch job 6982918, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6759.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:50 2021]
+Error in rule samtools_convert:
+    jobid: 6093
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.212.IBD.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.212.IBD.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.212.IBD.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.212.IBD.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982919
+
+Error executing rule samtools_convert on cluster (jobid: 6093, external: Submitted batch job 6982919, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6093.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:50 2021]
+Error in rule samtools_convert:
+    jobid: 6540
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.173.VEO.Feces.Week.8.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.173.VEO.Feces.Week.8.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s.173.VEO.Feces.Week.8.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.173.VEO.Feces.Week.8.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982920
+
+Error executing rule samtools_convert on cluster (jobid: 6540, external: Submitted batch job 6982920, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6540.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:50 2021]
+Error in rule samtools_convert:
+    jobid: 7590
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s70.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s70.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s70.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982921
+
+Error executing rule samtools_convert on cluster (jobid: 7590, external: Submitted batch job 6982921, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7590.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:50 2021]
+Error in rule samtools_convert:
+    jobid: 5892
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s70.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s70.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s70.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982922
+
+Error executing rule samtools_convert on cluster (jobid: 5892, external: Submitted batch job 6982922, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.5892.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:50 2021]
+Error in rule samtools_convert:
+    jobid: 8214
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.314.Healthy.Antibiotics.Stool.1.2490.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Streptococcus_agalactiae/s.314.Healthy.Antibiotics.Stool.1.2490.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982929
+
+Error executing rule samtools_convert on cluster (jobid: 8214, external: Submitted batch job 6982929, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8214.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:50 2021]
+Error in rule samtools_convert:
+    jobid: 8357
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.212.IBD.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.212.IBD.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.212.IBD.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.212.IBD.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982930
+
+Error executing rule samtools_convert on cluster (jobid: 8357, external: Submitted batch job 6982930, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8357.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:50 2021]
+Error in rule samtools_convert:
+    jobid: 7287
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.244.VEO.Stool.3.1964.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.244.VEO.Stool.3.1964.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Latilactobacillus_sakei/s.244.VEO.Stool.3.1964.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.244.VEO.Stool.3.1964.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982834
+
+Error executing rule samtools_convert on cluster (jobid: 7287, external: Submitted batch job 6982834, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7287.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:51 2021]
+Error in rule samtools_convert:
+    jobid: 8262
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.209.Healthy.Antibiotics.Feces.Week.4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.209.Healthy.Antibiotics.Feces.Week.4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982858
+
+Error executing rule samtools_convert on cluster (jobid: 8262, external: Submitted batch job 6982858, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8262.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:51 2021]
+Error in rule samtools_convert:
+    jobid: 5974
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.173.VEO.Feces.Week.8.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.173.VEO.Feces.Week.8.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.173.VEO.Feces.Week.8.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.173.VEO.Feces.Week.8.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982869
+
+Error executing rule samtools_convert on cluster (jobid: 5974, external: Submitted batch job 6982869, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.5974.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:51 2021]
+Error in rule samtools_convert:
+    jobid: 8457
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.212.IBD.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.212.IBD.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_gallinarum/s.212.IBD.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.212.IBD.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982886
+
+Error executing rule samtools_convert on cluster (jobid: 8457, external: Submitted batch job 6982886, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.8457.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:51 2021]
+Error in rule samtools_convert:
+    jobid: 7608
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.212.IBD.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.212.IBD.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.212.IBD.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.212.IBD.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982892
+
+Error executing rule samtools_convert on cluster (jobid: 7608, external: Submitted batch job 6982892, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7608.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:51 2021]
+Error in rule samtools_convert:
+    jobid: 5910
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.212.IBD.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.212.IBD.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.212.IBD.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.212.IBD.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982893
+
+Error executing rule samtools_convert on cluster (jobid: 5910, external: Submitted batch job 6982893, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.5910.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:51 2021]
+Error in rule samtools_convert:
+    jobid: 6741
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s70.Healthy_greaterthan5.Feces.Week_4.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Levilactobacillus_brevis/s70.Healthy_greaterthan5.Feces.Week_4.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s70.Healthy_greaterthan5.Feces.Week_4.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982899
+
+Error executing rule samtools_convert on cluster (jobid: 6741, external: Submitted batch job 6982899, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6741.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:52 2021]
+Error in rule samtools_convert:
+    jobid: 6120
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.209.Healthy.Antibiotics.Feces.Baseline.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.209.Healthy.Antibiotics.Feces.Baseline.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982900
+
+Error executing rule samtools_convert on cluster (jobid: 6120, external: Submitted batch job 6982900, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6120.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:52 2021]
+Error in rule samtools_convert:
+    jobid: 7389
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.173.VEO.Feces.Week.8.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.173.VEO.Feces.Week.8.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Clostridium_perfringens/s.173.VEO.Feces.Week.8.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.173.VEO.Feces.Week.8.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982901
+
+Error executing rule samtools_convert on cluster (jobid: 7389, external: Submitted batch job 6982901, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.7389.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:52 2021]
+Error in rule samtools_convert:
+    jobid: 5691
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.173.VEO.Feces.Week.8.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.173.VEO.Feces.Week.8.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Staphylococcus_schleiferi/s.173.VEO.Feces.Week.8.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.173.VEO.Feces.Week.8.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982902
+
+Error executing rule samtools_convert on cluster (jobid: 5691, external: Submitted batch job 6982902, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.5691.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 13:59:52 2021]
+Error in rule samtools_convert:
+    jobid: 6233
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    shell:
+        
+        samtools view -@ 4 -b -F4 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.314.Healthy.Antibiotics.Stool.1.2490.sam |         samtools sort -@ 4 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Pediococcus_acidlactici/s.314.Healthy.Antibiotics.Stool.1.2490.bam         rm -f /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6982903
+
+Error executing rule samtools_convert on cluster (jobid: 6233, external: Submitted batch job 6982903, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.mpibfn7b/snakejob.samtools_convert.6233.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 31 14:00:32 2021]
+Finished job 12349.
+1 of 12750 steps (0.01%) done
+[Tue Aug 31 14:00:32 2021]
+Finished job 13353.
+2 of 12750 steps (0.02%) done
+[Tue Aug 31 14:00:42 2021]
+Finished job 13636.
+3 of 12750 steps (0.02%) done
+[Tue Aug 31 14:02:22 2021]
+Finished job 12787.
+4 of 12750 steps (0.03%) done
+[Tue Aug 31 14:02:22 2021]
+Finished job 12221.
+5 of 12750 steps (0.04%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/.snakemake/log/2021-08-31T134333.770415.snakemake.log

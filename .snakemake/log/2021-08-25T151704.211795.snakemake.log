@@ -1,0 +1,1269 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	1	all_assembly
+	283	final_filter
+	283	megahit_paired
+	567
+
+[Wed Aug 25 15:18:14 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s143.VEO.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s143.VEO.Feces.Week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s143.VEO.Feces.Week.4_asm/final.contigs.fa
+    jobid: 367
+    wildcards: sample=s143.VEO.Feces.Week.4
+    threads: 4
+
+Submitted job 367 with external jobid 'Submitted batch job 6466352'.
+
+[Wed Aug 25 15:18:14 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s099.IBD_C.Diff.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s099.IBD_C.Diff.Feces.Week_8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s099.IBD_C.Diff.Feces.Week_8_asm/final.contigs.fa
+    jobid: 353
+    wildcards: sample=s099.IBD_C.Diff.Feces.Week_8
+    threads: 4
+
+Submitted job 353 with external jobid 'Submitted batch job 6466353'.
+
+[Wed Aug 25 15:18:14 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.75.Healthy_greaterthan5.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.75.Healthy_greaterthan5.Feces.Week_4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.75.Healthy_greaterthan5.Feces.Week_4_asm/final.contigs.fa
+    jobid: 475
+    wildcards: sample=s.75.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 475 with external jobid 'Submitted batch job 6466354'.
+
+[Wed Aug 25 15:18:14 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.347.IBDTherapy.Stool.1.2668_asm/final.contigs.fa
+    jobid: 534
+    wildcards: sample=s.347.IBDTherapy.Stool.1.2668
+    threads: 4
+
+Submitted job 534 with external jobid 'Submitted batch job 6466355'.
+
+[Wed Aug 25 15:18:14 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.2.1046_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.2.1046_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.109.Healthy.greaterthan5.Stool.2.1046_asm/final.contigs.fa
+    jobid: 424
+    wildcards: sample=s.109.Healthy.greaterthan5.Stool.2.1046
+    threads: 4
+
+Submitted job 424 with external jobid 'Submitted batch job 6466356'.
+
+[Wed Aug 25 15:18:14 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Week_4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s58.Healthy_greaterthan5.Feces.Week_4_asm/final.contigs.fa
+    jobid: 453
+    wildcards: sample=s58.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 453 with external jobid 'Submitted batch job 6466357'.
+
+[Wed Aug 25 15:18:14 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.244.VEO.Stool.2.1952_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.244.VEO.Stool.2.1952_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.244.VEO.Stool.2.1952_asm/final.contigs.fa
+    jobid: 292
+    wildcards: sample=s.244.VEO.Stool.2.1952
+    threads: 4
+
+Submitted job 292 with external jobid 'Submitted batch job 6466358'.
+
+[Wed Aug 25 15:18:15 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.154.VEO.Feces.Week.8_asm/final.contigs.fa
+    jobid: 557
+    wildcards: sample=s.154.VEO.Feces.Week.8
+    threads: 4
+
+Submitted job 557 with external jobid 'Submitted batch job 6466359'.
+
+[Wed Aug 25 15:18:15 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s067.Healthy.Antibiotics.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s067.Healthy.Antibiotics.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s067.Healthy.Antibiotics.Feces.Baseline_asm/final.contigs.fa
+    jobid: 354
+    wildcards: sample=s067.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 354 with external jobid 'Submitted batch job 6466360'.
+
+[Wed Aug 25 15:18:15 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.201.IBD_Therapy.Feces.Week_8_asm/final.contigs.fa
+    jobid: 324
+    wildcards: sample=s.201.IBD_Therapy.Feces.Week_8
+    threads: 4
+
+Submitted job 324 with external jobid 'Submitted batch job 6466361'.
+
+[Wed Aug 25 15:18:15 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.334.Healthy.Antibiotics.Stool.3.2749_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.334.Healthy.Antibiotics.Stool.3.2749_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.334.Healthy.Antibiotics.Stool.3.2749_asm/final.contigs.fa
+    jobid: 339
+    wildcards: sample=s.334.Healthy.Antibiotics.Stool.3.2749
+    threads: 4
+
+Submitted job 339 with external jobid 'Submitted batch job 6466362'.
+
+[Wed Aug 25 15:18:15 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s102.IBD.Therapy.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s102.IBD.Therapy.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s102.IBD.Therapy.Feces.Week.8_asm/final.contigs.fa
+    jobid: 486
+    wildcards: sample=s102.IBD.Therapy.Feces.Week.8
+    threads: 4
+
+Submitted job 486 with external jobid 'Submitted batch job 6466363'.
+
+[Wed Aug 25 15:18:15 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s26.Healthy.Feces.Visit1_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s26.Healthy.Feces.Visit1_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s26.Healthy.Feces.Visit1_asm/final.contigs.fa
+    jobid: 373
+    wildcards: sample=s26.Healthy.Feces.Visit1
+    threads: 4
+
+Submitted job 373 with external jobid 'Submitted batch job 6466364'.
+
+[Wed Aug 25 15:18:15 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s067.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s067.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s067.Healthy.Antibiotics.Feces.Week.8_asm/final.contigs.fa
+    jobid: 539
+    wildcards: sample=s067.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 539 with external jobid 'Submitted batch job 6466365'.
+
+[Wed Aug 25 15:18:15 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.154.VEO.Feces.Baseline_asm/final.contigs.fa
+    jobid: 325
+    wildcards: sample=s.154.VEO.Feces.Baseline
+    threads: 4
+
+Submitted job 325 with external jobid 'Submitted batch job 6466366'.
+
+[Wed Aug 25 15:18:15 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.209.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.209.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.209.Healthy.Antibiotics.Feces.Week.8_asm/final.contigs.fa
+    jobid: 457
+    wildcards: sample=s.209.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 457 with external jobid 'Submitted batch job 6466367'.
+
+[Wed Aug 25 15:18:16 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.197.Healthy.Antibiotics.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.197.Healthy.Antibiotics.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.197.Healthy.Antibiotics.Feces.Baseline_asm/final.contigs.fa
+    jobid: 335
+    wildcards: sample=s.197.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 335 with external jobid 'Submitted batch job 6466368'.
+
+[Wed Aug 25 15:18:16 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s60.Healthy_greaterthan5.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s60.Healthy_greaterthan5.Feces.Week_4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s60.Healthy_greaterthan5.Feces.Week_4_asm/final.contigs.fa
+    jobid: 537
+    wildcards: sample=s60.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 537 with external jobid 'Submitted batch job 6466369'.
+
+[Wed Aug 25 15:18:16 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.344.Healthy.Antibiotics.Stool.3.2747_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.344.Healthy.Antibiotics.Stool.3.2747_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.344.Healthy.Antibiotics.Stool.3.2747_asm/final.contigs.fa
+    jobid: 466
+    wildcards: sample=s.344.Healthy.Antibiotics.Stool.3.2747
+    threads: 4
+
+Submitted job 466 with external jobid 'Submitted batch job 6466370'.
+
+[Wed Aug 25 15:18:16 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.222.IBD_CDiff.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.222.IBD_CDiff.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.222.IBD_CDiff.Feces.Baseline_asm/final.contigs.fa
+    jobid: 452
+    wildcards: sample=s.222.IBD_CDiff.Feces.Baseline
+    threads: 4
+
+Submitted job 452 with external jobid 'Submitted batch job 6466371'.
+
+[Wed Aug 25 15:18:16 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.200.Healthy.Antibiotics.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.200.Healthy.Antibiotics.Feces.Week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.200.Healthy.Antibiotics.Feces.Week.4_asm/final.contigs.fa
+    jobid: 443
+    wildcards: sample=s.200.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 443 with external jobid 'Submitted batch job 6466372'.
+
+[Wed Aug 25 15:18:16 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s26.Healthy.Feces.Visit2_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s26.Healthy.Feces.Visit2_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s26.Healthy.Feces.Visit2_asm/final.contigs.fa
+    jobid: 342
+    wildcards: sample=s26.Healthy.Feces.Visit2
+    threads: 4
+
+Submitted job 342 with external jobid 'Submitted batch job 6466373'.
+
+[Wed Aug 25 15:18:16 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.314.Healthy.Antibiotics.Stool.2.2505_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.314.Healthy.Antibiotics.Stool.2.2505_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.314.Healthy.Antibiotics.Stool.2.2505_asm/final.contigs.fa
+    jobid: 544
+    wildcards: sample=s.314.Healthy.Antibiotics.Stool.2.2505
+    threads: 4
+
+Submitted job 544 with external jobid 'Submitted batch job 6466374'.
+
+[Wed Aug 25 15:18:16 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s077.IBD_C.Diff.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s077.IBD_C.Diff.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s077.IBD_C.Diff.Feces.Baseline_asm/final.contigs.fa
+    jobid: 366
+    wildcards: sample=s077.IBD_C.Diff.Feces.Baseline
+    threads: 4
+
+Submitted job 366 with external jobid 'Submitted batch job 6466375'.
+
+[Wed Aug 25 15:18:16 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s157_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s157_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s157_asm/final.contigs.fa
+    jobid: 510
+    wildcards: sample=s157
+    threads: 4
+
+Submitted job 510 with external jobid 'Submitted batch job 6466376'.
+
+[Wed Aug 25 15:18:17 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s70.Healthy_greaterthan5.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s70.Healthy_greaterthan5.Feces.Week_4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s70.Healthy_greaterthan5.Feces.Week_4_asm/final.contigs.fa
+    jobid: 505
+    wildcards: sample=s70.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 505 with external jobid 'Submitted batch job 6466377'.
+
+[Wed Aug 25 15:18:17 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.334.Healthy.Antibiotics.Stool.1.2630_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.334.Healthy.Antibiotics.Stool.1.2630_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.334.Healthy.Antibiotics.Stool.1.2630_asm/final.contigs.fa
+    jobid: 409
+    wildcards: sample=s.334.Healthy.Antibiotics.Stool.1.2630
+    threads: 4
+
+Submitted job 409 with external jobid 'Submitted batch job 6466378'.
+
+[Wed Aug 25 15:18:17 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s48_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s48_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s48_asm/final.contigs.fa
+    jobid: 285
+    wildcards: sample=s48
+    threads: 4
+
+Submitted job 285 with external jobid 'Submitted batch job 6466379'.
+
+[Wed Aug 25 15:18:17 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.86.Healthy_greaterthan5.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.86.Healthy_greaterthan5.Feces.Week_8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.86.Healthy_greaterthan5.Feces.Week_8_asm/final.contigs.fa
+    jobid: 358
+    wildcards: sample=s.86.Healthy_greaterthan5.Feces.Week_8
+    threads: 4
+
+Submitted job 358 with external jobid 'Submitted batch job 6466380'.
+
+[Wed Aug 25 15:18:17 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s159.Healthy.Antibiotics.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s159.Healthy.Antibiotics.Feces.Week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s159.Healthy.Antibiotics.Feces.Week.4_asm/final.contigs.fa
+    jobid: 337
+    wildcards: sample=s159.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 337 with external jobid 'Submitted batch job 6466381'.
+
+[Wed Aug 25 15:18:17 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.212.IBD.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.212.IBD.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.212.IBD.Feces.Baseline_asm/final.contigs.fa
+    jobid: 523
+    wildcards: sample=s.212.IBD.Feces.Baseline
+    threads: 4
+
+Submitted job 523 with external jobid 'Submitted batch job 6466382'.
+
+[Wed Aug 25 15:18:17 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.314.Healthy.Antibiotics.Stool.3.2567_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.314.Healthy.Antibiotics.Stool.3.2567_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.314.Healthy.Antibiotics.Stool.3.2567_asm/final.contigs.fa
+    jobid: 317
+    wildcards: sample=s.314.Healthy.Antibiotics.Stool.3.2567
+    threads: 4
+
+Submitted job 317 with external jobid 'Submitted batch job 6466383'.
+
+[Wed Aug 25 15:18:17 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.173.VEO.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.173.VEO.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.173.VEO.Feces.Week.8_asm/final.contigs.fa
+    jobid: 304
+    wildcards: sample=s.173.VEO.Feces.Week.8
+    threads: 4
+
+Submitted job 304 with external jobid 'Submitted batch job 6466384'.
+
+[Wed Aug 25 15:18:17 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.1.910_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.1.910_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.109.Healthy.greaterthan5.Stool.1.910_asm/final.contigs.fa
+    jobid: 314
+    wildcards: sample=s.109.Healthy.greaterthan5.Stool.1.910
+    threads: 4
+
+Submitted job 314 with external jobid 'Submitted batch job 6466385'.
+
+[Wed Aug 25 15:18:18 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.201.IBD_Therapy.Feces.Week_4_asm/final.contigs.fa
+    jobid: 548
+    wildcards: sample=s.201.IBD_Therapy.Feces.Week_4
+    threads: 4
+
+Submitted job 548 with external jobid 'Submitted batch job 6466386'.
+
+[Wed Aug 25 15:18:18 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.355.IBD.Antibiotics.Stool.2.2866_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.355.IBD.Antibiotics.Stool.2.2866_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.355.IBD.Antibiotics.Stool.2.2866_asm/final.contigs.fa
+    jobid: 303
+    wildcards: sample=s.355.IBD.Antibiotics.Stool.2.2866
+    threads: 4
+
+Submitted job 303 with external jobid 'Submitted batch job 6466387'.
+
+[Wed Aug 25 15:18:18 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.212.IBD.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.212.IBD.Feces.Week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.212.IBD.Feces.Week.4_asm/final.contigs.fa
+    jobid: 423
+    wildcards: sample=s.212.IBD.Feces.Week.4
+    threads: 4
+
+Submitted job 423 with external jobid 'Submitted batch job 6466388'.
+
+[Wed Aug 25 15:18:18 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s17_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s17_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s17_asm/final.contigs.fa
+    jobid: 465
+    wildcards: sample=s17
+    threads: 4
+
+Submitted job 465 with external jobid 'Submitted batch job 6466389'.
+
+[Wed Aug 25 15:18:18 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.334.Healthy.Antibiotics.Stool.2.2656_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.334.Healthy.Antibiotics.Stool.2.2656_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.334.Healthy.Antibiotics.Stool.2.2656_asm/final.contigs.fa
+    jobid: 327
+    wildcards: sample=s.334.Healthy.Antibiotics.Stool.2.2656
+    threads: 4
+
+Submitted job 327 with external jobid 'Submitted batch job 6466390'.
+
+[Wed Aug 25 15:18:18 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.235.C_Diff_Oncology.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.235.C_Diff_Oncology.Feces.Week_8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.235.C_Diff_Oncology.Feces.Week_8_asm/final.contigs.fa
+    jobid: 363
+    wildcards: sample=s.235.C_Diff_Oncology.Feces.Week_8
+    threads: 4
+
+Submitted job 363 with external jobid 'Submitted batch job 6466391'.
+
+[Wed Aug 25 15:18:18 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.293.Healthy.Antibiotics.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.293.Healthy.Antibiotics.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.293.Healthy.Antibiotics.Feces.Baseline_asm/final.contigs.fa
+    jobid: 362
+    wildcards: sample=s.293.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 362 with external jobid 'Submitted batch job 6466392'.
+
+[Wed Aug 25 15:18:18 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.135.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.135.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.135.Healthy.Antibiotics.Feces.Week.8_asm/final.contigs.fa
+    jobid: 323
+    wildcards: sample=s.135.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 323 with external jobid 'Submitted batch job 6466393'.
+
+[Wed Aug 25 15:18:18 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s22.Healthy.Feces.Visit1_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s22.Healthy.Feces.Visit1_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s22.Healthy.Feces.Visit1_asm/final.contigs.fa
+    jobid: 322
+    wildcards: sample=s22.Healthy.Feces.Visit1
+    threads: 4
+
+Submitted job 322 with external jobid 'Submitted batch job 6466395'.
+
+[Wed Aug 25 15:18:19 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.361.C.DiffOncology.Stool.1.2876_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.361.C.DiffOncology.Stool.1.2876_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.361.C.DiffOncology.Stool.1.2876_asm/final.contigs.fa
+    jobid: 359
+    wildcards: sample=s.361.C.DiffOncology.Stool.1.2876
+    threads: 4
+
+Submitted job 359 with external jobid 'Submitted batch job 6466396'.
+
+[Wed Aug 25 15:18:19 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s38.IBD.Antibiotics.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s38.IBD.Antibiotics.Feces.Week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s38.IBD.Antibiotics.Feces.Week.4_asm/final.contigs.fa
+    jobid: 428
+    wildcards: sample=s38.IBD.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 428 with external jobid 'Submitted batch job 6466397'.
+
+[Wed Aug 25 15:18:19 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s159.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s159.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s159.Healthy.Antibiotics.Feces.Week.8_asm/final.contigs.fa
+    jobid: 372
+    wildcards: sample=s159.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 372 with external jobid 'Submitted batch job 6466398'.
+
+[Wed Aug 25 15:18:19 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.344.Healthy.Antibiotics.Stool.1.2655_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.344.Healthy.Antibiotics.Stool.1.2655_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.344.Healthy.Antibiotics.Stool.1.2655_asm/final.contigs.fa
+    jobid: 446
+    wildcards: sample=s.344.Healthy.Antibiotics.Stool.1.2655
+    threads: 4
+
+Submitted job 446 with external jobid 'Submitted batch job 6466399'.
+
+[Wed Aug 25 15:18:19 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.244.VEO.Stool.3.1964_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.244.VEO.Stool.3.1964_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.244.VEO.Stool.3.1964_asm/final.contigs.fa
+    jobid: 485
+    wildcards: sample=s.244.VEO.Stool.3.1964
+    threads: 4
+
+Submitted job 485 with external jobid 'Submitted batch job 6466400'.
+
+[Wed Aug 25 15:18:19 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.74.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.74.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.74.Healthy_greaterthan5.Feces.Baseline_asm/final.contigs.fa
+    jobid: 473
+    wildcards: sample=s.74.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+Submitted job 473 with external jobid 'Submitted batch job 6466401'.
+
+[Wed Aug 25 15:18:19 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.271.C.Diff_Oncology.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.271.C.Diff_Oncology.Feces.Week_4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.271.C.Diff_Oncology.Feces.Week_4_asm/final.contigs.fa
+    jobid: 369
+    wildcards: sample=s.271.C.Diff_Oncology.Feces.Week_4
+    threads: 4
+
+Submitted job 369 with external jobid 'Submitted batch job 6466402'.
+
+[Wed Aug 25 15:18:19 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s35.IBD_Therapy.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s35.IBD_Therapy.Feces.Week_4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s35.IBD_Therapy.Feces.Week_4_asm/final.contigs.fa
+    jobid: 494
+    wildcards: sample=s35.IBD_Therapy.Feces.Week_4
+    threads: 4
+
+Submitted job 494 with external jobid 'Submitted batch job 6466403'.
+
+[Wed Aug 25 15:18:20 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s31.IBDNaturalHistory.Feces.Visit1_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s31.IBDNaturalHistory.Feces.Visit1_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s31.IBDNaturalHistory.Feces.Visit1_asm/final.contigs.fa
+    jobid: 370
+    wildcards: sample=s31.IBDNaturalHistory.Feces.Visit1
+    threads: 4
+
+Submitted job 370 with external jobid 'Submitted batch job 6466404'.
+
+[Wed Aug 25 15:18:20 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.173.VEO.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.173.VEO.Feces.Week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.173.VEO.Feces.Week.4_asm/final.contigs.fa
+    jobid: 437
+    wildcards: sample=s.173.VEO.Feces.Week.4
+    threads: 4
+
+Submitted job 437 with external jobid 'Submitted batch job 6466405'.
+
+[Wed Aug 25 15:18:20 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s46.Healthy_greaterthan5.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s46.Healthy_greaterthan5.Feces.Week_4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s46.Healthy_greaterthan5.Feces.Week_4_asm/final.contigs.fa
+    jobid: 462
+    wildcards: sample=s46.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 462 with external jobid 'Submitted batch job 6466406'.
+
+[Wed Aug 25 15:18:20 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.308.IBDC.Diff.Stool.visit2.2500_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.308.IBDC.Diff.Stool.visit2.2500_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.308.IBDC.Diff.Stool.visit2.2500_asm/final.contigs.fa
+    jobid: 502
+    wildcards: sample=s.308.IBDC.Diff.Stool.visit2.2500
+    threads: 4
+
+Submitted job 502 with external jobid 'Submitted batch job 6466407'.
+
+[Wed Aug 25 15:18:20 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s32.C_diff.Feces.Visit3_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s32.C_diff.Feces.Visit3_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s32.C_diff.Feces.Visit3_asm/final.contigs.fa
+    jobid: 287
+    wildcards: sample=s32.C_diff.Feces.Visit3
+    threads: 4
+
+Submitted job 287 with external jobid 'Submitted batch job 6466408'.
+
+[Wed Aug 25 15:18:20 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s152.Healthy.Antibiotics.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s152.Healthy.Antibiotics.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s152.Healthy.Antibiotics.Feces.Baseline_asm/final.contigs.fa
+    jobid: 290
+    wildcards: sample=s152.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 290 with external jobid 'Submitted batch job 6466409'.
+
+[Wed Aug 25 15:18:20 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s2_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s2_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s2_asm/final.contigs.fa
+    jobid: 379
+    wildcards: sample=s2
+    threads: 4
+
+Submitted job 379 with external jobid 'Submitted batch job 6466410'.
+
+[Wed Aug 25 15:18:20 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.147.IBD_Therapy.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.147.IBD_Therapy.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.147.IBD_Therapy.Feces.Baseline_asm/final.contigs.fa
+    jobid: 332
+    wildcards: sample=s.147.IBD_Therapy.Feces.Baseline
+    threads: 4
+
+Submitted job 332 with external jobid 'Submitted batch job 6466411'.
+
+[Wed Aug 25 15:18:20 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.2.2872_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.2.2872_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.359.IBDC.Diff.Stool.2.2872_asm/final.contigs.fa
+    jobid: 293
+    wildcards: sample=s.359.IBDC.Diff.Stool.2.2872
+    threads: 4
+
+Submitted job 293 with external jobid 'Submitted batch job 6466412'.
+
+[Wed Aug 25 15:18:21 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.244.VEO.Stool.1.1977_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.244.VEO.Stool.1.1977_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.244.VEO.Stool.1.1977_asm/final.contigs.fa
+    jobid: 309
+    wildcards: sample=s.244.VEO.Stool.1.1977
+    threads: 4
+
+Submitted job 309 with external jobid 'Submitted batch job 6466413'.
+
+[Wed Aug 25 15:18:21 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.155.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.155.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.155.Healthy.Antibiotics.Feces.Week.8_asm/final.contigs.fa
+    jobid: 393
+    wildcards: sample=s.155.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 393 with external jobid 'Submitted batch job 6466414'.
+
+[Wed Aug 25 15:18:21 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s46.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s46.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s46.Healthy_greaterthan5.Feces.Baseline_asm/final.contigs.fa
+    jobid: 468
+    wildcards: sample=s46.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+Submitted job 468 with external jobid 'Submitted batch job 6466415'.
+
+[Wed Aug 25 15:18:21 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s3_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s3_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s3_asm/final.contigs.fa
+    jobid: 387
+    wildcards: sample=s3
+    threads: 4
+
+Submitted job 387 with external jobid 'Submitted batch job 6466416'.
+
+[Wed Aug 25 15:18:21 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s58.Healthy_greaterthan5.Feces.Baseline_asm/final.contigs.fa
+    jobid: 401
+    wildcards: sample=s58.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+Submitted job 401 with external jobid 'Submitted batch job 6466417'.
+
+[Wed Aug 25 15:18:21 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s102.IBD.Therapy.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s102.IBD.Therapy.Feces.Week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s102.IBD.Therapy.Feces.Week.4_asm/final.contigs.fa
+    jobid: 371
+    wildcards: sample=s102.IBD.Therapy.Feces.Week.4
+    threads: 4
+
+Submitted job 371 with external jobid 'Submitted batch job 6466418'.
+
+[Wed Aug 25 15:18:21 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s20.C_diff.Feces.Visit1_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s20.C_diff.Feces.Visit1_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s20.C_diff.Feces.Visit1_asm/final.contigs.fa
+    jobid: 493
+    wildcards: sample=s20.C_diff.Feces.Visit1
+    threads: 4
+
+Submitted job 493 with external jobid 'Submitted batch job 6466419'.
+
+[Wed Aug 25 15:18:21 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.197.Healthy.Antibiotics.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.197.Healthy.Antibiotics.Feces.Week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.197.Healthy.Antibiotics.Feces.Week.4_asm/final.contigs.fa
+    jobid: 299
+    wildcards: sample=s.197.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 299 with external jobid 'Submitted batch job 6466420'.
+
+[Wed Aug 25 15:18:21 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Week_8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s58.Healthy_greaterthan5.Feces.Week_8_asm/final.contigs.fa
+    jobid: 347
+    wildcards: sample=s58.Healthy_greaterthan5.Feces.Week_8
+    threads: 4
+
+Submitted job 347 with external jobid 'Submitted batch job 6466421'.
+
+[Wed Aug 25 15:18:21 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s55.IBD_Therapy.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s55.IBD_Therapy.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s55.IBD_Therapy.Feces.Baseline_asm/final.contigs.fa
+    jobid: 340
+    wildcards: sample=s55.IBD_Therapy.Feces.Baseline
+    threads: 4
+
+Submitted job 340 with external jobid 'Submitted batch job 6466422'.
+
+[Wed Aug 25 15:18:22 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.314.Healthy.Antibiotics.Stool.1.2490_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.314.Healthy.Antibiotics.Stool.1.2490_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.314.Healthy.Antibiotics.Stool.1.2490_asm/final.contigs.fa
+    jobid: 563
+    wildcards: sample=s.314.Healthy.Antibiotics.Stool.1.2490
+    threads: 4
+
+Submitted job 563 with external jobid 'Submitted batch job 6466423'.
+
+[Wed Aug 25 15:18:22 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.344.Healthy.Antibiotics.Stool.2.2746_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.344.Healthy.Antibiotics.Stool.2.2746_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.344.Healthy.Antibiotics.Stool.2.2746_asm/final.contigs.fa
+    jobid: 394
+    wildcards: sample=s.344.Healthy.Antibiotics.Stool.2.2746
+    threads: 4
+
+Submitted job 394 with external jobid 'Submitted batch job 6466424'.
+
+[Wed Aug 25 15:18:22 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.175.VEO.Feces.Baseline_asm/final.contigs.fa
+    jobid: 471
+    wildcards: sample=s.175.VEO.Feces.Baseline
+    threads: 4
+
+Submitted job 471 with external jobid 'Submitted batch job 6466425'.
+
+[Wed Aug 25 15:18:22 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.214.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.214.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.214.Healthy.Antibiotics.Feces.Week.8_asm/final.contigs.fa
+    jobid: 410
+    wildcards: sample=s.214.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 410 with external jobid 'Submitted batch job 6466426'.
+
+[Wed Aug 25 15:18:22 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.209.Healthy.Antibiotics.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.209.Healthy.Antibiotics.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.209.Healthy.Antibiotics.Feces.Baseline_asm/final.contigs.fa
+    jobid: 450
+    wildcards: sample=s.209.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 450 with external jobid 'Submitted batch job 6466427'.
+
+[Wed Aug 25 15:18:22 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s70.Healthy_greaterthan5.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s70.Healthy_greaterthan5.Feces.Week_8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s70.Healthy_greaterthan5.Feces.Week_8_asm/final.contigs.fa
+    jobid: 284
+    wildcards: sample=s70.Healthy_greaterthan5.Feces.Week_8
+    threads: 4
+
+Submitted job 284 with external jobid 'Submitted batch job 6466428'.
+
+[Wed Aug 25 15:18:22 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s46.Healthy_greaterthan5.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s46.Healthy_greaterthan5.Feces.Week_8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s46.Healthy_greaterthan5.Feces.Week_8_asm/final.contigs.fa
+    jobid: 445
+    wildcards: sample=s46.Healthy_greaterthan5.Feces.Week_8
+    threads: 4
+
+Submitted job 445 with external jobid 'Submitted batch job 6466429'.
+
+[Wed Aug 25 15:18:22 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.84.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.84.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.84.Healthy_greaterthan5.Feces.Baseline_asm/final.contigs.fa
+    jobid: 552
+    wildcards: sample=s.84.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+Submitted job 552 with external jobid 'Submitted batch job 6466430'.
+
+[Wed Aug 25 15:18:22 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Week_8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.175.VEO.Feces.Week_8_asm/final.contigs.fa
+    jobid: 429
+    wildcards: sample=s.175.VEO.Feces.Week_8
+    threads: 4
+
+Submitted job 429 with external jobid 'Submitted batch job 6466431'.
+
+[Wed Aug 25 15:18:22 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.3.2873_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.3.2873_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.359.IBDC.Diff.Stool.3.2873_asm/final.contigs.fa
+    jobid: 383
+    wildcards: sample=s.359.IBDC.Diff.Stool.3.2873
+    threads: 4
+
+Submitted job 383 with external jobid 'Submitted batch job 6466432'.
+
+[Wed Aug 25 15:18:23 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s95.Healthy.lessthan5.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s95.Healthy.lessthan5.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s95.Healthy.lessthan5.Feces.Week.8_asm/final.contigs.fa
+    jobid: 484
+    wildcards: sample=s95.Healthy.lessthan5.Feces.Week.8
+    threads: 4
+
+Submitted job 484 with external jobid 'Submitted batch job 6466433'.
+
+[Wed Aug 25 15:18:23 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s39.VEO.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s39.VEO.Feces.Week_8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s39.VEO.Feces.Week_8_asm/final.contigs.fa
+    jobid: 291
+    wildcards: sample=s39.VEO.Feces.Week_8
+    threads: 4
+
+Submitted job 291 with external jobid 'Submitted batch job 6466434'.
+
+[Wed Aug 25 15:18:23 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s115.Healthy_greaterthan5.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s115.Healthy_greaterthan5.Feces.Week_4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s115.Healthy_greaterthan5.Feces.Week_4_asm/final.contigs.fa
+    jobid: 420
+    wildcards: sample=s115.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 420 with external jobid 'Submitted batch job 6466435'.
+
+[Wed Aug 25 15:18:23 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s078.IBD.Therapy.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s078.IBD.Therapy.Feces.Week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s078.IBD.Therapy.Feces.Week.4_asm/final.contigs.fa
+    jobid: 435
+    wildcards: sample=s078.IBD.Therapy.Feces.Week.4
+    threads: 4
+
+Submitted job 435 with external jobid 'Submitted batch job 6466436'.
+
+[Wed Aug 25 15:18:23 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.295.IBD.CDiff.Feces.week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.295.IBD.CDiff.Feces.week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.295.IBD.CDiff.Feces.week.4_asm/final.contigs.fa
+    jobid: 374
+    wildcards: sample=s.295.IBD.CDiff.Feces.week.4
+    threads: 4
+
+Submitted job 374 with external jobid 'Submitted batch job 6466437'.
+
+[Wed Aug 25 15:18:23 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s30.IBDNaturalHistory.Feces.Visit2_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s30.IBDNaturalHistory.Feces.Visit2_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s30.IBDNaturalHistory.Feces.Visit2_asm/final.contigs.fa
+    jobid: 382
+    wildcards: sample=s30.IBDNaturalHistory.Feces.Visit2
+    threads: 4
+
+Submitted job 382 with external jobid 'Submitted batch job 6466438'.
+
+[Wed Aug 25 15:18:23 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s22.Healthy.Feces.Visit2_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s22.Healthy.Feces.Visit2_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s22.Healthy.Feces.Visit2_asm/final.contigs.fa
+    jobid: 320
+    wildcards: sample=s22.Healthy.Feces.Visit2
+    threads: 4
+
+Submitted job 320 with external jobid 'Submitted batch job 6466439'.
+
+[Wed Aug 25 15:18:23 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s078.IBD.Therapy.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s078.IBD.Therapy.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s078.IBD.Therapy.Feces.Week.8_asm/final.contigs.fa
+    jobid: 411
+    wildcards: sample=s078.IBD.Therapy.Feces.Week.8
+    threads: 4
+
+Submitted job 411 with external jobid 'Submitted batch job 6466440'.
+
+[Wed Aug 25 15:18:23 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s097.IBD.Antibiotics.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s097.IBD.Antibiotics.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s097.IBD.Antibiotics.Feces.Baseline_asm/final.contigs.fa
+    jobid: 307
+    wildcards: sample=s097.IBD.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 307 with external jobid 'Submitted batch job 6466441'.
+
+[Wed Aug 25 15:18:23 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.209.Healthy.Antibiotics.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.209.Healthy.Antibiotics.Feces.Week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.209.Healthy.Antibiotics.Feces.Week.4_asm/final.contigs.fa
+    jobid: 328
+    wildcards: sample=s.209.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 328 with external jobid 'Submitted batch job 6466442'.
+
+[Wed Aug 25 15:18:24 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.235.C_Diff_Oncology.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.235.C_Diff_Oncology.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.235.C_Diff_Oncology.Feces.Baseline_asm/final.contigs.fa
+    jobid: 442
+    wildcards: sample=s.235.C_Diff_Oncology.Feces.Baseline
+    threads: 4
+
+Submitted job 442 with external jobid 'Submitted batch job 6466445'.
+
+[Wed Aug 25 15:18:24 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.190.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.190.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.190.Healthy.Antibiotics.Feces.Week.8_asm/final.contigs.fa
+    jobid: 288
+    wildcards: sample=s.190.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 288 with external jobid 'Submitted batch job 6466446'.
+
+[Wed Aug 25 15:18:24 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.201.IBD_Therapy.Feces.Baseline_asm/final.contigs.fa
+    jobid: 427
+    wildcards: sample=s.201.IBD_Therapy.Feces.Baseline
+    threads: 4
+
+Submitted job 427 with external jobid 'Submitted batch job 6466447'.
+
+[Wed Aug 25 15:18:24 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s25.IBD_Therapy.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s25.IBD_Therapy.Feces.Week_8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s25.IBD_Therapy.Feces.Week_8_asm/final.contigs.fa
+    jobid: 455
+    wildcards: sample=s25.IBD_Therapy.Feces.Week_8
+    threads: 4
+
+Submitted job 455 with external jobid 'Submitted batch job 6466448'.
+
+[Wed Aug 25 15:18:24 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.204.Healthy.Antibiotics.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.204.Healthy.Antibiotics.Feces.Week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.204.Healthy.Antibiotics.Feces.Week.4_asm/final.contigs.fa
+    jobid: 298
+    wildcards: sample=s.204.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 298 with external jobid 'Submitted batch job 6466449'.
+
+[Wed Aug 25 15:18:24 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.265.IBD_C.Diff.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.265.IBD_C.Diff.Feces.Week_4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.265.IBD_C.Diff.Feces.Week_4_asm/final.contigs.fa
+    jobid: 286
+    wildcards: sample=s.265.IBD_C.Diff.Feces.Week_4
+    threads: 4
+
+Submitted job 286 with external jobid 'Submitted batch job 6466450'.
+
+[Wed Aug 25 15:18:24 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.261.IBD_Therapy.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.261.IBD_Therapy.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.261.IBD_Therapy.Feces.Baseline_asm/final.contigs.fa
+    jobid: 558
+    wildcards: sample=s.261.IBD_Therapy.Feces.Baseline
+    threads: 4
+
+Submitted job 558 with external jobid 'Submitted batch job 6466451'.
+
+[Wed Aug 25 15:18:24 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s097.IBD.Antibiotics.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s097.IBD.Antibiotics.Feces.Week.4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s097.IBD.Antibiotics.Feces.Week.4_asm/final.contigs.fa
+    jobid: 402
+    wildcards: sample=s097.IBD.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 402 with external jobid 'Submitted batch job 6466452'.
+
+[Wed Aug 25 15:18:24 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s30.IBDNaturalHistory.Feces.Visit3_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s30.IBDNaturalHistory.Feces.Visit3_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s30.IBDNaturalHistory.Feces.Visit3_asm/final.contigs.fa
+    jobid: 399
+    wildcards: sample=s30.IBDNaturalHistory.Feces.Visit3
+    threads: 4
+
+Submitted job 399 with external jobid 'Submitted batch job 6466454'.
+
+[Wed Aug 25 15:18:24 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Week_4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.175.VEO.Feces.Week_4_asm/final.contigs.fa
+    jobid: 294
+    wildcards: sample=s.175.VEO.Feces.Week_4
+    threads: 4
+
+Submitted job 294 with external jobid 'Submitted batch job 6466455'.
+[Wed Aug 25 15:25:26 2021]
+Error in rule megahit_paired:
+    jobid: 358
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.86.Healthy_greaterthan5.Feces.Week_8_asm/final.contigs.fa
+    shell:
+        
+        ## turn off bash strict mode
+        set +o pipefail
+
+        ## sometimes the error is due to lack of memory
+        exitcode=0
+        megahit -m 10e9 -t 4 -1 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.86.Healthy_greaterthan5.Feces.Week_8_1.fastq.gz -2 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.86.Healthy_greaterthan5.Feces.Week_8_2.fastq.gz -o /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.86.Healthy_greaterthan5.Feces.Week_8_asm --continue || exitcode=$?
+
+        if [ $exitcode -eq 255 ]
+        then
+            echo "Empty contigs"
+            touch /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.86.Healthy_greaterthan5.Feces.Week_8_asm/final.contigs.fa
+        elif [ $exitcode -gt 1 ]
+        then
+            echo "Check your memory"
+        fi
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6466380
+
+Error executing rule megahit_paired on cluster (jobid: 358, external: Submitted batch job 6466380, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.r1_wr5db/snakejob.megahit_paired.358.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 15:25:44 2021]
+Error in rule megahit_paired:
+    jobid: 475
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.75.Healthy_greaterthan5.Feces.Week_4_asm/final.contigs.fa
+    shell:
+        
+        ## turn off bash strict mode
+        set +o pipefail
+
+        ## sometimes the error is due to lack of memory
+        exitcode=0
+        megahit -m 10e9 -t 4 -1 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.75.Healthy_greaterthan5.Feces.Week_4_1.fastq.gz -2 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.75.Healthy_greaterthan5.Feces.Week_4_2.fastq.gz -o /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.75.Healthy_greaterthan5.Feces.Week_4_asm --continue || exitcode=$?
+
+        if [ $exitcode -eq 255 ]
+        then
+            echo "Empty contigs"
+            touch /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.75.Healthy_greaterthan5.Feces.Week_4_asm/final.contigs.fa
+        elif [ $exitcode -gt 1 ]
+        then
+            echo "Check your memory"
+        fi
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6466354
+
+Error executing rule megahit_paired on cluster (jobid: 475, external: Submitted batch job 6466354, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.r1_wr5db/snakejob.megahit_paired.475.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 15:26:03 2021]
+Error in rule megahit_paired:
+    jobid: 353
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s099.IBD_C.Diff.Feces.Week_8_asm/final.contigs.fa
+    shell:
+        
+        ## turn off bash strict mode
+        set +o pipefail
+
+        ## sometimes the error is due to lack of memory
+        exitcode=0
+        megahit -m 10e9 -t 4 -1 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s099.IBD_C.Diff.Feces.Week_8_1.fastq.gz -2 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s099.IBD_C.Diff.Feces.Week_8_2.fastq.gz -o /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s099.IBD_C.Diff.Feces.Week_8_asm --continue || exitcode=$?
+
+        if [ $exitcode -eq 255 ]
+        then
+            echo "Empty contigs"
+            touch /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s099.IBD_C.Diff.Feces.Week_8_asm/final.contigs.fa
+        elif [ $exitcode -gt 1 ]
+        then
+            echo "Check your memory"
+        fi
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6466353
+
+Error executing rule megahit_paired on cluster (jobid: 353, external: Submitted batch job 6466353, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.r1_wr5db/snakejob.megahit_paired.353.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 15:26:25 2021]
+Error in rule megahit_paired:
+    jobid: 423
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.212.IBD.Feces.Week.4_asm/final.contigs.fa
+    shell:
+        
+        ## turn off bash strict mode
+        set +o pipefail
+
+        ## sometimes the error is due to lack of memory
+        exitcode=0
+        megahit -m 10e9 -t 4 -1 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.212.IBD.Feces.Week.4_1.fastq.gz -2 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.212.IBD.Feces.Week.4_2.fastq.gz -o /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.212.IBD.Feces.Week.4_asm --continue || exitcode=$?
+
+        if [ $exitcode -eq 255 ]
+        then
+            echo "Empty contigs"
+            touch /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.212.IBD.Feces.Week.4_asm/final.contigs.fa
+        elif [ $exitcode -gt 1 ]
+        then
+            echo "Check your memory"
+        fi
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6466388
+
+Error executing rule megahit_paired on cluster (jobid: 423, external: Submitted batch job 6466388, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.r1_wr5db/snakejob.megahit_paired.423.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 15:26:41 2021]
+Error in rule megahit_paired:
+    jobid: 292
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.244.VEO.Stool.2.1952_asm/final.contigs.fa
+    shell:
+        
+        ## turn off bash strict mode
+        set +o pipefail
+
+        ## sometimes the error is due to lack of memory
+        exitcode=0
+        megahit -m 10e9 -t 4 -1 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.244.VEO.Stool.2.1952_1.fastq.gz -2 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.244.VEO.Stool.2.1952_2.fastq.gz -o /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.244.VEO.Stool.2.1952_asm --continue || exitcode=$?
+
+        if [ $exitcode -eq 255 ]
+        then
+            echo "Empty contigs"
+            touch /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.244.VEO.Stool.2.1952_asm/final.contigs.fa
+        elif [ $exitcode -gt 1 ]
+        then
+            echo "Check your memory"
+        fi
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6466358
+
+Error executing rule megahit_paired on cluster (jobid: 292, external: Submitted batch job 6466358, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.r1_wr5db/snakejob.megahit_paired.292.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 15:26:42 2021]
+Error in rule megahit_paired:
+    jobid: 325
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.154.VEO.Feces.Baseline_asm/final.contigs.fa
+    shell:
+        
+        ## turn off bash strict mode
+        set +o pipefail
+
+        ## sometimes the error is due to lack of memory
+        exitcode=0
+        megahit -m 10e9 -t 4 -1 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Baseline_1.fastq.gz -2 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Baseline_2.fastq.gz -o /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.154.VEO.Feces.Baseline_asm --continue || exitcode=$?
+
+        if [ $exitcode -eq 255 ]
+        then
+            echo "Empty contigs"
+            touch /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.154.VEO.Feces.Baseline_asm/final.contigs.fa
+        elif [ $exitcode -gt 1 ]
+        then
+            echo "Check your memory"
+        fi
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6466366
+
+Error executing rule megahit_paired on cluster (jobid: 325, external: Submitted batch job 6466366, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.r1_wr5db/snakejob.megahit_paired.325.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 15:26:43 2021]
+Error in rule megahit_paired:
+    jobid: 409
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.334.Healthy.Antibiotics.Stool.1.2630_asm/final.contigs.fa
+    shell:
+        
+        ## turn off bash strict mode
+        set +o pipefail
+
+        ## sometimes the error is due to lack of memory
+        exitcode=0
+        megahit -m 10e9 -t 4 -1 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.334.Healthy.Antibiotics.Stool.1.2630_1.fastq.gz -2 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.334.Healthy.Antibiotics.Stool.1.2630_2.fastq.gz -o /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.334.Healthy.Antibiotics.Stool.1.2630_asm --continue || exitcode=$?
+
+        if [ $exitcode -eq 255 ]
+        then
+            echo "Empty contigs"
+            touch /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.334.Healthy.Antibiotics.Stool.1.2630_asm/final.contigs.fa
+        elif [ $exitcode -gt 1 ]
+        then
+            echo "Check your memory"
+        fi
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6466378
+
+Error executing rule megahit_paired on cluster (jobid: 409, external: Submitted batch job 6466378, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.r1_wr5db/snakejob.megahit_paired.409.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 15:27:04 2021]
+Error in rule megahit_paired:
+    jobid: 322
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s22.Healthy.Feces.Visit1_asm/final.contigs.fa
+    shell:
+        
+        ## turn off bash strict mode
+        set +o pipefail
+
+        ## sometimes the error is due to lack of memory
+        exitcode=0
+        megahit -m 10e9 -t 4 -1 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s22.Healthy.Feces.Visit1_1.fastq.gz -2 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s22.Healthy.Feces.Visit1_2.fastq.gz -o /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s22.Healthy.Feces.Visit1_asm --continue || exitcode=$?
+
+        if [ $exitcode -eq 255 ]
+        then
+            echo "Empty contigs"
+            touch /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s22.Healthy.Feces.Visit1_asm/final.contigs.fa
+        elif [ $exitcode -gt 1 ]
+        then
+            echo "Check your memory"
+        fi
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6466395
+
+Error executing rule megahit_paired on cluster (jobid: 322, external: Submitted batch job 6466395, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.r1_wr5db/snakejob.megahit_paired.322.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 15:27:05 2021]
+Error in rule megahit_paired:
+    jobid: 473
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.74.Healthy_greaterthan5.Feces.Baseline_asm/final.contigs.fa
+    shell:
+        
+        ## turn off bash strict mode
+        set +o pipefail
+
+        ## sometimes the error is due to lack of memory
+        exitcode=0
+        megahit -m 10e9 -t 4 -1 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.74.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz -2 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.74.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz -o /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.74.Healthy_greaterthan5.Feces.Baseline_asm --continue || exitcode=$?
+
+        if [ $exitcode -eq 255 ]
+        then
+            echo "Empty contigs"
+            touch /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.74.Healthy_greaterthan5.Feces.Baseline_asm/final.contigs.fa
+        elif [ $exitcode -gt 1 ]
+        then
+            echo "Check your memory"
+        fi
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6466401
+
+Error executing rule megahit_paired on cluster (jobid: 473, external: Submitted batch job 6466401, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.r1_wr5db/snakejob.megahit_paired.473.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 15:27:20 2021]
+Error in rule megahit_paired:
+    jobid: 557
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.154.VEO.Feces.Week.8_asm/final.contigs.fa
+    shell:
+        
+        ## turn off bash strict mode
+        set +o pipefail
+
+        ## sometimes the error is due to lack of memory
+        exitcode=0
+        megahit -m 10e9 -t 4 -1 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Week.8_1.fastq.gz -2 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Week.8_2.fastq.gz -o /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.154.VEO.Feces.Week.8_asm --continue || exitcode=$?
+
+        if [ $exitcode -eq 255 ]
+        then
+            echo "Empty contigs"
+            touch /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.154.VEO.Feces.Week.8_asm/final.contigs.fa
+        elif [ $exitcode -gt 1 ]
+        then
+            echo "Check your memory"
+        fi
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6466359
+
+Error executing rule megahit_paired on cluster (jobid: 557, external: Submitted batch job 6466359, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.r1_wr5db/snakejob.megahit_paired.557.sh). For error details see the cluster log and the log files of the involved rule(s).

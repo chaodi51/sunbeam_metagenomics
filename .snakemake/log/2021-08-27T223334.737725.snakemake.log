@@ -1,0 +1,47 @@
+Building DAG of jobs...
+IncompleteFilesException:
+The files below seem to be incomplete. If you are sure that certain files are not incomplete, mark them as complete with
+
+    snakemake --cleanup-metadata <filenames>
+
+To re-generate the files rerun your command with the --rerun-incomplete flag.
+Incomplete files:
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s.355.IBD.Antibiotics.Stool.2.2866.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.355.IBD.Antibiotics.Stool.2.2866.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s22.Healthy.Feces.Visit2.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s22.Healthy.Feces.Visit2.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s.135.Healthy.Antibiotics.Feces.Week.8.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.135.Healthy.Antibiotics.Feces.Week.8.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s.197.Healthy.Antibiotics.Feces.Baseline.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.197.Healthy.Antibiotics.Feces.Baseline.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s39.VEO.Feces.Visit1.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s55.IBD_Therapy.Feces.Baseline.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s55.IBD_Therapy.Feces.Baseline.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s26.Healthy.Feces.Visit2.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s26.Healthy.Feces.Visit2.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s067.Healthy.Antibiotics.Feces.Baseline.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s067.Healthy.Antibiotics.Feces.Baseline.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s143.VEO.Feces.Week.4.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s143.VEO.Feces.Week.4.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s159.Healthy.Antibiotics.Feces.Week.8.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s159.Healthy.Antibiotics.Feces.Week.8.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s26.Healthy.Feces.Visit1.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s58.Healthy_greaterthan5.Feces.Baseline.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s58.Healthy_greaterthan5.Feces.Baseline.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s.293.Healthy.Antibiotics.Feces.week.8.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.293.Healthy.Antibiotics.Feces.week.8.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s078.IBD.Therapy.Feces.Week.4.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s078.IBD.Therapy.Feces.Week.4.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s25.IBD_Therapy.Feces.Week_8.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s25.IBD_Therapy.Feces.Week_8.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s95.Healthy.lessthan5.Feces.Week.8.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s95.Healthy.lessthan5.Feces.Week.8.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s20.C_diff.Feces.Visit1.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s20.C_diff.Feces.Visit1.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s157.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s157.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s.100.Healthygreaterthan5.Stool.visit2.919.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.100.Healthygreaterthan5.Stool.visit2.919.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s.347.IBDTherapy.Stool.1.2668.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.347.IBDTherapy.Stool.1.2668.xml
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/s60.Healthy_greaterthan5.Feces.Week_4.xml

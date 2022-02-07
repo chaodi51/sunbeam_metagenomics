@@ -1,0 +1,31 @@
+Building DAG of jobs...
+IncompleteFilesException:
+The files below seem to be incomplete. If you are sure that certain files are not incomplete, mark them as complete with
+
+    snakemake --cleanup-metadata <filenames>
+
+To re-generate the files rerun your command with the --rerun-incomplete flag.
+Incomplete files:
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029126-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029205-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029247-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029180-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029134-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029241-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029159-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029165-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029150-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029135-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029208-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029230-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029198-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029211-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029206-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029133-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029236-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029271-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029209-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029223-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029124-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029136-raw.tsv
+/mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029181-raw.tsv

@@ -1,0 +1,1625 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	148	aggregate_results
+	1	all_annotate
+	148	prodigal
+	148	run_blastn
+	148	run_blastp
+	148	run_blastx
+	741
+
+[Mon Aug 23 09:40:12 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029235-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029235_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029235_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029235_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029235.out
+    jobid: 846
+    wildcards: sample=SRR10029235
+
+Submitted job 846 with external jobid 'Submitted batch job 6363460'.
+
+[Mon Aug 23 09:40:12 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029143-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029143.xml
+    jobid: 678
+    wildcards: db=nt, contigs=contig, sample=SRR10029143
+    threads: 4
+
+Submitted job 678 with external jobid 'Submitted batch job 6363461'.
+
+[Mon Aug 23 09:40:12 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029265-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029265_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029265_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029265_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029265.out
+    jobid: 968
+    wildcards: sample=SRR10029265
+
+Submitted job 968 with external jobid 'Submitted batch job 6363462'.
+
+[Mon Aug 23 09:40:12 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029159-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029159_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029159_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029159_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029159.out
+    jobid: 812
+    wildcards: sample=SRR10029159
+
+Submitted job 812 with external jobid 'Submitted batch job 6363463'.
+
+[Mon Aug 23 09:40:12 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029154-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029154_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029154_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029154_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029154.out
+    jobid: 772
+    wildcards: sample=SRR10029154
+
+Submitted job 772 with external jobid 'Submitted batch job 6363464'.
+
+[Mon Aug 23 09:40:12 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029139-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029139_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029139_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029139_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029139.out
+    jobid: 784
+    wildcards: sample=SRR10029139
+
+Submitted job 784 with external jobid 'Submitted batch job 6363465'.
+
+[Mon Aug 23 09:40:12 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029257-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029257_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029257_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029257_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029257.out
+    jobid: 964
+    wildcards: sample=SRR10029257
+
+Submitted job 964 with external jobid 'Submitted batch job 6363466'.
+
+[Mon Aug 23 09:40:12 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029168-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029168_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029168_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029168_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029168.out
+    jobid: 992
+    wildcards: sample=SRR10029168
+
+Submitted job 992 with external jobid 'Submitted batch job 6363467'.
+
+[Mon Aug 23 09:40:12 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029270-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029270_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029270_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029270_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029270.out
+    jobid: 900
+    wildcards: sample=SRR10029270
+
+Submitted job 900 with external jobid 'Submitted batch job 6363468'.
+
+[Mon Aug 23 09:40:13 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029222-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029222_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029222_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029222_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029222.out
+    jobid: 746
+    wildcards: sample=SRR10029222
+
+Submitted job 746 with external jobid 'Submitted batch job 6363469'.
+
+[Mon Aug 23 09:40:13 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029221-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029221.xml
+    jobid: 726
+    wildcards: db=nt, contigs=contig, sample=SRR10029221
+    threads: 4
+
+Submitted job 726 with external jobid 'Submitted batch job 6363470'.
+
+[Mon Aug 23 09:40:13 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029138-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029138_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029138_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029138_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029138.out
+    jobid: 862
+    wildcards: sample=SRR10029138
+
+Submitted job 862 with external jobid 'Submitted batch job 6363471'.
+
+[Mon Aug 23 09:40:13 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029158-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029158.xml
+    jobid: 302
+    wildcards: db=nt, contigs=contig, sample=SRR10029158
+    threads: 4
+
+Submitted job 302 with external jobid 'Submitted batch job 6363472'.
+
+[Mon Aug 23 09:40:13 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029268-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029268_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029268_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029268_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029268.out
+    jobid: 770
+    wildcards: sample=SRR10029268
+
+Submitted job 770 with external jobid 'Submitted batch job 6363473'.
+
+[Mon Aug 23 09:40:13 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029129-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029129.xml
+    jobid: 698
+    wildcards: db=nt, contigs=contig, sample=SRR10029129
+    threads: 4
+
+Submitted job 698 with external jobid 'Submitted batch job 6363474'.
+
+[Mon Aug 23 09:40:13 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029130-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029130.xml
+    jobid: 450
+    wildcards: db=nt, contigs=contig, sample=SRR10029130
+    threads: 4
+
+Submitted job 450 with external jobid 'Submitted batch job 6363475'.
+
+[Mon Aug 23 09:40:13 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029247-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029247_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029247_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029247_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029247.out
+    jobid: 754
+    wildcards: sample=SRR10029247
+
+Submitted job 754 with external jobid 'Submitted batch job 6363476'.
+
+[Mon Aug 23 09:40:13 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029155-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029155.xml
+    jobid: 566
+    wildcards: db=nt, contigs=contig, sample=SRR10029155
+    threads: 4
+
+Submitted job 566 with external jobid 'Submitted batch job 6363477'.
+
+[Mon Aug 23 09:40:14 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029161-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029161.xml
+    jobid: 354
+    wildcards: db=nt, contigs=contig, sample=SRR10029161
+    threads: 4
+
+Submitted job 354 with external jobid 'Submitted batch job 6363478'.
+
+[Mon Aug 23 09:40:14 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029171-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029171.xml
+    jobid: 406
+    wildcards: db=nt, contigs=contig, sample=SRR10029171
+    threads: 4
+
+Submitted job 406 with external jobid 'Submitted batch job 6363479'.
+
+[Mon Aug 23 09:40:14 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029132-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029132.xml
+    jobid: 682
+    wildcards: db=nt, contigs=contig, sample=SRR10029132
+    threads: 4
+
+Submitted job 682 with external jobid 'Submitted batch job 6363480'.
+
+[Mon Aug 23 09:40:14 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029128-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029128.xml
+    jobid: 414
+    wildcards: db=nt, contigs=contig, sample=SRR10029128
+    threads: 4
+
+Submitted job 414 with external jobid 'Submitted batch job 6363481'.
+
+[Mon Aug 23 09:40:14 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029162-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029162_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029162_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029162_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029162.out
+    jobid: 1000
+    wildcards: sample=SRR10029162
+
+Submitted job 1000 with external jobid 'Submitted batch job 6363482'.
+
+[Mon Aug 23 09:40:14 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029160-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029160.xml
+    jobid: 438
+    wildcards: db=nt, contigs=contig, sample=SRR10029160
+    threads: 4
+
+Submitted job 438 with external jobid 'Submitted batch job 6363483'.
+
+[Mon Aug 23 09:40:14 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029244-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029244_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029244_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029244_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029244.out
+    jobid: 1018
+    wildcards: sample=SRR10029244
+
+Submitted job 1018 with external jobid 'Submitted batch job 6363484'.
+
+[Mon Aug 23 09:40:14 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029157-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029157_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029157_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029157_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029157.out
+    jobid: 826
+    wildcards: sample=SRR10029157
+
+Submitted job 826 with external jobid 'Submitted batch job 6363485'.
+
+[Mon Aug 23 09:40:14 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029147-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029147_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029147_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029147_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029147.out
+    jobid: 778
+    wildcards: sample=SRR10029147
+
+Submitted job 778 with external jobid 'Submitted batch job 6363486'.
+
+[Mon Aug 23 09:40:15 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029125-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029125_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029125_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029125_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029125.out
+    jobid: 842
+    wildcards: sample=SRR10029125
+
+Submitted job 842 with external jobid 'Submitted batch job 6363487'.
+
+[Mon Aug 23 09:40:15 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029166-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029166_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029166_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029166_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029166.out
+    jobid: 786
+    wildcards: sample=SRR10029166
+
+Submitted job 786 with external jobid 'Submitted batch job 6363488'.
+
+[Mon Aug 23 09:40:15 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029203-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029203.xml
+    jobid: 394
+    wildcards: db=nt, contigs=contig, sample=SRR10029203
+    threads: 4
+
+Submitted job 394 with external jobid 'Submitted batch job 6363489'.
+
+[Mon Aug 23 09:40:15 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029236-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029236.xml
+    jobid: 526
+    wildcards: db=nt, contigs=contig, sample=SRR10029236
+    threads: 4
+
+Submitted job 526 with external jobid 'Submitted batch job 6363490'.
+
+[Mon Aug 23 09:40:15 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029184-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029184_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029184_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029184_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029184.out
+    jobid: 910
+    wildcards: sample=SRR10029184
+
+Submitted job 910 with external jobid 'Submitted batch job 6363491'.
+
+[Mon Aug 23 09:40:15 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029233-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029233.xml
+    jobid: 514
+    wildcards: db=nt, contigs=contig, sample=SRR10029233
+    threads: 4
+
+Submitted job 514 with external jobid 'Submitted batch job 6363492'.
+
+[Mon Aug 23 09:40:15 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029271-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029271_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029271_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029271_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029271.out
+    jobid: 932
+    wildcards: sample=SRR10029271
+
+Submitted job 932 with external jobid 'Submitted batch job 6363493'.
+
+[Mon Aug 23 09:40:15 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029181-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029181_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029181_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029181_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029181.out
+    jobid: 1028
+    wildcards: sample=SRR10029181
+
+Submitted job 1028 with external jobid 'Submitted batch job 6363494'.
+
+[Mon Aug 23 09:40:15 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029135-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029135_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029135_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029135_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029135.out
+    jobid: 830
+    wildcards: sample=SRR10029135
+
+Submitted job 830 with external jobid 'Submitted batch job 6363495'.
+
+[Mon Aug 23 09:40:16 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029185-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029185_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029185_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029185_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029185.out
+    jobid: 806
+    wildcards: sample=SRR10029185
+
+Submitted job 806 with external jobid 'Submitted batch job 6363496'.
+
+[Mon Aug 23 09:40:16 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029167-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029167_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029167_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029167_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029167.out
+    jobid: 882
+    wildcards: sample=SRR10029167
+
+Submitted job 882 with external jobid 'Submitted batch job 6363497'.
+
+[Mon Aug 23 09:40:16 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029264-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029264_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029264_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029264_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029264.out
+    jobid: 984
+    wildcards: sample=SRR10029264
+
+Submitted job 984 with external jobid 'Submitted batch job 6363498'.
+
+[Mon Aug 23 09:40:16 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029131-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029131_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029131_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029131_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029131.out
+    jobid: 872
+    wildcards: sample=SRR10029131
+
+Submitted job 872 with external jobid 'Submitted batch job 6363499'.
+
+[Mon Aug 23 09:40:16 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029223-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029223_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029223_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029223_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029223.out
+    jobid: 942
+    wildcards: sample=SRR10029223
+
+Submitted job 942 with external jobid 'Submitted batch job 6363500'.
+
+[Mon Aug 23 09:40:16 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029149-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029149.xml
+    jobid: 214
+    wildcards: db=nt, contigs=contig, sample=SRR10029149
+    threads: 4
+
+Submitted job 214 with external jobid 'Submitted batch job 6363501'.
+
+[Mon Aug 23 09:40:16 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029127-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029127_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029127_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029127_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029127.out
+    jobid: 856
+    wildcards: sample=SRR10029127
+
+Submitted job 856 with external jobid 'Submitted batch job 6363502'.
+
+[Mon Aug 23 09:40:16 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029150-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029150_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029150_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029150_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029150.out
+    jobid: 822
+    wildcards: sample=SRR10029150
+
+Submitted job 822 with external jobid 'Submitted batch job 6363503'.
+
+[Mon Aug 23 09:40:16 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029230-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029230.xml
+    jobid: 366
+    wildcards: db=nt, contigs=contig, sample=SRR10029230
+    threads: 4
+
+Submitted job 366 with external jobid 'Submitted batch job 6363504'.
+
+[Mon Aug 23 09:40:17 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029182-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029182.xml
+    jobid: 338
+    wildcards: db=nt, contigs=contig, sample=SRR10029182
+    threads: 4
+
+Submitted job 338 with external jobid 'Submitted batch job 6363505'.
+
+[Mon Aug 23 09:40:17 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029124-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029124.xml
+    jobid: 598
+    wildcards: db=nt, contigs=contig, sample=SRR10029124
+    threads: 4
+
+Submitted job 598 with external jobid 'Submitted batch job 6363506'.
+
+[Mon Aug 23 09:40:17 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029142-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029142_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029142_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029142_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029142.out
+    jobid: 974
+    wildcards: sample=SRR10029142
+
+Submitted job 974 with external jobid 'Submitted batch job 6363507'.
+
+[Mon Aug 23 09:40:17 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029141-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029141.xml
+    jobid: 462
+    wildcards: db=nt, contigs=contig, sample=SRR10029141
+    threads: 4
+
+Submitted job 462 with external jobid 'Submitted batch job 6363508'.
+
+[Mon Aug 23 09:40:17 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029234-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029234_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029234_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029234_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029234.out
+    jobid: 890
+    wildcards: sample=SRR10029234
+
+Submitted job 890 with external jobid 'Submitted batch job 6363509'.
+
+[Mon Aug 23 09:40:17 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029221-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029221_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029221_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029221_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029221.out
+    jobid: 1030
+    wildcards: sample=SRR10029221
+
+Submitted job 1030 with external jobid 'Submitted batch job 6363510'.
+
+[Mon Aug 23 09:40:17 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029222-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029222.xml
+    jobid: 158
+    wildcards: db=nt, contigs=contig, sample=SRR10029222
+    threads: 4
+
+Submitted job 158 with external jobid 'Submitted batch job 6363511'.
+
+[Mon Aug 23 09:40:17 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029270-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029270.xml
+    jobid: 466
+    wildcards: db=nt, contigs=contig, sample=SRR10029270
+    threads: 4
+
+Submitted job 466 with external jobid 'Submitted batch job 6363512'.
+
+[Mon Aug 23 09:40:17 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029168-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029168.xml
+    jobid: 650
+    wildcards: db=nt, contigs=contig, sample=SRR10029168
+    threads: 4
+
+Submitted job 650 with external jobid 'Submitted batch job 6363513'.
+
+[Mon Aug 23 09:40:18 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029257-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029257.xml
+    jobid: 594
+    wildcards: db=nt, contigs=contig, sample=SRR10029257
+    threads: 4
+
+Submitted job 594 with external jobid 'Submitted batch job 6363514'.
+
+[Mon Aug 23 09:40:18 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029139-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029139.xml
+    jobid: 234
+    wildcards: db=nt, contigs=contig, sample=SRR10029139
+    threads: 4
+
+Submitted job 234 with external jobid 'Submitted batch job 6363515'.
+
+[Mon Aug 23 09:40:18 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029154-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029154.xml
+    jobid: 210
+    wildcards: db=nt, contigs=contig, sample=SRR10029154
+    threads: 4
+
+Submitted job 210 with external jobid 'Submitted batch job 6363516'.
+
+[Mon Aug 23 09:40:18 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029159-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029159.xml
+    jobid: 290
+    wildcards: db=nt, contigs=contig, sample=SRR10029159
+    threads: 4
+
+Submitted job 290 with external jobid 'Submitted batch job 6363517'.
+
+[Mon Aug 23 09:40:18 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029265-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029265.xml
+    jobid: 602
+    wildcards: db=nt, contigs=contig, sample=SRR10029265
+    threads: 4
+
+Submitted job 602 with external jobid 'Submitted batch job 6363518'.
+
+[Mon Aug 23 09:40:18 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029143-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029143_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029143_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029143_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029143.out
+    jobid: 1006
+    wildcards: sample=SRR10029143
+
+Submitted job 1006 with external jobid 'Submitted batch job 6363519'.
+
+[Mon Aug 23 09:40:18 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029235-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029235.xml
+    jobid: 358
+    wildcards: db=nt, contigs=contig, sample=SRR10029235
+    threads: 4
+
+Submitted job 358 with external jobid 'Submitted batch job 6363520'.
+
+[Mon Aug 23 09:40:18 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029203-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029203_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029203_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029203_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029203.out
+    jobid: 864
+    wildcards: sample=SRR10029203
+
+Submitted job 864 with external jobid 'Submitted batch job 6363521'.
+
+[Mon Aug 23 09:40:18 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029166-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029166.xml
+    jobid: 238
+    wildcards: db=nt, contigs=contig, sample=SRR10029166
+    threads: 4
+
+Submitted job 238 with external jobid 'Submitted batch job 6363522'.
+
+[Mon Aug 23 09:40:18 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029147-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029147.xml
+    jobid: 222
+    wildcards: db=nt, contigs=contig, sample=SRR10029147
+    threads: 4
+
+Submitted job 222 with external jobid 'Submitted batch job 6363523'.
+
+[Mon Aug 23 09:40:19 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029157-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029157.xml
+    jobid: 318
+    wildcards: db=nt, contigs=contig, sample=SRR10029157
+    threads: 4
+
+Submitted job 318 with external jobid 'Submitted batch job 6363524'.
+
+[Mon Aug 23 09:40:19 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029125-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029125.xml
+    jobid: 350
+    wildcards: db=nt, contigs=contig, sample=SRR10029125
+    threads: 4
+
+Submitted job 350 with external jobid 'Submitted batch job 6363525'.
+
+[Mon Aug 23 09:40:19 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029244-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029244.xml
+    jobid: 702
+    wildcards: db=nt, contigs=contig, sample=SRR10029244
+    threads: 4
+
+Submitted job 702 with external jobid 'Submitted batch job 6363526'.
+
+[Mon Aug 23 09:40:19 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029160-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029160_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029160_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029160_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029160.out
+    jobid: 886
+    wildcards: sample=SRR10029160
+
+Submitted job 886 with external jobid 'Submitted batch job 6363527'.
+
+[Mon Aug 23 09:40:19 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029162-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029162.xml
+    jobid: 666
+    wildcards: db=nt, contigs=contig, sample=SRR10029162
+    threads: 4
+
+Submitted job 666 with external jobid 'Submitted batch job 6363528'.
+
+[Mon Aug 23 09:40:19 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029128-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029128_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029128_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029128_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029128.out
+    jobid: 874
+    wildcards: sample=SRR10029128
+
+Submitted job 874 with external jobid 'Submitted batch job 6363529'.
+
+[Mon Aug 23 09:40:19 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029171-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029171_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029171_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029171_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029171.out
+    jobid: 870
+    wildcards: sample=SRR10029171
+
+Submitted job 870 with external jobid 'Submitted batch job 6363530'.
+
+[Mon Aug 23 09:40:19 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029161-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029161_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029161_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029161_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029161.out
+    jobid: 844
+    wildcards: sample=SRR10029161
+
+Submitted job 844 with external jobid 'Submitted batch job 6363531'.
+
+[Mon Aug 23 09:40:19 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029155-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029155_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029155_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029155_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029155.out
+    jobid: 950
+    wildcards: sample=SRR10029155
+
+Submitted job 950 with external jobid 'Submitted batch job 6363532'.
+
+[Mon Aug 23 09:40:20 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029247-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029247.xml
+    jobid: 174
+    wildcards: db=nt, contigs=contig, sample=SRR10029247
+    threads: 4
+
+Submitted job 174 with external jobid 'Submitted batch job 6363533'.
+
+[Mon Aug 23 09:40:20 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029130-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029130_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029130_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029130_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029130.out
+    jobid: 892
+    wildcards: sample=SRR10029130
+
+Submitted job 892 with external jobid 'Submitted batch job 6363534'.
+
+[Mon Aug 23 09:40:20 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029129-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029129_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029129_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029129_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029129.out
+    jobid: 1016
+    wildcards: sample=SRR10029129
+
+Submitted job 1016 with external jobid 'Submitted batch job 6363535'.
+
+[Mon Aug 23 09:40:20 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029268-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029268.xml
+    jobid: 206
+    wildcards: db=nt, contigs=contig, sample=SRR10029268
+    threads: 4
+
+Submitted job 206 with external jobid 'Submitted batch job 6363536'.
+
+[Mon Aug 23 09:40:20 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029158-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029158_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029158_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029158_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029158.out
+    jobid: 818
+    wildcards: sample=SRR10029158
+
+Submitted job 818 with external jobid 'Submitted batch job 6363537'.
+
+[Mon Aug 23 09:40:20 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029138-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029138.xml
+    jobid: 390
+    wildcards: db=nt, contigs=contig, sample=SRR10029138
+    threads: 4
+
+Submitted job 390 with external jobid 'Submitted batch job 6363538'.
+
+[Mon Aug 23 09:40:20 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029167-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029167.xml
+    jobid: 430
+    wildcards: db=nt, contigs=contig, sample=SRR10029167
+    threads: 4
+
+Submitted job 430 with external jobid 'Submitted batch job 6363539'.
+
+[Mon Aug 23 09:40:20 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029185-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029185.xml
+    jobid: 278
+    wildcards: db=nt, contigs=contig, sample=SRR10029185
+    threads: 4
+
+Submitted job 278 with external jobid 'Submitted batch job 6363540'.
+
+[Mon Aug 23 09:40:20 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029135-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029135.xml
+    jobid: 326
+    wildcards: db=nt, contigs=contig, sample=SRR10029135
+    threads: 4
+
+Submitted job 326 with external jobid 'Submitted batch job 6363541'.
+
+[Mon Aug 23 09:40:21 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029233-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029233_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029233_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029233_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029233.out
+    jobid: 924
+    wildcards: sample=SRR10029233
+
+Submitted job 924 with external jobid 'Submitted batch job 6363542'.
+
+[Mon Aug 23 09:40:21 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029271-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029271.xml
+    jobid: 530
+    wildcards: db=nt, contigs=contig, sample=SRR10029271
+    threads: 4
+
+Submitted job 530 with external jobid 'Submitted batch job 6363543'.
+
+[Mon Aug 23 09:40:21 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029184-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029184.xml
+    jobid: 486
+    wildcards: db=nt, contigs=contig, sample=SRR10029184
+    threads: 4
+
+Submitted job 486 with external jobid 'Submitted batch job 6363544'.
+
+[Mon Aug 23 09:40:21 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029181-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029181.xml
+    jobid: 722
+    wildcards: db=nt, contigs=contig, sample=SRR10029181
+    threads: 4
+
+Submitted job 722 with external jobid 'Submitted batch job 6363545'.
+
+[Mon Aug 23 09:40:21 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029236-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029236_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029236_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029236_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029236.out
+    jobid: 930
+    wildcards: sample=SRR10029236
+
+Submitted job 930 with external jobid 'Submitted batch job 6363546'.
+
+[Mon Aug 23 09:40:21 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029234-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029234.xml
+    jobid: 446
+    wildcards: db=nt, contigs=contig, sample=SRR10029234
+    threads: 4
+
+Submitted job 446 with external jobid 'Submitted batch job 6363547'.
+
+[Mon Aug 23 09:40:21 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029142-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029142.xml
+    jobid: 614
+    wildcards: db=nt, contigs=contig, sample=SRR10029142
+    threads: 4
+
+Submitted job 614 with external jobid 'Submitted batch job 6363548'.
+
+[Mon Aug 23 09:40:21 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029141-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029141_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029141_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029141_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029141.out
+    jobid: 898
+    wildcards: sample=SRR10029141
+
+Submitted job 898 with external jobid 'Submitted batch job 6363549'.
+
+[Mon Aug 23 09:40:21 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029182-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029182_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029182_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029182_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029182.out
+    jobid: 836
+    wildcards: sample=SRR10029182
+
+Submitted job 836 with external jobid 'Submitted batch job 6363550'.
+
+[Mon Aug 23 09:40:21 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029124-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029124_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029124_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029124_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029124.out
+    jobid: 966
+    wildcards: sample=SRR10029124
+
+Submitted job 966 with external jobid 'Submitted batch job 6363551'.
+
+[Mon Aug 23 09:40:22 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029132-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029132_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029132_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029132_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029132.out
+    jobid: 1008
+    wildcards: sample=SRR10029132
+
+Submitted job 1008 with external jobid 'Submitted batch job 6363552'.
+
+[Mon Aug 23 09:40:22 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029230-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029230_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029230_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029230_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029230.out
+    jobid: 850
+    wildcards: sample=SRR10029230
+
+Submitted job 850 with external jobid 'Submitted batch job 6363553'.
+
+[Mon Aug 23 09:40:22 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029150-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029150.xml
+    jobid: 310
+    wildcards: db=nt, contigs=contig, sample=SRR10029150
+    threads: 4
+
+Submitted job 310 with external jobid 'Submitted batch job 6363554'.
+
+[Mon Aug 23 09:40:22 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029127-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029127.xml
+    jobid: 378
+    wildcards: db=nt, contigs=contig, sample=SRR10029127
+    threads: 4
+
+Submitted job 378 with external jobid 'Submitted batch job 6363555'.
+
+[Mon Aug 23 09:40:22 2021]
+rule prodigal:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029149-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029149_genes.gff, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029149_genes_prot.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029149_genes_nucl.fa, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/log/SRR10029149.out
+    jobid: 774
+    wildcards: sample=SRR10029149
+
+Submitted job 774 with external jobid 'Submitted batch job 6363556'.
+
+[Mon Aug 23 09:40:22 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029223-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029223.xml
+    jobid: 550
+    wildcards: db=nt, contigs=contig, sample=SRR10029223
+    threads: 4
+
+Submitted job 550 with external jobid 'Submitted batch job 6363557'.
+
+[Mon Aug 23 09:40:22 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029131-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029131.xml
+    jobid: 410
+    wildcards: db=nt, contigs=contig, sample=SRR10029131
+    threads: 4
+
+Submitted job 410 with external jobid 'Submitted batch job 6363558'.
+
+[Mon Aug 23 09:40:22 2021]
+rule run_blastn:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029264-contigs.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029264.xml
+    jobid: 634
+    wildcards: db=nt, contigs=contig, sample=SRR10029264
+    threads: 4
+
+Submitted job 634 with external jobid 'Submitted batch job 6363559'.
+[Mon Aug 23 09:49:22 2021]
+Finished job 968.
+1 of 741 steps (0.13%) done
+[Mon Aug 23 09:49:22 2021]
+Finished job 812.
+2 of 741 steps (0.27%) done
+
+[Mon Aug 23 09:49:22 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029265_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029265.xml
+    jobid: 604
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029265
+    threads: 4
+
+[Mon Aug 23 09:49:22 2021]
+Finished job 746.
+3 of 741 steps (0.40%) done
+Submitted job 604 with external jobid 'Submitted batch job 6363563'.
+
+[Mon Aug 23 09:49:22 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029222_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029222.xml
+    jobid: 160
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029222
+    threads: 4
+
+Submitted job 160 with external jobid 'Submitted batch job 6363564'.
+
+[Mon Aug 23 09:49:22 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029159_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029159.xml
+    jobid: 292
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029159
+    threads: 4
+
+Submitted job 292 with external jobid 'Submitted batch job 6363565'.
+[Mon Aug 23 09:49:25 2021]
+Finished job 806.
+4 of 741 steps (0.54%) done
+
+[Mon Aug 23 09:49:25 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029185_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029185.xml
+    jobid: 280
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029185
+    threads: 4
+
+Submitted job 280 with external jobid 'Submitted batch job 6363566'.
+[Mon Aug 23 09:50:22 2021]
+Finished job 784.
+5 of 741 steps (0.67%) done
+
+[Mon Aug 23 09:50:22 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029139_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029139.xml
+    jobid: 236
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029139
+    threads: 4
+
+Submitted job 236 with external jobid 'Submitted batch job 6363567'.
+[Mon Aug 23 09:50:43 2021]
+Finished job 862.
+6 of 741 steps (0.81%) done
+
+[Mon Aug 23 09:50:43 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029138_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029138.xml
+    jobid: 392
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029138
+    threads: 4
+
+Submitted job 392 with external jobid 'Submitted batch job 6363569'.
+[Mon Aug 23 09:50:44 2021]
+Finished job 1018.
+7 of 741 steps (0.94%) done
+
+[Mon Aug 23 09:50:44 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029244_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029244.xml
+    jobid: 704
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029244
+    threads: 4
+
+Submitted job 704 with external jobid 'Submitted batch job 6363570'.
+[Mon Aug 23 09:50:49 2021]
+Finished job 844.
+8 of 741 steps (1%) done
+
+[Mon Aug 23 09:50:49 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029161_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029161.xml
+    jobid: 356
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029161
+    threads: 4
+
+Submitted job 356 with external jobid 'Submitted batch job 6363571'.
+[Mon Aug 23 09:51:02 2021]
+Finished job 774.
+9 of 741 steps (1%) done
+
+[Mon Aug 23 09:51:02 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029149_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029149.xml
+    jobid: 216
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029149
+    threads: 4
+
+Submitted job 216 with external jobid 'Submitted batch job 6363572'.
+[Mon Aug 23 09:51:04 2021]
+Finished job 778.
+10 of 741 steps (1%) done
+
+[Mon Aug 23 09:51:04 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029147_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029147.xml
+    jobid: 224
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029147
+    threads: 4
+
+Submitted job 224 with external jobid 'Submitted batch job 6363573'.
+[Mon Aug 23 09:51:08 2021]
+Finished job 864.
+11 of 741 steps (1%) done
+
+[Mon Aug 23 09:51:08 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029203_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029203.xml
+    jobid: 396
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029203
+    threads: 4
+
+Submitted job 396 with external jobid 'Submitted batch job 6363574'.
+[Mon Aug 23 09:51:09 2021]
+Finished job 870.
+12 of 741 steps (2%) done
+
+[Mon Aug 23 09:51:09 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029171_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029171.xml
+    jobid: 408
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029171
+    threads: 4
+
+Submitted job 408 with external jobid 'Submitted batch job 6363575'.
+[Mon Aug 23 09:51:23 2021]
+Finished job 772.
+13 of 741 steps (2%) done
+
+[Mon Aug 23 09:51:23 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029154_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029154.xml
+    jobid: 212
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029154
+    threads: 4
+
+Submitted job 212 with external jobid 'Submitted batch job 6363576'.
+[Mon Aug 23 09:51:24 2021]
+Finished job 1000.
+14 of 741 steps (2%) done
+
+[Mon Aug 23 09:51:24 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029162_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029162.xml
+    jobid: 668
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029162
+    threads: 4
+
+Submitted job 668 with external jobid 'Submitted batch job 6363577'.
+[Mon Aug 23 09:51:26 2021]
+Finished job 882.
+15 of 741 steps (2%) done
+
+[Mon Aug 23 09:51:26 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029167_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029167.xml
+    jobid: 432
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029167
+    threads: 4
+
+Submitted job 432 with external jobid 'Submitted batch job 6363578'.
+[Mon Aug 23 09:51:27 2021]
+Finished job 890.
+16 of 741 steps (2%) done
+
+[Mon Aug 23 09:51:27 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029234_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029234.xml
+    jobid: 448
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029234
+    threads: 4
+
+Submitted job 448 with external jobid 'Submitted batch job 6363579'.
+[Mon Aug 23 09:51:27 2021]
+Finished job 1030.
+17 of 741 steps (2%) done
+
+[Mon Aug 23 09:51:27 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029221_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029221.xml
+    jobid: 728
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029221
+    threads: 4
+
+Submitted job 728 with external jobid 'Submitted batch job 6363580'.
+[Mon Aug 23 09:51:28 2021]
+Finished job 886.
+18 of 741 steps (2%) done
+
+[Mon Aug 23 09:51:28 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029160_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029160.xml
+    jobid: 440
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029160
+    threads: 4
+
+Submitted job 440 with external jobid 'Submitted batch job 6363581'.
+[Mon Aug 23 09:51:29 2021]
+Finished job 874.
+19 of 741 steps (3%) done
+
+[Mon Aug 23 09:51:29 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029128_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029128.xml
+    jobid: 416
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029128
+    threads: 4
+
+Submitted job 416 with external jobid 'Submitted batch job 6363582'.
+[Mon Aug 23 09:51:44 2021]
+Finished job 992.
+20 of 741 steps (3%) done
+
+[Mon Aug 23 09:51:44 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029168_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029168.xml
+    jobid: 652
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029168
+    threads: 4
+
+[Mon Aug 23 09:51:44 2021]
+Finished job 754.
+21 of 741 steps (3%) done
+Submitted job 652 with external jobid 'Submitted batch job 6363583'.
+
+[Mon Aug 23 09:51:44 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029247_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029247.xml
+    jobid: 176
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029247
+    threads: 4
+
+Submitted job 176 with external jobid 'Submitted batch job 6363584'.
+[Mon Aug 23 09:52:04 2021]
+Finished job 846.
+22 of 741 steps (3%) done
+
+[Mon Aug 23 09:52:04 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029235_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029235.xml
+    jobid: 360
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029235
+    threads: 4
+
+Submitted job 360 with external jobid 'Submitted batch job 6363585'.
+[Mon Aug 23 09:52:05 2021]
+Finished job 826.
+23 of 741 steps (3%) done
+
+[Mon Aug 23 09:52:06 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029157_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029157.xml
+    jobid: 320
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029157
+    threads: 4
+
+Submitted job 320 with external jobid 'Submitted batch job 6363586'.
+[Mon Aug 23 09:52:23 2021]
+Finished job 850.
+24 of 741 steps (3%) done
+
+[Mon Aug 23 09:52:23 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029230_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029230.xml
+    jobid: 368
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029230
+    threads: 4
+
+Submitted job 368 with external jobid 'Submitted batch job 6363588'.
+[Mon Aug 23 09:52:26 2021]
+Finished job 1028.
+25 of 741 steps (3%) done
+
+[Mon Aug 23 09:52:26 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029181_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029181.xml
+    jobid: 724
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029181
+    threads: 4
+
+Submitted job 724 with external jobid 'Submitted batch job 6363589'.
+[Mon Aug 23 09:52:30 2021]
+Finished job 924.
+26 of 741 steps (4%) done
+
+[Mon Aug 23 09:52:30 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029233_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029233.xml
+    jobid: 516
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029233
+    threads: 4
+
+Submitted job 516 with external jobid 'Submitted batch job 6363590'.
+[Mon Aug 23 09:52:31 2021]
+Finished job 930.
+27 of 741 steps (4%) done
+
+[Mon Aug 23 09:52:31 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029236_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029236.xml
+    jobid: 528
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029236
+    threads: 4
+
+Submitted job 528 with external jobid 'Submitted batch job 6363591'.
+[Mon Aug 23 09:52:44 2021]
+Finished job 966.
+28 of 741 steps (4%) done
+
+[Mon Aug 23 09:52:44 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029124_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029124.xml
+    jobid: 600
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029124
+    threads: 4
+
+Submitted job 600 with external jobid 'Submitted batch job 6363592'.
+[Mon Aug 23 09:52:45 2021]
+Finished job 770.
+29 of 741 steps (4%) done
+
+[Mon Aug 23 09:52:45 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029268_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029268.xml
+    jobid: 208
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029268
+    threads: 4
+
+Submitted job 208 with external jobid 'Submitted batch job 6363593'.
+[Mon Aug 23 09:52:46 2021]
+Finished job 842.
+30 of 741 steps (4%) done
+
+[Mon Aug 23 09:52:46 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029125_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029125.xml
+    jobid: 352
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029125
+    threads: 4
+
+Submitted job 352 with external jobid 'Submitted batch job 6363594'.
+[Mon Aug 23 09:52:46 2021]
+Finished job 786.
+31 of 741 steps (4%) done
+
+[Mon Aug 23 09:52:46 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029166_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029166.xml
+    jobid: 240
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029166
+    threads: 4
+
+Submitted job 240 with external jobid 'Submitted batch job 6363595'.
+[Mon Aug 23 09:52:49 2021]
+Finished job 1006.
+32 of 741 steps (4%) done
+
+[Mon Aug 23 09:52:49 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029143_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029143.xml
+    jobid: 680
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029143
+    threads: 4
+
+Submitted job 680 with external jobid 'Submitted batch job 6363596'.
+[Mon Aug 23 09:52:50 2021]
+Finished job 950.
+33 of 741 steps (4%) done
+
+[Mon Aug 23 09:52:50 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029155_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029155.xml
+    jobid: 568
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029155
+    threads: 4
+
+Submitted job 568 with external jobid 'Submitted batch job 6363597'.
+[Mon Aug 23 09:52:50 2021]
+Finished job 892.
+34 of 741 steps (5%) done
+
+[Mon Aug 23 09:52:50 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029130_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029130.xml
+    jobid: 452
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029130
+    threads: 4
+
+Submitted job 452 with external jobid 'Submitted batch job 6363598'.
+[Mon Aug 23 09:53:06 2021]
+Finished job 964.
+35 of 741 steps (5%) done
+
+[Mon Aug 23 09:53:06 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029257_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029257.xml
+    jobid: 596
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029257
+    threads: 4
+
+Submitted job 596 with external jobid 'Submitted batch job 6363599'.
+[Mon Aug 23 09:53:07 2021]
+Finished job 932.
+36 of 741 steps (5%) done
+
+[Mon Aug 23 09:53:07 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029271_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029271.xml
+    jobid: 532
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029271
+    threads: 4
+
+Submitted job 532 with external jobid 'Submitted batch job 6363600'.
+[Mon Aug 23 09:53:25 2021]
+Finished job 836.
+37 of 741 steps (5%) done
+
+[Mon Aug 23 09:53:25 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029182_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029182.xml
+    jobid: 340
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029182
+    threads: 4
+
+Submitted job 340 with external jobid 'Submitted batch job 6363601'.
+[Mon Aug 23 09:53:25 2021]
+Finished job 1008.
+38 of 741 steps (5%) done
+
+[Mon Aug 23 09:53:25 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029132_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029132.xml
+    jobid: 684
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029132
+    threads: 4
+
+Submitted job 684 with external jobid 'Submitted batch job 6363602'.
+[Mon Aug 23 09:53:26 2021]
+Finished job 900.
+39 of 741 steps (5%) done
+
+[Mon Aug 23 09:53:26 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029270_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029270.xml
+    jobid: 468
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029270
+    threads: 4
+
+Submitted job 468 with external jobid 'Submitted batch job 6363603'.
+[Mon Aug 23 09:53:27 2021]
+Finished job 910.
+40 of 741 steps (5%) done
+
+[Mon Aug 23 09:53:27 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029184_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029184.xml
+    jobid: 488
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029184
+    threads: 4
+
+Submitted job 488 with external jobid 'Submitted batch job 6363604'.
+[Mon Aug 23 09:53:27 2021]
+Finished job 830.
+41 of 741 steps (6%) done
+
+[Mon Aug 23 09:53:27 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029135_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029135.xml
+    jobid: 328
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029135
+    threads: 4
+
+Submitted job 328 with external jobid 'Submitted batch job 6363605'.
+[Mon Aug 23 09:54:27 2021]
+Finished job 984.
+42 of 741 steps (6%) done
+
+[Mon Aug 23 09:54:27 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029264_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029264.xml
+    jobid: 636
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029264
+    threads: 4
+
+Submitted job 636 with external jobid 'Submitted batch job 6363606'.
+[Mon Aug 23 09:54:28 2021]
+Finished job 872.
+43 of 741 steps (6%) done
+
+[Mon Aug 23 09:54:28 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029131_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029131.xml
+    jobid: 412
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029131
+    threads: 4
+
+Submitted job 412 with external jobid 'Submitted batch job 6363607'.
+[Mon Aug 23 09:54:31 2021]
+Finished job 898.
+44 of 741 steps (6%) done
+
+[Mon Aug 23 09:54:31 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029141_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029141.xml
+    jobid: 464
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029141
+    threads: 4
+
+Submitted job 464 with external jobid 'Submitted batch job 6363608'.
+[Mon Aug 23 09:55:28 2021]
+Finished job 856.
+45 of 741 steps (6%) done
+
+[Mon Aug 23 09:55:28 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029127_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029127.xml
+    jobid: 380
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029127
+    threads: 4
+
+Submitted job 380 with external jobid 'Submitted batch job 6363609'.
+[Mon Aug 23 09:55:48 2021]
+Finished job 974.
+46 of 741 steps (6%) done
+
+[Mon Aug 23 09:55:48 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029142_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029142.xml
+    jobid: 616
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029142
+    threads: 4
+
+Submitted job 616 with external jobid 'Submitted batch job 6363610'.
+[Mon Aug 23 09:56:10 2021]
+Finished job 1016.
+47 of 741 steps (6%) done
+
+[Mon Aug 23 09:56:10 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029129_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029129.xml
+    jobid: 700
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029129
+    threads: 4
+
+Submitted job 700 with external jobid 'Submitted batch job 6363611'.
+[Mon Aug 23 09:59:08 2021]
+Finished job 822.
+48 of 741 steps (6%) done
+
+[Mon Aug 23 09:59:08 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029150_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029150.xml
+    jobid: 312
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029150
+    threads: 4
+
+Submitted job 312 with external jobid 'Submitted batch job 6363613'.
+[Mon Aug 23 10:02:10 2021]
+Finished job 818.
+49 of 741 steps (7%) done
+
+[Mon Aug 23 10:02:10 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029158_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029158.xml
+    jobid: 304
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029158
+    threads: 4
+
+Submitted job 304 with external jobid 'Submitted batch job 6364074'.
+[Mon Aug 23 10:11:09 2021]
+Finished job 942.
+50 of 741 steps (7%) done
+
+[Mon Aug 23 10:11:09 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/SRR10029223_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/SRR10029223.xml
+    jobid: 552
+    wildcards: db=nr, orf_finder=prodigal, sample=SRR10029223
+    threads: 4
+
+Submitted job 552 with external jobid 'Submitted batch job 6364081'.
+[Mon Aug 23 10:23:12 2021]
+Error in rule run_blastn:
+    jobid: 358
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029235.xml
+    shell:
+        
+        blastn         -query /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/contigs/SRR10029235-contigs.fa         -db /mnt/isilon/zackular_lab_hpc/resources/ncbi_dbs/nt_20210809/nt         -outfmt 5         -num_threads 4         -evalue 1e-10         -max_target_seqs 5000         -out /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastn/nt/contig/SRR10029235.xml         
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6363520
+
+Error executing rule run_blastn on cluster (jobid: 358, external: Submitted batch job 6363520, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.ku8mdl9s/snakejob.run_blastn.358.sh). For error details see the cluster log and the log files of the involved rule(s).
+Terminating processes on user request, this might take some time.
+Will exit after finishing currently running jobs.

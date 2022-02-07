@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 35 of /mnt/isilon/dbhi_bfx/dic/tools/sunbeam/rules/annotation/blast.smk:
+Missing input files for rule run_blastp:
+/mnt/isilon/zackular_lab_hpc/resources/ncbi_dbs/nr_20210810/nr

@@ -1,0 +1,732 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 100
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	148	adapter_removal_paired
+	148	aggregate_reads
+	148	aggregate_results
+	1	all
+	1	classic_biom
+	148	contigs_mapping
+	148	fastqc
+	1	fastqc_report
+	296	filter_reads
+	148	final_filter
+	148	find_low_complexity
+	148	get_coverage
+	1	kraken_biom
+	148	kraken_classify
+	148	kraken_report
+	148	mapping_depth
+	148	megahit_paired
+	1	multiqc_report
+	1	preprocess_report
+	296	qc_final
+	296	remove_low_complexity
+	296	sample_intake
+	1	summarize_coverage
+	148	trimmomatic_paired
+	3115
+
+[Tue Aug  3 23:25:16 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029247_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029247_2.fastq.gz
+    jobid: 2536
+    wildcards: sample=SRR10029247, rp=2
+
+[Tue Aug  3 23:25:16 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029181_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029181_2.fastq.gz
+    jobid: 2810
+    wildcards: sample=SRR10029181, rp=2
+
+[Tue Aug  3 23:25:16 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029250_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029250_2.fastq.gz
+    jobid: 2690
+    wildcards: sample=SRR10029250, rp=2
+
+[Tue Aug  3 23:25:16 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029268_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029268_1.fastq.gz
+    jobid: 2551
+    wildcards: sample=SRR10029268, rp=1
+
+[Tue Aug  3 23:25:17 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029129_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029129_1.fastq.gz
+    jobid: 2797
+    wildcards: sample=SRR10029129, rp=1
+
+[Tue Aug  3 23:25:17 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029149_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029149_2.fastq.gz
+    jobid: 2556
+    wildcards: sample=SRR10029149, rp=2
+
+[Tue Aug  3 23:25:17 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029148_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029148_1.fastq.gz
+    jobid: 2575
+    wildcards: sample=SRR10029148, rp=1
+
+[Tue Aug  3 23:25:17 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029243_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029243_1.fastq.gz
+    jobid: 2683
+    wildcards: sample=SRR10029243, rp=1
+
+[Tue Aug  3 23:25:17 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029133_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029133_1.fastq.gz
+    jobid: 2677
+    wildcards: sample=SRR10029133, rp=1
+
+[Tue Aug  3 23:25:17 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029171_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029171_2.fastq.gz
+    jobid: 2652
+    wildcards: sample=SRR10029171, rp=2
+
+[Tue Aug  3 23:25:17 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029168_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029168_2.fastq.gz
+    jobid: 2774
+    wildcards: sample=SRR10029168, rp=2
+
+[Tue Aug  3 23:25:17 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029155_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029155_2.fastq.gz
+    jobid: 2732
+    wildcards: sample=SRR10029155, rp=2
+
+[Tue Aug  3 23:25:17 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029265_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029265_2.fastq.gz
+    jobid: 2750
+    wildcards: sample=SRR10029265, rp=2
+
+[Tue Aug  3 23:25:18 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029202_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029202_2.fastq.gz
+    jobid: 2610
+    wildcards: sample=SRR10029202, rp=2
+
+[Tue Aug  3 23:25:18 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029252_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029252_1.fastq.gz
+    jobid: 2767
+    wildcards: sample=SRR10029252, rp=1
+
+[Tue Aug  3 23:25:18 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029236_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029236_2.fastq.gz
+    jobid: 2712
+    wildcards: sample=SRR10029236, rp=2
+
+[Tue Aug  3 23:25:18 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029184_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029184_2.fastq.gz
+    jobid: 2692
+    wildcards: sample=SRR10029184, rp=2
+
+[Tue Aug  3 23:25:18 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029254_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029254_1.fastq.gz
+    jobid: 2707
+    wildcards: sample=SRR10029254, rp=1
+
+[Tue Aug  3 23:25:18 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029245_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029245_2.fastq.gz
+    jobid: 2808
+    wildcards: sample=SRR10029245, rp=2
+
+[Tue Aug  3 23:25:18 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029264_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029264_2.fastq.gz
+    jobid: 2766
+    wildcards: sample=SRR10029264, rp=2
+
+[Tue Aug  3 23:25:18 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029235_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029235_2.fastq.gz
+    jobid: 2628
+    wildcards: sample=SRR10029235, rp=2
+
+[Tue Aug  3 23:25:18 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029223_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029223_2.fastq.gz
+    jobid: 2724
+    wildcards: sample=SRR10029223, rp=2
+
+[Tue Aug  3 23:25:18 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029140_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029140_2.fastq.gz
+    jobid: 2558
+    wildcards: sample=SRR10029140, rp=2
+
+[Tue Aug  3 23:25:19 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029126_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029126_1.fastq.gz
+    jobid: 2525
+    wildcards: sample=SRR10029126, rp=1
+
+[Tue Aug  3 23:25:19 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029206_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029206_2.fastq.gz
+    jobid: 2660
+    wildcards: sample=SRR10029206, rp=2
+
+[Tue Aug  3 23:25:19 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029158_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029158_1.fastq.gz
+    jobid: 2599
+    wildcards: sample=SRR10029158, rp=1
+
+[Tue Aug  3 23:25:19 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029147_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029147_1.fastq.gz
+    jobid: 2559
+    wildcards: sample=SRR10029147, rp=1
+
+[Tue Aug  3 23:25:19 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029125_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029125_1.fastq.gz
+    jobid: 2623
+    wildcards: sample=SRR10029125, rp=1
+
+[Tue Aug  3 23:25:19 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029139_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029139_1.fastq.gz
+    jobid: 2565
+    wildcards: sample=SRR10029139, rp=1
+
+[Tue Aug  3 23:25:19 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029208_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029208_2.fastq.gz
+    jobid: 2614
+    wildcards: sample=SRR10029208, rp=2
+
+[Tue Aug  3 23:25:19 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029253_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029253_1.fastq.gz
+    jobid: 2549
+    wildcards: sample=SRR10029253, rp=1
+
+[Tue Aug  3 23:25:19 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029127_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029127_2.fastq.gz
+    jobid: 2638
+    wildcards: sample=SRR10029127, rp=2
+
+[Tue Aug  3 23:25:20 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029136_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029136_1.fastq.gz
+    jobid: 2801
+    wildcards: sample=SRR10029136, rp=1
+
+[Tue Aug  3 23:25:20 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029124_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029124_1.fastq.gz
+    jobid: 2747
+    wildcards: sample=SRR10029124, rp=1
+
+[Tue Aug  3 23:25:20 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029159_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029159_1.fastq.gz
+    jobid: 2593
+    wildcards: sample=SRR10029159, rp=1
+
+[Tue Aug  3 23:25:20 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029209_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029209_2.fastq.gz
+    jobid: 2716
+    wildcards: sample=SRR10029209, rp=2
+
+[Tue Aug  3 23:25:24 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029259_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029259_2.fastq.gz
+    jobid: 2532
+    wildcards: sample=SRR10029259, rp=2
+
+[Tue Aug  3 23:25:24 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029135_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029135_1.fastq.gz
+    jobid: 2611
+    wildcards: sample=SRR10029135, rp=1
+
+[Tue Aug  3 23:25:24 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029154_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029154_1.fastq.gz
+    jobid: 2553
+    wildcards: sample=SRR10029154, rp=1
+
+[Tue Aug  3 23:25:24 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029164_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029164_2.fastq.gz
+    jobid: 2570
+    wildcards: sample=SRR10029164, rp=2
+
+[Tue Aug  3 23:25:24 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029137_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029137_1.fastq.gz
+    jobid: 2709
+    wildcards: sample=SRR10029137, rp=1
+
+[Tue Aug  3 23:25:25 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029145_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029145_2.fastq.gz
+    jobid: 2734
+    wildcards: sample=SRR10029145, rp=2
+
+[Tue Aug  3 23:25:25 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029200_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029200_1.fastq.gz
+    jobid: 2529
+    wildcards: sample=SRR10029200, rp=1
+
+[Tue Aug  3 23:25:25 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029160_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029160_1.fastq.gz
+    jobid: 2667
+    wildcards: sample=SRR10029160, rp=1
+
+[Tue Aug  3 23:25:25 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029178_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029178_2.fastq.gz
+    jobid: 2642
+    wildcards: sample=SRR10029178, rp=2
+
+[Tue Aug  3 23:25:25 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029251_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029251_2.fastq.gz
+    jobid: 2704
+    wildcards: sample=SRR10029251, rp=2
+
+[Tue Aug  3 23:25:25 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029263_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029263_2.fastq.gz
+    jobid: 2702
+    wildcards: sample=SRR10029263, rp=2
+
+[Tue Aug  3 23:25:25 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029210_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029210_2.fastq.gz
+    jobid: 2718
+    wildcards: sample=SRR10029210, rp=2
+
+[Tue Aug  3 23:25:25 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029150_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029150_1.fastq.gz
+    jobid: 2603
+    wildcards: sample=SRR10029150, rp=1
+
+[Tue Aug  3 23:25:26 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029150_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029150_2.fastq.gz
+    jobid: 2604
+    wildcards: sample=SRR10029150, rp=2
+
+[Tue Aug  3 23:25:26 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029210_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029210_1.fastq.gz
+    jobid: 2717
+    wildcards: sample=SRR10029210, rp=1
+
+[Tue Aug  3 23:25:26 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029190_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029190_2.fastq.gz
+    jobid: 2738
+    wildcards: sample=SRR10029190, rp=2
+
+[Tue Aug  3 23:25:26 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029263_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029263_1.fastq.gz
+    jobid: 2701
+    wildcards: sample=SRR10029263, rp=1
+
+[Tue Aug  3 23:25:26 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029251_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029251_1.fastq.gz
+    jobid: 2703
+    wildcards: sample=SRR10029251, rp=1
+
+[Tue Aug  3 23:25:26 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029200_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029200_2.fastq.gz
+    jobid: 2530
+    wildcards: sample=SRR10029200, rp=2
+
+[Tue Aug  3 23:25:26 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029145_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029145_1.fastq.gz
+    jobid: 2733
+    wildcards: sample=SRR10029145, rp=1
+
+[Tue Aug  3 23:25:26 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029160_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029160_2.fastq.gz
+    jobid: 2668
+    wildcards: sample=SRR10029160, rp=2
+
+[Tue Aug  3 23:25:26 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029173_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029173_2.fastq.gz
+    jobid: 2770
+    wildcards: sample=SRR10029173, rp=2
+
+[Tue Aug  3 23:25:27 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029137_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029137_2.fastq.gz
+    jobid: 2710
+    wildcards: sample=SRR10029137, rp=2
+
+[Tue Aug  3 23:25:27 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029164_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029164_1.fastq.gz
+    jobid: 2569
+    wildcards: sample=SRR10029164, rp=1
+
+[Tue Aug  3 23:25:27 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029154_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029154_2.fastq.gz
+    jobid: 2554
+    wildcards: sample=SRR10029154, rp=2
+
+[Tue Aug  3 23:25:27 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029259_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029259_1.fastq.gz
+    jobid: 2531
+    wildcards: sample=SRR10029259, rp=1
+
+[Tue Aug  3 23:25:27 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029135_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029135_2.fastq.gz
+    jobid: 2612
+    wildcards: sample=SRR10029135, rp=2
+
+[Tue Aug  3 23:25:27 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029214_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029214_1.fastq.gz
+    jobid: 2581
+    wildcards: sample=SRR10029214, rp=1
+
+[Tue Aug  3 23:25:27 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029209_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029209_1.fastq.gz
+    jobid: 2715
+    wildcards: sample=SRR10029209, rp=1
+
+[Tue Aug  3 23:25:27 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029159_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029159_2.fastq.gz
+    jobid: 2594
+    wildcards: sample=SRR10029159, rp=2
+
+[Tue Aug  3 23:25:27 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029127_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029127_1.fastq.gz
+    jobid: 2637
+    wildcards: sample=SRR10029127, rp=1
+
+[Tue Aug  3 23:25:27 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029136_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029136_2.fastq.gz
+    jobid: 2802
+    wildcards: sample=SRR10029136, rp=2
+
+[Tue Aug  3 23:25:28 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029124_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029124_2.fastq.gz
+    jobid: 2748
+    wildcards: sample=SRR10029124, rp=2
+
+[Tue Aug  3 23:25:28 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029139_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029139_2.fastq.gz
+    jobid: 2566
+    wildcards: sample=SRR10029139, rp=2
+
+[Tue Aug  3 23:25:28 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029208_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029208_1.fastq.gz
+    jobid: 2613
+    wildcards: sample=SRR10029208, rp=1
+
+[Tue Aug  3 23:25:28 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029253_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029253_2.fastq.gz
+    jobid: 2550
+    wildcards: sample=SRR10029253, rp=2
+
+[Tue Aug  3 23:25:28 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029206_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029206_1.fastq.gz
+    jobid: 2659
+    wildcards: sample=SRR10029206, rp=1
+
+[Tue Aug  3 23:25:28 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029158_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029158_2.fastq.gz
+    jobid: 2600
+    wildcards: sample=SRR10029158, rp=2
+
+[Tue Aug  3 23:25:28 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029125_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029125_2.fastq.gz
+    jobid: 2624
+    wildcards: sample=SRR10029125, rp=2
+
+[Tue Aug  3 23:25:28 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029147_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029147_2.fastq.gz
+    jobid: 2560
+    wildcards: sample=SRR10029147, rp=2
+
+[Tue Aug  3 23:25:28 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029223_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029223_1.fastq.gz
+    jobid: 2723
+    wildcards: sample=SRR10029223, rp=1
+
+[Tue Aug  3 23:25:28 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029140_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029140_1.fastq.gz
+    jobid: 2557
+    wildcards: sample=SRR10029140, rp=1
+
+[Tue Aug  3 23:25:29 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029126_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029126_2.fastq.gz
+    jobid: 2526
+    wildcards: sample=SRR10029126, rp=2
+
+[Tue Aug  3 23:25:29 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029254_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029254_2.fastq.gz
+    jobid: 2708
+    wildcards: sample=SRR10029254, rp=2
+
+[Tue Aug  3 23:25:29 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029184_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029184_1.fastq.gz
+    jobid: 2691
+    wildcards: sample=SRR10029184, rp=1
+
+[Tue Aug  3 23:25:29 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029245_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029245_1.fastq.gz
+    jobid: 2807
+    wildcards: sample=SRR10029245, rp=1
+
+[Tue Aug  3 23:25:29 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029235_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029235_1.fastq.gz
+    jobid: 2627
+    wildcards: sample=SRR10029235, rp=1
+
+[Tue Aug  3 23:25:29 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029264_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029264_1.fastq.gz
+    jobid: 2765
+    wildcards: sample=SRR10029264, rp=1
+
+[Tue Aug  3 23:25:29 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029168_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029168_1.fastq.gz
+    jobid: 2773
+    wildcards: sample=SRR10029168, rp=1
+
+[Tue Aug  3 23:25:29 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029171_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029171_1.fastq.gz
+    jobid: 2651
+    wildcards: sample=SRR10029171, rp=1
+
+[Tue Aug  3 23:25:30 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029133_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029133_2.fastq.gz
+    jobid: 2678
+    wildcards: sample=SRR10029133, rp=2
+
+[Tue Aug  3 23:25:30 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029155_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029155_1.fastq.gz
+    jobid: 2731
+    wildcards: sample=SRR10029155, rp=1
+
+[Tue Aug  3 23:25:30 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029236_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029236_1.fastq.gz
+    jobid: 2711
+    wildcards: sample=SRR10029236, rp=1
+
+[Tue Aug  3 23:25:30 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029252_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029252_2.fastq.gz
+    jobid: 2768
+    wildcards: sample=SRR10029252, rp=2
+
+[Tue Aug  3 23:25:30 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029202_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029202_1.fastq.gz
+    jobid: 2609
+    wildcards: sample=SRR10029202, rp=1
+
+[Tue Aug  3 23:25:30 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029265_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029265_1.fastq.gz
+    jobid: 2749
+    wildcards: sample=SRR10029265, rp=1
+
+[Tue Aug  3 23:25:30 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029148_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029148_2.fastq.gz
+    jobid: 2576
+    wildcards: sample=SRR10029148, rp=2
+
+[Tue Aug  3 23:25:30 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029243_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029243_2.fastq.gz
+    jobid: 2684
+    wildcards: sample=SRR10029243, rp=2
+
+[Tue Aug  3 23:25:30 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029181_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029181_1.fastq.gz
+    jobid: 2809
+    wildcards: sample=SRR10029181, rp=1
+
+[Tue Aug  3 23:25:31 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029247_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029247_1.fastq.gz
+    jobid: 2535
+    wildcards: sample=SRR10029247, rp=1
+
+[Tue Aug  3 23:25:31 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029250_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029250_1.fastq.gz
+    jobid: 2689
+    wildcards: sample=SRR10029250, rp=1
+
+[Tue Aug  3 23:25:31 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029268_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029268_2.fastq.gz
+    jobid: 2552
+    wildcards: sample=SRR10029268, rp=2
+
+[Tue Aug  3 23:25:31 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029129_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029129_2.fastq.gz
+    jobid: 2798
+    wildcards: sample=SRR10029129, rp=2
+
+[Tue Aug  3 23:25:31 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029149_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029149_1.fastq.gz
+    jobid: 2555
+    wildcards: sample=SRR10029149, rp=1
+

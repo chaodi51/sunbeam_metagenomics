@@ -1,0 +1,1012 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	283	aggregate_results
+	1	all_annotate
+	182	prodigal
+	181	run_blastn
+	283	run_blastp
+	283	run_blastx
+	1213
+
+[Sat Sep 25 19:30:11 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.204.Healthy.Antibiotics.Feces.Week.4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.204.Healthy.Antibiotics.Feces.Week.4.xml
+    jobid: 343
+    wildcards: db=nr, orf_finder=prodigal, sample=s.204.Healthy.Antibiotics.Feces.Week.4
+    threads: 8
+
+Submitted job 343 with external jobid 'Submitted batch job 7620546'.
+
+[Sat Sep 25 19:30:12 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s25.IBD_Therapy.Feces.Week_8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s25.IBD_Therapy.Feces.Week_8.xml
+    jobid: 971
+    wildcards: db=nr, orf_finder=prodigal, sample=s25.IBD_Therapy.Feces.Week_8
+    threads: 8
+
+Submitted job 971 with external jobid 'Submitted batch job 7620547'.
+
+[Sat Sep 25 19:30:12 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.175.VEO.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.175.VEO.Feces.Baseline.xml
+    jobid: 1035
+    wildcards: db=nr, orf_finder=prodigal, sample=s.175.VEO.Feces.Baseline
+    threads: 8
+
+Submitted job 1035 with external jobid 'Submitted batch job 7620548'.
+
+[Sat Sep 25 19:30:12 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.359.IBDC.Diff.Stool.2.2872_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.359.IBDC.Diff.Stool.2.2872.xml
+    jobid: 323
+    wildcards: db=nr, orf_finder=prodigal, sample=s.359.IBDC.Diff.Stool.2.2872
+    threads: 8
+
+Submitted job 323 with external jobid 'Submitted batch job 7620549'.
+
+[Sat Sep 25 19:30:12 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.314.Healthy.Antibiotics.Stool.2.2505_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.314.Healthy.Antibiotics.Stool.2.2505.xml
+    jobid: 1327
+    wildcards: db=nr, orf_finder=prodigal, sample=s.314.Healthy.Antibiotics.Stool.2.2505
+    threads: 8
+
+Submitted job 1327 with external jobid 'Submitted batch job 7620550'.
+
+[Sat Sep 25 19:30:12 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s078.IBD.Therapy.Feces.Week.8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s078.IBD.Therapy.Feces.Week.8.xml
+    jobid: 795
+    wildcards: db=nr, orf_finder=prodigal, sample=s078.IBD.Therapy.Feces.Week.8
+    threads: 8
+
+Submitted job 795 with external jobid 'Submitted batch job 7620551'.
+
+[Sat Sep 25 19:30:12 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.347.IBDTherapy.Stool.3.2886_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.347.IBDTherapy.Stool.3.2886.xml
+    jobid: 671
+    wildcards: db=nr, orf_finder=prodigal, sample=s.347.IBDTherapy.Stool.3.2886
+    threads: 8
+
+Submitted job 671 with external jobid 'Submitted batch job 7620552'.
+
+[Sat Sep 25 19:30:13 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s077.IBD_C.Diff.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s077.IBD_C.Diff.Feces.Baseline.xml
+    jobid: 615
+    wildcards: db=nr, orf_finder=prodigal, sample=s077.IBD_C.Diff.Feces.Baseline
+    threads: 8
+
+Submitted job 615 with external jobid 'Submitted batch job 7620553'.
+
+[Sat Sep 25 19:30:13 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s3_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s3.xml
+    jobid: 699
+    wildcards: db=nr, orf_finder=prodigal, sample=s3
+    threads: 8
+
+Submitted job 699 with external jobid 'Submitted batch job 7620554'.
+
+[Sat Sep 25 19:30:13 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.295.IBD.CDiff.Feces.week.8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.295.IBD.CDiff.Feces.week.8.xml
+    jobid: 811
+    wildcards: db=nr, orf_finder=prodigal, sample=s.295.IBD.CDiff.Feces.week.8
+    threads: 8
+
+Submitted job 811 with external jobid 'Submitted batch job 7620555'.
+
+[Sat Sep 25 19:30:13 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.201.IBD_Therapy.Feces.Week_4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.201.IBD_Therapy.Feces.Week_4.xml
+    jobid: 1343
+    wildcards: db=nr, orf_finder=prodigal, sample=s.201.IBD_Therapy.Feces.Week_4
+    threads: 8
+
+Submitted job 1343 with external jobid 'Submitted batch job 7620556'.
+
+[Sat Sep 25 19:30:13 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.155.Healthy.Antibiotics.Feces.Week.4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.155.Healthy.Antibiotics.Feces.Week.4.xml
+    jobid: 375
+    wildcards: db=nr, orf_finder=prodigal, sample=s.155.Healthy.Antibiotics.Feces.Week.4
+    threads: 8
+
+Submitted job 375 with external jobid 'Submitted batch job 7620557'.
+
+[Sat Sep 25 19:30:13 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.212.IBD.Feces.Week.4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.212.IBD.Feces.Week.4.xml
+    jobid: 843
+    wildcards: db=nr, orf_finder=prodigal, sample=s.212.IBD.Feces.Week.4
+    threads: 8
+
+Submitted job 843 with external jobid 'Submitted batch job 7620558'.
+
+[Sat Sep 25 19:30:14 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s20.C_diff.Feces.Visit1_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s20.C_diff.Feces.Visit1.xml
+    jobid: 1123
+    wildcards: db=nr, orf_finder=prodigal, sample=s20.C_diff.Feces.Visit1
+    threads: 8
+
+Submitted job 1123 with external jobid 'Submitted batch job 7620559'.
+
+[Sat Sep 25 19:30:14 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.135.Healthy.Antibiotics.Feces.Week.8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.135.Healthy.Antibiotics.Feces.Week.8.xml
+    jobid: 443
+    wildcards: db=nr, orf_finder=prodigal, sample=s.135.Healthy.Antibiotics.Feces.Week.8
+    threads: 8
+
+Submitted job 443 with external jobid 'Submitted batch job 7620560'.
+
+[Sat Sep 25 19:30:14 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s46.Healthy_greaterthan5.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s46.Healthy_greaterthan5.Feces.Baseline.xml
+    jobid: 1023
+    wildcards: db=nr, orf_finder=prodigal, sample=s46.Healthy_greaterthan5.Feces.Baseline
+    threads: 8
+
+Submitted job 1023 with external jobid 'Submitted batch job 7620561'.
+
+[Sat Sep 25 19:30:14 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.109.Healthy.greaterthan5.Stool.1.910_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.109.Healthy.greaterthan5.Stool.1.910.xml
+    jobid: 407
+    wildcards: db=nr, orf_finder=prodigal, sample=s.109.Healthy.greaterthan5.Stool.1.910
+    threads: 8
+
+Submitted job 407 with external jobid 'Submitted batch job 7620562'.
+
+[Sat Sep 25 19:30:14 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.173.VEO.Feces.Week.8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.173.VEO.Feces.Week.8.xml
+    jobid: 367
+    wildcards: db=nr, orf_finder=prodigal, sample=s.173.VEO.Feces.Week.8
+    threads: 8
+
+Submitted job 367 with external jobid 'Submitted batch job 7620563'.
+
+[Sat Sep 25 19:30:14 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.314.Healthy.Antibiotics.Stool.1.2490_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.314.Healthy.Antibiotics.Stool.1.2490.xml
+    jobid: 1403
+    wildcards: db=nr, orf_finder=prodigal, sample=s.314.Healthy.Antibiotics.Stool.1.2490
+    threads: 8
+
+Submitted job 1403 with external jobid 'Submitted batch job 7620564'.
+
+[Sat Sep 25 19:30:14 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.357.IBDC.Diff.Stool.3.2865_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.357.IBDC.Diff.Stool.3.2865.xml
+    jobid: 1263
+    wildcards: db=nr, orf_finder=prodigal, sample=s.357.IBDC.Diff.Stool.3.2865
+    threads: 8
+
+Submitted job 1263 with external jobid 'Submitted batch job 7620565'.
+
+[Sat Sep 25 19:30:15 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.293.Healthy.Antibiotics.Feces.week.8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.293.Healthy.Antibiotics.Feces.week.8.xml
+    jobid: 827
+    wildcards: db=nr, orf_finder=prodigal, sample=s.293.Healthy.Antibiotics.Feces.week.8
+    threads: 8
+
+Submitted job 827 with external jobid 'Submitted batch job 7620566'.
+
+[Sat Sep 25 19:30:15 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.86.Healthy_greaterthan5.Feces.Week_4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.86.Healthy_greaterthan5.Feces.Week_4.xml
+    jobid: 851
+    wildcards: db=nr, orf_finder=prodigal, sample=s.86.Healthy_greaterthan5.Feces.Week_4
+    threads: 8
+
+Submitted job 851 with external jobid 'Submitted batch job 7620567'.
+
+[Sat Sep 25 19:30:15 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.252.Healthy.Antibiotics.Feces.Week.4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.252.Healthy.Antibiotics.Feces.Week.4.xml
+    jobid: 1387
+    wildcards: db=nr, orf_finder=prodigal, sample=s.252.Healthy.Antibiotics.Feces.Week.4
+    threads: 8
+
+Submitted job 1387 with external jobid 'Submitted batch job 7620568'.
+
+[Sat Sep 25 19:30:15 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s70.Healthy_greaterthan5.Feces.Week_8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s70.Healthy_greaterthan5.Feces.Week_8.xml
+    jobid: 287
+    wildcards: db=nr, orf_finder=prodigal, sample=s70.Healthy_greaterthan5.Feces.Week_8
+    threads: 8
+
+Submitted job 287 with external jobid 'Submitted batch job 7620569'.
+
+[Sat Sep 25 19:30:15 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.334.Healthy.Antibiotics.Stool.1.2630_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.334.Healthy.Antibiotics.Stool.1.2630.xml
+    jobid: 787
+    wildcards: db=nr, orf_finder=prodigal, sample=s.334.Healthy.Antibiotics.Stool.1.2630
+    threads: 8
+
+Submitted job 787 with external jobid 'Submitted batch job 7620570'.
+
+[Sat Sep 25 19:30:15 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.334.Healthy.Antibiotics.Stool.2.2656_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.334.Healthy.Antibiotics.Stool.2.2656.xml
+    jobid: 459
+    wildcards: db=nr, orf_finder=prodigal, sample=s.334.Healthy.Antibiotics.Stool.2.2656
+    threads: 8
+
+Submitted job 459 with external jobid 'Submitted batch job 7620571'.
+
+[Sat Sep 25 19:30:16 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s31.IBDNaturalHistory.Feces.Visit1_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s31.IBDNaturalHistory.Feces.Visit1.xml
+    jobid: 631
+    wildcards: db=nr, orf_finder=prodigal, sample=s31.IBDNaturalHistory.Feces.Visit1
+    threads: 8
+
+Submitted job 631 with external jobid 'Submitted batch job 7620572'.
+
+[Sat Sep 25 19:30:16 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.212.IBD.Feces.Week.8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.212.IBD.Feces.Week.8.xml
+    jobid: 435
+    wildcards: db=nr, orf_finder=prodigal, sample=s.212.IBD.Feces.Week.8
+    threads: 8
+
+Submitted job 435 with external jobid 'Submitted batch job 7620573'.
+
+[Sat Sep 25 19:30:16 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s55.IBD_Therapy.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s55.IBD_Therapy.Feces.Baseline.xml
+    jobid: 511
+    wildcards: db=nr, orf_finder=prodigal, sample=s55.IBD_Therapy.Feces.Baseline
+    threads: 8
+
+Submitted job 511 with external jobid 'Submitted batch job 7620574'.
+
+[Sat Sep 25 19:30:16 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s53.VEO.Feces.Week_16_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s53.VEO.Feces.Week_16.xml
+    jobid: 1103
+    wildcards: db=nr, orf_finder=prodigal, sample=s53.VEO.Feces.Week_16
+    threads: 8
+
+Submitted job 1103 with external jobid 'Submitted batch job 7620575'.
+
+[Sat Sep 25 19:30:17 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s95.Healthy.lessthan5.Feces.Week.8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s95.Healthy.lessthan5.Feces.Week.8.xml
+    jobid: 1087
+    wildcards: db=nr, orf_finder=prodigal, sample=s95.Healthy.lessthan5.Feces.Week.8
+    threads: 8
+
+Submitted job 1087 with external jobid 'Submitted batch job 7620576'.
+
+[Sat Sep 25 19:30:17 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s067.Healthy.Antibiotics.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s067.Healthy.Antibiotics.Feces.Baseline.xml
+    jobid: 567
+    wildcards: db=nr, orf_finder=prodigal, sample=s067.Healthy.Antibiotics.Feces.Baseline
+    threads: 8
+
+Submitted job 567 with external jobid 'Submitted batch job 7620577'.
+
+[Sat Sep 25 19:30:17 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.347.IBDTherapy.Stool.1.2668_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.347.IBDTherapy.Stool.1.2668.xml
+    jobid: 1287
+    wildcards: db=nr, orf_finder=prodigal, sample=s.347.IBDTherapy.Stool.1.2668
+    threads: 8
+
+Submitted job 1287 with external jobid 'Submitted batch job 7620578'.
+
+[Sat Sep 25 19:30:17 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.147.IBD_Therapy.Feces.Week_4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.147.IBD_Therapy.Feces.Week_4.xml
+    jobid: 471
+    wildcards: db=nr, orf_finder=prodigal, sample=s.147.IBD_Therapy.Feces.Week_4
+    threads: 8
+
+Submitted job 471 with external jobid 'Submitted batch job 7620579'.
+
+[Sat Sep 25 19:30:17 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s159.Healthy.Antibiotics.Feces.Week.4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s159.Healthy.Antibiotics.Feces.Week.4.xml
+    jobid: 499
+    wildcards: db=nr, orf_finder=prodigal, sample=s159.Healthy.Antibiotics.Feces.Week.4
+    threads: 8
+
+Submitted job 499 with external jobid 'Submitted batch job 7620580'.
+
+[Sat Sep 25 19:30:17 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s49_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s49.xml
+    jobid: 1411
+    wildcards: db=nr, orf_finder=prodigal, sample=s49
+    threads: 8
+
+Submitted job 1411 with external jobid 'Submitted batch job 7620581'.
+
+[Sat Sep 25 19:30:18 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.100.Healthygreaterthan5.Stool.visit3.918_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.100.Healthygreaterthan5.Stool.visit3.918.xml
+    jobid: 911
+    wildcards: db=nr, orf_finder=prodigal, sample=s.100.Healthygreaterthan5.Stool.visit3.918
+    threads: 8
+
+Submitted job 911 with external jobid 'Submitted batch job 7620582'.
+
+[Sat Sep 25 19:30:18 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s39.VEO.Feces.Week_8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s39.VEO.Feces.Week_8.xml
+    jobid: 315
+    wildcards: db=nr, orf_finder=prodigal, sample=s39.VEO.Feces.Week_8
+    threads: 8
+
+Submitted job 315 with external jobid 'Submitted batch job 7620583'.
+
+[Sat Sep 25 19:30:18 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.154.VEO.Feces.Week.8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.154.VEO.Feces.Week.8.xml
+    jobid: 1379
+    wildcards: db=nr, orf_finder=prodigal, sample=s.154.VEO.Feces.Week.8
+    threads: 8
+
+Submitted job 1379 with external jobid 'Submitted batch job 7620584'.
+
+[Sat Sep 25 19:30:18 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s70.Healthy_greaterthan5.Feces.Week_4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s70.Healthy_greaterthan5.Feces.Week_4.xml
+    jobid: 1171
+    wildcards: db=nr, orf_finder=prodigal, sample=s70.Healthy_greaterthan5.Feces.Week_4
+    threads: 8
+
+Submitted job 1171 with external jobid 'Submitted batch job 7620585'.
+
+[Sat Sep 25 19:30:18 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.225.IBD_Therapy.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.225.IBD_Therapy.Feces.Baseline.xml
+    jobid: 415
+    wildcards: db=nr, orf_finder=prodigal, sample=s.225.IBD_Therapy.Feces.Baseline
+    threads: 8
+
+Submitted job 415 with external jobid 'Submitted batch job 7620586'.
+
+[Sat Sep 25 19:30:18 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s22.Healthy.Feces.Visit1_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s22.Healthy.Feces.Visit1.xml
+    jobid: 439
+    wildcards: db=nr, orf_finder=prodigal, sample=s22.Healthy.Feces.Visit1
+    threads: 8
+
+Submitted job 439 with external jobid 'Submitted batch job 7620587'.
+
+[Sat Sep 25 19:30:18 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.288.IBD.Therapy.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.288.IBD.Therapy.Feces.Baseline.xml
+    jobid: 663
+    wildcards: db=nr, orf_finder=prodigal, sample=s.288.IBD.Therapy.Feces.Baseline
+    threads: 8
+
+Submitted job 663 with external jobid 'Submitted batch job 7620588'.
+
+[Sat Sep 25 19:30:18 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s53.VEO.Feces.Week_8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s53.VEO.Feces.Week_8.xml
+    jobid: 475
+    wildcards: db=nr, orf_finder=prodigal, sample=s53.VEO.Feces.Week_8
+    threads: 8
+
+Submitted job 475 with external jobid 'Submitted batch job 7620589'.
+
+[Sat Sep 25 19:30:19 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s078.IBD.Therapy.Feces.Week.4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s078.IBD.Therapy.Feces.Week.4.xml
+    jobid: 891
+    wildcards: db=nr, orf_finder=prodigal, sample=s078.IBD.Therapy.Feces.Week.4
+    threads: 8
+
+Submitted job 891 with external jobid 'Submitted batch job 7620590'.
+
+[Sat Sep 25 19:30:19 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.351.IBD.Antibiotics.Stool.3.2763_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.351.IBD.Antibiotics.Stool.3.2763.xml
+    jobid: 1059
+    wildcards: db=nr, orf_finder=prodigal, sample=s.351.IBD.Antibiotics.Stool.3.2763
+    threads: 8
+
+Submitted job 1059 with external jobid 'Submitted batch job 7620591'.
+
+[Sat Sep 25 19:30:19 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s46.Healthy_greaterthan5.Feces.Week_8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s46.Healthy_greaterthan5.Feces.Week_8.xml
+    jobid: 931
+    wildcards: db=nr, orf_finder=prodigal, sample=s46.Healthy_greaterthan5.Feces.Week_8
+    threads: 8
+
+Submitted job 931 with external jobid 'Submitted batch job 7620592'.
+
+[Sat Sep 25 19:30:19 2021]
+rule run_blastp:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.347.IBDTherapy.Stool.1.2668_genes_prot.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastp/nr/prodigal/s.347.IBDTherapy.Stool.1.2668.xml
+    jobid: 1286
+    wildcards: db=nr, orf_finder=prodigal, sample=s.347.IBDTherapy.Stool.1.2668
+    threads: 8
+
+Submitted job 1286 with external jobid 'Submitted batch job 7620593'.
+
+[Sat Sep 25 19:30:19 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s70.Healthy_greaterthan5.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s70.Healthy_greaterthan5.Feces.Baseline.xml
+    jobid: 1179
+    wildcards: db=nr, orf_finder=prodigal, sample=s70.Healthy_greaterthan5.Feces.Baseline
+    threads: 8
+
+Submitted job 1179 with external jobid 'Submitted batch job 7620594'.
+
+[Sat Sep 25 19:30:19 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.261.IBD_Therapy.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.261.IBD_Therapy.Feces.Baseline.xml
+    jobid: 1383
+    wildcards: db=nr, orf_finder=prodigal, sample=s.261.IBD_Therapy.Feces.Baseline
+    threads: 8
+
+Submitted job 1383 with external jobid 'Submitted batch job 7620595'.
+
+[Sat Sep 25 19:30:20 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.304.VEO.Stool.visit3.2491_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.304.VEO.Stool.visit3.2491.xml
+    jobid: 1147
+    wildcards: db=nr, orf_finder=prodigal, sample=s.304.VEO.Stool.visit3.2491
+    threads: 8
+
+Submitted job 1147 with external jobid 'Submitted batch job 7620596'.
+
+[Sat Sep 25 19:30:20 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.222.IBD_CDiff.Feces.Week_8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.222.IBD_CDiff.Feces.Week_8.xml
+    jobid: 531
+    wildcards: db=nr, orf_finder=prodigal, sample=s.222.IBD_CDiff.Feces.Week_8
+    threads: 8
+
+Submitted job 531 with external jobid 'Submitted batch job 7620597'.
+
+[Sat Sep 25 19:30:20 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s097.IBD.Antibiotics.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s097.IBD.Antibiotics.Feces.Baseline.xml
+    jobid: 379
+    wildcards: db=nr, orf_finder=prodigal, sample=s097.IBD.Antibiotics.Feces.Baseline
+    threads: 8
+
+Submitted job 379 with external jobid 'Submitted batch job 7620598'.
+
+[Sat Sep 25 19:30:20 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.355.IBD.Antibiotics.Stool.1.2765_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.355.IBD.Antibiotics.Stool.1.2765.xml
+    jobid: 783
+    wildcards: db=nr, orf_finder=prodigal, sample=s.355.IBD.Antibiotics.Stool.1.2765
+    threads: 8
+
+Submitted job 783 with external jobid 'Submitted batch job 7620599'.
+
+[Sat Sep 25 19:30:20 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.109.Healthy.greaterthan5.Stool.2.1046_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.109.Healthy.greaterthan5.Stool.2.1046.xml
+    jobid: 847
+    wildcards: db=nr, orf_finder=prodigal, sample=s.109.Healthy.greaterthan5.Stool.2.1046
+    threads: 8
+
+Submitted job 847 with external jobid 'Submitted batch job 7620600'.
+
+[Sat Sep 25 19:30:20 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.204.Healthy.Antibiotics.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.204.Healthy.Antibiotics.Feces.Baseline.xml
+    jobid: 955
+    wildcards: db=nr, orf_finder=prodigal, sample=s.204.Healthy.Antibiotics.Feces.Baseline
+    threads: 8
+
+Submitted job 955 with external jobid 'Submitted batch job 7620601'.
+
+[Sat Sep 25 19:30:21 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.316.IBDC.Diff.Stool.visit2.2544_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.316.IBDC.Diff.Stool.visit2.2544.xml
+    jobid: 1119
+    wildcards: db=nr, orf_finder=prodigal, sample=s.316.IBDC.Diff.Stool.visit2.2544
+    threads: 8
+
+Submitted job 1119 with external jobid 'Submitted batch job 7620602'.
+
+[Sat Sep 25 19:30:21 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.314.Healthy.Antibiotics.Stool.3.2567_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.314.Healthy.Antibiotics.Stool.3.2567.xml
+    jobid: 419
+    wildcards: db=nr, orf_finder=prodigal, sample=s.314.Healthy.Antibiotics.Stool.3.2567
+    threads: 8
+
+Submitted job 419 with external jobid 'Submitted batch job 7620603'.
+
+[Sat Sep 25 19:30:21 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.88.Healthy.greaterthan5.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.88.Healthy.greaterthan5.Feces.Baseline.xml
+    jobid: 659
+    wildcards: db=nr, orf_finder=prodigal, sample=s.88.Healthy.greaterthan5.Feces.Baseline
+    threads: 8
+
+Submitted job 659 with external jobid 'Submitted batch job 7620604'.
+
+[Sat Sep 25 19:30:21 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.91.Healthy.greaterthan5.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.91.Healthy.greaterthan5.Feces.Baseline.xml
+    jobid: 515
+    wildcards: db=nr, orf_finder=prodigal, sample=s.91.Healthy.greaterthan5.Feces.Baseline
+    threads: 8
+
+Submitted job 515 with external jobid 'Submitted batch job 7620605'.
+
+[Sat Sep 25 19:30:21 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.244.VEO.Stool.2.1952_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.244.VEO.Stool.2.1952.xml
+    jobid: 319
+    wildcards: db=nr, orf_finder=prodigal, sample=s.244.VEO.Stool.2.1952
+    threads: 8
+
+Submitted job 319 with external jobid 'Submitted batch job 7620606'.
+
+[Sat Sep 25 19:30:21 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s067.Healthy.Antibiotics.Feces.Week.4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s067.Healthy.Antibiotics.Feces.Week.4.xml
+    jobid: 803
+    wildcards: db=nr, orf_finder=prodigal, sample=s067.Healthy.Antibiotics.Feces.Week.4
+    threads: 8
+
+Submitted job 803 with external jobid 'Submitted batch job 7620607'.
+
+[Sat Sep 25 19:30:21 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.271.C.Diff_Oncology.Feces.Week_4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.271.C.Diff_Oncology.Feces.Week_4.xml
+    jobid: 627
+    wildcards: db=nr, orf_finder=prodigal, sample=s.271.C.Diff_Oncology.Feces.Week_4
+    threads: 8
+
+Submitted job 627 with external jobid 'Submitted batch job 7620608'.
+
+[Sat Sep 25 19:30:22 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.147.IBD_Therapy.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.147.IBD_Therapy.Feces.Baseline.xml
+    jobid: 479
+    wildcards: db=nr, orf_finder=prodigal, sample=s.147.IBD_Therapy.Feces.Baseline
+    threads: 8
+
+Submitted job 479 with external jobid 'Submitted batch job 7620609'.
+
+[Sat Sep 25 19:30:22 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.100.Healthygreaterthan5.Stool.visit2.919_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.100.Healthygreaterthan5.Stool.visit2.919.xml
+    jobid: 1235
+    wildcards: db=nr, orf_finder=prodigal, sample=s.100.Healthygreaterthan5.Stool.visit2.919
+    threads: 8
+
+Submitted job 1235 with external jobid 'Submitted batch job 7620610'.
+
+[Sat Sep 25 19:30:22 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.222.IBD_CDiff.Feces.Week_4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.222.IBD_CDiff.Feces.Week_4.xml
+    jobid: 487
+    wildcards: db=nr, orf_finder=prodigal, sample=s.222.IBD_CDiff.Feces.Week_4
+    threads: 8
+
+Submitted job 487 with external jobid 'Submitted batch job 7620611'.
+
+[Sat Sep 25 19:30:22 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s26.Healthy.Feces.Visit1_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s26.Healthy.Feces.Visit1.xml
+    jobid: 643
+    wildcards: db=nr, orf_finder=prodigal, sample=s26.Healthy.Feces.Visit1
+    threads: 8
+
+Submitted job 643 with external jobid 'Submitted batch job 7620612'.
+
+[Sat Sep 25 19:30:22 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s55.IBD_Therapy.Feces.Week_4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s55.IBD_Therapy.Feces.Week_4.xml
+    jobid: 1355
+    wildcards: db=nr, orf_finder=prodigal, sample=s55.IBD_Therapy.Feces.Week_4
+    threads: 8
+
+Submitted job 1355 with external jobid 'Submitted batch job 7620614'.
+
+[Sat Sep 25 19:30:25 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s39.VEO.Feces.Visit1_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s39.VEO.Feces.Visit1.xml
+    jobid: 503
+    wildcards: db=nr, orf_finder=prodigal, sample=s39.VEO.Feces.Visit1
+    threads: 8
+
+Submitted job 503 with external jobid 'Submitted batch job 7620615'.
+
+[Sat Sep 25 19:30:25 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.308.IBDC.Diff.Stool.visit3.2507_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.308.IBDC.Diff.Stool.visit3.2507.xml
+    jobid: 947
+    wildcards: db=nr, orf_finder=prodigal, sample=s.308.IBDC.Diff.Stool.visit3.2507
+    threads: 8
+
+Submitted job 947 with external jobid 'Submitted batch job 7620616'.
+
+[Sat Sep 25 19:30:25 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.244.VEO.Stool.3.1964_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.244.VEO.Stool.3.1964.xml
+    jobid: 1091
+    wildcards: db=nr, orf_finder=prodigal, sample=s.244.VEO.Stool.3.1964
+    threads: 8
+
+Submitted job 1091 with external jobid 'Submitted batch job 7620617'.
+
+[Sat Sep 25 19:30:25 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.293.Healthy.Antibiotics.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.293.Healthy.Antibiotics.Feces.Baseline.xml
+    jobid: 599
+    wildcards: db=nr, orf_finder=prodigal, sample=s.293.Healthy.Antibiotics.Feces.Baseline
+    threads: 8
+
+Submitted job 599 with external jobid 'Submitted batch job 7620618'.
+
+[Sat Sep 25 19:30:25 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s58.Healthy_greaterthan5.Feces.Week_4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s58.Healthy_greaterthan5.Feces.Week_4.xml
+    jobid: 963
+    wildcards: db=nr, orf_finder=prodigal, sample=s58.Healthy_greaterthan5.Feces.Week_4
+    threads: 8
+
+Submitted job 963 with external jobid 'Submitted batch job 7620619'.
+
+[Sat Sep 25 19:30:26 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.355.IBD.Antibiotics.Stool.2.2866_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.355.IBD.Antibiotics.Stool.2.2866.xml
+    jobid: 363
+    wildcards: db=nr, orf_finder=prodigal, sample=s.355.IBD.Antibiotics.Stool.2.2866
+    threads: 8
+
+Submitted job 363 with external jobid 'Submitted batch job 7620620'.
+
+[Sat Sep 25 19:30:26 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.293.Healthy.Antibiotics.Feces.week.4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.293.Healthy.Antibiotics.Feces.week.4.xml
+    jobid: 1195
+    wildcards: db=nr, orf_finder=prodigal, sample=s.293.Healthy.Antibiotics.Feces.week.4
+    threads: 8
+
+Submitted job 1195 with external jobid 'Submitted batch job 7620621'.
+
+[Sat Sep 25 19:30:26 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.355.IBD.Antibiotics.Stool.3.2867_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.355.IBD.Antibiotics.Stool.3.2867.xml
+    jobid: 331
+    wildcards: db=nr, orf_finder=prodigal, sample=s.355.IBD.Antibiotics.Stool.3.2867
+    threads: 8
+
+Submitted job 331 with external jobid 'Submitted batch job 7620622'.
+
+[Sat Sep 25 19:30:26 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.204.Healthy.Antibiotics.Feces.Week.8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.204.Healthy.Antibiotics.Feces.Week.8.xml
+    jobid: 1339
+    wildcards: db=nr, orf_finder=prodigal, sample=s.204.Healthy.Antibiotics.Feces.Week.8
+    threads: 8
+
+Submitted job 1339 with external jobid 'Submitted batch job 7620623'.
+
+[Sat Sep 25 19:30:26 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.85.Healthy_greaterthan5.Feces.Week_4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.85.Healthy_greaterthan5.Feces.Week_4.xml
+    jobid: 743
+    wildcards: db=nr, orf_finder=prodigal, sample=s.85.Healthy_greaterthan5.Feces.Week_4
+    threads: 8
+
+Submitted job 743 with external jobid 'Submitted batch job 7620624'.
+
+[Sat Sep 25 19:30:27 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s143.VEO.Feces.Week.4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s143.VEO.Feces.Week.4.xml
+    jobid: 619
+    wildcards: db=nr, orf_finder=prodigal, sample=s143.VEO.Feces.Week.4
+    threads: 8
+
+Submitted job 619 with external jobid 'Submitted batch job 7620625'.
+
+[Sat Sep 25 19:30:27 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s32.C_diff.Feces.Visit3_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s32.C_diff.Feces.Visit3.xml
+    jobid: 299
+    wildcards: db=nr, orf_finder=prodigal, sample=s32.C_diff.Feces.Visit3
+    threads: 8
+
+Submitted job 299 with external jobid 'Submitted batch job 7620626'.
+
+[Sat Sep 25 19:30:27 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.308.IBDC.Diff.Stool.visit2.2500_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.308.IBDC.Diff.Stool.visit2.2500.xml
+    jobid: 1159
+    wildcards: db=nr, orf_finder=prodigal, sample=s.308.IBDC.Diff.Stool.visit2.2500
+    threads: 8
+
+Submitted job 1159 with external jobid 'Submitted batch job 7620627'.
+
+[Sat Sep 25 19:30:27 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s159.Healthy.Antibiotics.Feces.Week.8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s159.Healthy.Antibiotics.Feces.Week.8.xml
+    jobid: 639
+    wildcards: db=nr, orf_finder=prodigal, sample=s159.Healthy.Antibiotics.Feces.Week.8
+    threads: 8
+
+Submitted job 639 with external jobid 'Submitted batch job 7620628'.
+
+[Sat Sep 25 19:30:28 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s067.Healthy.Antibiotics.Feces.Week.8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s067.Healthy.Antibiotics.Feces.Week.8.xml
+    jobid: 1307
+    wildcards: db=nr, orf_finder=prodigal, sample=s067.Healthy.Antibiotics.Feces.Week.8
+    threads: 8
+
+Submitted job 1307 with external jobid 'Submitted batch job 7620629'.
+
+[Sat Sep 25 19:30:28 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.200.Healthy.Antibiotics.Feces.Week.8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.200.Healthy.Antibiotics.Feces.Week.8.xml
+    jobid: 991
+    wildcards: db=nr, orf_finder=prodigal, sample=s.200.Healthy.Antibiotics.Feces.Week.8
+    threads: 8
+
+Submitted job 991 with external jobid 'Submitted batch job 7620630'.
+
+[Sat Sep 25 19:30:28 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.357.IBDC.Diff.Stool.2.2864_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.357.IBDC.Diff.Stool.2.2864.xml
+    jobid: 835
+    wildcards: db=nr, orf_finder=prodigal, sample=s.357.IBDC.Diff.Stool.2.2864
+    threads: 8
+
+Submitted job 835 with external jobid 'Submitted batch job 7620631'.
+
+[Sat Sep 25 19:30:28 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.212.IBD.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.212.IBD.Feces.Baseline.xml
+    jobid: 1243
+    wildcards: db=nr, orf_finder=prodigal, sample=s.212.IBD.Feces.Baseline
+    threads: 8
+
+Submitted job 1243 with external jobid 'Submitted batch job 7620632'.
+
+[Sat Sep 25 19:30:28 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s102.IBD.Therapy.Feces.Week.4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s102.IBD.Therapy.Feces.Week.4.xml
+    jobid: 635
+    wildcards: db=nr, orf_finder=prodigal, sample=s102.IBD.Therapy.Feces.Week.4
+    threads: 8
+
+Submitted job 635 with external jobid 'Submitted batch job 7620633'.
+
+[Sat Sep 25 19:30:28 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s58.Healthy_greaterthan5.Feces.Week_8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s58.Healthy_greaterthan5.Feces.Week_8.xml
+    jobid: 539
+    wildcards: db=nr, orf_finder=prodigal, sample=s58.Healthy_greaterthan5.Feces.Week_8
+    threads: 8
+
+Submitted job 539 with external jobid 'Submitted batch job 7620634'.
+
+[Sat Sep 25 19:30:29 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.265.IBD_C.Diff.Feces.Week_4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.265.IBD_C.Diff.Feces.Week_4.xml
+    jobid: 295
+    wildcards: db=nr, orf_finder=prodigal, sample=s.265.IBD_C.Diff.Feces.Week_4
+    threads: 8
+
+Submitted job 295 with external jobid 'Submitted batch job 7620635'.
+
+[Sat Sep 25 19:30:29 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s20.C_diff.Feces.Visit2_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s20.C_diff.Feces.Visit2.xml
+    jobid: 707
+    wildcards: db=nr, orf_finder=prodigal, sample=s20.C_diff.Feces.Visit2
+    threads: 8
+
+Submitted job 707 with external jobid 'Submitted batch job 7620636'.
+
+[Sat Sep 25 19:30:29 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s58.Healthy_greaterthan5.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s58.Healthy_greaterthan5.Feces.Baseline.xml
+    jobid: 755
+    wildcards: db=nr, orf_finder=prodigal, sample=s58.Healthy_greaterthan5.Feces.Baseline
+    threads: 8
+
+Submitted job 755 with external jobid 'Submitted batch job 7620637'.
+
+[Sat Sep 25 19:30:29 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s55.IBD_Therapy.Feces.Week_8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s55.IBD_Therapy.Feces.Week_8.xml
+    jobid: 591
+    wildcards: db=nr, orf_finder=prodigal, sample=s55.IBD_Therapy.Feces.Week_8
+    threads: 8
+
+Submitted job 591 with external jobid 'Submitted batch job 7620638'.
+
+[Sat Sep 25 19:30:29 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s22.Healthy.Feces.Visit2_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s22.Healthy.Feces.Visit2.xml
+    jobid: 431
+    wildcards: db=nr, orf_finder=prodigal, sample=s22.Healthy.Feces.Visit2
+    threads: 8
+
+Submitted job 431 with external jobid 'Submitted batch job 7620639'.
+
+[Sat Sep 25 19:30:30 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s60.Healthy_greaterthan5.Feces.Week_4_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s60.Healthy_greaterthan5.Feces.Week_4.xml
+    jobid: 1299
+    wildcards: db=nr, orf_finder=prodigal, sample=s60.Healthy_greaterthan5.Feces.Week_4
+    threads: 8
+
+Submitted job 1299 with external jobid 'Submitted batch job 7620640'.
+
+[Sat Sep 25 19:30:30 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s26.Healthy.Feces.Visit2_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s26.Healthy.Feces.Visit2.xml
+    jobid: 519
+    wildcards: db=nr, orf_finder=prodigal, sample=s26.Healthy.Feces.Visit2
+    threads: 8
+
+Submitted job 519 with external jobid 'Submitted batch job 7620641'.
+
+[Sat Sep 25 19:30:30 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.190.Healthy.Antibiotics.Feces.Week.8_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.190.Healthy.Antibiotics.Feces.Week.8.xml
+    jobid: 303
+    wildcards: db=nr, orf_finder=prodigal, sample=s.190.Healthy.Antibiotics.Feces.Week.8
+    threads: 8
+
+Submitted job 303 with external jobid 'Submitted batch job 7620642'.
+
+[Sat Sep 25 19:30:30 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.334.Healthy.Antibiotics.Stool.3.2749_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.334.Healthy.Antibiotics.Stool.3.2749.xml
+    jobid: 507
+    wildcards: db=nr, orf_finder=prodigal, sample=s.334.Healthy.Antibiotics.Stool.3.2749
+    threads: 8
+
+Submitted job 507 with external jobid 'Submitted batch job 7620643'.
+
+[Sat Sep 25 19:30:34 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.271.C.Diff_Oncology.Feces.Baseline_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.271.C.Diff_Oncology.Feces.Baseline.xml
+    jobid: 467
+    wildcards: db=nr, orf_finder=prodigal, sample=s.271.C.Diff_Oncology.Feces.Baseline
+    threads: 8
+
+Submitted job 467 with external jobid 'Submitted batch job 7620648'.
+
+[Sat Sep 25 19:30:35 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.304.VEO.Stool.visit1.2442_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.304.VEO.Stool.visit1.2442.xml
+    jobid: 875
+    wildcards: db=nr, orf_finder=prodigal, sample=s.304.VEO.Stool.visit1.2442
+    threads: 8
+
+Submitted job 875 with external jobid 'Submitted batch job 7620649'.
+
+[Sat Sep 25 19:30:36 2021]
+rule run_blastx:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/genes/prodigal/s.327.Healthy.Antibiotics.Stool.2.2643_genes_nucl.fa
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/annotation/blastx/nr/prodigal/s.327.Healthy.Antibiotics.Stool.2.2643.xml
+    jobid: 535
+    wildcards: db=nr, orf_finder=prodigal, sample=s.327.Healthy.Antibiotics.Stool.2.2643
+    threads: 8
+
+Submitted job 535 with external jobid 'Submitted batch job 7620650'.

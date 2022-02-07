@@ -1,0 +1,108 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	3	adapter_removal_paired
+	3	aggregate_reads
+	3	aggregate_results
+	1	all
+	1	classic_biom
+	3	contigs_mapping
+	3	fastqc
+	1	fastqc_report
+	6	filter_reads
+	3	final_filter
+	3	find_low_complexity
+	3	get_coverage
+	1	kraken_biom
+	3	kraken_classify
+	3	kraken_report
+	3	mapping_depth
+	3	megahit_paired
+	1	multiqc_report
+	1	preprocess_report
+	6	qc_final
+	6	remove_low_complexity
+	6	sample_intake
+	1	summarize_coverage
+	3	trimmomatic_paired
+	70
+
+[Wed Aug  4 01:27:11 2021]
+rule aggregate_reads:
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/intermediates/SRR10029126_hostreads.ids
+    jobid: 37
+    wildcards: sample=SRR10029126
+
+Submitted job 37 with external jobid 'Submitted batch job 5851983'.
+
+[Wed Aug  4 01:27:12 2021]
+rule aggregate_reads:
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/intermediates/SRR10029222_hostreads.ids
+    jobid: 38
+    wildcards: sample=SRR10029222
+
+Submitted job 38 with external jobid 'Submitted batch job 5851984'.
+
+[Wed Aug  4 01:27:12 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029226_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029226_2.fastq.gz
+    jobid: 59
+    wildcards: sample=SRR10029226, rp=2
+
+Submitted job 59 with external jobid 'Submitted batch job 5851985'.
+
+[Wed Aug  4 01:27:12 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029126_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029126_1.fastq.gz
+    jobid: 60
+    wildcards: sample=SRR10029126, rp=1
+
+Submitted job 60 with external jobid 'Submitted batch job 5851986'.
+
+[Wed Aug  4 01:27:12 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029222_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029222_1.fastq.gz
+    jobid: 62
+    wildcards: sample=SRR10029222, rp=1
+
+Submitted job 62 with external jobid 'Submitted batch job 5851987'.
+
+[Wed Aug  4 01:27:12 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029126_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029126_2.fastq.gz
+    jobid: 61
+    wildcards: sample=SRR10029126, rp=2
+
+Submitted job 61 with external jobid 'Submitted batch job 5851988'.
+
+[Wed Aug  4 01:27:12 2021]
+rule aggregate_reads:
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/intermediates/SRR10029226_hostreads.ids
+    jobid: 36
+    wildcards: sample=SRR10029226
+
+Submitted job 36 with external jobid 'Submitted batch job 5851989'.
+
+[Wed Aug  4 01:27:12 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029222_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029222_2.fastq.gz
+    jobid: 63
+    wildcards: sample=SRR10029222, rp=2
+
+Submitted job 63 with external jobid 'Submitted batch job 5851990'.
+
+[Wed Aug  4 01:27:12 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029226_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029226_1.fastq.gz
+    jobid: 58
+    wildcards: sample=SRR10029226, rp=1
+
+Submitted job 58 with external jobid 'Submitted batch job 5851991'.

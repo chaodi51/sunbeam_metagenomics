@@ -1,0 +1,96 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	3	adapter_removal_paired
+	1	all_qc
+	3	fastqc
+	3	find_low_complexity
+	6	qc_final
+	6	remove_low_complexity
+	6	sample_intake
+	3	trimmomatic_paired
+	31
+
+[Tue Aug  3 23:39:27 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029222_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029222_1.fastq.gz
+    jobid: 29
+    wildcards: sample=SRR10029222, rp=1
+
+[Tue Aug  3 23:39:27 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029126_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029126_1.fastq.gz
+    jobid: 27
+    wildcards: sample=SRR10029126, rp=1
+
+[Tue Aug  3 23:39:27 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029126_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029126_2.fastq.gz
+    jobid: 28
+    wildcards: sample=SRR10029126, rp=2
+
+[Tue Aug  3 23:39:27 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029222_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029222_2.fastq.gz
+    jobid: 30
+    wildcards: sample=SRR10029222, rp=2
+
+[Tue Aug  3 23:39:27 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029226_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029226_2.fastq.gz
+    jobid: 26
+    wildcards: sample=SRR10029226, rp=2
+
+[Tue Aug  3 23:39:27 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029226_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029226_1.fastq.gz
+    jobid: 25
+    wildcards: sample=SRR10029226, rp=1
+
+[Tue Aug  3 23:39:39 2021]
+Finished job 29.
+1 of 31 steps (3%) done
+[Tue Aug  3 23:39:39 2021]
+Finished job 27.
+2 of 31 steps (6%) done
+[Tue Aug  3 23:39:39 2021]
+Finished job 26.
+3 of 31 steps (10%) done
+[Tue Aug  3 23:39:39 2021]
+Finished job 30.
+4 of 31 steps (13%) done
+
+[Tue Aug  3 23:39:39 2021]
+rule adapter_removal_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029222_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029222_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/01_cutadapt/SRR10029222_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/01_cutadapt/SRR10029222_2.fastq.gz
+    log: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/log/cutadapt/SRR10029222.log
+    jobid: 24
+    wildcards: sample=SRR10029222
+    threads: 4
+
+[Tue Aug  3 23:39:39 2021]
+Finished job 25.
+5 of 31 steps (16%) done
+
+[Tue Aug  3 23:39:39 2021]
+rule adapter_removal_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029226_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029226_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/01_cutadapt/SRR10029226_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/01_cutadapt/SRR10029226_2.fastq.gz
+    log: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/log/cutadapt/SRR10029226.log
+    jobid: 22
+    wildcards: sample=SRR10029226
+    threads: 4
+
+[Tue Aug  3 23:39:39 2021]
+Finished job 28.
+6 of 31 steps (19%) done

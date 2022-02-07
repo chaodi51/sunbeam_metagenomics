@@ -1,0 +1,168 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	3	adapter_removal_paired
+	3	aggregate_reads
+	3	aggregate_results
+	1	all
+	1	classic_biom
+	3	contigs_mapping
+	3	fastqc
+	1	fastqc_report
+	6	filter_reads
+	3	final_filter
+	3	find_low_complexity
+	3	get_coverage
+	1	kraken_biom
+	3	kraken_classify
+	3	kraken_report
+	3	mapping_depth
+	3	megahit_paired
+	1	multiqc_report
+	1	preprocess_report
+	6	qc_final
+	6	remove_low_complexity
+	6	sample_intake
+	1	summarize_coverage
+	3	trimmomatic_paired
+	70
+
+[Wed Aug  4 01:29:39 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029222_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029222_1.fastq.gz
+    jobid: 62
+    wildcards: sample=SRR10029222, rp=1
+
+Submitted job 62 with external jobid 'Submitted batch job 5852005'.
+
+[Wed Aug  4 01:29:39 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029126_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029126_2.fastq.gz
+    jobid: 61
+    wildcards: sample=SRR10029126, rp=2
+
+Submitted job 61 with external jobid 'Submitted batch job 5852006'.
+
+[Wed Aug  4 01:29:39 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029226_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029226_2.fastq.gz
+    jobid: 59
+    wildcards: sample=SRR10029226, rp=2
+
+Submitted job 59 with external jobid 'Submitted batch job 5852007'.
+
+[Wed Aug  4 01:29:39 2021]
+rule aggregate_reads:
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/intermediates/SRR10029222_hostreads.ids
+    jobid: 38
+    wildcards: sample=SRR10029222
+
+Submitted job 38 with external jobid 'Submitted batch job 5852008'.
+
+[Wed Aug  4 01:29:39 2021]
+rule aggregate_reads:
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/intermediates/SRR10029126_hostreads.ids
+    jobid: 37
+    wildcards: sample=SRR10029126
+
+Submitted job 37 with external jobid 'Submitted batch job 5852009'.
+
+[Wed Aug  4 01:29:39 2021]
+rule aggregate_reads:
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/intermediates/SRR10029226_hostreads.ids
+    jobid: 36
+    wildcards: sample=SRR10029226
+
+Submitted job 36 with external jobid 'Submitted batch job 5852010'.
+
+[Wed Aug  4 01:29:39 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029226_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029226_1.fastq.gz
+    jobid: 58
+    wildcards: sample=SRR10029226, rp=1
+
+Submitted job 58 with external jobid 'Submitted batch job 5852011'.
+
+[Wed Aug  4 01:29:39 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029126_1.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029126_1.fastq.gz
+    jobid: 60
+    wildcards: sample=SRR10029126, rp=1
+
+Submitted job 60 with external jobid 'Submitted batch job 5852012'.
+
+[Wed Aug  4 01:29:39 2021]
+rule sample_intake:
+    input: /mnt/isilon/zackular_lab_hpc/data/DYNAMIC_metagenomics_2020/raw_fastq/SRR10029222_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029222_2.fastq.gz
+    jobid: 63
+    wildcards: sample=SRR10029222, rp=2
+
+Submitted job 63 with external jobid 'Submitted batch job 5852013'.
+[Wed Aug  4 01:30:19 2021]
+Finished job 62.
+1 of 70 steps (1%) done
+[Wed Aug  4 01:30:19 2021]
+Finished job 61.
+2 of 70 steps (3%) done
+[Wed Aug  4 01:30:19 2021]
+Finished job 59.
+3 of 70 steps (4%) done
+[Wed Aug  4 01:30:19 2021]
+Finished job 38.
+4 of 70 steps (6%) done
+[Wed Aug  4 01:30:19 2021]
+Finished job 37.
+5 of 70 steps (7%) done
+[Wed Aug  4 01:30:19 2021]
+Finished job 36.
+6 of 70 steps (9%) done
+[Wed Aug  4 01:30:19 2021]
+Finished job 58.
+7 of 70 steps (10%) done
+
+[Wed Aug  4 01:30:19 2021]
+rule adapter_removal_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029226_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029226_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/01_cutadapt/SRR10029226_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/01_cutadapt/SRR10029226_2.fastq.gz
+    log: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/log/cutadapt/SRR10029226.log
+    jobid: 49
+    wildcards: sample=SRR10029226
+    threads: 4
+
+[Wed Aug  4 01:30:19 2021]
+Finished job 60.
+8 of 70 steps (11%) done
+Submitted job 49 with external jobid 'Submitted batch job 5852018'.
+[Wed Aug  4 01:30:19 2021]
+Finished job 63.
+9 of 70 steps (13%) done
+
+[Wed Aug  4 01:30:19 2021]
+rule adapter_removal_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029126_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029126_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/01_cutadapt/SRR10029126_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/01_cutadapt/SRR10029126_2.fastq.gz
+    log: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/log/cutadapt/SRR10029126.log
+    jobid: 50
+    wildcards: sample=SRR10029126
+    threads: 4
+
+Submitted job 50 with external jobid 'Submitted batch job 5852019'.
+
+[Wed Aug  4 01:30:19 2021]
+rule adapter_removal_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029222_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/00_samples/SRR10029222_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/01_cutadapt/SRR10029222_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/01_cutadapt/SRR10029222_2.fastq.gz
+    log: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/log/cutadapt/SRR10029222.log
+    jobid: 51
+    wildcards: sample=SRR10029222
+    threads: 4
+
+Submitted job 51 with external jobid 'Submitted batch job 5852020'.

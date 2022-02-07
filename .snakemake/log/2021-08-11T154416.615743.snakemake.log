@@ -1,0 +1,155 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	1	all_classify
+	1	classic_biom
+	1	kraken_biom
+	4	kraken_classify
+	5	kraken_report
+	12
+
+[Wed Aug 11 15:45:13 2021]
+rule kraken_classify:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029136_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029136_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029136-raw.tsv
+    jobid: 290
+    wildcards: sample=SRR10029136
+    threads: 4
+
+Submitted job 290 with external jobid 'Submitted batch job 6021007'.
+
+[Wed Aug 11 15:45:13 2021]
+rule kraken_classify:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029133_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029133_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029133-raw.tsv
+    jobid: 228
+    wildcards: sample=SRR10029133
+    threads: 4
+
+Submitted job 228 with external jobid 'Submitted batch job 6021008'.
+
+[Wed Aug 11 15:45:14 2021]
+rule kraken_classify:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029208_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029208_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029208-raw.tsv
+    jobid: 196
+    wildcards: sample=SRR10029208
+    threads: 4
+
+Submitted job 196 with external jobid 'Submitted batch job 6021009'.
+
+[Wed Aug 11 15:45:14 2021]
+rule kraken_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029211-raw.tsv
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029211-taxa.tsv
+    jobid: 70
+    wildcards: sample=SRR10029211
+
+Submitted job 70 with external jobid 'Submitted batch job 6021010'.
+
+[Wed Aug 11 15:45:14 2021]
+rule kraken_classify:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029223_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029223_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029223-raw.tsv
+    jobid: 251
+    wildcards: sample=SRR10029223
+    threads: 4
+
+Submitted job 251 with external jobid 'Submitted batch job 6021011'.
+[Wed Aug 11 15:47:54 2021]
+Finished job 70.
+1 of 12 steps (8%) done
+[Wed Aug 11 15:50:34 2021]
+Finished job 228.
+2 of 12 steps (17%) done
+
+[Wed Aug 11 15:50:34 2021]
+rule kraken_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029133-raw.tsv
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029133-taxa.tsv
+    jobid: 80
+    wildcards: sample=SRR10029133
+
+Submitted job 80 with external jobid 'Submitted batch job 6021029'.
+[Wed Aug 11 15:52:14 2021]
+Finished job 196.
+3 of 12 steps (25%) done
+
+[Wed Aug 11 15:52:14 2021]
+rule kraken_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029208-raw.tsv
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029208-taxa.tsv
+    jobid: 48
+    wildcards: sample=SRR10029208
+
+Submitted job 48 with external jobid 'Submitted batch job 6021030'.
+[Wed Aug 11 15:53:54 2021]
+Finished job 80.
+4 of 12 steps (33%) done
+[Wed Aug 11 15:53:54 2021]
+Finished job 48.
+5 of 12 steps (42%) done
+[Wed Aug 11 15:54:34 2021]
+Finished job 290.
+6 of 12 steps (50%) done
+
+[Wed Aug 11 15:54:34 2021]
+rule kraken_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029136-raw.tsv
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029136-taxa.tsv
+    jobid: 142
+    wildcards: sample=SRR10029136
+
+Submitted job 142 with external jobid 'Submitted batch job 6021329'.
+[Wed Aug 11 15:58:14 2021]
+Finished job 142.
+7 of 12 steps (58%) done
+[Wed Aug 11 16:00:55 2021]
+Finished job 251.
+8 of 12 steps (67%) done
+
+[Wed Aug 11 16:00:55 2021]
+rule kraken_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029223-raw.tsv
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029223-taxa.tsv
+    jobid: 103
+    wildcards: sample=SRR10029223
+
+Submitted job 103 with external jobid 'Submitted batch job 6021333'.
+[Wed Aug 11 16:04:25 2021]
+Finished job 103.
+9 of 12 steps (75%) done
+
+[Wed Aug 11 16:04:25 2021]
+rule kraken_biom:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029226-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029126-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029222-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029200-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029259-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029205-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029247-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029180-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029179-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029240-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029238-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029246-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029219-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029253-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029268-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029154-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029149-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029140-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029147-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029151-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029134-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029139-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029166-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029164-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029187-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029231-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029148-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029188-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029195-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029214-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029204-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029232-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029185-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029174-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029241-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029159-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029165-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029237-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029158-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029163-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029150-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029260-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029157-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029202-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029135-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029208-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029227-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029182-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029153-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029266-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029125-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029161-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029235-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029146-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029230-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029198-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029177-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029127-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029199-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029178-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029138-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029203-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029175-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029212-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029171-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029131-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029128-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029211-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029206-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029229-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029167-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029201-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029160-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029262-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029234-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029130-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029191-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029133-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029141-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029270-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029243-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029144-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029249-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029250-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029184-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029183-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029176-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029239-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029216-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029263-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029251-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029233-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029254-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029137-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029236-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029271-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029209-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029210-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029215-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029207-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029223-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029228-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029218-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029169-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029155-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029145-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029189-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029190-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029225-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029194-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029156-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029257-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029124-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029265-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029256-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029248-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029142-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029242-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029213-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029267-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029152-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029264-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029252-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029173-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029269-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029168-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029220-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029193-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029258-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029162-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029261-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029196-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029143-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029132-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029217-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029224-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029186-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029129-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029244-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029136-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029255-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029197-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029245-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029181-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029221-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029192-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029172-taxa.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029170-taxa.tsv
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/all_samples.biom
+    jobid: 2
+
+Submitted job 2 with external jobid 'Submitted batch job 6021336'.
+[Wed Aug 11 16:08:05 2021]
+Finished job 2.
+10 of 12 steps (83%) done
+
+[Wed Aug 11 16:08:05 2021]
+rule classic_biom:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/all_samples.biom
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/all_samples.tsv
+    jobid: 1
+
+Submitted job 1 with external jobid 'Submitted batch job 6021340'.
+[Wed Aug 11 16:09:45 2021]
+Finished job 1.
+11 of 12 steps (92%) done
+
+[Wed Aug 11 16:09:45 2021]
+localrule all_classify:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/all_samples.tsv
+    jobid: 0
+
+[Wed Aug 11 16:09:45 2021]
+Finished job 0.
+12 of 12 steps (100%) done
+Complete log: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/.snakemake/log/2021-08-11T154416.615743.snakemake.log

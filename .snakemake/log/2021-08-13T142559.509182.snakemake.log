@@ -1,0 +1,3 @@
+SyntaxError in line 10 of /mnt/isilon/dbhi_bfx/dic/tools/sunbeam/extensions/sbx_template/sbx_template.rules:
+Command must be given as string after the shell keyword. (sbx_template.rules, line 10)
+  File "/mnt/isilon/dbhi_bfx/dic/tools/sunbeam/Snakefile", line 141, in <module>

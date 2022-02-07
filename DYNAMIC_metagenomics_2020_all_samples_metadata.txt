@@ -1,0 +1,284 @@
+sample_subject_name	SubjectID	redcap_event_name_orig	redcap_event_name	age_yrs	sex	antibiotics	IBD_Med_Name	study_group_new	SampleType	clinical_severity	metagenomics	strain_isolation	metabolon	qPCR	notes	tcdB_ct_ave	tcdB_summary	C. difficile Burden (CFU / g stool)	SampleID	Run	NautilusID	IBD_C.Diff_VS_IBD	IBD_C.Diff_VS_Healthy	IBD_VS_Healthy	Severe_VS_Non-Severe
+910	Subj 109	Baseline Visit	Baseline Visit	14.31506849	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s.109.Healthy.greaterthan5.Stool.1.910	Tobacco 18	483421	No	Yes	Yes	No
+1046	Subj 109	Visit 2	Visit 2	14.39452055	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.109.Healthy.greaterthan5.Stool.2.1046	Tobacco 18	501045	No	No	No	No
+1047	Subj 109	Visit 3	Visit 3	14.47671233	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s.109.Healthy.greaterthan5.Stool.3.1047	Tobacco 18	501052	No	No	No	No
+1175	Subj 135	Baseline Visit	Baseline Visit	15.10136986	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.135.Healthy.Antibiotics.Feces.Baseline	Tobacco 10	503714	No	Yes	Yes	No
+1197	Subj 135	Visit 2	Visit 2	15.18356164	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.135.Healthy.Antibiotics.Feces.Week.4	Tobacco 10	505154	No	No	No	No
+1198	Subj 135	Visit 3	Visit 3	15.29589041	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.135.Healthy.Antibiotics.Feces.Week.8	Tobacco 10	505162	No	No	No	No
+1023	Subj 154	Baseline Visit	Baseline Visit	5.063013699	Male	Yes	5.ASA	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.154.VEO.Feces.Baseline	Tobacco 10	500884	Yes	No	Yes	No
+1519	Subj 154	Visit 2	Visit 2	5.142465753	Male	Yes	5.ASA	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.154.VEO.Feces.Week.4	Tobacco 10	539407	No	No	No	No
+1518	Subj 154	Visit 3	Visit 3	5.249315068	Male	Past use	5.ASA	IBD	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	#N/A	s.154.VEO.Feces.Week.8	Tobacco 10	539400	No	No	No	No
+1026	Subj 155	Baseline Visit	Baseline Visit	16.61917808	Male	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.155.Healthy.Antibiotics.Feces.Baseline	Tobacco 9	500905	No	Yes	Yes	No
+1277	Subj 155	Visit 2	Visit 2	16.70410959	Male	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.155.Healthy.Antibiotics.Feces.Week.4	Tobacco 9	508992	No	No	No	No
+1024	Subj 155	Visit 3	Visit 3	16.79452055	Male	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.155.Healthy.Antibiotics.Feces.Week.8	Tobacco 9	500891	No	No	No	No
+1614	Subj 173	Baseline Visit	Baseline Visit	2.520547945	Male	Past use	"Enteral.Steroids,Proton.Pump.Inhibitors"	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.173.VEO.Feces.Baseline	Tobacco 9	541948	Yes	No	Yes	No
+1574	Subj 173	Visit 2	Visit 2	2.58630137	Male	Past use	"Enteral.Steroids,Proton.Pump.Inhibitors"	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.173.VEO.Feces.Week.4	Tobacco 9	541669	No	No	No	No
+1575	Subj 173	Visit 3	Visit 3	2.673972603	Male	Past use	"Enteral.Steroids,Proton.Pump.Inhibitors"	IBD	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	#N/A	s.173.VEO.Feces.Week.8	Tobacco 9	541675	No	No	No	No
+1585	Subj 175	Baseline Visit	Baseline Visit	5.183561644	Male	No	5.ASA	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	33.11	Positive	#N/A	s.175.VEO.Feces.Baseline	Tobacco 9	541746	Yes	Yes	No	Yes
+1588	Subj 175	Visit 2	Visit 2	5.257534247	Male	No	"Biologics,5.ASA"	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	39.69	Positive	#N/A	s.175.VEO.Feces.Week_4	Tobacco 9	541767	No	No	No	No
+1589	Subj 175	Visit 3	Visit 3	5.336986301	Male	No	"Biologics,Other.Immunomodulator"	IBD_C.Diff	Feces	Non-Severe	Yes	No	No	Yes	#N/A	37.61	Positive	#N/A	s.175.VEO.Feces.Week_8	Tobacco 9	541773	No	No	No	No
+1598	Subj 190	Baseline Visit	Baseline Visit	9.254794521	Female	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.190.Healthy.Antibiotics.Feces.Baseline	Tobacco 8	541836	No	Yes	Yes	No
+1563	Subj 190	Visit 2	Visit 2	9.326027397	Female	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.190.Healthy.Antibiotics.Feces.Week.4	Tobacco 8	541591	No	No	No	No
+1562	Subj 190	Visit 3	Visit 3	9.416438356	Female	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.190.Healthy.Antibiotics.Feces.Week.8	Tobacco 8	541584	No	No	No	No
+1552	Subj 197	Baseline Visit	Baseline Visit	11.16164384	Female	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.197.Healthy.Antibiotics.Feces.Baseline	Tobacco 8	539791	No	Yes	Yes	No
+1528	Subj 197	Visit 2	Visit 2	11.24383562	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.197.Healthy.Antibiotics.Feces.Week.4	Tobacco 8	539473	No	No	No	No
+1529	Subj 197	Visit 3	Visit 3	11.30410959	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.197.Healthy.Antibiotics.Feces.Week.8	Tobacco 8	539480	No	No	No	No
+1549	Subj 200	Baseline Visit	Baseline Visit	9.167123288	Male	No	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.200.Healthy.Antibiotics.Feces.Baseline	Tobacco 9	539770	No	Yes	Yes	No
+1534	Subj 200	Visit 2	Visit 2	9.246575342	Male	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.200.Healthy.Antibiotics.Feces.Week.4	Tobacco 9	539516	No	No	No	No
+1535	Subj 200	Visit 3	Visit 3	9.345205479	Male	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.200.Healthy.Antibiotics.Feces.Week.8	Tobacco 9	539522	No	No	No	No
+1531	Subj 204	Baseline Visit	Baseline Visit	5.775342466	Female	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.204.Healthy.Antibiotics.Feces.Baseline	Tobacco 9	539494	No	Yes	Yes	No
+1807	Subj 204	Visit 2	Visit 2	5.852054795	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.204.Healthy.Antibiotics.Feces.Week.4	Tobacco 9	562397	No	No	No	No
+1806	Subj 204	Visit 3	Visit 3	5.926027397	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.204.Healthy.Antibiotics.Feces.Week.8	Tobacco 9	562389	No	No	No	No
+1539	Subj 209	Baseline Visit	Baseline Visit	14.08767123	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.209.Healthy.Antibiotics.Feces.Baseline	Tobacco 9	539550	No	Yes	Yes	No
+1860	Subj 209	Visit 2	Visit 2	14.18630137	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.209.Healthy.Antibiotics.Feces.Week.4	Tobacco 9	562767	No	No	No	No
+1859	Subj 209	Visit 3	Visit 3	14.24657534	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.209.Healthy.Antibiotics.Feces.Week.8	Tobacco 9	562761	No	No	No	No
+1811	Subj 212	Baseline Visit	Baseline Visit	15.69315068	Male	No	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.212.IBD.Feces.Baseline	Tobacco 10	562424	Yes	No	Yes	No
+1855	Subj 212	Visit 2	Visit 2	15.76164384	Male	No	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.212.IBD.Feces.Week.4	Tobacco 10	562732	No	No	No	No
+1854	Subj 212	Visit 3	Visit 3	15.85205479	Male	No	Biologics	IBD	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	#N/A	s.212.IBD.Feces.Week.8	Tobacco 10	562725	No	No	No	No
+1813	Subj 214	Baseline Visit	Baseline Visit	17.08493151	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.214.Healthy.Antibiotics.Feces.Baseline	Tobacco 9	562438	No	Yes	Yes	No
+1850	Subj 214	Visit 2	Visit 2	17.16986301	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.214.Healthy.Antibiotics.Feces.Week.4	Tobacco 9	562697	No	No	No	No
+1851	Subj 214	Visit 3	Visit 3	17.24657534	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.214.Healthy.Antibiotics.Feces.Week.8	Tobacco 9	562704	No	No	No	No
+1858	Subj 222	Baseline Visit	Baseline Visit	16.90136986	Male	Yes	"Biologics,Systemic.Steroids"	IBD_C.Diff	Feces	Severe	Yes	Yes	Yes	Yes	#N/A	30.14	Positive	3.54E+05	s.222.IBD_CDiff.Feces.Baseline	Tobacco 9	562753	Yes	Yes	No	Yes
+1823	Subj 222	Visit 2	Visit 2	16.96712329	Male	Yes	"Biologics,Systemic.Steroids"	IBD_C.Diff	Feces	Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s.222.IBD_CDiff.Feces.Week_4	Tobacco 19	562508	No	No	No	No
+1822	Subj 222	Visit 3	Visit 3	17.04383562	Male	Past use	"Biologics,Systemic.Steroids"	IBD_C.Diff	Feces	Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s.222.IBD_CDiff.Feces.Week_8	Tobacco 9	562501	No	No	No	No
+1839	Subj 225	Baseline Visit	Baseline Visit	8.98630137	Male	No	None	IBD	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.225.IBD_Therapy.Feces.Baseline	Tobacco 10	562620	Yes	No	Yes	No
+1825	Subj 225	Visit 2	Visit 2	9.073972603	Male	No	"Enteral.Steroids,5.ASA"	IBD	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.225.IBD_Therapy.Feces.Week_4	Tobacco 10	562522	No	No	No	No
+1824	Subj 225	Visit 3	Visit 3	9.150684932	Male	No	"Enteral.Steroids,5.ASA"	IBD	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.225.IBD_Therapy.Feces.Week_8	Tobacco 10	562515	No	No	No	No
+1929	Subj 233	Baseline Visit	Baseline Visit	4.632876712	Male	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.233.Healthy.Antibiotics.Feces.Baseline	Tobacco 10	577931	No	Yes	Yes	No
+1983	Subj 233	Visit 2	Visit 2	4.712328767	Male	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.233.Healthy.Antibiotics.Feces.Week.4	Tobacco 10	578310	No	No	No	No
+1984	Subj 233	Visit 3	Visit 3	4.78630137	Male	Past use	None	Healthy	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	#N/A	s.233.Healthy.Antibiotics.Feces.Week.8	Tobacco 10	578316	No	No	No	No
+1930	Subj 235	Baseline Visit	Baseline Visit	7.131506849	Male	Yes	None	ONC_C.Diff	Feces	Severe	Yes	Yes	No	Yes	#N/A	32.18	Positive	#N/A	s.235.C_Diff_Oncology.Feces.Baseline	Tobacco 11	577938	No	No	No	No
+1979	Subj 235	Visit 2	Visit 2	7.235616438	Male	Yes	None	ONC_C.Diff	Feces	Severe	Yes	No	No	Yes	#N/A	33.74	Positive	#N/A	s.235.C_Diff_Oncology.Feces.Week_4	Tobacco 11	578281	No	No	No	No
+1980	Subj 235	Visit 3	Visit 3	7.347945205	Male	Yes	None	ONC_C.Diff	Feces	Severe	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s.235.C_Diff_Oncology.Feces.Week_8	Tobacco 11	578288	No	No	No	No
+1968	Subj 252	Baseline Visit	Baseline Visit	16.62739726	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.252.Healthy.Antibiotics.Feces.Baseline	Tobacco 12	578205	No	Yes	Yes	No
+2127	Subj 252	Visit 2	Visit 2	16.70684932	Female	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.252.Healthy.Antibiotics.Feces.Week.4	Tobacco 12	599638	No	No	No	No
+2128	Subj 252	Visit 3	Visit 3	16.78356164	Female	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.252.Healthy.Antibiotics.Feces.Week.8	Tobacco 12	599646	No	No	No	No
+1962	Subj 259	Baseline Visit	Baseline Visit	13.41369863	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.259.Healthy.Antibiotics.Feces.Baseline	Tobacco 12	578162	No	Yes	Yes	No
+2101	Subj 259	Visit 2	Visit 2	13.50684932	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.259.Healthy.Antibiotics.Feces.Week.4	Tobacco 12	599397	No	No	No	No
+2102	Subj 259	Visit 3	Visit 3	13.58356164	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.259.Healthy.Antibiotics.Feces.Week.8	Tobacco 12	599404	No	No	No	No
+1958	Subj 261	Baseline Visit	Baseline Visit	10.94520548	Male	Past use	None	IBD	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.261.IBD_Therapy.Feces.Baseline	Tobacco 12	578134	Yes	No	Yes	No
+2123	Subj 261	Visit 2	Visit 2	11.03287671	Male	Past use	Biologics	IBD	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.261.IBD_Therapy.Feces.Week_4	Tobacco 12	599606	No	No	No	No
+2122	Subj 261	Visit 3	Visit 3	11.11506849	Male	Past use	Biologics	IBD	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.261.IBD_Therapy.Feces.Week_8	Tobacco 19	599598	No	No	No	No
+1955	Subj 265	Baseline Visit	Baseline Visit	16.1890411	Male	No	5.ASA	IBD_C.Diff	Feces	Severe	Yes	Yes	Yes	Yes	#N/A	31.33	Positive	4.35E+04	s.265.IBD_C.Diff.Feces.Baseline	Tobacco 12	578114	Yes	Yes	No	Yes
+2104	Subj 265	Visit 2	Visit 2	16.30958904	Male	Past use	5.ASA	IBD_C.Diff	Feces	Severe	Yes	No	Yes	Yes	#N/A	28.53	Positive	3.25E+06	s.265.IBD_C.Diff.Feces.Week_4	Tobacco 12	599420	No	No	No	No
+1972	Subj 271	Baseline Visit	Baseline Visit	11.49589041	Female	Yes	None	ONC_C.Diff	Feces	Severe	Yes	Yes	Yes	Yes	#N/A	25.33	Positive	1.62E+06	s.271.C.Diff_Oncology.Feces.Baseline	Tobacco 12	578232	No	No	No	No
+2230	Subj 271	Visit 2	Visit 2	11.60547945	Female	Yes	None	ONC_C.Diff	Feces	Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	4.76E+04	s.271.C.Diff_Oncology.Feces.Week_4	Tobacco 12	605414	No	No	No	No
+2114	Subj 277	Baseline Visit	Baseline Visit	11.70136986	Male	Past use	None	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.277.IBDTherapy.Feces.Baseline	Tobacco 13	599534	Yes	No	Yes	No
+2241	Subj 277	Visit 2	Visit 2	11.77808219	Male	Past use	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.277.IBDTherapy.Feces.Week4	Tobacco 13	605501	No	No	No	No
+2231	Subj 277	Visit 3	Visit 3	11.87671233	Male	Past use	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.277.IBDTherapy.Feces.Week8	Tobacco 13	605421	No	No	No	No
+2301	Subj 285	Baseline Visit	Baseline Visit	2.463013699	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.285.Healthylessthan5.Stool.visit1.2301	Tobacco 15	634376	No	Yes	Yes	No
+2384	Subj 285	Visit 2	Visit 2	2.531506849	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s.285.Healthylessthan5.Stool.visit2.2384	Tobacco 15	657261	No	No	No	No
+2385	Subj 285	Visit 3	Visit 3	2.621917808	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s.285.Healthylessthan5.Stool.visit3.2385	Tobacco 15	657268	No	No	No	No
+2303	Subj 288	Baseline Visit	Baseline Visit	12.17808219	Female	No	None	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.288.IBD.Therapy.Feces.Baseline	Tobacco 14	634392	Yes	No	Yes	No
+2382	Subj 288	Visit 2	Visit 2	12.25753425	Female	No	5.ASA	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.288.IBD.Therapy.Feces.week.4	Tobacco 14	657244	No	No	No	No
+2380	Subj 288	Visit 3	Visit 3	12.3369863	Female	No	5.ASA	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.288.IBD.Therapy.Feces.week.8	Tobacco 14	657228	No	No	No	No
+2285	Subj 293	Baseline Visit	Baseline Visit	6.501369863	Female	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.293.Healthy.Antibiotics.Feces.Baseline	Tobacco 14	641323	No	Yes	Yes	No
+2309	Subj 293	Visit 2	Visit 2	6.578082192	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.293.Healthy.Antibiotics.Feces.week.4	Tobacco 14	634440	No	No	No	No
+2310	Subj 293	Visit 3	Visit 3	6.668493151	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	#N/A	s.293.Healthy.Antibiotics.Feces.week.8	Tobacco 14	634447	No	No	No	No
+2392	Subj 295	Baseline Visit	Baseline Visit	16.10410959	Female	No	None	IBD_C.Diff	Ostomy Fluid	Severe	No	Yes	No	Yes	Ostomy Fluid	Undetermined	Negative	#N/A	s.295.IBD.CDiff.Feces.Baseline	Tobacco 14	665871	No	No	No	No
+2393	Subj 295	Visit 2	Visit 2	16.19452055	Female	No	None	IBD_C.Diff	Ostomy Fluid	Severe	No	No	No	Yes	Ostomy Fluid	Undetermined	Negative	#N/A	s.295.IBD.CDiff.Feces.week.4	Tobacco 14	665880	No	No	No	No
+2394	Subj 295	Visit 3	Visit 3	15.93972603	Female	No	None	IBD_C.Diff	Ostomy Fluid	Severe	No	No	No	Yes	Ostomy Fluid	Undetermined	Negative	#N/A	s.295.IBD.CDiff.Feces.week.8	Tobacco 14	665888	No	No	No	No
+2295	Subj 300	Baseline Visit	Baseline Visit	19.06575342	Male	Yes	None	ONC_C.Diff	Feces	Non-Severe	Yes	Yes	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.300.CDiff.Oncology.Feces.Baseline	Tobacco 14	641243	No	No	No	No
+2293	Subj 300	Visit 2	Visit 2	19.15616438	Male	Yes	None	ONC_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.300.CDiff.Oncology.Feces.week.4	Tobacco 14	641260	No	No	No	No
+2440	Subj 300	Visit 3	Visit 3	19.20821918	Male	Yes	None	ONC_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.300.CDiff.Oncology.Feces.week.8	Tobacco 14	672492	No	No	No	No
+2442	Subj 304	Baseline Visit	Baseline Visit	6.610958904	Male	No	"Biologics,5.ASA"	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.304.VEO.Stool.visit1.2442	Tobacco 15	672508	Yes	No	Yes	No
+2492	Subj 304	Visit 2	Visit 2	6.687671233	Male	No	"Biologics,5.ASA"	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.304.VEO.Stool.visit2.2492	Tobacco 15	681780	No	No	No	No
+2491	Subj 304	Visit 3	Visit 3	6.764383562	Male	No	"Biologics,5.ASA"	IBD	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	#N/A	s.304.VEO.Stool.visit3.2491	Tobacco 15	681771	No	No	No	No
+2500	Subj 308	Visit 2	Baseline Visit	6.268493151	Male	Yes	"Biologics,Proton.Pump.Inhibitors,Other.Immunomodulator"	IBD_C.Diff	Feces	Severe	Yes	Yes	Yes	Yes	#N/A	26.64	Positive	6.08E+05	s.308.IBDC.Diff.Stool.visit2.2500	Tobacco 15	681843	Yes	Yes	No	Yes
+2507	Subj 308	Visit 3	Visit 2	6.38630137	Male	Yes	"Biologics,Systemic.Steroids,5.ASA,Other.Immunomodulator"	IBD_C.Diff	Feces	Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s.308.IBDC.Diff.Stool.visit3.2507	Tobacco 15	681899	No	No	No	No
+2660	Subj 308	Visit 4	Visit 3	6.463013699	Male	Yes	"Biologics,Systemic.Steroids,5.ASA,Other.Immunomodulator"	IBD_C.Diff	Feces	Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s.308.IBDC.Diff.Stool.visit4.2660	Tobacco 15	703366	No	No	No	No
+2490	Subj 314	Baseline Visit	Baseline Visit	15.44383562	Male	No	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.314.Healthy.Antibiotics.Stool.1.2490	Tobacco 17	681764	No	Yes	Yes	No
+2505	Subj 314	Visit 2	Visit 2	15.54246575	Male	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.314.Healthy.Antibiotics.Stool.2.2505	Tobacco 17	681883	No	No	No	No
+2567	Subj 314	Visit 3	Visit 3	15.61643836	Male	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.314.Healthy.Antibiotics.Stool.3.2567	Tobacco 17	696165	No	No	No	No
+2544	Subj 316	Visit 2	Baseline Visit	9.328767123	Female	Yes	Biologics	IBD_C.Diff	Feces	Non-Severe	Yes	Yes	Yes	Yes	#N/A	28.41	Positive	9.04E+05	s.316.IBDC.Diff.Stool.visit2.2544	Tobacco 15	695981	Yes	Yes	No	Yes
+2541	Subj 316	Visit 3	Visit 2	9.443835616	Female	Past use	Biologics	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	2.51E+03	s.316.IBDC.Diff.Stool.visit3.2541	Tobacco 15	695957	No	No	No	No
+2742	Subj 316	Visit 4	Visit 3	9.520547945	Female	Past use	Biologics	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	34.57	Positive	8.09E+03	s.316.IBDC.Diff.Stool.visit4.2742	Tobacco 15	709877	No	No	No	No
+2555	Subj 327	Baseline Visit	Baseline Visit	2.323287671	Male	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.327.Healthy.Antibiotics.Stool.1.2555	Tobacco 16	696069	No	Yes	Yes	No
+2643	Subj 327	Visit 2	Visit 2	2.4	Male	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.327.Healthy.Antibiotics.Stool.2.2643	Tobacco 16	703231	No	No	No	No
+2644	Subj 327	Visit 3	Visit 3	2.476712329	Male	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.327.Healthy.Antibiotics.Stool.3.2644	Tobacco 16	703238	No	No	No	No
+2630	Subj 334	Baseline Visit	Baseline Visit	13.09041096	Female	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.334.Healthy.Antibiotics.Stool.1.2630	Tobacco 17	703116	No	Yes	Yes	No
+2656	Subj 334	Visit 2	Visit 2	13.16438356	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.334.Healthy.Antibiotics.Stool.2.2656	Tobacco 17	703335	No	No	No	No
+2749	Subj 334	Visit 3	Visit 3	13.24657534	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.334.Healthy.Antibiotics.Stool.3.2749	Tobacco 17	709933	No	No	No	No
+2647	Subj 337	Baseline Visit	Baseline Visit	16.45205479	Male	Yes	None	ONC_C.Diff	Feces	Severe	Yes	Yes	No	Yes	#N/A	38.14	Positive	#N/A	s.337.C.DiffOncology.Stool.visit1.2647	Tobacco 15	703262	No	No	No	No
+2649	Subj 338	Baseline Visit	Baseline Visit	6.84109589	Female	Yes	None	ONC_C.Diff	Feces	Non-Severe	Yes	Yes	Yes	Yes	#N/A	30.33	Positive	7.26E+05	s.338.C.DiffOncology.Stool.visit1.2649	Tobacco 15	703279	No	No	No	No
+2648	Subj 339	Baseline Visit	Baseline Visit	11.42465753	Female	Past use	"Biologics,Systemic.Steroids,Enteral.Steroids,Proton.Pump.Inhibitors,Enteral.Nutrition"	IBD_C.Diff	Feces	Severe	Yes	Yes	Yes	Yes	#N/A	29.2	Positive	9.56E+04	s.339.IBDC.Diff.Stool.1.2648	Tobacco 19	703270	Yes	Yes	No	Yes
+2667	Subj 339	Visit 2	Visit 2	11.53424658	Female	Yes	"Biologics,Systemic.Steroids,Enteral.Steroids,Proton.Pump.Inhibitors,Enteral.Nutrition"	IBD_C.Diff	Feces	Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s.339.IBDC.Diff.Stool.2.2667	Tobacco 19	703422	No	No	No	No
+2740	Subj 342	Baseline Visit	Baseline Visit	14.13424658	Male	Yes	None	ONC_C.Diff	Feces	Severe	Yes	Yes	Yes	Yes	#N/A	31.44	Positive	9.24E+05	s.342.C.DiffOncology.Stool.visit1.2740	Tobacco 15	709861	No	No	No	No
+2655	Subj 344	Baseline Visit	Baseline Visit	6	Male	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.344.Healthy.Antibiotics.Stool.1.2655	Tobacco 18	703326	No	Yes	Yes	No
+2746	Subj 344	Visit 2	Visit 2	6.073972603	Male	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.344.Healthy.Antibiotics.Stool.2.2746	Tobacco 18	709909	No	No	No	No
+2747	Subj 344	Visit 3	Visit 3	6.156164384	Male	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.344.Healthy.Antibiotics.Stool.3.2747	Tobacco 18	709918	No	No	No	No
+2659	Subj 346	Baseline Visit	Baseline Visit	18.62191781	Male	Yes	"Biologics,Enteral.Nutrition,Other.Immunomodulator"	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.346.IBD.Antibiotics.Stool.1.2659	Tobacco 17	703358	Yes	No	Yes	No
+2753	Subj 346	Visit 2	Visit 2	18.71232877	Male	Yes	"Biologics,Enteral.Nutrition,Other.Immunomodulator"	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.346.IBD.Antibiotics.Stool.2.2753	Tobacco 17	709965	No	No	No	No
+2754	Subj 346	Visit 3	Visit 3	18.79726027	Male	Past use	"Biologics,Enteral.Nutrition,Other.Immunomodulator"	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.346.IBD.Antibiotics.Stool.3.2754	Tobacco 17	709973	No	No	No	No
+2668	Subj 347	Baseline Visit	Baseline Visit	17.75068493	Female	No	Proton.Pump.Inhibitors	IBD	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.347.IBDTherapy.Stool.1.2668	Tobacco 16	703430	Yes	No	Yes	No
+2758	Subj 347	Visit 2	Visit 2	17.81917808	Female	No	"5.ASA,Proton.Pump.Inhibitors"	IBD	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.347.IBDTherapy.Stool.2.2758	Tobacco 16	710005	No	No	No	No
+2886	Subj 347	Visit 3	Visit 3	17.89315068	Female	No	5.ASA	IBD	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.347.IBDTherapy.Stool.3.2886	Tobacco 16	721045	No	No	No	No
+2803	Subj 348	Baseline Visit	Baseline Visit	10.32328767	Female	Yes	None	ONC_C.Diff	Feces	Severe	Yes	Yes	No	Yes	#N/A	34.55	Positive	#N/A	s.348.C.DiffOncology.Stool.visit1.2803	Tobacco 15	713829	No	No	No	No
+2663	Subj 349	Baseline Visit	Baseline Visit	16.83561644	Female	No	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.349.IBD.Antibiotics.Stool.1.2663	Tobacco 16	703390	Yes	No	Yes	No
+2760	Subj 349	Visit 2	Visit 2	16.91232877	Female	Yes	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.349.IBDAntibiotics.Stool.2.2760	Tobacco 19	710021	No	No	No	No
+2761	Subj 349	Visit 3	Visit 3	17.00821918	Female	Yes	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.349.IBDAntibiotics.Stool.3.2761	Tobacco 19	710030	No	No	No	No
+2748	Subj 351	Baseline Visit	Baseline Visit	18.89041096	Male	Yes	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.351.IBD.Antibiotics.Stool.1.2748	Tobacco 16	709925	Yes	No	Yes	No
+2762	Subj 351	Visit 2	Visit 2	18.99178082	Male	Past use	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.351.IBD.Antibiotics.Stool.2.2762	Tobacco 16	710037	No	No	No	No
+2763	Subj 351	Visit 3	Visit 3	19.07945205	Male	Past use	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.351.IBD.Antibiotics.Stool.3.2763	Tobacco 16	710045	No	No	No	No
+2756	Subj 353	Baseline Visit	Baseline Visit	13.9890411	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s.353.Healthygreaterthan5.Stool.1.2756	Tobacco 16	709990	No	Yes	Yes	No
+2861	Subj 353	Visit 2	Visit 2	14.09863014	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.353.Healthygreaterthan5.Stool.2.2861	Tobacco 16	720845	No	No	No	No
+2860	Subj 353	Visit 3	Visit 3	14.17260274	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s.353.Healthygreaterthan5.Stool.3.2860	Tobacco 16	720837	No	No	No	No
+2765	Subj 355	Baseline Visit	Baseline Visit	10.70684932	Male	No	None	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.355.IBD.Antibiotics.Stool.1.2765	Tobacco 16	710061	Yes	No	Yes	No
+2866	Subj 355	Visit 2	Visit 2	10.77808219	Male	Yes	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.355.IBD.Antibiotics.Stool.2.2866	Tobacco 16	720885	No	No	No	No
+2867	Subj 355	Visit 3	Visit 3	10.86027397	Male	Past use	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.355.IBD.Antibiotics.Stool.3.2867	Tobacco 16	720894	No	No	No	No
+2836	Subj 357	Baseline Visit	Baseline Visit	17.77808219	Male	No	"Enteral.Steroids,5.ASA"	IBD_C.Diff	Feces	Non-Severe	Yes	Yes	Yes	Yes	#N/A	29.31	Positive	#N/A	s.357.IBDC.Diff.Stool.1.2836	Tobacco 16	720387	Yes	Yes	No	Yes
+2864	Subj 357	Visit 2	Visit 2	17.87671233	Male	Past use	"Enteral.Steroids,5.ASA"	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	27.58	Positive	#N/A	s.357.IBDC.Diff.Stool.2.2864	Tobacco 16	720869	No	No	No	No
+2865	Subj 357	Visit 3	Visit 3	17.93424658	Male	Past use	"Biologics,Enteral.Steroids"	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	34.44	Positive	#N/A	s.357.IBDC.Diff.Stool.3.2865	Tobacco 16	720877	No	No	No	No
+2766	Subj 358	Baseline Visit	Baseline Visit	12.14520548	Female	No	None	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.358.IBD.Therapy.Stool.1.2766	Tobacco 17	710069	Yes	No	Yes	No
+2874	Subj 358	Visit 2	Visit 2	12.23013699	Female	Yes	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.358.IBDTherapy.Stool.2.2874	Tobacco 19	720949	No	No	No	No
+2875	Subj 358	Visit 3	Visit 3	12.30136986	Female	Past use	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s.358.IBDTherapy.Stool.3.2875	Tobacco 19	720957	No	No	No	No
+2917	Subj 359	Baseline Visit	Baseline Visit	15.72876712	Male	No	"Biologics,Systemic.Steroids"	IBD_C.Diff	Feces	Non-Severe	Yes	No	No	Yes	#N/A	38.03	Positive	#N/A	s.359.IBDC.Diff.Stool.1.2917	Tobacco 16	723146	No	No	No	No
+2872	Subj 359	Visit 2	Visit 2	15.80547945	Male	Past use	"Biologics,Systemic.Steroids,Proton.Pump.Inhibitors"	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	31.61	Positive	1.20E+05	s.359.IBDC.Diff.Stool.2.2872	Tobacco 16	720933	No	No	No	No
+2873	Subj 359	Visit 3	Visit 3	15.88493151	Male	Yes	"Biologics,Systemic.Steroids,Proton.Pump.Inhibitors"	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s.359.IBDC.Diff.Stool.3.2873	Tobacco 16	720941	No	No	No	No
+2876	Subj 361	Baseline Visit	Baseline Visit	18.08219178	Male	Yes	None	ONC_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	36.67	Positive	#N/A	s.361.C.DiffOncology.Stool.1.2876	Tobacco 16	720966	No	No	No	No
+2878	Subj 362	Baseline Visit	Baseline Visit	13.62465753	Female	Yes	None	ONC_C.Diff	Feces	Non-Severe	Yes	No	No	Yes	#N/A	33.94	Positive	#N/A	s.362.C.DiffOncology.Stool.1.2878	Tobacco 16	720981	No	No	No	No
+683	Subj 74	Baseline Visit	Baseline Visit	13.97808219	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s.74.Healthy_greaterthan5.Feces.Baseline	Tobacco 11	480877	No	Yes	Yes	No
+887	Subj 74	Visit 2	Visit 2	14.05205479	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s.74.Healthy_greaterthan5.Feces.Week_4	Tobacco 11	483260	No	No	No	No
+900	Subj 74	Visit 3	Visit 3	14.13150685	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s.74.Healthy_greaterthan5.Feces.Week_8	Tobacco 11	483351	No	No	No	No
+673	Subj 75	Baseline Visit	Baseline Visit	14.68767123	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.75.Healthy_greaterthan5.Feces.Baseline	Tobacco 9	480807	No	Yes	Yes	No
+733	Subj 75	Visit 2	Visit 2	14.76438356	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s.75.Healthy_greaterthan5.Feces.Week_4	Tobacco 9	481040	No	No	No	No
+732	Subj 75	Visit 3	Visit 3	14.84109589	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s.75.Healthy_greaterthan5.Feces.Week_8	Tobacco 9	481033	No	No	No	No
+520	Subj 84	Baseline Visit	Baseline Visit	6.361643836	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.84.Healthy_greaterthan5.Feces.Baseline	Tobacco 10	472540	No	Yes	Yes	No
+804	Subj 84	Visit 2	Visit 2	6.446575342	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.84.Healthy_greaterthan5.Feces.Week_4	Tobacco 10	482960	No	No	No	No
+803	Subj 84	Visit 3	Visit 3	6.528767123	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s.84.Healthy_greaterthan5.Feces.Week_8	Tobacco 10	482953	No	No	No	No
+521	Subj 85	Baseline Visit	Baseline Visit	11.19452055	Male	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.85.Healthy_greaterthan5.Feces.Baseline	Tobacco 10	472547	No	Yes	Yes	No
+557	Subj 85	Visit 2	Visit 2	11.27945205	Male	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	3.37E+05	s.85.Healthy_greaterthan5.Feces.Week_4	Tobacco 10	476425	No	No	No	No
+558	Subj 85	Visit 3	Visit 3	11.35342466	Male	No	None	Healthy	Feces	#N/A	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s.85.Healthy_greaterthan5.Feces.Week_8	Tobacco 10	476432	No	No	No	No
+890	Subj 86	Baseline Visit	Baseline Visit	7.863013699	Male	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s.86.Healthy_greaterthan5.Feces.Baseline	Tobacco 10	483281	No	Yes	Yes	No
+561	Subj 86	Visit 2	Visit 2	7.95890411	Male	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s.86.Healthy_greaterthan5.Feces.Week_4	Tobacco 10	476453	No	No	No	No
+1034	Subj 86	Visit 3	Visit 3	8.117808219	Male	No	None	Healthy	Feces	#N/A	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s.86.Healthy_greaterthan5.Feces.Week_8	Tobacco 10	500961	No	No	No	No
+891	Subj 88	Baseline Visit	Baseline Visit	15.97534247	Male	No	None	Healthy	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	0.00E+00	s.88.Healthy.greaterthan5.Feces.Baseline	Tobacco 12	483288	No	No	No	No
+553	Subj 88	Visit 2	Visit 2	16.05205479	Male	No	None	Healthy	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	0.00E+00	s.88.Healthy.greaterthan5.Feces.Week.4	Tobacco 12	476397	No	No	No	No
+556	Subj 88	Visit 3	Visit 3	16.12876712	Male	No	None	Healthy	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	#N/A	s.88.Healthy.greaterthan5.Feces.Week.8	Tobacco 12	476418	No	No	No	No
+898	Subj 91	Baseline Visit	Baseline Visit	6.057534247	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.91.Healthy.greaterthan5.Feces.Baseline	Tobacco 14	483337	No	Yes	Yes	No
+800	Subj 91	Visit 2	Visit 2	6.131506849	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s.91.Healthy.greaterthan5.Feces.week.4	Tobacco 14	482932	No	No	No	No
+801	Subj 91	Visit 3	Visit 3	6.210958904	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s.91.Healthy.greaterthan5.Feces.week.8	Tobacco 14	482939	No	No	No	No
+527	Subj 65	Baseline Visit	Baseline Visit	13.54794521	Male	No	"Biologics,Other.Immunomodulator"	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s065.IBD.Antibiotics.Feces.Baseline	Tobacco 4	527	Yes	No	Yes	No
+569	Subj 65	Visit 2	Visit 2	13.61917808	Male	Yes	"Biologics,Other.Immunomodulator"	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s065.IBD.Antibiotics.Feces.Week.4	Tobacco 4	569	No	No	No	No
+568	Subj 65	Visit 3	Visit 3	13.69315068	Male	Yes	"Biologics,Other.Immunomodulator"	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s065.IBD.Antibiotics.Feces.Week.8	Tobacco 4	568	No	No	No	No
+574	Subj 67	Baseline Visit	Baseline Visit	18.69315068	Male	No	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s067.Healthy.Antibiotics.Feces.Baseline	Tobacco 4	574	No	Yes	Yes	No
+572	Subj 67	Visit 2	Visit 2	18.77260274	Male	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s067.Healthy.Antibiotics.Feces.Week.4	Tobacco 4	572	No	No	No	No
+571	Subj 67	Visit 3	Visit 3	18.84931507	Male	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s067.Healthy.Antibiotics.Feces.Week.8	Tobacco 4	571	No	No	No	No
+676	Subj 77	Baseline Visit	Baseline Visit	11.71780822	Male	No	"Biologics,Systemic.Steroids,5.ASA"	IBD_C.Diff	Feces	Non-Severe	Yes	Yes	Yes	Yes	#N/A	29.35	Positive	5.93E+04	s077.IBD_C.Diff.Feces.Baseline	Tobacco 4	676	Yes	Yes	No	Yes
+685	Subj 77	Visit 2	Visit 2	11.79726027	Male	Yes	"Biologics,Systemic.Steroids,5.ASA"	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s077.IBD_C.Diff.Feces.Week_4	Tobacco 4	685	No	No	No	No
+684	Subj 77	Visit 3	Visit 3	11.86849315	Male	Yes	"Biologics,5.ASA"	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s077.IBD_C.Diff.Feces.Week_8	Tobacco 4	684	No	No	No	No
+677	Subj 78	Baseline Visit	Baseline Visit	14.0630137	Male	No	"Proton.Pump.Inhibitors,Enteral.Nutrition"	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s078.IBD.Therapy.Feces.Baseline	Tobacco 4	677	Yes	No	Yes	No
+517	Subj 78	Visit 2	Visit 2	14.13972603	Male	No	"Biologics,Proton.Pump.Inhibitors,Enteral.Nutrition"	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s078.IBD.Therapy.Feces.Week.4	Tobacco 4	517	No	No	No	No
+516	Subj 78	Visit 3	Visit 3	14.23287671	Male	No	"Biologics,Proton.Pump.Inhibitors,Enteral.Nutrition"	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s078.IBD.Therapy.Feces.Week.8	Tobacco 4	516	No	No	No	No
+523	Subj 97	Baseline Visit	Baseline Visit	17.64657534	Female	Past use	"Biologics,Systemic.Steroids"	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s097.IBD.Antibiotics.Feces.Baseline	Tobacco 4	523	Yes	No	Yes	No
+901	Subj 97	Visit 2	Visit 2	17.72328767	Female	Yes	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s097.IBD.Antibiotics.Feces.Week.4	Tobacco 4	901	No	No	No	No
+902	Subj 97	Visit 3	Visit 3	17.8	Female	Past use	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s097.IBD.Antibiotics.Feces.Week.8	Tobacco 4	902	No	No	No	No
+797	Subj 99	Baseline Visit	Baseline Visit	12.3260274	Female	No	None	IBD_C.Diff	Feces	Non-Severe	Yes	Yes	Yes	Yes	#N/A	30.26	Positive	1.00E+03	s099.IBD_C.Diff.Feces.Baseline	Tobacco 5	797	Yes	Yes	No	Yes
+792	Subj 99	Visit 2	Visit 2	12.44657534	Female	Past use	"Biologics,Proton.Pump.Inhibitors"	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	32.63	Positive	6.11E+04	s099.IBD_C.Diff.Feces.Week_4	Tobacco 5	792	No	No	No	No
+802	Subj 99	Visit 3	Visit 3	12.49863014	Female	Past use	"Biologics,Proton.Pump.Inhibitors"	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	38.84	Positive	0.00E+00	s099.IBD_C.Diff.Feces.Week_8	Tobacco 5	802	No	No	No	No
+799	Subj 102	Baseline Visit	Baseline Visit	16.29315068	Male	No	5.ASA	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s102.IBD.Therapy.Feces.Baseline	Tobacco 5	799	Yes	No	Yes	No
+1000	Subj 102	Visit 2	Visit 2	16.36164384	Male	No	5.ASA	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s102.IBD.Therapy.Feces.Week.4	Tobacco 5	1000	No	No	No	No
+1001	Subj 102	Visit 3	Visit 3	16.45479452	Male	No	5.ASA	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s102.IBD.Therapy.Feces.Week.8	Tobacco 5	1001	No	No	No	No
+999	Subj 115	Baseline Visit	Baseline Visit	12.44109589	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s115.Healthy_greaterthan5.Feces.Baseline	Tobacco 5	999	No	Yes	Yes	No
+992	Subj 115	Visit 2	Visit 2	12.51780822	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s115.Healthy_greaterthan5.Feces.Week_4	Tobacco 5	992	No	No	No	No
+991	Subj 115	Visit 3	Visit 3	12.61643836	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s115.Healthy_greaterthan5.Feces.Week_8	Tobacco 5	991	No	No	No	No
+1002	Subj 119	Baseline Visit	Baseline Visit	13.97534247	Male	No	"Biologics,Systemic.Steroids,Other.Immunomodulator"	IBD_C.Diff	Feces	Non-Severe	Yes	Yes	Yes	Yes	#N/A	29.7	Positive	0.00E+00	s119.IBD_C.Diff.Feces.Baseline	Tobacco 5	1002	Yes	Yes	No	Yes
+32	Subj 14	Baseline Visit	Baseline Visit	12.37260274	Female	Yes	"Biologics,Other.Immunomodulator"	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s14.IBDNaturalHistory.Feces.Visit1	Tobacco 2	428726	Yes	No	Yes	No
+33	Subj 14	Visit 2	Visit 2	12.43835616	Female	Yes	"Biologics,Other.Immunomodulator"	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s14.IBDNaturalHistory.Feces.Visit2	Tobacco 2	428735	No	No	No	No
+34	Subj 14	Visit 3	Visit 3	12.52054795	Female	Yes	"Biologics,Other.Immunomodulator"	IBD	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	#N/A	s14.IBDNaturalHistory.Feces.Visit3	Tobacco 2	428746	No	No	No	No
+1311	Subj 143	Baseline Visit	Baseline Visit	6.079452055	Female	Yes	None	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s143.VEO.Feces.Baseline	Tobacco 7	509230	Yes	No	Yes	No
+1287	Subj 143	Visit 2	Visit 2	6.153424658	Female	Past use	5.ASA	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s143.VEO.Feces.Week.4	Tobacco 7	509062	No	No	No	No
+1288	Subj 143	Visit 3	Visit 3	6.246575342	Female	Past use	5.ASA	IBD	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	#N/A	s143.VEO.Feces.Week.8	Tobacco 7	509070	No	No	No	No
+151	Subj 3	Baseline Visit	Baseline Visit	11.76712329	Female	No	"Biologics,5.ASA"	IBD_C.Diff	Feces	Non-Severe	Yes	Yes	Yes	Yes	#N/A	Undetermined	Negative	1.45E+04	s151	Tobacco 1	436004	Yes	Yes	No	Yes
+1293	Subj 152	Baseline Visit	Baseline Visit	16.71780822	Male	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s152.Healthy.Antibiotics.Feces.Baseline	Tobacco 7	509104	No	Yes	Yes	No
+1281	Subj 152	Visit 2	Visit 2	16.7890411	Male	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s152.Healthy.Antibiotics.Feces.Week.4	Tobacco 7	509020	No	No	No	No
+1282	Subj 152	Visit 3	Visit 3	16.85205479	Male	Yes	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s152.Healthy.Antibiotics.Feces.Week.8	Tobacco 7	509027	No	No	No	No
+157	Subj 13	Baseline Visit	Baseline Visit	13.48493151	Male	Past use	"Biologics,Enteral.Nutrition"	IBD_C.Diff	Feces	Non-Severe	Yes	Yes	No	Yes	#N/A	Undetermined	Negative	6.66E+06	s157	Tobacco 1	446701	No	No	No	No
+1027	Subj 157	Baseline Visit	Baseline Visit	7.895890411	Male	No	"Biologics,Other.Immunomodulator"	IBD_C.Diff	Feces	Severe	Yes	Yes	Yes	Yes	#N/A	25.52	Positive	7.34E+05	s157.IBD_CDiff.Feces.Baseline	Tobacco 7	500912	Yes	Yes	No	Yes
+1266	Subj 157	Visit 2	Visit 2	7.991780822	Male	Yes	"Biologics,Other.Immunomodulator"	IBD_C.Diff	Feces	Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s157.IBD_CDiff.Feces.Week_4	Tobacco 7	508915	No	No	No	No
+1267	Subj 157	Visit 3	Visit 3	8.049315068	Male	Yes	"Biologics,Other.Immunomodulator"	IBD_C.Diff	Feces	Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s157.IBD_CDiff.Feces.Week_8	Tobacco 7	508923	No	No	No	No
+1268	Subj 159	Baseline Visit	Baseline Visit	13.4	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s159.Healthy.Antibiotics.Feces.Baseline	Tobacco 7	508929	No	Yes	Yes	No
+1436	Subj 159	Visit 2	Visit 2	13.49589041	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s159.Healthy.Antibiotics.Feces.Week.4	Tobacco 7	538229	No	No	No	No
+1596	Subj 159	Visit 3	Visit 3	13.56438356	Female	Past use	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s159.Healthy.Antibiotics.Feces.Week.8	Tobacco 7	541822	No	No	No	No
+17	Subj 13	Visit 3	Visit 3	13.63835616	Male	Yes	"Biologics,Enteral.Nutrition"	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	5.41E+04	s17	Tobacco 1	428575	No	No	No	No
+1521	Subj 172	Baseline Visit	Baseline Visit	2.487671233	Male	Yes	5.ASA	IBD_C.Diff	Feces	Severe	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s172.IBD_CDiff.Feces.Baseline	Tobacco 7	539421	No	No	No	No
+1451	Subj 172	Visit 2	Visit 2	2.594520548	Male	Yes	5.ASA	IBD_C.Diff	Feces	Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s172.IBD_CDiff.Feces.Week_4	Tobacco 7	538333	No	No	No	No
+1452	Subj 172	Visit 3	Visit 3	2.657534247	Male	Yes	5.ASA	IBD_C.Diff	Feces	Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s172.IBD_CDiff.Feces.Week_8	Tobacco 7	538340	No	No	No	No
+2	Subj 3	Visit 3	Visit 3	11.92328767	Female	Past use	"Biologics,5.ASA"	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	29.55	Positive	2.54E+03	s2	Tobacco 1	428384	No	No	No	No
+213	Subj 20	Baseline Visit	Baseline Visit	18.94246575	Male	Yes	"Systemic.Steroids,5.ASA"	IBD_C.Diff	Feces	Non-Severe	Yes	Yes	Yes	Yes	#N/A	27.23	Positive	7.18E+06	s20.C_diff.Feces.Visit1	Tobacco 2	457801	Yes	Yes	No	Yes
+40	Subj 20	Visit 2	Visit 2	19.03287671	Male	Yes	"Systemic.Steroids,5.ASA"	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	35.19	Positive	8.52E+04	s20.C_diff.Feces.Visit2	Tobacco 2	428805	No	No	No	No
+15	Subj 20	Visit 3	Visit 3	19.11506849	Male	Yes	"Systemic.Steroids,5.ASA"	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	2.98E+03	s20.C_diff.Feces.Visit3	Tobacco 2	428556	No	No	No	No
+180	Subj 22	Baseline Visit	Baseline Visit	16.1260274	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s22.Healthy.Feces.Visit1	Tobacco 2	448939	No	Yes	Yes	No
+179	Subj 22	Visit 2	Visit 2	16.20821918	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s22.Healthy.Feces.Visit2	Tobacco 2	448932	No	No	No	No
+178	Subj 22	Visit 3	Visit 3	16.27945205	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s22.Healthy.Feces.Visit3	Tobacco 2	448926	No	No	No	No
+54	Subj 25	Baseline Visit	Baseline Visit	11.69041096	Female	Past use	None	IBD	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s25.IBD_Therapy.Feces.Baseline	Tobacco 3	54	Yes	No	Yes	No
+22	Subj 25	Visit 2	Visit 2	11.82739726	Female	Past use	"Enteral.Steroids,5.ASA,Enteral.Nutrition"	IBD	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s25.IBD_Therapy.Feces.Week_4	Tobacco 3	22	No	No	No	No
+246	Subj 25	Visit 3	Visit 3	11.9260274	Female	Past use	"Biologics,Enteral.Steroids,5.ASA,Enteral.Nutrition"	IBD	Feces	#N/A	Yes	No	Yes	Yes	#N/A	38.83	Positive	#N/A	s25.IBD_Therapy.Feces.Week_8	Tobacco 3	246	No	No	No	No
+171	Subj 26	Baseline Visit	Baseline Visit	6.178082192	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s26.Healthy.Feces.Visit1	Tobacco 2	448877	No	Yes	Yes	No
+169	Subj 26	Visit 2	Visit 2	6.326027397	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s26.Healthy.Feces.Visit2	Tobacco 2	448862	No	No	No	No
+170	Subj 26	Visit 3	Visit 3	6.383561644	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	#N/A	s26.Healthy.Feces.Visit3	Tobacco 2	448869	No	No	No	No
+3	Subj 13	Visit 2	Visit 2	13.55890411	Male	Yes	"Biologics,Enteral.Nutrition"	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s3	Tobacco 1	428403	No	No	No	No
+252	Subj 30	Baseline Visit	Baseline Visit	17.00547945	Male	No	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s30.IBDNaturalHistory.Feces.Visit1	Tobacco 2	461466	Yes	No	Yes	No
+251	Subj 30	Visit 2	Visit 2	17.08219178	Male	No	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s30.IBDNaturalHistory.Feces.Visit2	Tobacco 2	461459	No	No	No	No
+250	Subj 30	Visit 3	Visit 3	17.18082192	Male	No	Biologics	IBD	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	#N/A	s30.IBDNaturalHistory.Feces.Visit3	Tobacco 2	461452	No	No	No	No
+255	Subj 31	Baseline Visit	Baseline Visit	19.1260274	Male	Past use	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s31.IBDNaturalHistory.Feces.Visit1	Tobacco 2	461486	Yes	No	Yes	No
+254	Subj 31	Visit 2	Visit 2	19.20273973	Male	Past use	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s31.IBDNaturalHistory.Feces.Visit2	Tobacco 2	461479	No	No	No	No
+253	Subj 31	Visit 3	Visit 3	19.27945205	Male	Past use	Biologics	IBD	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	#N/A	s31.IBDNaturalHistory.Feces.Visit3	Tobacco 2	461473	No	No	No	No
+236	Subj 32	Visit 3	Visit 3	11.18356164	Female	Yes	"Biologics,Systemic.Steroids,Proton.Pump.Inhibitors,Enteral.Nutrition"	IBD_C.Diff	Feces	Severe	Yes	No	Yes	Yes	#N/A	28.54	Positive	9.08E+05	s32.C_diff.Feces.Visit3	Tobacco 2	461354	No	No	No	No
+38	Subj 3	Visit 2	Visit 2	11.84657534	Female	Yes	"Biologics,5.ASA"	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	25.98	Positive	4.46E+06	s38	Tobacco 1	428785	No	No	No	No
+229	Subj 38	Baseline Visit	Baseline Visit	14.09863014	Male	No	None	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s38.IBD.Antibiotics.Feces.Baseline	Tobacco 3	229	Yes	No	Yes	No
+230	Subj 38	Visit 2	Visit 2	14.17808219	Male	Yes	None	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s38.IBD.Antibiotics.Feces.Week.4	Tobacco 3	230	No	No	No	No
+234	Subj 38	Visit 3	Visit 3	14.25205479	Male	Past use	None	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s38.IBD.Antibiotics.Feces.Week.8	Tobacco 3	234	No	No	No	No
+226	Subj 40	Baseline Visit	Baseline Visit	7.531506849	Male	No	None	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s40.IBD.Therapy.Feces.Baseline	Tobacco 3	226	Yes	No	Yes	No
+227	Subj 40	Visit 2	Visit 2	7.602739726	Male	No	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s40.IBD.Therapy.Feces.Week.4	Tobacco 3	227	No	No	No	No
+228	Subj 40	Visit 3	Visit 3	7.684931507	Male	No	Biologics	IBD	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s40.IBD.Therapy.Feces.Week.8	Tobacco 3	228	No	No	No	No
+384	Subj 46	Baseline Visit	Baseline Visit	17.57534247	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s46.Healthy_greaterthan5.Feces.Baseline	Tobacco 6	470765	No	Yes	Yes	No
+385	Subj 46	Visit 2	Visit 2	17.67123288	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s46.Healthy_greaterthan5.Feces.Week_4	Tobacco 6	470772	No	No	No	No
+386	Subj 46	Visit 3	Visit 3	17.72876712	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s46.Healthy_greaterthan5.Feces.Week_8	Tobacco 6	470779	No	No	No	No
+47	Subj 7	Baseline Visit	Baseline Visit	13.39726027	Male	No	"Biologics,5.ASA"	IBD	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s47	Tobacco 1	428875	Yes	No	Yes	No
+48	Subj 7	Visit 3	Visit 3	13.55068493	Male	No	"Biologics,5.ASA"	IBD	Feces	#N/A	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s48	Tobacco 1	428885	No	No	No	No
+49	Subj 7	Visit 2	Visit 2	13.48493151	Male	No	"Biologics,5.ASA"	IBD	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s49	Tobacco 1	428895	No	No	No	No
+1005	Subj 53	Visit 5	Visit 3	6.315068493	Male	Yes	"Biologics,Systemic.Steroids,Other.Immunomodulator"	IBD_C.Diff	Feces	Non-Severe	Yes	No	Yes	Yes	#N/A	38.7	Positive	0.00E+00	s53.VEO.Feces.Week_16	Tobacco 6	492692	No	No	No	No
+259	Subj 53	Visit 3	Baseline Visit	6.008219178	Male	Past use	Biologics	IBD_C.Diff	Feces	Non-Severe	Yes	Yes	Yes	Yes	#N/A	27.9	Positive	8.67E+06	s53.VEO.Feces.Week_8	Tobacco 6	461514	Yes	Yes	No	Yes
+402	Subj 55	Baseline Visit	Baseline Visit	16.18356164	Male	No	None	IBD	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s55.IBD_Therapy.Feces.Baseline	Tobacco 3	402	Yes	No	Yes	No
+403	Subj 55	Visit 2	Visit 2	16.26027397	Male	No	"Systemic.Steroids,Proton.Pump.Inhibitors"	IBD	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s55.IBD_Therapy.Feces.Week_4	Tobacco 3	403	No	No	No	No
+404	Subj 55	Visit 3	Visit 3	16.3369863	Male	No	"Systemic.Steroids,Proton.Pump.Inhibitors"	IBD	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s55.IBD_Therapy.Feces.Week_8	Tobacco 3	404	No	No	No	No
+372	Subj 58	Baseline Visit	Baseline Visit	15.92054795	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s58.Healthy_greaterthan5.Feces.Baseline	Tobacco 6	470681	No	Yes	Yes	No
+374	Subj 58	Visit 2	Visit 2	16.04931507	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	0.00E+00	s58.Healthy_greaterthan5.Feces.Week_4	Tobacco 6	470695	No	No	No	No
+1003	Subj 58	Visit 3	Visit 3	16.13150685	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s58.Healthy_greaterthan5.Feces.Week_8	Tobacco 6	492677	No	No	No	No
+29	Subj 6	Baseline Visit	Baseline Visit	16.1890411	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	#N/A	s6.Healthy.Feces.Visit1	Tobacco 2	428696	No	No	No	No
+25	Subj 6	Visit 2	Visit 2	16.27945205	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	0.00E+00	s6.Healthy.Feces.Visit2	Tobacco 2	428655	No	No	No	No
+238	Subj 6	Visit 3	Visit 3	16.37534247	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	#N/A	s6.Healthy.Feces.Visit3	Tobacco 2	461367	No	No	No	No
+581	Subj 60	Baseline Visit	Baseline Visit	8.802739726	Male	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s60.Healthy_greaterthan5.Feces.Baseline	Tobacco 6	476593	No	Yes	Yes	No
+578	Subj 60	Visit 2	Visit 2	8.884931507	Male	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s60.Healthy_greaterthan5.Feces.Week_4	Tobacco 6	476572	No	No	No	No
+579	Subj 60	Visit 3	Visit 3	8.956164384	Male	No	None	Healthy	Feces	#N/A	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s60.Healthy_greaterthan5.Feces.Week_8	Tobacco 6	476579	No	No	No	No
+567	Subj 70	Baseline Visit	Baseline Visit	17.11780822	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s70.Healthy_greaterthan5.Feces.Baseline	Tobacco 7	476495	No	Yes	Yes	No
+888	Subj 70	Visit 2	Visit 2	17.19178082	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	Yes	#N/A	Undetermined	Negative	#N/A	s70.Healthy_greaterthan5.Feces.Week_4	Tobacco 7	483267	No	No	No	No
+889	Subj 70	Visit 3	Visit 3	17.25479452	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	Yes	#N/A	Undetermined	Negative	#N/A	s70.Healthy_greaterthan5.Feces.Week_8	Tobacco 7	483274	No	No	No	No
+526	Subj 95	Baseline Visit	Baseline Visit	5.175342466	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s95.Healthy.lessthan5.Feces.Baseline	Tobacco 6	472582	No	Yes	Yes	No
+903	Subj 95	Visit 2	Visit 2	5.254794521	Female	No	None	Healthy	Feces	#N/A	Yes	No	Yes	No	#N/A	#N/A	#N/A	#N/A	s95.Healthy.lessthan5.Feces.Week.4	Tobacco 6	483372	No	No	No	No
+904	Subj 95	Visit 3	Visit 3	5.334246575	Female	No	None	Healthy	Feces	#N/A	Yes	No	No	No	#N/A	#N/A	#N/A	#N/A	s95.Healthy.lessthan5.Feces.Week.8	Tobacco 6	483379	No	No	No	No
+#N/A	Subj 147	Baseline Visit	Baseline Visit	11.13424658	Male	No	No	IBD_Therapy	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s.147.IBD_Therapy.Feces.Baseline	Tobacco 10	503693	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 147	Visit 2	Visit 2	11.22739726	Male	No	No	IBD_Therapy	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s.147.IBD_Therapy.Feces.Week_4	Tobacco 10	508972	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 147	Visit 3	Visit 3	11.28493151	Male	No	No	IBD_Therapy	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s.147.IBD_Therapy.Feces.Week_8	Tobacco 10	508979	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 100	Baseline Visit	Baseline Visit	11.08219178	Male	No	No	Healthy>=6	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s.100.Healthygreaterthan5.Stool.visit1.798	Tobacco 15	482918	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 100	Visit 2	Visit 2	11.15616438	Male	No	No	Healthy>=6	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s.100.Healthygreaterthan5.Stool.visit2.919	Tobacco 15	483484	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 100	Visit 3	Visit 3	11.23835616	Male	No	No	Healthy>=6	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s.100.Healthygreaterthan5.Stool.visit3.918	Tobacco 15	483477	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 244	Baseline Visit	Baseline Visit	2.871232877	Male	No	No	"IBD_Therapy,VEO"	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s.244.VEO.Stool.1.1977	Tobacco 16	578268	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 244	Visit 2	Visit 2	2.950684932	Male	No	Yes	"IBD_Therapy,VEO"	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s.244.VEO.Stool.2.1952	Tobacco 16	578092	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 244	Visit 3	Visit 3	3.038356164	Male	No	Yes	"IBD_Therapy,VEO"	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s.244.VEO.Stool.3.1964	Tobacco 16	578176	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 61	Baseline Visit	Baseline Visit	14.37534247	Male	No	No	IBD_Therapy	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s061.IBD_Therapy.Feces.Baseline	Tobacco 19	580	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 61	Visit 2	Visit 2	14.44931507	Male	No	No	IBD_Therapy	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s061.IBD_Therapy.Feces.Week_4	Tobacco 4	577	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 61	Visit 3	Visit 3	14.5260274	Male	No	No	IBD_Therapy	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s061.IBD_Therapy.Feces.Week_8	Tobacco 19	576	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 35	Baseline Visit	Baseline Visit	17.1369863	Male	No	No	IBD_Therapy	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s35.IBD_Therapy.Feces.Baseline	Tobacco 3	244	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 35	Visit 2	Visit 2	17.21643836	Male	No	No	IBD_Therapy	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s35.IBD_Therapy.Feces.Week_4	Tobacco 3	243	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 35	Visit 3	Visit 3	17.29315068	Male	No	No	IBD_Therapy	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s35.IBD_Therapy.Feces.Week_8	Tobacco 3	242	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 39	Baseline Visit	Baseline Visit	5.005479452	Male	No	No	VEO	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s39.VEO.Feces.Visit1	Tobacco 2	461263	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 39	Visit 2	Visit 2	5.079452055	Male	No	No	VEO	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s39.VEO.Feces.Week_4	Tobacco 3	222	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 39	Visit 3	Visit 3	5.15890411	Male	No	No	VEO	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s39.VEO.Feces.Week_8	Tobacco 3	221	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 108	Baseline Visit	Baseline Visit	12.99726027	Male	No	No	IBD_Natural_History	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s108.IBD_Therapy.Feces.Baseline	Tobacco 5	915	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 108	Visit 2	Visit 2	13.06027397	Male	No	No	IBD_Natural_History	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s108.IBD_Therapy.Feces.Week_4	Tobacco 5	1040	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 108	Visit 3	Visit 3	13.15068493	Male	No	Same day	IBD_Natural_History	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s108.IBD_Therapy.Feces.Week_8	Tobacco 5	1041	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 201	Baseline Visit	Baseline Visit	13.14246575	Male	No	No	IBD_Therapy	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s.201.IBD_Therapy.Feces.Baseline	Tobacco 9	539763	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 201	Visit 3	Visit 3	13.32054795	Male	No	No	IBD_Therapy	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s.201.IBD_Therapy.Feces.Week_8	Tobacco 9	539508	#N/A	#N/A	#N/A	#N/A
+#N/A	Subj 201	Visit 2	Visit 2	13.22191781	Male	No	No	IBD_Therapy	Feces	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	#N/A	s.201.IBD_Therapy.Feces.Week_4	Tobacco 9	539578	#N/A	#N/A	#N/A	#N/A

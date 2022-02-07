@@ -1,0 +1,2469 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	2830	align_to_genome
+	1	all_mapping
+	10	build_genome_index
+	2830	samtools_convert
+	2830	samtools_get_coverage
+	2830	samtools_index
+	2830	samtools_mpileup
+	10	samtools_summarize_coverage
+	14171
+
+[Mon Aug 30 12:58:05 2021]
+rule build_genome_index:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    jobid: 14731
+    wildcards: genome=Enterococcus_faecium
+
+Submitted job 14731 with external jobid 'Submitted batch job 6655424'.
+
+[Mon Aug 30 12:58:05 2021]
+rule build_genome_index:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Pediococcus_acidlactici.fasta
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Pediococcus_acidlactici.fasta.amb
+    jobid: 14728
+    wildcards: genome=Pediococcus_acidlactici
+
+Submitted job 14728 with external jobid 'Submitted batch job 6655425'.
+
+[Mon Aug 30 12:58:05 2021]
+rule build_genome_index:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Streptococcus_agalactiae.fasta
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Streptococcus_agalactiae.fasta.amb
+    jobid: 14735
+    wildcards: genome=Streptococcus_agalactiae
+
+Submitted job 14735 with external jobid 'Submitted batch job 6655426'.
+
+[Mon Aug 30 12:58:05 2021]
+rule build_genome_index:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Clostridium_perfringens.fasta
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Clostridium_perfringens.fasta.amb
+    jobid: 14733
+    wildcards: genome=Clostridium_perfringens
+
+Submitted job 14733 with external jobid 'Submitted batch job 6655427'.
+
+[Mon Aug 30 12:58:05 2021]
+rule build_genome_index:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_gallinarum.fasta
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_gallinarum.fasta.amb
+    jobid: 14736
+    wildcards: genome=Enterococcus_gallinarum
+
+Submitted job 14736 with external jobid 'Submitted batch job 6655428'.
+
+[Mon Aug 30 12:58:05 2021]
+rule build_genome_index:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Staphylococcus_epidermidis.fasta
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Staphylococcus_epidermidis.fasta.amb
+    jobid: 14734
+    wildcards: genome=Staphylococcus_epidermidis
+
+Submitted job 14734 with external jobid 'Submitted batch job 6655429'.
+
+[Mon Aug 30 12:58:05 2021]
+rule build_genome_index:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Staphylococcus_schleiferi.fasta
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Staphylococcus_schleiferi.fasta.amb
+    jobid: 14163
+    wildcards: genome=Staphylococcus_schleiferi
+
+Submitted job 14163 with external jobid 'Submitted batch job 6655430'.
+
+[Mon Aug 30 12:58:05 2021]
+rule build_genome_index:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Pseudomonas_aeruginosa.fasta
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Pseudomonas_aeruginosa.fasta.amb
+    jobid: 14729
+    wildcards: genome=Pseudomonas_aeruginosa
+
+Submitted job 14729 with external jobid 'Submitted batch job 6655431'.
+
+[Mon Aug 30 12:58:05 2021]
+rule build_genome_index:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Latilactobacillus_sakei.fasta
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Latilactobacillus_sakei.fasta.amb
+    jobid: 14732
+    wildcards: genome=Latilactobacillus_sakei
+
+Submitted job 14732 with external jobid 'Submitted batch job 6655432'.
+
+[Mon Aug 30 12:58:05 2021]
+rule build_genome_index:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Levilactobacillus_brevis.fasta
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Levilactobacillus_brevis.fasta.amb
+    jobid: 14730
+    wildcards: genome=Levilactobacillus_brevis
+
+Submitted job 14730 with external jobid 'Submitted batch job 6655433'.
+[Mon Aug 30 12:59:43 2021]
+Finished job 14731.
+1 of 14171 steps (0.01%) done
+[Mon Aug 30 12:59:43 2021]
+Finished job 14728.
+2 of 14171 steps (0.01%) done
+[Mon Aug 30 12:59:43 2021]
+Finished job 14735.
+3 of 14171 steps (0.02%) done
+[Mon Aug 30 12:59:43 2021]
+Finished job 14733.
+4 of 14171 steps (0.03%) done
+[Mon Aug 30 12:59:43 2021]
+Finished job 14736.
+5 of 14171 steps (0.04%) done
+[Mon Aug 30 12:59:43 2021]
+Finished job 14734.
+6 of 14171 steps (0.04%) done
+[Mon Aug 30 12:59:43 2021]
+Finished job 14163.
+7 of 14171 steps (0.05%) done
+[Mon Aug 30 12:59:44 2021]
+Finished job 14729.
+8 of 14171 steps (0.06%) done
+
+[Mon Aug 30 12:59:44 2021]
+[Mon Aug 30 12:59:44 2021]
+Finished job 14732.
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Week_8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.175.VEO.Feces.Week_8.sam
+    jobid: 12608
+    wildcards: genome=Enterococcus_faecium, sample=s.175.VEO.Feces.Week_8
+    threads: 4
+9 of 14171 steps (0.06%) done
+
+[Mon Aug 30 12:59:44 2021]
+Submitted job 12608 with external jobid 'Submitted batch job 6655509'.
+Finished job 14730.
+10 of 14171 steps (0.07%) done
+
+[Mon Aug 30 12:59:44 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.175.VEO.Feces.Baseline.sam
+    jobid: 12650
+    wildcards: genome=Enterococcus_faecium, sample=s.175.VEO.Feces.Baseline
+    threads: 4
+
+Submitted job 12650 with external jobid 'Submitted batch job 6655510'.
+
+[Mon Aug 30 12:59:44 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s30.IBDNaturalHistory.Feces.Visit3_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s30.IBDNaturalHistory.Feces.Visit3_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s30.IBDNaturalHistory.Feces.Visit3.sam
+    jobid: 12578
+    wildcards: genome=Enterococcus_faecium, sample=s30.IBDNaturalHistory.Feces.Visit3
+    threads: 4
+
+Submitted job 12578 with external jobid 'Submitted batch job 6655511'.
+
+[Mon Aug 30 12:59:44 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.344.Healthy.Antibiotics.Stool.1.2655_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.344.Healthy.Antibiotics.Stool.1.2655_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.344.Healthy.Antibiotics.Stool.1.2655.sam
+    jobid: 12625
+    wildcards: genome=Enterococcus_faecium, sample=s.344.Healthy.Antibiotics.Stool.1.2655
+    threads: 4
+
+Submitted job 12625 with external jobid 'Submitted batch job 6655512'.
+
+[Mon Aug 30 12:59:44 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s17_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s17_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s17.sam
+    jobid: 12644
+    wildcards: genome=Enterococcus_faecium, sample=s17
+    threads: 4
+
+Submitted job 12644 with external jobid 'Submitted batch job 6655513'.
+
+[Mon Aug 30 12:59:44 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.314.Healthy.Antibiotics.Stool.1.2490_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.314.Healthy.Antibiotics.Stool.1.2490_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+    jobid: 12742
+    wildcards: genome=Enterococcus_faecium, sample=s.314.Healthy.Antibiotics.Stool.1.2490
+    threads: 4
+
+Submitted job 12742 with external jobid 'Submitted batch job 6655514'.
+
+[Mon Aug 30 12:59:44 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s22.Healthy.Feces.Visit1_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s22.Healthy.Feces.Visit1_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s22.Healthy.Feces.Visit1.sam
+    jobid: 12501
+    wildcards: genome=Enterococcus_faecium, sample=s22.Healthy.Feces.Visit1
+    threads: 4
+
+Submitted job 12501 with external jobid 'Submitted batch job 6655536'.
+
+[Mon Aug 30 12:59:48 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.135.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.135.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.135.Healthy.Antibiotics.Feces.Week.8.sam
+    jobid: 12502
+    wildcards: genome=Enterococcus_faecium, sample=s.135.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 12502 with external jobid 'Submitted batch job 6655537'.
+
+[Mon Aug 30 12:59:48 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s95.Healthy.lessthan5.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s95.Healthy.lessthan5.Feces.Week.8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s95.Healthy.lessthan5.Feces.Week.8.sam
+    jobid: 12663
+    wildcards: genome=Enterococcus_faecium, sample=s95.Healthy.lessthan5.Feces.Week.8
+    threads: 4
+
+Submitted job 12663 with external jobid 'Submitted batch job 6655538'.
+
+[Mon Aug 30 12:59:48 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.209.Healthy.Antibiotics.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.209.Healthy.Antibiotics.Feces.Week.4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+    jobid: 12507
+    wildcards: genome=Enterococcus_faecium, sample=s.209.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 12507 with external jobid 'Submitted batch job 6655539'.
+
+[Mon Aug 30 12:59:48 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s102.IBD.Therapy.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s102.IBD.Therapy.Feces.Week.8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s102.IBD.Therapy.Feces.Week.8.sam
+    jobid: 12665
+    wildcards: genome=Enterococcus_faecium, sample=s102.IBD.Therapy.Feces.Week.8
+    threads: 4
+
+Submitted job 12665 with external jobid 'Submitted batch job 6655540'.
+
+[Mon Aug 30 12:59:48 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.204.Healthy.Antibiotics.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.204.Healthy.Antibiotics.Feces.Week.4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.204.Healthy.Antibiotics.Feces.Week.4.sam
+    jobid: 12477
+    wildcards: genome=Enterococcus_faecium, sample=s.204.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 12477 with external jobid 'Submitted batch job 6655541'.
+
+[Mon Aug 30 12:59:48 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.295.IBD.CDiff.Feces.week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.295.IBD.CDiff.Feces.week.4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.295.IBD.CDiff.Feces.week.4.sam
+    jobid: 12553
+    wildcards: genome=Enterococcus_faecium, sample=s.295.IBD.CDiff.Feces.week.4
+    threads: 4
+
+Submitted job 12553 with external jobid 'Submitted batch job 6655542'.
+
+[Mon Aug 30 12:59:48 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s078.IBD.Therapy.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s078.IBD.Therapy.Feces.Week.4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s078.IBD.Therapy.Feces.Week.4.sam
+    jobid: 12614
+    wildcards: genome=Enterococcus_faecium, sample=s078.IBD.Therapy.Feces.Week.4
+    threads: 4
+
+Submitted job 12614 with external jobid 'Submitted batch job 6655543'.
+
+[Mon Aug 30 12:59:49 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s32.C_diff.Feces.Visit3_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s32.C_diff.Feces.Visit3_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s32.C_diff.Feces.Visit3.sam
+    jobid: 12466
+    wildcards: genome=Enterococcus_faecium, sample=s32.C_diff.Feces.Visit3
+    threads: 4
+
+Submitted job 12466 with external jobid 'Submitted batch job 6655544'.
+
+[Mon Aug 30 12:59:49 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.201.IBD_Therapy.Feces.Week_4.sam
+    jobid: 12727
+    wildcards: genome=Enterococcus_faecium, sample=s.201.IBD_Therapy.Feces.Week_4
+    threads: 4
+
+Submitted job 12727 with external jobid 'Submitted batch job 6655545'.
+
+[Mon Aug 30 12:59:49 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s39.VEO.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s39.VEO.Feces.Week_8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s39.VEO.Feces.Week_8.sam
+    jobid: 12470
+    wildcards: genome=Enterococcus_faecium, sample=s39.VEO.Feces.Week_8
+    threads: 4
+
+Submitted job 12470 with external jobid 'Submitted batch job 6655546'.
+
+[Mon Aug 30 12:59:49 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.334.Healthy.Antibiotics.Stool.3.2749_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.334.Healthy.Antibiotics.Stool.3.2749_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.334.Healthy.Antibiotics.Stool.3.2749.sam
+    jobid: 12518
+    wildcards: genome=Enterococcus_faecium, sample=s.334.Healthy.Antibiotics.Stool.3.2749
+    threads: 4
+
+Submitted job 12518 with external jobid 'Submitted batch job 6655547'.
+
+[Mon Aug 30 12:59:49 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s35.IBD_Therapy.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s35.IBD_Therapy.Feces.Week_4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s35.IBD_Therapy.Feces.Week_4.sam
+    jobid: 12673
+    wildcards: genome=Enterococcus_faecium, sample=s35.IBD_Therapy.Feces.Week_4
+    threads: 4
+
+Submitted job 12673 with external jobid 'Submitted batch job 6655548'.
+
+[Mon Aug 30 12:59:49 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s46.Healthy_greaterthan5.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s46.Healthy_greaterthan5.Feces.Week_4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s46.Healthy_greaterthan5.Feces.Week_4.sam
+    jobid: 12641
+    wildcards: genome=Enterococcus_faecium, sample=s46.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 12641 with external jobid 'Submitted batch job 6655549'.
+
+[Mon Aug 30 12:59:49 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.197.Healthy.Antibiotics.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.197.Healthy.Antibiotics.Feces.Week.4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.197.Healthy.Antibiotics.Feces.Week.4.sam
+    jobid: 12478
+    wildcards: genome=Enterococcus_faecium, sample=s.197.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 12478 with external jobid 'Submitted batch job 6655550'.
+
+[Mon Aug 30 12:59:49 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.347.IBDTherapy.Stool.1.2668.sam
+    jobid: 12713
+    wildcards: genome=Enterococcus_faecium, sample=s.347.IBDTherapy.Stool.1.2668
+    threads: 4
+
+Submitted job 12713 with external jobid 'Submitted batch job 6655551'.
+
+[Mon Aug 30 12:59:49 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s22.Healthy.Feces.Visit2_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s22.Healthy.Feces.Visit2_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s22.Healthy.Feces.Visit2.sam
+    jobid: 12499
+    wildcards: genome=Enterococcus_faecium, sample=s22.Healthy.Feces.Visit2
+    threads: 4
+
+Submitted job 12499 with external jobid 'Submitted batch job 6655552'.
+
+[Mon Aug 30 12:59:50 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.190.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.190.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.190.Healthy.Antibiotics.Feces.Week.8.sam
+    jobid: 12467
+    wildcards: genome=Enterococcus_faecium, sample=s.190.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 12467 with external jobid 'Submitted batch job 6655553'.
+
+[Mon Aug 30 12:59:50 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s70.Healthy_greaterthan5.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s70.Healthy_greaterthan5.Feces.Week_4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s70.Healthy_greaterthan5.Feces.Week_4.sam
+    jobid: 12684
+    wildcards: genome=Enterococcus_faecium, sample=s70.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 12684 with external jobid 'Submitted batch job 6655554'.
+
+[Mon Aug 30 12:59:50 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s097.IBD.Antibiotics.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s097.IBD.Antibiotics.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s097.IBD.Antibiotics.Feces.Baseline.sam
+    jobid: 12486
+    wildcards: genome=Enterococcus_faecium, sample=s097.IBD.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 12486 with external jobid 'Submitted batch job 6655555'.
+
+[Mon Aug 30 12:59:50 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.244.VEO.Stool.1.1977_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.244.VEO.Stool.1.1977_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.244.VEO.Stool.1.1977.sam
+    jobid: 12488
+    wildcards: genome=Enterococcus_faecium, sample=s.244.VEO.Stool.1.1977
+    threads: 4
+
+Submitted job 12488 with external jobid 'Submitted batch job 6655556'.
+
+[Mon Aug 30 12:59:50 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.235.C_Diff_Oncology.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.235.C_Diff_Oncology.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.235.C_Diff_Oncology.Feces.Baseline.sam
+    jobid: 12621
+    wildcards: genome=Enterococcus_faecium, sample=s.235.C_Diff_Oncology.Feces.Baseline
+    threads: 4
+
+Submitted job 12621 with external jobid 'Submitted batch job 6655557'.
+
+[Mon Aug 30 12:59:50 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.222.IBD_CDiff.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.222.IBD_CDiff.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.222.IBD_CDiff.Feces.Baseline.sam
+    jobid: 12631
+    wildcards: genome=Enterococcus_faecium, sample=s.222.IBD_CDiff.Feces.Baseline
+    threads: 4
+
+Submitted job 12631 with external jobid 'Submitted batch job 6655558'.
+
+[Mon Aug 30 12:59:50 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.200.Healthy.Antibiotics.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.200.Healthy.Antibiotics.Feces.Week.4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.200.Healthy.Antibiotics.Feces.Week.4.sam
+    jobid: 12622
+    wildcards: genome=Enterococcus_faecium, sample=s.200.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 12622 with external jobid 'Submitted batch job 6655559'.
+
+[Mon Aug 30 12:59:50 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.209.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.209.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.209.Healthy.Antibiotics.Feces.Week.8.sam
+    jobid: 12636
+    wildcards: genome=Enterococcus_faecium, sample=s.209.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 12636 with external jobid 'Submitted batch job 6655560'.
+
+[Mon Aug 30 12:59:50 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.2.1046_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.2.1046_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.109.Healthy.greaterthan5.Stool.2.1046.sam
+    jobid: 12603
+    wildcards: genome=Enterococcus_faecium, sample=s.109.Healthy.greaterthan5.Stool.2.1046
+    threads: 4
+
+Submitted job 12603 with external jobid 'Submitted batch job 6655561'.
+
+[Mon Aug 30 12:59:51 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s25.IBD_Therapy.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s25.IBD_Therapy.Feces.Week_8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s25.IBD_Therapy.Feces.Week_8.sam
+    jobid: 12634
+    wildcards: genome=Enterococcus_faecium, sample=s25.IBD_Therapy.Feces.Week_8
+    threads: 4
+
+Submitted job 12634 with external jobid 'Submitted batch job 6655562'.
+
+[Mon Aug 30 12:59:51 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.235.C_Diff_Oncology.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.235.C_Diff_Oncology.Feces.Week_8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.235.C_Diff_Oncology.Feces.Week_8.sam
+    jobid: 12542
+    wildcards: genome=Enterococcus_faecium, sample=s.235.C_Diff_Oncology.Feces.Week_8
+    threads: 4
+
+Submitted job 12542 with external jobid 'Submitted batch job 6655563'.
+
+[Mon Aug 30 12:59:51 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.314.Healthy.Antibiotics.Stool.3.2567_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.314.Healthy.Antibiotics.Stool.3.2567_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.314.Healthy.Antibiotics.Stool.3.2567.sam
+    jobid: 12496
+    wildcards: genome=Enterococcus_faecium, sample=s.314.Healthy.Antibiotics.Stool.3.2567
+    threads: 4
+
+Submitted job 12496 with external jobid 'Submitted batch job 6655564'.
+
+[Mon Aug 30 12:59:51 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s159.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s159.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s159.Healthy.Antibiotics.Feces.Week.8.sam
+    jobid: 12551
+    wildcards: genome=Enterococcus_faecium, sample=s159.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 12551 with external jobid 'Submitted batch job 6655565'.
+
+[Mon Aug 30 12:59:51 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.197.Healthy.Antibiotics.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.197.Healthy.Antibiotics.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.197.Healthy.Antibiotics.Feces.Baseline.sam
+    jobid: 12514
+    wildcards: genome=Enterococcus_faecium, sample=s.197.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 12514 with external jobid 'Submitted batch job 6655566'.
+
+[Mon Aug 30 12:59:51 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s70.Healthy_greaterthan5.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s70.Healthy_greaterthan5.Feces.Week_8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s70.Healthy_greaterthan5.Feces.Week_8.sam
+    jobid: 12463
+    wildcards: genome=Enterococcus_faecium, sample=s70.Healthy_greaterthan5.Feces.Week_8
+    threads: 4
+
+Submitted job 12463 with external jobid 'Submitted batch job 6655567'.
+
+[Mon Aug 30 12:59:51 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s60.Healthy_greaterthan5.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s60.Healthy_greaterthan5.Feces.Week_4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s60.Healthy_greaterthan5.Feces.Week_4.sam
+    jobid: 12716
+    wildcards: genome=Enterococcus_faecium, sample=s60.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 12716 with external jobid 'Submitted batch job 6655568'.
+
+[Mon Aug 30 12:59:51 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Week.8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.154.VEO.Feces.Week.8.sam
+    jobid: 12736
+    wildcards: genome=Enterococcus_faecium, sample=s.154.VEO.Feces.Week.8
+    threads: 4
+
+Submitted job 12736 with external jobid 'Submitted batch job 6655569'.
+
+[Mon Aug 30 12:59:51 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s31.IBDNaturalHistory.Feces.Visit1_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s31.IBDNaturalHistory.Feces.Visit1_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s31.IBDNaturalHistory.Feces.Visit1.sam
+    jobid: 12549
+    wildcards: genome=Enterococcus_faecium, sample=s31.IBDNaturalHistory.Feces.Visit1
+    threads: 4
+
+Submitted job 12549 with external jobid 'Submitted batch job 6655570'.
+
+[Mon Aug 30 12:59:52 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s46.Healthy_greaterthan5.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s46.Healthy_greaterthan5.Feces.Week_8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s46.Healthy_greaterthan5.Feces.Week_8.sam
+    jobid: 12624
+    wildcards: genome=Enterococcus_faecium, sample=s46.Healthy_greaterthan5.Feces.Week_8
+    threads: 4
+
+Submitted job 12624 with external jobid 'Submitted batch job 6655571'.
+
+[Mon Aug 30 12:59:52 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s067.Healthy.Antibiotics.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s067.Healthy.Antibiotics.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s067.Healthy.Antibiotics.Feces.Baseline.sam
+    jobid: 12533
+    wildcards: genome=Enterococcus_faecium, sample=s067.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 12533 with external jobid 'Submitted batch job 6655572'.
+
+[Mon Aug 30 12:59:52 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.271.C.Diff_Oncology.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.271.C.Diff_Oncology.Feces.Week_4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.271.C.Diff_Oncology.Feces.Week_4.sam
+    jobid: 12548
+    wildcards: genome=Enterococcus_faecium, sample=s.271.C.Diff_Oncology.Feces.Week_4
+    threads: 4
+
+Submitted job 12548 with external jobid 'Submitted batch job 6655573'.
+
+[Mon Aug 30 12:59:52 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.75.Healthy_greaterthan5.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.75.Healthy_greaterthan5.Feces.Week_4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.75.Healthy_greaterthan5.Feces.Week_4.sam
+    jobid: 12654
+    wildcards: genome=Enterococcus_faecium, sample=s.75.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 12654 with external jobid 'Submitted batch job 6655574'.
+
+[Mon Aug 30 12:59:52 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.173.VEO.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.173.VEO.Feces.Week.8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.173.VEO.Feces.Week.8.sam
+    jobid: 12483
+    wildcards: genome=Enterococcus_faecium, sample=s.173.VEO.Feces.Week.8
+    threads: 4
+
+Submitted job 12483 with external jobid 'Submitted batch job 6655575'.
+
+[Mon Aug 30 12:59:52 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.214.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.214.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.214.Healthy.Antibiotics.Feces.Week.8.sam
+    jobid: 12589
+    wildcards: genome=Enterococcus_faecium, sample=s.214.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 12589 with external jobid 'Submitted batch job 6655576'.
+
+[Mon Aug 30 12:59:52 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s143.VEO.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s143.VEO.Feces.Week.4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s143.VEO.Feces.Week.4.sam
+    jobid: 12546
+    wildcards: genome=Enterococcus_faecium, sample=s143.VEO.Feces.Week.4
+    threads: 4
+
+Submitted job 12546 with external jobid 'Submitted batch job 6655577'.
+
+[Mon Aug 30 12:59:52 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s26.Healthy.Feces.Visit2_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s26.Healthy.Feces.Visit2_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s26.Healthy.Feces.Visit2.sam
+    jobid: 12521
+    wildcards: genome=Enterococcus_faecium, sample=s26.Healthy.Feces.Visit2
+    threads: 4
+
+Submitted job 12521 with external jobid 'Submitted batch job 6655578'.
+
+[Mon Aug 30 12:59:52 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.154.VEO.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.154.VEO.Feces.Baseline.sam
+    jobid: 12504
+    wildcards: genome=Enterococcus_faecium, sample=s.154.VEO.Feces.Baseline
+    threads: 4
+
+Submitted job 12504 with external jobid 'Submitted batch job 6655579'.
+
+[Mon Aug 30 12:59:53 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s097.IBD.Antibiotics.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s097.IBD.Antibiotics.Feces.Week.4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s097.IBD.Antibiotics.Feces.Week.4.sam
+    jobid: 12581
+    wildcards: genome=Enterococcus_faecium, sample=s097.IBD.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 12581 with external jobid 'Submitted batch job 6655580'.
+
+[Mon Aug 30 12:59:53 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s30.IBDNaturalHistory.Feces.Visit2_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s30.IBDNaturalHistory.Feces.Visit2_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s30.IBDNaturalHistory.Feces.Visit2.sam
+    jobid: 12561
+    wildcards: genome=Enterococcus_faecium, sample=s30.IBDNaturalHistory.Feces.Visit2
+    threads: 4
+
+Submitted job 12561 with external jobid 'Submitted batch job 6655581'.
+
+[Mon Aug 30 12:59:53 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s20.C_diff.Feces.Visit1_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s20.C_diff.Feces.Visit1_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s20.C_diff.Feces.Visit1.sam
+    jobid: 12672
+    wildcards: genome=Enterococcus_faecium, sample=s20.C_diff.Feces.Visit1
+    threads: 4
+
+Submitted job 12672 with external jobid 'Submitted batch job 6655582'.
+
+[Mon Aug 30 12:59:53 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.175.VEO.Feces.Week_4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.175.VEO.Feces.Week_4.sam
+    jobid: 12473
+    wildcards: genome=Enterococcus_faecium, sample=s.175.VEO.Feces.Week_4
+    threads: 4
+
+Submitted job 12473 with external jobid 'Submitted batch job 6655583'.
+
+[Mon Aug 30 12:59:53 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Week_8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s58.Healthy_greaterthan5.Feces.Week_8.sam
+    jobid: 12526
+    wildcards: genome=Enterococcus_faecium, sample=s58.Healthy_greaterthan5.Feces.Week_8
+    threads: 4
+
+Submitted job 12526 with external jobid 'Submitted batch job 6655584'.
+
+[Mon Aug 30 12:59:53 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.201.IBD_Therapy.Feces.Week_8.sam
+    jobid: 12503
+    wildcards: genome=Enterococcus_faecium, sample=s.201.IBD_Therapy.Feces.Week_8
+    threads: 4
+
+Submitted job 12503 with external jobid 'Submitted batch job 6655585'.
+
+[Mon Aug 30 12:59:53 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.361.C.DiffOncology.Stool.1.2876_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.361.C.DiffOncology.Stool.1.2876_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.361.C.DiffOncology.Stool.1.2876.sam
+    jobid: 12538
+    wildcards: genome=Enterococcus_faecium, sample=s.361.C.DiffOncology.Stool.1.2876
+    threads: 4
+
+Submitted job 12538 with external jobid 'Submitted batch job 6655586'.
+
+[Mon Aug 30 12:59:53 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s26.Healthy.Feces.Visit1_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s26.Healthy.Feces.Visit1_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s26.Healthy.Feces.Visit1.sam
+    jobid: 12552
+    wildcards: genome=Enterococcus_faecium, sample=s26.Healthy.Feces.Visit1
+    threads: 4
+
+Submitted job 12552 with external jobid 'Submitted batch job 6655587'.
+
+[Mon Aug 30 12:59:53 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s38.IBD.Antibiotics.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s38.IBD.Antibiotics.Feces.Week.4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s38.IBD.Antibiotics.Feces.Week.4.sam
+    jobid: 12607
+    wildcards: genome=Enterococcus_faecium, sample=s38.IBD.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 12607 with external jobid 'Submitted batch job 6655588'.
+
+[Mon Aug 30 12:59:54 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s58.Healthy_greaterthan5.Feces.Baseline.sam
+    jobid: 12580
+    wildcards: genome=Enterococcus_faecium, sample=s58.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+Submitted job 12580 with external jobid 'Submitted batch job 6655589'.
+
+[Mon Aug 30 12:59:54 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s152.Healthy.Antibiotics.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s152.Healthy.Antibiotics.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s152.Healthy.Antibiotics.Feces.Baseline.sam
+    jobid: 12469
+    wildcards: genome=Enterococcus_faecium, sample=s152.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 12469 with external jobid 'Submitted batch job 6655590'.
+
+[Mon Aug 30 12:59:54 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.2.2872_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.2.2872_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.359.IBDC.Diff.Stool.2.2872.sam
+    jobid: 12472
+    wildcards: genome=Enterococcus_faecium, sample=s.359.IBDC.Diff.Stool.2.2872
+    threads: 4
+
+Submitted job 12472 with external jobid 'Submitted batch job 6655591'.
+
+[Mon Aug 30 12:59:54 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.308.IBDC.Diff.Stool.visit2.2500_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.308.IBDC.Diff.Stool.visit2.2500_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.308.IBDC.Diff.Stool.visit2.2500.sam
+    jobid: 12681
+    wildcards: genome=Enterococcus_faecium, sample=s.308.IBDC.Diff.Stool.visit2.2500
+    threads: 4
+
+Submitted job 12681 with external jobid 'Submitted batch job 6655592'.
+
+[Mon Aug 30 12:59:54 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.244.VEO.Stool.3.1964_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.244.VEO.Stool.3.1964_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.244.VEO.Stool.3.1964.sam
+    jobid: 12664
+    wildcards: genome=Enterococcus_faecium, sample=s.244.VEO.Stool.3.1964
+    threads: 4
+
+Submitted job 12664 with external jobid 'Submitted batch job 6655593'.
+
+[Mon Aug 30 12:59:54 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.74.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.74.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.74.Healthy_greaterthan5.Feces.Baseline.sam
+    jobid: 12652
+    wildcards: genome=Enterococcus_faecium, sample=s.74.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+Submitted job 12652 with external jobid 'Submitted batch job 6655594'.
+
+[Mon Aug 30 12:59:54 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.261.IBD_Therapy.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.261.IBD_Therapy.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.261.IBD_Therapy.Feces.Baseline.sam
+    jobid: 12737
+    wildcards: genome=Enterococcus_faecium, sample=s.261.IBD_Therapy.Feces.Baseline
+    threads: 4
+
+Submitted job 12737 with external jobid 'Submitted batch job 6655595'.
+
+[Mon Aug 30 12:59:54 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.201.IBD_Therapy.Feces.Baseline.sam
+    jobid: 12606
+    wildcards: genome=Enterococcus_faecium, sample=s.201.IBD_Therapy.Feces.Baseline
+    threads: 4
+
+Submitted job 12606 with external jobid 'Submitted batch job 6655617'.
+
+[Mon Aug 30 13:00:05 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s46.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s46.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s46.Healthy_greaterthan5.Feces.Baseline.sam
+    jobid: 12647
+    wildcards: genome=Enterococcus_faecium, sample=s46.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+Submitted job 12647 with external jobid 'Submitted batch job 6655618'.
+
+[Mon Aug 30 13:00:05 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s58.Healthy_greaterthan5.Feces.Week_4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s58.Healthy_greaterthan5.Feces.Week_4.sam
+    jobid: 12632
+    wildcards: genome=Enterococcus_faecium, sample=s58.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 12632 with external jobid 'Submitted batch job 6655619'.
+
+[Mon Aug 30 13:00:05 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s48_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s48_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s48.sam
+    jobid: 12464
+    wildcards: genome=Enterococcus_faecium, sample=s48
+    threads: 4
+
+Submitted job 12464 with external jobid 'Submitted batch job 6655620'.
+
+[Mon Aug 30 13:00:05 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.344.Healthy.Antibiotics.Stool.2.2746_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.344.Healthy.Antibiotics.Stool.2.2746_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.344.Healthy.Antibiotics.Stool.2.2746.sam
+    jobid: 12573
+    wildcards: genome=Enterococcus_faecium, sample=s.344.Healthy.Antibiotics.Stool.2.2746
+    threads: 4
+
+Submitted job 12573 with external jobid 'Submitted batch job 6655621'.
+
+[Mon Aug 30 13:00:05 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.344.Healthy.Antibiotics.Stool.3.2747_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.344.Healthy.Antibiotics.Stool.3.2747_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.344.Healthy.Antibiotics.Stool.3.2747.sam
+    jobid: 12645
+    wildcards: genome=Enterococcus_faecium, sample=s.344.Healthy.Antibiotics.Stool.3.2747
+    threads: 4
+
+Submitted job 12645 with external jobid 'Submitted batch job 6655622'.
+
+[Mon Aug 30 13:00:05 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.265.IBD_C.Diff.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.265.IBD_C.Diff.Feces.Week_4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.265.IBD_C.Diff.Feces.Week_4.sam
+    jobid: 12465
+    wildcards: genome=Enterococcus_faecium, sample=s.265.IBD_C.Diff.Feces.Week_4
+    threads: 4
+
+Submitted job 12465 with external jobid 'Submitted batch job 6655623'.
+
+[Mon Aug 30 13:00:06 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.173.VEO.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.173.VEO.Feces.Week.4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.173.VEO.Feces.Week.4.sam
+    jobid: 12616
+    wildcards: genome=Enterococcus_faecium, sample=s.173.VEO.Feces.Week.4
+    threads: 4
+
+Submitted job 12616 with external jobid 'Submitted batch job 6655624'.
+
+[Mon Aug 30 13:00:06 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.334.Healthy.Antibiotics.Stool.1.2630_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.334.Healthy.Antibiotics.Stool.1.2630_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.334.Healthy.Antibiotics.Stool.1.2630.sam
+    jobid: 12588
+    wildcards: genome=Enterococcus_faecium, sample=s.334.Healthy.Antibiotics.Stool.1.2630
+    threads: 4
+
+Submitted job 12588 with external jobid 'Submitted batch job 6655625'.
+
+[Mon Aug 30 13:00:06 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s078.IBD.Therapy.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s078.IBD.Therapy.Feces.Week.8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s078.IBD.Therapy.Feces.Week.8.sam
+    jobid: 12590
+    wildcards: genome=Enterococcus_faecium, sample=s078.IBD.Therapy.Feces.Week.8
+    threads: 4
+
+Submitted job 12590 with external jobid 'Submitted batch job 6655626'.
+
+[Mon Aug 30 13:00:06 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s55.IBD_Therapy.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s55.IBD_Therapy.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s55.IBD_Therapy.Feces.Baseline.sam
+    jobid: 12519
+    wildcards: genome=Enterococcus_faecium, sample=s55.IBD_Therapy.Feces.Baseline
+    threads: 4
+
+Submitted job 12519 with external jobid 'Submitted batch job 6655627'.
+
+[Mon Aug 30 13:00:06 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s157_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s157_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s157.sam
+    jobid: 12689
+    wildcards: genome=Enterococcus_faecium, sample=s157
+    threads: 4
+
+Submitted job 12689 with external jobid 'Submitted batch job 6655628'.
+
+[Mon Aug 30 13:00:06 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.314.Healthy.Antibiotics.Stool.2.2505_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.314.Healthy.Antibiotics.Stool.2.2505_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.314.Healthy.Antibiotics.Stool.2.2505.sam
+    jobid: 12723
+    wildcards: genome=Enterococcus_faecium, sample=s.314.Healthy.Antibiotics.Stool.2.2505
+    threads: 4
+
+Submitted job 12723 with external jobid 'Submitted batch job 6655629'.
+
+[Mon Aug 30 13:00:07 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.209.Healthy.Antibiotics.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.209.Healthy.Antibiotics.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+    jobid: 12629
+    wildcards: genome=Enterococcus_faecium, sample=s.209.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 12629 with external jobid 'Submitted batch job 6655630'.
+
+[Mon Aug 30 13:00:07 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s102.IBD.Therapy.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s102.IBD.Therapy.Feces.Week.4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s102.IBD.Therapy.Feces.Week.4.sam
+    jobid: 12550
+    wildcards: genome=Enterococcus_faecium, sample=s102.IBD.Therapy.Feces.Week.4
+    threads: 4
+
+Submitted job 12550 with external jobid 'Submitted batch job 6655631'.
+
+[Mon Aug 30 13:00:07 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s2_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s2_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s2.sam
+    jobid: 12558
+    wildcards: genome=Enterococcus_faecium, sample=s2
+    threads: 4
+
+Submitted job 12558 with external jobid 'Submitted batch job 6655632'.
+
+[Mon Aug 30 13:00:07 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.212.IBD.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.212.IBD.Feces.Week.4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.212.IBD.Feces.Week.4.sam
+    jobid: 12602
+    wildcards: genome=Enterococcus_faecium, sample=s.212.IBD.Feces.Week.4
+    threads: 4
+
+Submitted job 12602 with external jobid 'Submitted batch job 6655633'.
+
+[Mon Aug 30 13:00:07 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s067.Healthy.Antibiotics.Feces.Week.8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s067.Healthy.Antibiotics.Feces.Week.8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s067.Healthy.Antibiotics.Feces.Week.8.sam
+    jobid: 12718
+    wildcards: genome=Enterococcus_faecium, sample=s067.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 12718 with external jobid 'Submitted batch job 6655634'.
+
+[Mon Aug 30 13:00:07 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.3.2873_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.3.2873_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.359.IBDC.Diff.Stool.3.2873.sam
+    jobid: 12562
+    wildcards: genome=Enterococcus_faecium, sample=s.359.IBDC.Diff.Stool.3.2873
+    threads: 4
+
+Submitted job 12562 with external jobid 'Submitted batch job 6655635'.
+
+[Mon Aug 30 13:00:07 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.244.VEO.Stool.2.1952_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.244.VEO.Stool.2.1952_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.244.VEO.Stool.2.1952.sam
+    jobid: 12471
+    wildcards: genome=Enterococcus_faecium, sample=s.244.VEO.Stool.2.1952
+    threads: 4
+
+Submitted job 12471 with external jobid 'Submitted batch job 6655636'.
+
+[Mon Aug 30 13:00:07 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.1.910_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.109.Healthy.greaterthan5.Stool.1.910_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.109.Healthy.greaterthan5.Stool.1.910.sam
+    jobid: 12493
+    wildcards: genome=Enterococcus_faecium, sample=s.109.Healthy.greaterthan5.Stool.1.910
+    threads: 4
+
+Submitted job 12493 with external jobid 'Submitted batch job 6655637'.
+
+[Mon Aug 30 13:00:07 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s159.Healthy.Antibiotics.Feces.Week.4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s159.Healthy.Antibiotics.Feces.Week.4_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s159.Healthy.Antibiotics.Feces.Week.4.sam
+    jobid: 12516
+    wildcards: genome=Enterococcus_faecium, sample=s159.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 12516 with external jobid 'Submitted batch job 6655638'.
+
+[Mon Aug 30 13:00:08 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.212.IBD.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.212.IBD.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.212.IBD.Feces.Baseline.sam
+    jobid: 12702
+    wildcards: genome=Enterococcus_faecium, sample=s.212.IBD.Feces.Baseline
+    threads: 4
+
+Submitted job 12702 with external jobid 'Submitted batch job 6655639'.
+
+[Mon Aug 30 13:00:08 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.84.Healthy_greaterthan5.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.84.Healthy_greaterthan5.Feces.Baseline_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.84.Healthy_greaterthan5.Feces.Baseline.sam
+    jobid: 12731
+    wildcards: genome=Enterococcus_faecium, sample=s.84.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+Submitted job 12731 with external jobid 'Submitted batch job 6655640'.
+
+[Mon Aug 30 13:00:08 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s3_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s3_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_faecium.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s3.sam
+    jobid: 12566
+    wildcards: genome=Enterococcus_faecium, sample=s3
+    threads: 4
+
+Submitted job 12566 with external jobid 'Submitted batch job 6655641'.
+
+[Mon Aug 30 13:00:08 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Pediococcus_acidlactici.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pediococcus_acidlactici/s.347.IBDTherapy.Stool.1.2668.sam
+    jobid: 11864
+    wildcards: genome=Pediococcus_acidlactici, sample=s.347.IBDTherapy.Stool.1.2668
+    threads: 4
+
+Submitted job 11864 with external jobid 'Submitted batch job 6655642'.
+
+[Mon Aug 30 13:00:08 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Levilactobacillus_brevis.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Levilactobacillus_brevis/s.347.IBDTherapy.Stool.1.2668.sam
+    jobid: 12430
+    wildcards: genome=Levilactobacillus_brevis, sample=s.347.IBDTherapy.Stool.1.2668
+    threads: 4
+
+Submitted job 12430 with external jobid 'Submitted batch job 6655643'.
+
+[Mon Aug 30 13:00:08 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Streptococcus_agalactiae.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Streptococcus_agalactiae/s.347.IBDTherapy.Stool.1.2668.sam
+    jobid: 13845
+    wildcards: genome=Streptococcus_agalactiae, sample=s.347.IBDTherapy.Stool.1.2668
+    threads: 4
+
+Submitted job 13845 with external jobid 'Submitted batch job 6655644'.
+
+[Mon Aug 30 13:00:08 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Enterococcus_gallinarum.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_gallinarum/s.347.IBDTherapy.Stool.1.2668.sam
+    jobid: 14128
+    wildcards: genome=Enterococcus_gallinarum, sample=s.347.IBDTherapy.Stool.1.2668
+    threads: 4
+
+Submitted job 14128 with external jobid 'Submitted batch job 6655645'.
+
+[Mon Aug 30 13:00:08 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Latilactobacillus_sakei.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Latilactobacillus_sakei/s.347.IBDTherapy.Stool.1.2668.sam
+    jobid: 12996
+    wildcards: genome=Latilactobacillus_sakei, sample=s.347.IBDTherapy.Stool.1.2668
+    threads: 4
+
+Submitted job 12996 with external jobid 'Submitted batch job 6655646'.
+
+[Mon Aug 30 13:00:09 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Clostridium_perfringens.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Clostridium_perfringens/s.347.IBDTherapy.Stool.1.2668.sam
+    jobid: 13279
+    wildcards: genome=Clostridium_perfringens, sample=s.347.IBDTherapy.Stool.1.2668
+    threads: 4
+
+Submitted job 13279 with external jobid 'Submitted batch job 6655647'.
+
+[Mon Aug 30 13:00:09 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Pseudomonas_aeruginosa.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Pseudomonas_aeruginosa/s.347.IBDTherapy.Stool.1.2668.sam
+    jobid: 12147
+    wildcards: genome=Pseudomonas_aeruginosa, sample=s.347.IBDTherapy.Stool.1.2668
+    threads: 4
+
+Submitted job 12147 with external jobid 'Submitted batch job 6655648'.
+
+[Mon Aug 30 13:00:09 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Staphylococcus_epidermidis.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s.347.IBDTherapy.Stool.1.2668.sam
+    jobid: 13562
+    wildcards: genome=Staphylococcus_epidermidis, sample=s.347.IBDTherapy.Stool.1.2668
+    threads: 4
+
+Submitted job 13562 with external jobid 'Submitted batch job 6655649'.
+
+[Mon Aug 30 13:00:09 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Staphylococcus_schleiferi.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_schleiferi/s.347.IBDTherapy.Stool.1.2668.sam
+    jobid: 11581
+    wildcards: genome=Staphylococcus_schleiferi, sample=s.347.IBDTherapy.Stool.1.2668
+    threads: 4
+
+Submitted job 11581 with external jobid 'Submitted batch job 6655650'.
+[Mon Aug 30 13:03:50 2021]
+Finished job 12608.
+11 of 14171 steps (0.08%) done
+
+[Mon Aug 30 13:03:50 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.175.VEO.Feces.Week_8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.175.VEO.Feces.Week_8.bam
+    jobid: 6948
+    wildcards: genome=Enterococcus_faecium, sample=s.175.VEO.Feces.Week_8
+    threads: 4
+
+[Mon Aug 30 13:03:50 2021]
+Submitted job 6948 with external jobid 'Submitted batch job 6655775'.
+Finished job 12742.
+12 of 14171 steps (0.08%) done
+[Mon Aug 30 13:03:50 2021]
+Finished job 12501.
+13 of 14171 steps (0.09%) done
+
+[Mon Aug 30 13:03:50 2021]
+rule align_to_genome:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s25.IBD_Therapy.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s25.IBD_Therapy.Feces.Week_8_2.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/ArcOperon_fa/Staphylococcus_epidermidis.fasta.amb
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Staphylococcus_epidermidis/s25.IBD_Therapy.Feces.Week_8.sam
+    jobid: 13483
+    wildcards: genome=Staphylococcus_epidermidis, sample=s25.IBD_Therapy.Feces.Week_8
+    threads: 4
+
+Submitted job 13483 with external jobid 'Submitted batch job 6655776'.
+
+[Mon Aug 30 13:03:50 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.314.Healthy.Antibiotics.Stool.1.2490.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.314.Healthy.Antibiotics.Stool.1.2490.bam
+    jobid: 7082
+    wildcards: genome=Enterococcus_faecium, sample=s.314.Healthy.Antibiotics.Stool.1.2490
+    threads: 4
+
+Submitted job 7082 with external jobid 'Submitted batch job 6655777'.
+[Mon Aug 30 13:03:51 2021]
+Finished job 12663.
+14 of 14171 steps (0.10%) done
+[Mon Aug 30 13:03:51 2021]
+Finished job 12507.
+15 of 14171 steps (0.11%) done
+
+[Mon Aug 30 13:03:51 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s95.Healthy.lessthan5.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s95.Healthy.lessthan5.Feces.Week.8.bam
+    jobid: 7003
+    wildcards: genome=Enterococcus_faecium, sample=s95.Healthy.lessthan5.Feces.Week.8
+    threads: 4
+
+[Mon Aug 30 13:03:51 2021]
+Finished job 12477.
+16 of 14171 steps (0.11%) done
+[Mon Aug 30 13:03:51 2021]
+Finished job 12553.
+17 of 14171 steps (0.12%) done
+Submitted job 7003 with external jobid 'Submitted batch job 6655796'.
+
+[Mon Aug 30 13:03:54 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.209.Healthy.Antibiotics.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.209.Healthy.Antibiotics.Feces.Week.4.bam
+    jobid: 6847
+    wildcards: genome=Enterococcus_faecium, sample=s.209.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 6847 with external jobid 'Submitted batch job 6655797'.
+
+[Mon Aug 30 13:03:54 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.295.IBD.CDiff.Feces.week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.295.IBD.CDiff.Feces.week.4.bam
+    jobid: 6893
+    wildcards: genome=Enterococcus_faecium, sample=s.295.IBD.CDiff.Feces.week.4
+    threads: 4
+
+Submitted job 6893 with external jobid 'Submitted batch job 6655798'.
+
+[Mon Aug 30 13:03:54 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.204.Healthy.Antibiotics.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.204.Healthy.Antibiotics.Feces.Week.4.bam
+    jobid: 6817
+    wildcards: genome=Enterococcus_faecium, sample=s.204.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 6817 with external jobid 'Submitted batch job 6655799'.
+[Mon Aug 30 13:04:11 2021]
+Finished job 12625.
+18 of 14171 steps (0.13%) done
+
+[Mon Aug 30 13:04:11 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.344.Healthy.Antibiotics.Stool.1.2655.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.344.Healthy.Antibiotics.Stool.1.2655.bam
+    jobid: 6965
+    wildcards: genome=Enterococcus_faecium, sample=s.344.Healthy.Antibiotics.Stool.1.2655
+    threads: 4
+
+Submitted job 6965 with external jobid 'Submitted batch job 6655800'.
+[Mon Aug 30 13:04:31 2021]
+Finished job 12578.
+19 of 14171 steps (0.13%) done
+
+[Mon Aug 30 13:04:31 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s30.IBDNaturalHistory.Feces.Visit3.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s30.IBDNaturalHistory.Feces.Visit3.bam
+    jobid: 6918
+    wildcards: genome=Enterococcus_faecium, sample=s30.IBDNaturalHistory.Feces.Visit3
+    threads: 4
+
+Submitted job 6918 with external jobid 'Submitted batch job 6655819'.
+[Mon Aug 30 13:04:51 2021]
+Finished job 12650.
+20 of 14171 steps (0.14%) done
+[Mon Aug 30 13:04:51 2021]
+Finished job 12502.
+21 of 14171 steps (0.15%) done
+
+[Mon Aug 30 13:04:51 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.175.VEO.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.175.VEO.Feces.Baseline.bam
+    jobid: 6990
+    wildcards: genome=Enterococcus_faecium, sample=s.175.VEO.Feces.Baseline
+    threads: 4
+
+Submitted job 6990 with external jobid 'Submitted batch job 6655838'.
+
+[Mon Aug 30 13:04:52 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.135.Healthy.Antibiotics.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.135.Healthy.Antibiotics.Feces.Week.8.bam
+    jobid: 6842
+    wildcards: genome=Enterococcus_faecium, sample=s.135.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 6842 with external jobid 'Submitted batch job 6655839'.
+[Mon Aug 30 13:05:15 2021]
+Finished job 12504.
+22 of 14171 steps (0.16%) done
+[Mon Aug 30 13:05:15 2021]
+Finished job 12581.
+23 of 14171 steps (0.16%) done
+
+[Mon Aug 30 13:05:15 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.154.VEO.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.154.VEO.Feces.Baseline.bam
+    jobid: 6844
+    wildcards: genome=Enterococcus_faecium, sample=s.154.VEO.Feces.Baseline
+    threads: 4
+
+Submitted job 6844 with external jobid 'Submitted batch job 6655879'.
+
+[Mon Aug 30 13:05:17 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s097.IBD.Antibiotics.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s097.IBD.Antibiotics.Feces.Week.4.bam
+    jobid: 6921
+    wildcards: genome=Enterococcus_faecium, sample=s097.IBD.Antibiotics.Feces.Week.4
+    threads: 4
+
+Submitted job 6921 with external jobid 'Submitted batch job 6655880'.
+[Mon Aug 30 13:05:32 2021]
+Finished job 12470.
+24 of 14171 steps (0.17%) done
+
+[Mon Aug 30 13:05:32 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s39.VEO.Feces.Week_8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s39.VEO.Feces.Week_8.bam
+    jobid: 6810
+    wildcards: genome=Enterococcus_faecium, sample=s39.VEO.Feces.Week_8
+    threads: 4
+
+Submitted job 6810 with external jobid 'Submitted batch job 6655902'.
+[Mon Aug 30 13:05:33 2021]
+Finished job 12684.
+25 of 14171 steps (0.18%) done
+
+[Mon Aug 30 13:05:33 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s22.Healthy.Feces.Visit1.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s22.Healthy.Feces.Visit1.bam
+    jobid: 6841
+    wildcards: genome=Enterococcus_faecium, sample=s22.Healthy.Feces.Visit1
+    threads: 4
+
+Submitted job 6841 with external jobid 'Submitted batch job 6655903'.
+[Mon Aug 30 13:05:34 2021]
+Finished job 12622.
+26 of 14171 steps (0.18%) done
+[Mon Aug 30 13:05:34 2021]
+Finished job 12636.
+27 of 14171 steps (0.19%) done
+
+[Mon Aug 30 13:05:34 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.200.Healthy.Antibiotics.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.200.Healthy.Antibiotics.Feces.Week.4.bam
+    jobid: 6962
+    wildcards: genome=Enterococcus_faecium, sample=s.200.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+[Mon Aug 30 13:05:35 2021]
+Finished job 12548.
+28 of 14171 steps (0.20%) done
+[Mon Aug 30 13:05:35 2021]
+Finished job 12654.
+29 of 14171 steps (0.20%) done
+[Mon Aug 30 13:05:35 2021]
+Finished job 12483.
+30 of 14171 steps (0.21%) done
+[Mon Aug 30 13:05:35 2021]
+Finished job 12589.
+31 of 14171 steps (0.22%) done
+[Mon Aug 30 13:05:36 2021]
+Finished job 12521.
+32 of 14171 steps (0.23%) done
+Submitted job 6962 with external jobid 'Submitted batch job 6655924'.
+
+[Mon Aug 30 13:05:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.173.VEO.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.173.VEO.Feces.Week.8.bam
+    jobid: 6823
+    wildcards: genome=Enterococcus_faecium, sample=s.173.VEO.Feces.Week.8
+    threads: 4
+
+Submitted job 6823 with external jobid 'Submitted batch job 6655925'.
+
+[Mon Aug 30 13:05:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.75.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.75.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 6994
+    wildcards: genome=Enterococcus_faecium, sample=s.75.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 6994 with external jobid 'Submitted batch job 6655926'.
+
+[Mon Aug 30 13:05:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.214.Healthy.Antibiotics.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.214.Healthy.Antibiotics.Feces.Week.8.bam
+    jobid: 6929
+    wildcards: genome=Enterococcus_faecium, sample=s.214.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 6929 with external jobid 'Submitted batch job 6655927'.
+
+[Mon Aug 30 13:05:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.209.Healthy.Antibiotics.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.209.Healthy.Antibiotics.Feces.Week.8.bam
+    jobid: 6976
+    wildcards: genome=Enterococcus_faecium, sample=s.209.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 6976 with external jobid 'Submitted batch job 6655928'.
+
+[Mon Aug 30 13:05:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.271.C.Diff_Oncology.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.271.C.Diff_Oncology.Feces.Week_4.bam
+    jobid: 6888
+    wildcards: genome=Enterococcus_faecium, sample=s.271.C.Diff_Oncology.Feces.Week_4
+    threads: 4
+
+Submitted job 6888 with external jobid 'Submitted batch job 6655929'.
+
+[Mon Aug 30 13:05:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s26.Healthy.Feces.Visit2.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s26.Healthy.Feces.Visit2.bam
+    jobid: 6861
+    wildcards: genome=Enterococcus_faecium, sample=s26.Healthy.Feces.Visit2
+    threads: 4
+
+Submitted job 6861 with external jobid 'Submitted batch job 6655930'.
+[Mon Aug 30 13:05:54 2021]
+Finished job 12518.
+33 of 14171 steps (0.23%) done
+[Mon Aug 30 13:05:54 2021]
+Finished job 12641.
+34 of 14171 steps (0.24%) done
+
+[Mon Aug 30 13:05:54 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.334.Healthy.Antibiotics.Stool.3.2749.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.334.Healthy.Antibiotics.Stool.3.2749.bam
+    jobid: 6858
+    wildcards: genome=Enterococcus_faecium, sample=s.334.Healthy.Antibiotics.Stool.3.2749
+    threads: 4
+
+Submitted job 6858 with external jobid 'Submitted batch job 6655931'.
+[Mon Aug 30 13:05:54 2021]
+Finished job 12499.
+35 of 14171 steps (0.25%) done
+[Mon Aug 30 13:05:54 2021]
+Finished job 12488.
+36 of 14171 steps (0.25%) done
+
+[Mon Aug 30 13:05:54 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s22.Healthy.Feces.Visit2.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s22.Healthy.Feces.Visit2.bam
+    jobid: 6839
+    wildcards: genome=Enterococcus_faecium, sample=s22.Healthy.Feces.Visit2
+    threads: 4
+
+Submitted job 6839 with external jobid 'Submitted batch job 6655932'.
+
+[Mon Aug 30 13:05:54 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s46.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s46.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 6981
+    wildcards: genome=Enterococcus_faecium, sample=s46.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 6981 with external jobid 'Submitted batch job 6655933'.
+
+[Mon Aug 30 13:05:54 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.244.VEO.Stool.1.1977.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.244.VEO.Stool.1.1977.bam
+    jobid: 6828
+    wildcards: genome=Enterococcus_faecium, sample=s.244.VEO.Stool.1.1977
+    threads: 4
+
+[Mon Aug 30 13:05:55 2021]
+Finished job 12463.
+37 of 14171 steps (0.26%) done
+[Mon Aug 30 13:05:55 2021]
+Finished job 12716.
+38 of 14171 steps (0.27%) done
+[Mon Aug 30 13:05:55 2021]
+Finished job 12736.
+39 of 14171 steps (0.28%) done
+Submitted job 6828 with external jobid 'Submitted batch job 6655954'.
+
+[Mon Aug 30 13:05:57 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s70.Healthy_greaterthan5.Feces.Week_8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s70.Healthy_greaterthan5.Feces.Week_8.bam
+    jobid: 6803
+    wildcards: genome=Enterococcus_faecium, sample=s70.Healthy_greaterthan5.Feces.Week_8
+    threads: 4
+
+Submitted job 6803 with external jobid 'Submitted batch job 6655955'.
+
+[Mon Aug 30 13:05:57 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.154.VEO.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.154.VEO.Feces.Week.8.bam
+    jobid: 7076
+    wildcards: genome=Enterococcus_faecium, sample=s.154.VEO.Feces.Week.8
+    threads: 4
+
+Submitted job 7076 with external jobid 'Submitted batch job 6655956'.
+
+[Mon Aug 30 13:05:58 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s60.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s60.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 7056
+    wildcards: genome=Enterococcus_faecium, sample=s60.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 7056 with external jobid 'Submitted batch job 6655957'.
+[Mon Aug 30 13:06:14 2021]
+Finished job 12644.
+40 of 14171 steps (0.28%) done
+
+[Mon Aug 30 13:06:14 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s17.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s17.bam
+    jobid: 6984
+    wildcards: genome=Enterococcus_faecium, sample=s17
+    threads: 4
+
+Submitted job 6984 with external jobid 'Submitted batch job 6655959'.
+[Mon Aug 30 13:06:14 2021]
+Finished job 12478.
+41 of 14171 steps (0.29%) done
+
+[Mon Aug 30 13:06:14 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.197.Healthy.Antibiotics.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.197.Healthy.Antibiotics.Feces.Week.4.bam
+    jobid: 6818
+    wildcards: genome=Enterococcus_faecium, sample=s.197.Healthy.Antibiotics.Feces.Week.4
+    threads: 4
+
+[Mon Aug 30 13:06:15 2021]
+Finished job 12496.
+42 of 14171 steps (0.30%) done
+[Mon Aug 30 13:06:16 2021]
+Finished job 12549.
+43 of 14171 steps (0.30%) done
+Submitted job 6818 with external jobid 'Submitted batch job 6655979'.
+
+[Mon Aug 30 13:06:23 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s31.IBDNaturalHistory.Feces.Visit1.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s31.IBDNaturalHistory.Feces.Visit1.bam
+    jobid: 6889
+    wildcards: genome=Enterococcus_faecium, sample=s31.IBDNaturalHistory.Feces.Visit1
+    threads: 4
+
+Submitted job 6889 with external jobid 'Submitted batch job 6655980'.
+
+[Mon Aug 30 13:06:23 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.314.Healthy.Antibiotics.Stool.3.2567.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.314.Healthy.Antibiotics.Stool.3.2567.bam
+    jobid: 6836
+    wildcards: genome=Enterococcus_faecium, sample=s.314.Healthy.Antibiotics.Stool.3.2567
+    threads: 4
+
+Submitted job 6836 with external jobid 'Submitted batch job 6655981'.
+[Mon Aug 30 13:06:34 2021]
+Finished job 12673.
+44 of 14171 steps (0.31%) done
+
+[Mon Aug 30 13:06:34 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s35.IBD_Therapy.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s35.IBD_Therapy.Feces.Week_4.bam
+    jobid: 7013
+    wildcards: genome=Enterococcus_faecium, sample=s35.IBD_Therapy.Feces.Week_4
+    threads: 4
+
+[Mon Aug 30 13:06:35 2021]
+Finished job 12486.
+45 of 14171 steps (0.32%) done
+[Mon Aug 30 13:06:35 2021]
+Finished job 12514.
+46 of 14171 steps (0.32%) done
+Submitted job 7013 with external jobid 'Submitted batch job 6656002'.
+
+[Mon Aug 30 13:06:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.197.Healthy.Antibiotics.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.197.Healthy.Antibiotics.Feces.Baseline.bam
+    jobid: 6854
+    wildcards: genome=Enterococcus_faecium, sample=s.197.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 6854 with external jobid 'Submitted batch job 6656003'.
+
+[Mon Aug 30 13:06:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s097.IBD.Antibiotics.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s097.IBD.Antibiotics.Feces.Baseline.bam
+    jobid: 6826
+    wildcards: genome=Enterococcus_faecium, sample=s097.IBD.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 6826 with external jobid 'Submitted batch job 6656004'.
+[Mon Aug 30 13:06:54 2021]
+Finished job 12466.
+47 of 14171 steps (0.33%) done
+
+[Mon Aug 30 13:06:54 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s32.C_diff.Feces.Visit3.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s32.C_diff.Feces.Visit3.bam
+    jobid: 6806
+    wildcards: genome=Enterococcus_faecium, sample=s32.C_diff.Feces.Visit3
+    threads: 4
+
+Submitted job 6806 with external jobid 'Submitted batch job 6656005'.
+[Mon Aug 30 13:06:55 2021]
+Finished job 12603.
+48 of 14171 steps (0.34%) done
+
+[Mon Aug 30 13:06:55 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.109.Healthy.greaterthan5.Stool.2.1046.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.109.Healthy.greaterthan5.Stool.2.1046.bam
+    jobid: 6943
+    wildcards: genome=Enterococcus_faecium, sample=s.109.Healthy.greaterthan5.Stool.2.1046
+    threads: 4
+
+[Mon Aug 30 13:06:56 2021]
+Finished job 12561.
+49 of 14171 steps (0.35%) done
+Submitted job 6943 with external jobid 'Submitted batch job 6656025'.
+
+[Mon Aug 30 13:06:58 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s30.IBDNaturalHistory.Feces.Visit2.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s30.IBDNaturalHistory.Feces.Visit2.bam
+    jobid: 6901
+    wildcards: genome=Enterococcus_faecium, sample=s30.IBDNaturalHistory.Feces.Visit2
+    threads: 4
+
+Submitted job 6901 with external jobid 'Submitted batch job 6656027'.
+[Mon Aug 30 13:07:14 2021]
+Finished job 12665.
+50 of 14171 steps (0.35%) done
+
+[Mon Aug 30 13:07:14 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s102.IBD.Therapy.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s102.IBD.Therapy.Feces.Week.8.bam
+    jobid: 7005
+    wildcards: genome=Enterococcus_faecium, sample=s102.IBD.Therapy.Feces.Week.8
+    threads: 4
+
+[Mon Aug 30 13:07:15 2021]
+Finished job 12624.
+51 of 14171 steps (0.36%) done
+Submitted job 7005 with external jobid 'Submitted batch job 6656047'.
+
+[Mon Aug 30 13:07:17 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s46.Healthy_greaterthan5.Feces.Week_8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s46.Healthy_greaterthan5.Feces.Week_8.bam
+    jobid: 6964
+    wildcards: genome=Enterococcus_faecium, sample=s46.Healthy_greaterthan5.Feces.Week_8
+    threads: 4
+
+Submitted job 6964 with external jobid 'Submitted batch job 6656048'.
+[Mon Aug 30 13:07:35 2021]
+Finished job 12467.
+52 of 14171 steps (0.37%) done
+
+[Mon Aug 30 13:07:35 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.190.Healthy.Antibiotics.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.190.Healthy.Antibiotics.Feces.Week.8.bam
+    jobid: 6807
+    wildcards: genome=Enterococcus_faecium, sample=s.190.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+[Mon Aug 30 13:07:36 2021]
+Finished job 12533.
+53 of 14171 steps (0.37%) done
+Submitted job 6807 with external jobid 'Submitted batch job 6656088'.
+
+[Mon Aug 30 13:07:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s067.Healthy.Antibiotics.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s067.Healthy.Antibiotics.Feces.Baseline.bam
+    jobid: 6873
+    wildcards: genome=Enterococcus_faecium, sample=s067.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 6873 with external jobid 'Submitted batch job 6656089'.
+[Mon Aug 30 13:07:55 2021]
+Finished job 12542.
+54 of 14171 steps (0.38%) done
+
+[Mon Aug 30 13:07:55 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.235.C_Diff_Oncology.Feces.Week_8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.235.C_Diff_Oncology.Feces.Week_8.bam
+    jobid: 6882
+    wildcards: genome=Enterococcus_faecium, sample=s.235.C_Diff_Oncology.Feces.Week_8
+    threads: 4
+
+[Mon Aug 30 13:07:56 2021]
+Finished job 12551.
+55 of 14171 steps (0.39%) done
+Submitted job 6882 with external jobid 'Submitted batch job 6656104'.
+
+[Mon Aug 30 13:07:56 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s159.Healthy.Antibiotics.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s159.Healthy.Antibiotics.Feces.Week.8.bam
+    jobid: 6891
+    wildcards: genome=Enterococcus_faecium, sample=s159.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 6891 with external jobid 'Submitted batch job 6656105'.
+[Mon Aug 30 13:08:15 2021]
+Finished job 12614.
+56 of 14171 steps (0.40%) done
+
+[Mon Aug 30 13:08:16 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s078.IBD.Therapy.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s078.IBD.Therapy.Feces.Week.4.bam
+    jobid: 6954
+    wildcards: genome=Enterococcus_faecium, sample=s078.IBD.Therapy.Feces.Week.4
+    threads: 4
+
+Submitted job 6954 with external jobid 'Submitted batch job 6656120'.
+[Mon Aug 30 13:08:36 2021]
+Finished job 12621.
+57 of 14171 steps (0.40%) done
+[Mon Aug 30 13:08:36 2021]
+Finished job 12631.
+58 of 14171 steps (0.41%) done
+
+[Mon Aug 30 13:08:36 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.235.C_Diff_Oncology.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.235.C_Diff_Oncology.Feces.Baseline.bam
+    jobid: 6961
+    wildcards: genome=Enterococcus_faecium, sample=s.235.C_Diff_Oncology.Feces.Baseline
+    threads: 4
+
+Submitted job 6961 with external jobid 'Submitted batch job 6656136'.
+
+[Mon Aug 30 13:08:36 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.222.IBD_CDiff.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.222.IBD_CDiff.Feces.Baseline.bam
+    jobid: 6971
+    wildcards: genome=Enterococcus_faecium, sample=s.222.IBD_CDiff.Feces.Baseline
+    threads: 4
+
+Submitted job 6971 with external jobid 'Submitted batch job 6656137'.
+[Mon Aug 30 13:08:57 2021]
+Finished job 12546.
+59 of 14171 steps (0.42%) done
+
+[Mon Aug 30 13:08:57 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s143.VEO.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s143.VEO.Feces.Week.4.bam
+    jobid: 6886
+    wildcards: genome=Enterococcus_faecium, sample=s143.VEO.Feces.Week.4
+    threads: 4
+
+Submitted job 6886 with external jobid 'Submitted batch job 6656152'.
+[Mon Aug 30 13:10:57 2021]
+Finished job 12473.
+60 of 14171 steps (0.42%) done
+[Mon Aug 30 13:10:57 2021]
+Finished job 12526.
+61 of 14171 steps (0.43%) done
+
+[Mon Aug 30 13:10:57 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.175.VEO.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.175.VEO.Feces.Week_4.bam
+    jobid: 6813
+    wildcards: genome=Enterococcus_faecium, sample=s.175.VEO.Feces.Week_4
+    threads: 4
+
+[Mon Aug 30 13:10:57 2021]
+Finished job 12552.
+62 of 14171 steps (0.44%) done
+Submitted job 6813 with external jobid 'Submitted batch job 6656246'.
+
+[Mon Aug 30 13:10:57 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s26.Healthy.Feces.Visit1.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s26.Healthy.Feces.Visit1.bam
+    jobid: 6892
+    wildcards: genome=Enterococcus_faecium, sample=s26.Healthy.Feces.Visit1
+    threads: 4
+
+Submitted job 6892 with external jobid 'Submitted batch job 6656247'.
+
+[Mon Aug 30 13:10:57 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s58.Healthy_greaterthan5.Feces.Week_8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s58.Healthy_greaterthan5.Feces.Week_8.bam
+    jobid: 6866
+    wildcards: genome=Enterococcus_faecium, sample=s58.Healthy_greaterthan5.Feces.Week_8
+    threads: 4
+
+Submitted job 6866 with external jobid 'Submitted batch job 6656248'.
+[Mon Aug 30 13:10:59 2021]
+Finished job 12602.
+63 of 14171 steps (0.44%) done
+
+[Mon Aug 30 13:10:59 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.212.IBD.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.212.IBD.Feces.Week.4.bam
+    jobid: 6942
+    wildcards: genome=Enterococcus_faecium, sample=s.212.IBD.Feces.Week.4
+    threads: 4
+
+Submitted job 6942 with external jobid 'Submitted batch job 6656250'.
+[Mon Aug 30 13:11:17 2021]
+Finished job 12727.
+64 of 14171 steps (0.45%) done
+
+[Mon Aug 30 13:11:17 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.201.IBD_Therapy.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.201.IBD_Therapy.Feces.Week_4.bam
+    jobid: 7067
+    wildcards: genome=Enterococcus_faecium, sample=s.201.IBD_Therapy.Feces.Week_4
+    threads: 4
+
+Submitted job 7067 with external jobid 'Submitted batch job 6656263'.
+[Mon Aug 30 13:11:18 2021]
+Finished job 12472.
+65 of 14171 steps (0.46%) done
+[Mon Aug 30 13:11:18 2021]
+Finished job 12606.
+66 of 14171 steps (0.47%) done
+
+[Mon Aug 30 13:11:18 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.359.IBDC.Diff.Stool.2.2872.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.359.IBDC.Diff.Stool.2.2872.bam
+    jobid: 6812
+    wildcards: genome=Enterococcus_faecium, sample=s.359.IBDC.Diff.Stool.2.2872
+    threads: 4
+
+Submitted job 6812 with external jobid 'Submitted batch job 6656264'.
+[Mon Aug 30 13:11:18 2021]
+Finished job 12647.
+67 of 14171 steps (0.47%) done
+
+[Mon Aug 30 13:11:18 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s70.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s70.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 7024
+    wildcards: genome=Enterococcus_faecium, sample=s70.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 7024 with external jobid 'Submitted batch job 6656265'.
+
+[Mon Aug 30 13:11:18 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s46.Healthy_greaterthan5.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s46.Healthy_greaterthan5.Feces.Baseline.bam
+    jobid: 6987
+    wildcards: genome=Enterococcus_faecium, sample=s46.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+Submitted job 6987 with external jobid 'Submitted batch job 6656266'.
+[Mon Aug 30 13:11:37 2021]
+Finished job 12652.
+68 of 14171 steps (0.48%) done
+
+[Mon Aug 30 13:11:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.74.Healthy_greaterthan5.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.74.Healthy_greaterthan5.Feces.Baseline.bam
+    jobid: 6992
+    wildcards: genome=Enterococcus_faecium, sample=s.74.Healthy_greaterthan5.Feces.Baseline
+    threads: 4
+
+Submitted job 6992 with external jobid 'Submitted batch job 6656291'.
+[Mon Aug 30 13:11:37 2021]
+Finished job 12672.
+69 of 14171 steps (0.49%) done
+
+[Mon Aug 30 13:11:37 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s20.C_diff.Feces.Visit1.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s20.C_diff.Feces.Visit1.bam
+    jobid: 7012
+    wildcards: genome=Enterococcus_faecium, sample=s20.C_diff.Feces.Visit1
+    threads: 4
+
+Submitted job 7012 with external jobid 'Submitted batch job 6656292'.
+[Mon Aug 30 13:11:38 2021]
+Finished job 12632.
+70 of 14171 steps (0.49%) done
+
+[Mon Aug 30 13:11:38 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s58.Healthy_greaterthan5.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s58.Healthy_greaterthan5.Feces.Week_4.bam
+    jobid: 6972
+    wildcards: genome=Enterococcus_faecium, sample=s58.Healthy_greaterthan5.Feces.Week_4
+    threads: 4
+
+Submitted job 6972 with external jobid 'Submitted batch job 6656293'.
+[Mon Aug 30 13:11:39 2021]
+Finished job 12588.
+71 of 14171 steps (0.50%) done
+
+[Mon Aug 30 13:11:39 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.334.Healthy.Antibiotics.Stool.1.2630.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.334.Healthy.Antibiotics.Stool.1.2630.bam
+    jobid: 6928
+    wildcards: genome=Enterococcus_faecium, sample=s.334.Healthy.Antibiotics.Stool.1.2630
+    threads: 4
+
+Submitted job 6928 with external jobid 'Submitted batch job 6656294'.
+[Mon Aug 30 13:11:39 2021]
+Finished job 12723.
+72 of 14171 steps (0.51%) done
+[Mon Aug 30 13:11:39 2021]
+Finished job 12558.
+73 of 14171 steps (0.52%) done
+
+[Mon Aug 30 13:11:39 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.314.Healthy.Antibiotics.Stool.2.2505.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.314.Healthy.Antibiotics.Stool.2.2505.bam
+    jobid: 7063
+    wildcards: genome=Enterococcus_faecium, sample=s.314.Healthy.Antibiotics.Stool.2.2505
+    threads: 4
+
+Submitted job 7063 with external jobid 'Submitted batch job 6656295'.
+
+[Mon Aug 30 13:11:39 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s2.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s2.bam
+    jobid: 6898
+    wildcards: genome=Enterococcus_faecium, sample=s2
+    threads: 4
+
+Submitted job 6898 with external jobid 'Submitted batch job 6656296'.
+[Mon Aug 30 13:11:40 2021]
+Finished job 12471.
+74 of 14171 steps (0.52%) done
+
+[Mon Aug 30 13:11:40 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.244.VEO.Stool.2.1952.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.244.VEO.Stool.2.1952.bam
+    jobid: 6811
+    wildcards: genome=Enterococcus_faecium, sample=s.244.VEO.Stool.2.1952
+    threads: 4
+
+Submitted job 6811 with external jobid 'Submitted batch job 6656297'.
+[Mon Aug 30 13:11:58 2021]
+Finished job 12664.
+75 of 14171 steps (0.53%) done
+
+[Mon Aug 30 13:11:58 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.244.VEO.Stool.3.1964.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.244.VEO.Stool.3.1964.bam
+    jobid: 7004
+    wildcards: genome=Enterococcus_faecium, sample=s.244.VEO.Stool.3.1964
+    threads: 4
+
+[Mon Aug 30 13:11:58 2021]
+Finished job 12503.
+Submitted job 7004 with external jobid 'Submitted batch job 6656310'.
+76 of 14171 steps (0.54%) done
+
+[Mon Aug 30 13:11:58 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.201.IBD_Therapy.Feces.Week_8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.201.IBD_Therapy.Feces.Week_8.bam
+    jobid: 6843
+    wildcards: genome=Enterococcus_faecium, sample=s.201.IBD_Therapy.Feces.Week_8
+    threads: 4
+
+Submitted job 6843 with external jobid 'Submitted batch job 6656311'.
+[Mon Aug 30 13:11:59 2021]
+Finished job 12681.
+77 of 14171 steps (0.54%) done
+
+[Mon Aug 30 13:11:59 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.308.IBDC.Diff.Stool.visit2.2500.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.308.IBDC.Diff.Stool.visit2.2500.bam
+    jobid: 7021
+    wildcards: genome=Enterococcus_faecium, sample=s.308.IBDC.Diff.Stool.visit2.2500
+    threads: 4
+
+Submitted job 7021 with external jobid 'Submitted batch job 6656312'.
+[Mon Aug 30 13:11:59 2021]
+Finished job 12465.
+78 of 14171 steps (0.55%) done
+[Mon Aug 30 13:11:59 2021]
+Finished job 12616.
+79 of 14171 steps (0.56%) done
+
+[Mon Aug 30 13:11:59 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.265.IBD_C.Diff.Feces.Week_4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.265.IBD_C.Diff.Feces.Week_4.bam
+    jobid: 6805
+    wildcards: genome=Enterococcus_faecium, sample=s.265.IBD_C.Diff.Feces.Week_4
+    threads: 4
+
+Submitted job 6805 with external jobid 'Submitted batch job 6656313'.
+[Mon Aug 30 13:11:59 2021]
+Finished job 12689.
+80 of 14171 steps (0.56%) done
+[Mon Aug 30 13:11:59 2021]
+Finished job 12629.
+81 of 14171 steps (0.57%) done
+
+[Mon Aug 30 13:11:59 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s157.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s157.bam
+    jobid: 7029
+    wildcards: genome=Enterococcus_faecium, sample=s157
+    threads: 4
+
+Submitted job 7029 with external jobid 'Submitted batch job 6656314'.
+
+[Mon Aug 30 13:12:00 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.173.VEO.Feces.Week.4.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.173.VEO.Feces.Week.4.bam
+    jobid: 6956
+    wildcards: genome=Enterococcus_faecium, sample=s.173.VEO.Feces.Week.4
+    threads: 4
+
+Submitted job 6956 with external jobid 'Submitted batch job 6656315'.
+
+[Mon Aug 30 13:12:00 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.209.Healthy.Antibiotics.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.209.Healthy.Antibiotics.Feces.Baseline.bam
+    jobid: 6969
+    wildcards: genome=Enterococcus_faecium, sample=s.209.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 6969 with external jobid 'Submitted batch job 6656316'.
+[Mon Aug 30 13:12:00 2021]
+Finished job 12718.
+82 of 14171 steps (0.58%) done
+
+[Mon Aug 30 13:12:00 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s067.Healthy.Antibiotics.Feces.Week.8.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s067.Healthy.Antibiotics.Feces.Week.8.bam
+    jobid: 7058
+    wildcards: genome=Enterococcus_faecium, sample=s067.Healthy.Antibiotics.Feces.Week.8
+    threads: 4
+
+Submitted job 7058 with external jobid 'Submitted batch job 6656317'.
+[Mon Aug 30 13:12:00 2021]
+Finished job 12566.
+83 of 14171 steps (0.59%) done
+
+[Mon Aug 30 13:12:00 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s3.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s3.bam
+    jobid: 6906
+    wildcards: genome=Enterococcus_faecium, sample=s3
+    threads: 4
+
+Submitted job 6906 with external jobid 'Submitted batch job 6656318'.
+[Mon Aug 30 13:12:19 2021]
+Finished job 12737.
+84 of 14171 steps (0.59%) done
+
+[Mon Aug 30 13:12:19 2021]
+rule samtools_convert:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.261.IBD_Therapy.Feces.Baseline.sam
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/Enterococcus_faecium/s.261.IBD_Therapy.Feces.Baseline.bam
+    jobid: 7077
+    wildcards: genome=Enterococcus_faecium, sample=s.261.IBD_Therapy.Feces.Baseline
+    threads: 4
+
+[Mon Aug 30 13:12:20 2021]
+Finished job 12702.
+85 of 14171 steps (0.60%) done
+[Mon Aug 30 13:14:14 2021]
+Finished job 12538.
+86 of 14171 steps (0.61%) done
+[Mon Aug 30 13:14:14 2021]
+Finished job 12607.
+87 of 14171 steps (0.61%) done
+[Mon Aug 30 13:14:15 2021]
+Finished job 12580.
+88 of 14171 steps (0.62%) done
+[Mon Aug 30 13:14:15 2021]
+Finished job 12469.
+89 of 14171 steps (0.63%) done
+[Mon Aug 30 13:14:15 2021]
+Finished job 12464.
+90 of 14171 steps (0.64%) done
+[Mon Aug 30 13:14:15 2021]
+Finished job 12573.
+91 of 14171 steps (0.64%) done
+[Mon Aug 30 13:14:15 2021]
+Finished job 12645.
+92 of 14171 steps (0.65%) done
+[Mon Aug 30 13:14:15 2021]
+Finished job 12590.
+93 of 14171 steps (0.66%) done
+[Mon Aug 30 13:14:15 2021]
+Finished job 12519.
+94 of 14171 steps (0.66%) done
+[Mon Aug 30 13:14:15 2021]
+Finished job 12550.
+95 of 14171 steps (0.67%) done
+[Mon Aug 30 13:14:16 2021]
+Finished job 12562.
+96 of 14171 steps (0.68%) done
+[Mon Aug 30 13:14:16 2021]
+Finished job 12493.
+97 of 14171 steps (0.68%) done
+[Mon Aug 30 13:14:16 2021]
+Finished job 12516.
+98 of 14171 steps (0.69%) done
+[Mon Aug 30 13:14:16 2021]
+Finished job 12731.
+99 of 14171 steps (0.70%) done
+Error submitting jobscript (exit code 1):
+
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.175.VEO.Feces.Week_8.sam.
+[Mon Aug 30 13:15:09 2021]
+Finished job 6948.
+100 of 14171 steps (0.71%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.314.Healthy.Antibiotics.Stool.1.2490.sam.
+[Mon Aug 30 13:15:09 2021]
+Finished job 7082.
+101 of 14171 steps (0.71%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s95.Healthy.lessthan5.Feces.Week.8.sam.
+[Mon Aug 30 13:15:09 2021]
+Finished job 7003.
+102 of 14171 steps (0.72%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s46.Healthy_greaterthan5.Feces.Week_4.sam.
+[Mon Aug 30 13:15:25 2021]
+Finished job 6981.
+103 of 14171 steps (0.73%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s22.Healthy.Feces.Visit1.sam.
+[Mon Aug 30 13:15:25 2021]
+Finished job 6841.
+104 of 14171 steps (0.73%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.200.Healthy.Antibiotics.Feces.Week.4.sam.
+[Mon Aug 30 13:15:26 2021]
+Finished job 6962.
+105 of 14171 steps (0.74%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.173.VEO.Feces.Week.8.sam.
+[Mon Aug 30 13:15:26 2021]
+Finished job 6823.
+106 of 14171 steps (0.75%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.75.Healthy_greaterthan5.Feces.Week_4.sam.
+[Mon Aug 30 13:15:26 2021]
+Finished job 6994.
+107 of 14171 steps (0.76%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.190.Healthy.Antibiotics.Feces.Week.8.sam.
+[Mon Aug 30 13:15:42 2021]
+Finished job 6807.
+108 of 14171 steps (0.76%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s067.Healthy.Antibiotics.Feces.Baseline.sam.
+[Mon Aug 30 13:15:43 2021]
+Finished job 6873.
+109 of 14171 steps (0.77%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.334.Healthy.Antibiotics.Stool.3.2749.sam.
+[Mon Aug 30 13:15:44 2021]
+Finished job 6858.
+110 of 14171 steps (0.78%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s22.Healthy.Feces.Visit2.sam.
+[Mon Aug 30 13:15:44 2021]
+Finished job 6839.
+111 of 14171 steps (0.78%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.214.Healthy.Antibiotics.Feces.Week.8.sam.
+[Mon Aug 30 13:15:44 2021]
+Finished job 6929.
+112 of 14171 steps (0.79%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.209.Healthy.Antibiotics.Feces.Week.8.sam.
+[Mon Aug 30 13:15:44 2021]
+Finished job 6976.
+113 of 14171 steps (0.80%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.271.C.Diff_Oncology.Feces.Week_4.sam.
+[Mon Aug 30 13:15:45 2021]
+Finished job 6888.
+114 of 14171 steps (0.80%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s26.Healthy.Feces.Visit2.sam.
+[Mon Aug 30 13:15:45 2021]
+Finished job 6861.
+115 of 14171 steps (0.81%) done
+[Mon Aug 30 13:15:46 2021]
+Finished job 12634.
+116 of 14171 steps (0.82%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s39.VEO.Feces.Week_8.sam.
+[Mon Aug 30 13:16:01 2021]
+Finished job 6810.
+117 of 14171 steps (0.83%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.154.VEO.Feces.Baseline.sam.
+[Mon Aug 30 13:16:01 2021]
+Finished job 6844.
+118 of 14171 steps (0.83%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s097.IBD.Antibiotics.Feces.Week.4.sam.
+[Mon Aug 30 13:16:01 2021]
+Finished job 6921.
+119 of 14171 steps (0.84%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.175.VEO.Feces.Baseline.sam.
+[Mon Aug 30 13:16:01 2021]
+Finished job 6990.
+120 of 14171 steps (0.85%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s30.IBDNaturalHistory.Feces.Visit3.sam.
+[Mon Aug 30 13:16:01 2021]
+Finished job 6918.
+121 of 14171 steps (0.85%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.344.Healthy.Antibiotics.Stool.1.2655.sam.
+[Mon Aug 30 13:16:01 2021]
+Finished job 6965.
+122 of 14171 steps (0.86%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.209.Healthy.Antibiotics.Feces.Week.4.sam.
+[Mon Aug 30 13:16:02 2021]
+Finished job 6847.
+123 of 14171 steps (0.87%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.295.IBD.CDiff.Feces.week.4.sam.
+[Mon Aug 30 13:16:02 2021]
+Finished job 6893.
+124 of 14171 steps (0.88%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.204.Healthy.Antibiotics.Feces.Week.4.sam.
+[Mon Aug 30 13:16:02 2021]
+Finished job 6817.
+125 of 14171 steps (0.88%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.235.C_Diff_Oncology.Feces.Baseline.sam.
+[Mon Aug 30 13:16:15 2021]
+Finished job 6961.
+126 of 14171 steps (0.89%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.222.IBD_CDiff.Feces.Baseline.sam.
+[Mon Aug 30 13:16:16 2021]
+Finished job 6971.
+127 of 14171 steps (0.90%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s078.IBD.Therapy.Feces.Week.4.sam.
+[Mon Aug 30 13:16:16 2021]
+Finished job 6954.
+128 of 14171 steps (0.90%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.235.C_Diff_Oncology.Feces.Week_8.sam.
+[Mon Aug 30 13:16:16 2021]
+Finished job 6882.
+129 of 14171 steps (0.91%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s159.Healthy.Antibiotics.Feces.Week.8.sam.
+[Mon Aug 30 13:16:16 2021]
+Finished job 6891.
+130 of 14171 steps (0.92%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s46.Healthy_greaterthan5.Feces.Week_8.sam.
+[Mon Aug 30 13:16:16 2021]
+Finished job 6964.
+131 of 14171 steps (0.92%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.109.Healthy.greaterthan5.Stool.2.1046.sam.
+[Mon Aug 30 13:16:16 2021]
+Finished job 6943.
+132 of 14171 steps (0.93%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.135.Healthy.Antibiotics.Feces.Week.8.sam.
+[Mon Aug 30 13:16:18 2021]
+Finished job 6842.
+133 of 14171 steps (0.94%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s26.Healthy.Feces.Visit1.sam.
+[Mon Aug 30 13:16:31 2021]
+Finished job 6892.
+134 of 14171 steps (0.95%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s58.Healthy_greaterthan5.Feces.Week_8.sam.
+[Mon Aug 30 13:16:31 2021]
+Finished job 6866.
+135 of 14171 steps (0.95%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s143.VEO.Feces.Week.4.sam.
+[Mon Aug 30 13:16:31 2021]
+Finished job 6886.
+136 of 14171 steps (0.96%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s102.IBD.Therapy.Feces.Week.8.sam.
+[Mon Aug 30 13:16:31 2021]
+Finished job 7005.
+137 of 14171 steps (0.97%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s32.C_diff.Feces.Visit3.sam.
+[Mon Aug 30 13:16:31 2021]
+Finished job 6806.
+138 of 14171 steps (0.97%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s30.IBDNaturalHistory.Feces.Visit2.sam.
+[Mon Aug 30 13:16:32 2021]
+Finished job 6901.
+139 of 14171 steps (0.98%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s35.IBD_Therapy.Feces.Week_4.sam.
+[Mon Aug 30 13:16:32 2021]
+Finished job 7013.
+140 of 14171 steps (0.99%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.197.Healthy.Antibiotics.Feces.Baseline.sam.
+[Mon Aug 30 13:16:32 2021]
+Finished job 6854.
+141 of 14171 steps (0.99%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s097.IBD.Antibiotics.Feces.Baseline.sam.
+[Mon Aug 30 13:16:32 2021]
+Finished job 6826.
+142 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.154.VEO.Feces.Week.8.sam.
+[Mon Aug 30 13:16:46 2021]
+Finished job 7076.
+143 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.314.Healthy.Antibiotics.Stool.3.2567.sam.
+[Mon Aug 30 13:16:48 2021]
+Finished job 6836.
+144 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.74.Healthy_greaterthan5.Feces.Baseline.sam.
+[Mon Aug 30 13:16:58 2021]
+Finished job 6992.
+145 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s70.Healthy_greaterthan5.Feces.Week_4.sam.
+[Mon Aug 30 13:16:59 2021]
+Finished job 7024.
+146 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s46.Healthy_greaterthan5.Feces.Baseline.sam.
+[Mon Aug 30 13:16:59 2021]
+Finished job 6987.
+147 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.212.IBD.Feces.Week.4.sam.
+[Mon Aug 30 13:17:00 2021]
+Finished job 6942.
+148 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s17.sam.
+[Mon Aug 30 13:17:00 2021]
+Finished job 6984.
+149 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.244.VEO.Stool.1.1977.sam.
+[Mon Aug 30 13:17:01 2021]
+Finished job 6828.
+150 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s70.Healthy_greaterthan5.Feces.Week_8.sam.
+[Mon Aug 30 13:17:01 2021]
+Finished job 6803.
+151 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s60.Healthy_greaterthan5.Feces.Week_4.sam.
+[Mon Aug 30 13:17:01 2021]
+Finished job 7056.
+152 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.197.Healthy.Antibiotics.Feces.Week.4.sam.
+[Mon Aug 30 13:17:02 2021]
+Finished job 6818.
+153 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s31.IBDNaturalHistory.Feces.Visit1.sam.
+[Mon Aug 30 13:17:02 2021]
+Finished job 6889.
+154 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.201.IBD_Therapy.Feces.Week_4.sam.
+[Mon Aug 30 13:17:13 2021]
+Finished job 7067.
+155 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.359.IBDC.Diff.Stool.2.2872.sam.
+[Mon Aug 30 13:17:13 2021]
+Finished job 6812.
+156 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.175.VEO.Feces.Week_4.sam.
+[Mon Aug 30 13:17:25 2021]
+Finished job 6813.
+157 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.308.IBDC.Diff.Stool.visit2.2500.sam.
+[Mon Aug 30 13:23:13 2021]
+Finished job 7021.
+158 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.265.IBD_C.Diff.Feces.Week_4.sam.
+[Mon Aug 30 13:23:13 2021]
+Finished job 6805.
+159 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s58.Healthy_greaterthan5.Feces.Week_4.sam.
+[Mon Aug 30 13:23:14 2021]
+Finished job 6972.
+160 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.201.IBD_Therapy.Feces.Week_8.sam.
+[Mon Aug 30 13:23:25 2021]
+Finished job 6843.
+161 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s20.C_diff.Feces.Visit1.sam.
+[Mon Aug 30 13:23:25 2021]
+Finished job 7012.
+162 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.244.VEO.Stool.3.1964.sam.
+[Mon Aug 30 13:23:37 2021]
+Finished job 7004.
+163 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s157.sam.
+[Mon Aug 30 13:23:37 2021]
+Finished job 7029.
+164 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.173.VEO.Feces.Week.4.sam.
+[Mon Aug 30 13:23:37 2021]
+Finished job 6956.
+165 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.209.Healthy.Antibiotics.Feces.Baseline.sam.
+[Mon Aug 30 13:23:38 2021]
+Finished job 6969.
+166 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s067.Healthy.Antibiotics.Feces.Week.8.sam.
+[Mon Aug 30 13:23:38 2021]
+Finished job 7058.
+167 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s3.sam.
+[Mon Aug 30 13:23:38 2021]
+Finished job 6906.
+168 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.334.Healthy.Antibiotics.Stool.1.2630.sam.
+[Mon Aug 30 13:23:38 2021]
+Finished job 6928.
+169 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.314.Healthy.Antibiotics.Stool.2.2505.sam.
+[Mon Aug 30 13:23:38 2021]
+Finished job 7063.
+170 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s2.sam.
+[Mon Aug 30 13:23:38 2021]
+Finished job 6898.
+171 of 14171 steps (1%) done
+Removing temporary output file /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/mapping/intermediates/Enterococcus_faecium/s.244.VEO.Stool.2.1952.sam.
+[Mon Aug 30 13:23:38 2021]
+Finished job 6811.
+172 of 14171 steps (1%) done
+[Mon Aug 30 13:25:18 2021]
+Finished job 13483.
+173 of 14171 steps (1%) done
+[Mon Aug 30 13:26:57 2021]
+Finished job 12713.
+174 of 14171 steps (1%) done
+[Mon Aug 30 13:30:28 2021]
+Finished job 12996.
+175 of 14171 steps (1%) done
+[Mon Aug 30 13:32:08 2021]
+Finished job 11864.
+176 of 14171 steps (1%) done
+[Mon Aug 30 13:32:08 2021]
+Finished job 12430.
+177 of 14171 steps (1%) done
+[Mon Aug 30 13:32:08 2021]
+Finished job 14128.
+178 of 14171 steps (1%) done
+[Mon Aug 30 13:32:09 2021]
+Finished job 13279.
+179 of 14171 steps (1%) done
+[Mon Aug 30 13:32:09 2021]
+Finished job 12147.
+180 of 14171 steps (1%) done
+[Mon Aug 30 13:32:09 2021]
+Finished job 13562.
+181 of 14171 steps (1%) done
+[Mon Aug 30 13:32:09 2021]
+Finished job 11581.
+182 of 14171 steps (1%) done
+[Mon Aug 30 13:32:19 2021]
+Finished job 13845.
+183 of 14171 steps (1%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/.snakemake/log/2021-08-30T125638.058782.snakemake.log

@@ -1,0 +1,213 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 10
+Job counts:
+	count	jobs
+	1	all_assembly
+	283	final_filter
+	283	megahit_paired
+	567
+
+[Wed Aug 25 11:10:46 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.2.2872_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.2.2872_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.359.IBDC.Diff.Stool.2.2872_asm/final.contigs.fa
+    jobid: 293
+    wildcards: sample=s.359.IBDC.Diff.Stool.2.2872
+    threads: 4
+
+Submitted job 293 with external jobid 'Submitted batch job 6463733'.
+
+[Wed Aug 25 11:10:46 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s152.Healthy.Antibiotics.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s152.Healthy.Antibiotics.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s152.Healthy.Antibiotics.Feces.Baseline_asm/final.contigs.fa
+    jobid: 290
+    wildcards: sample=s152.Healthy.Antibiotics.Feces.Baseline
+    threads: 4
+
+Submitted job 290 with external jobid 'Submitted batch job 6463734'.
+
+[Wed Aug 25 11:10:46 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.222.IBD_CDiff.Feces.Baseline_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.222.IBD_CDiff.Feces.Baseline_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.222.IBD_CDiff.Feces.Baseline_asm/final.contigs.fa
+    jobid: 452
+    wildcards: sample=s.222.IBD_CDiff.Feces.Baseline
+    threads: 4
+
+Submitted job 452 with external jobid 'Submitted batch job 6463735'.
+
+[Wed Aug 25 11:10:47 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.3.2873_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.3.2873_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.359.IBDC.Diff.Stool.3.2873_asm/final.contigs.fa
+    jobid: 383
+    wildcards: sample=s.359.IBDC.Diff.Stool.3.2873
+    threads: 4
+
+Submitted job 383 with external jobid 'Submitted batch job 6463736'.
+
+[Wed Aug 25 11:10:47 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.347.IBDTherapy.Stool.1.2668_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.347.IBDTherapy.Stool.1.2668_asm/final.contigs.fa
+    jobid: 534
+    wildcards: sample=s.347.IBDTherapy.Stool.1.2668
+    threads: 4
+
+Submitted job 534 with external jobid 'Submitted batch job 6463737'.
+
+[Wed Aug 25 11:10:47 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s25.IBD_Therapy.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s25.IBD_Therapy.Feces.Week_8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s25.IBD_Therapy.Feces.Week_8_asm/final.contigs.fa
+    jobid: 455
+    wildcards: sample=s25.IBD_Therapy.Feces.Week_8
+    threads: 4
+
+Submitted job 455 with external jobid 'Submitted batch job 6463738'.
+
+[Wed Aug 25 11:10:47 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_4_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_4_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.201.IBD_Therapy.Feces.Week_4_asm/final.contigs.fa
+    jobid: 548
+    wildcards: sample=s.201.IBD_Therapy.Feces.Week_4
+    threads: 4
+
+Submitted job 548 with external jobid 'Submitted batch job 6463739'.
+
+[Wed Aug 25 11:10:47 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s17_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s17_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s17_asm/final.contigs.fa
+    jobid: 465
+    wildcards: sample=s17
+    threads: 4
+
+Submitted job 465 with external jobid 'Submitted batch job 6463740'.
+
+[Wed Aug 25 11:10:47 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.361.C.DiffOncology.Stool.1.2876_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.361.C.DiffOncology.Stool.1.2876_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.361.C.DiffOncology.Stool.1.2876_asm/final.contigs.fa
+    jobid: 359
+    wildcards: sample=s.361.C.DiffOncology.Stool.1.2876
+    threads: 4
+
+Submitted job 359 with external jobid 'Submitted batch job 6463741'.
+
+[Wed Aug 25 11:10:47 2021]
+rule megahit_paired:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_8_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_8_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.201.IBD_Therapy.Feces.Week_8_asm/final.contigs.fa
+    jobid: 324
+    wildcards: sample=s.201.IBD_Therapy.Feces.Week_8
+    threads: 4
+
+Submitted job 324 with external jobid 'Submitted batch job 6463742'.
+[Wed Aug 25 11:12:24 2021]
+Error in rule megahit_paired:
+    jobid: 452
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.222.IBD_CDiff.Feces.Baseline_asm/final.contigs.fa
+    shell:
+        
+        ## turn off bash strict mode
+        set +o pipefail
+
+        ## sometimes the error is due to lack of memory
+        exitcode=0
+        megahit -t 4 -1 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.222.IBD_CDiff.Feces.Baseline_1.fastq.gz -2 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.222.IBD_CDiff.Feces.Baseline_2.fastq.gz -o /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.222.IBD_CDiff.Feces.Baseline_asm --continue || exitcode=$?
+
+        if [ $exitcode -eq 255 ]
+        then
+            echo "Empty contigs"
+            touch /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.222.IBD_CDiff.Feces.Baseline_asm/final.contigs.fa
+        elif [ $exitcode -gt 1 ]
+        then
+            echo "Check your memory"
+        fi
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6463735
+
+Error executing rule megahit_paired on cluster (jobid: 452, external: Submitted batch job 6463735, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.ldu7ehrh/snakejob.megahit_paired.452.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 11:12:24 2021]
+Error in rule megahit_paired:
+    jobid: 465
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s17_asm/final.contigs.fa
+    shell:
+        
+        ## turn off bash strict mode
+        set +o pipefail
+
+        ## sometimes the error is due to lack of memory
+        exitcode=0
+        megahit -t 4 -1 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s17_1.fastq.gz -2 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s17_2.fastq.gz -o /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s17_asm --continue || exitcode=$?
+
+        if [ $exitcode -eq 255 ]
+        then
+            echo "Empty contigs"
+            touch /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s17_asm/final.contigs.fa
+        elif [ $exitcode -gt 1 ]
+        then
+            echo "Check your memory"
+        fi
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6463740
+
+Error executing rule megahit_paired on cluster (jobid: 465, external: Submitted batch job 6463740, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.ldu7ehrh/snakejob.megahit_paired.465.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 11:12:24 2021]
+Error in rule megahit_paired:
+    jobid: 324
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.201.IBD_Therapy.Feces.Week_8_asm/final.contigs.fa
+    shell:
+        
+        ## turn off bash strict mode
+        set +o pipefail
+
+        ## sometimes the error is due to lack of memory
+        exitcode=0
+        megahit -t 4 -1 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_8_1.fastq.gz -2 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.201.IBD_Therapy.Feces.Week_8_2.fastq.gz -o /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.201.IBD_Therapy.Feces.Week_8_asm --continue || exitcode=$?
+
+        if [ $exitcode -eq 255 ]
+        then
+            echo "Empty contigs"
+            touch /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.201.IBD_Therapy.Feces.Week_8_asm/final.contigs.fa
+        elif [ $exitcode -gt 1 ]
+        then
+            echo "Check your memory"
+        fi
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6463742
+
+Error executing rule megahit_paired on cluster (jobid: 324, external: Submitted batch job 6463742, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.ldu7ehrh/snakejob.megahit_paired.324.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Aug 25 11:12:35 2021]
+Error in rule megahit_paired:
+    jobid: 383
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.359.IBDC.Diff.Stool.3.2873_asm/final.contigs.fa
+    shell:
+        
+        ## turn off bash strict mode
+        set +o pipefail
+
+        ## sometimes the error is due to lack of memory
+        exitcode=0
+        megahit -t 4 -1 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.3.2873_1.fastq.gz -2 /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/s.359.IBDC.Diff.Stool.3.2873_2.fastq.gz -o /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.359.IBDC.Diff.Stool.3.2873_asm --continue || exitcode=$?
+
+        if [ $exitcode -eq 255 ]
+        then
+            echo "Empty contigs"
+            touch /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/assembly/megahit/s.359.IBDC.Diff.Stool.3.2873_asm/final.contigs.fa
+        elif [ $exitcode -gt 1 ]
+        then
+            echo "Check your memory"
+        fi
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6463736
+
+Error executing rule megahit_paired on cluster (jobid: 383, external: Submitted batch job 6463736, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.ldu7ehrh/snakejob.megahit_paired.383.sh). For error details see the cluster log and the log files of the involved rule(s).

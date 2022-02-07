@@ -1,0 +1,5 @@
+ValueError in line 61 of /mnt/isilon/dbhi_bfx/dic/tools/sunbeam/Snakefile:
+For key 'kraken_db_fp': path '/mnt/isilon/zackular_lab_hpc/resources/krakendb' does not exist
+  File "/mnt/isilon/dbhi_bfx/dic/tools/sunbeam/Snakefile", line 61, in <module>
+  File "/mnt/isilon/dbhi_bfx/dic/tools/sunbeam/sunbeamlib/config.py", line 67, in check_config
+  File "/mnt/isilon/dbhi_bfx/dic/tools/sunbeam/sunbeamlib/config.py", line 45, in validate_paths

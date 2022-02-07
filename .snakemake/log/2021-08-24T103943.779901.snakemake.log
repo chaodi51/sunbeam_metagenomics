@@ -1,0 +1,1924 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	1	all_classify
+	1	classic_k2_biom
+	1	kraken2_biom
+	148	kraken2_classify_report
+	151
+
+[Tue Aug 24 10:40:40 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029191_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029191_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029191-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029191-taxa.tsv
+    jobid: 79
+    wildcards: sample=SRR10029191
+    threads: 4
+
+Submitted job 79 with external jobid 'Submitted batch job 6373085'.
+
+[Tue Aug 24 10:40:40 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029261_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029261_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029261-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029261-taxa.tsv
+    jobid: 133
+    wildcards: sample=SRR10029261
+    threads: 4
+
+Submitted job 133 with external jobid 'Submitted batch job 6373086'.
+
+[Tue Aug 24 10:40:40 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029245_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029245_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029245-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029245-taxa.tsv
+    jobid: 145
+    wildcards: sample=SRR10029245
+    threads: 4
+
+Submitted job 145 with external jobid 'Submitted batch job 6373087'.
+
+[Tue Aug 24 10:40:40 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029252_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029252_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029252-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029252-taxa.tsv
+    jobid: 125
+    wildcards: sample=SRR10029252
+    threads: 4
+
+Submitted job 125 with external jobid 'Submitted batch job 6373088'.
+
+[Tue Aug 24 10:40:40 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029156_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029156_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029156-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029156-taxa.tsv
+    jobid: 113
+    wildcards: sample=SRR10029156
+    threads: 4
+
+Submitted job 113 with external jobid 'Submitted batch job 6373089'.
+
+[Tue Aug 24 10:40:40 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029202_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029202_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029202-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029202-taxa.tsv
+    jobid: 46
+    wildcards: sample=SRR10029202
+    threads: 4
+
+Submitted job 46 with external jobid 'Submitted batch job 6373090'.
+
+[Tue Aug 24 10:40:40 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029176_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029176_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029176-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029176-taxa.tsv
+    jobid: 89
+    wildcards: sample=SRR10029176
+    threads: 4
+
+Submitted job 89 with external jobid 'Submitted batch job 6373091'.
+
+[Tue Aug 24 10:40:40 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029201_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029201_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029201-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029201-taxa.tsv
+    jobid: 74
+    wildcards: sample=SRR10029201
+    threads: 4
+
+Submitted job 74 with external jobid 'Submitted batch job 6373092'.
+
+[Tue Aug 24 10:40:40 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029268_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029268_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029268-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029268-taxa.tsv
+    jobid: 17
+    wildcards: sample=SRR10029268
+    threads: 4
+
+Submitted job 17 with external jobid 'Submitted batch job 6373093'.
+
+[Tue Aug 24 10:40:41 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029177_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029177_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029177-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029177-taxa.tsv
+    jobid: 59
+    wildcards: sample=SRR10029177
+    threads: 4
+
+Submitted job 59 with external jobid 'Submitted batch job 6373094'.
+
+[Tue Aug 24 10:40:41 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029142_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029142_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029142-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029142-taxa.tsv
+    jobid: 119
+    wildcards: sample=SRR10029142
+    threads: 4
+
+Submitted job 119 with external jobid 'Submitted batch job 6373095'.
+
+[Tue Aug 24 10:40:41 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029137_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029137_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029137-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029137-taxa.tsv
+    jobid: 96
+    wildcards: sample=SRR10029137
+    threads: 4
+
+Submitted job 96 with external jobid 'Submitted batch job 6373096'.
+
+[Tue Aug 24 10:40:41 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029124_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029124_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029124-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029124-taxa.tsv
+    jobid: 115
+    wildcards: sample=SRR10029124
+    threads: 4
+
+Submitted job 115 with external jobid 'Submitted batch job 6373097'.
+
+[Tue Aug 24 10:40:41 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029129_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029129_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029129-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029129-taxa.tsv
+    jobid: 140
+    wildcards: sample=SRR10029129
+    threads: 4
+
+Submitted job 140 with external jobid 'Submitted batch job 6373098'.
+
+[Tue Aug 24 10:40:41 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029267_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029267_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029267-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029267-taxa.tsv
+    jobid: 122
+    wildcards: sample=SRR10029267
+    threads: 4
+
+Submitted job 122 with external jobid 'Submitted batch job 6373099'.
+
+[Tue Aug 24 10:40:41 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029247_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029247_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029247-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029247-taxa.tsv
+    jobid: 9
+    wildcards: sample=SRR10029247
+    threads: 4
+
+Submitted job 9 with external jobid 'Submitted batch job 6373100'.
+
+[Tue Aug 24 10:40:41 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029270_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029270_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029270-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029270-taxa.tsv
+    jobid: 82
+    wildcards: sample=SRR10029270
+    threads: 4
+
+Submitted job 82 with external jobid 'Submitted batch job 6373101'.
+
+[Tue Aug 24 10:40:41 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029139_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029139_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029139-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029139-taxa.tsv
+    jobid: 24
+    wildcards: sample=SRR10029139
+    threads: 4
+
+Submitted job 24 with external jobid 'Submitted batch job 6373102'.
+
+[Tue Aug 24 10:40:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029260_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029260_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029260-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029260-taxa.tsv
+    jobid: 44
+    wildcards: sample=SRR10029260
+    threads: 4
+
+Submitted job 44 with external jobid 'Submitted batch job 6373103'.
+
+[Tue Aug 24 10:40:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029158_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029158_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029158-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029158-taxa.tsv
+    jobid: 41
+    wildcards: sample=SRR10029158
+    threads: 4
+
+Submitted job 41 with external jobid 'Submitted batch job 6373104'.
+
+[Tue Aug 24 10:40:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029264_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029264_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029264-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029264-taxa.tsv
+    jobid: 124
+    wildcards: sample=SRR10029264
+    threads: 4
+
+Submitted job 124 with external jobid 'Submitted batch job 6373105'.
+
+[Tue Aug 24 10:40:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029132_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029132_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029132-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029132-taxa.tsv
+    jobid: 136
+    wildcards: sample=SRR10029132
+    threads: 4
+
+Submitted job 136 with external jobid 'Submitted batch job 6373106'.
+
+[Tue Aug 24 10:40:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029160_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029160_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029160-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029160-taxa.tsv
+    jobid: 75
+    wildcards: sample=SRR10029160
+    threads: 4
+
+Submitted job 75 with external jobid 'Submitted batch job 6373107'.
+
+[Tue Aug 24 10:40:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029200_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029200_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029200-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029200-taxa.tsv
+    jobid: 6
+    wildcards: sample=SRR10029200
+    threads: 4
+
+Submitted job 6 with external jobid 'Submitted batch job 6373108'.
+
+[Tue Aug 24 10:40:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029125_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029125_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029125-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029125-taxa.tsv
+    jobid: 53
+    wildcards: sample=SRR10029125
+    threads: 4
+
+Submitted job 53 with external jobid 'Submitted batch job 6373109'.
+
+[Tue Aug 24 10:40:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029135_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029135_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029135-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029135-taxa.tsv
+    jobid: 47
+    wildcards: sample=SRR10029135
+    threads: 4
+
+Submitted job 47 with external jobid 'Submitted batch job 6373110'.
+
+[Tue Aug 24 10:40:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029254_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029254_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029254-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029254-taxa.tsv
+    jobid: 95
+    wildcards: sample=SRR10029254
+    threads: 4
+
+Submitted job 95 with external jobid 'Submitted batch job 6373111'.
+
+[Tue Aug 24 10:40:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029244_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029244_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029244-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029244-taxa.tsv
+    jobid: 141
+    wildcards: sample=SRR10029244
+    threads: 4
+
+Submitted job 141 with external jobid 'Submitted batch job 6373112'.
+
+[Tue Aug 24 10:40:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029263_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029263_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029263-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029263-taxa.tsv
+    jobid: 92
+    wildcards: sample=SRR10029263
+    threads: 4
+
+Submitted job 92 with external jobid 'Submitted batch job 6373113'.
+
+[Tue Aug 24 10:40:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029207_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029207_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029207-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029207-taxa.tsv
+    jobid: 102
+    wildcards: sample=SRR10029207
+    threads: 4
+
+Submitted job 102 with external jobid 'Submitted batch job 6373114'.
+
+[Tue Aug 24 10:40:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029223_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029223_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029223-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029223-taxa.tsv
+    jobid: 103
+    wildcards: sample=SRR10029223
+    threads: 4
+
+Submitted job 103 with external jobid 'Submitted batch job 6373115'.
+
+[Tue Aug 24 10:40:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029181_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029181_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029181-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029181-taxa.tsv
+    jobid: 146
+    wildcards: sample=SRR10029181
+    threads: 4
+
+Submitted job 146 with external jobid 'Submitted batch job 6373116'.
+
+[Tue Aug 24 10:40:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029251_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029251_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029251-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029251-taxa.tsv
+    jobid: 93
+    wildcards: sample=SRR10029251
+    threads: 4
+
+Submitted job 93 with external jobid 'Submitted batch job 6373117'.
+
+[Tue Aug 24 10:40:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029178_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029178_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029178-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029178-taxa.tsv
+    jobid: 62
+    wildcards: sample=SRR10029178
+    threads: 4
+
+Submitted job 62 with external jobid 'Submitted batch job 6373118'.
+
+[Tue Aug 24 10:40:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029205_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029205_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029205-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029205-taxa.tsv
+    jobid: 8
+    wildcards: sample=SRR10029205
+    threads: 4
+
+Submitted job 8 with external jobid 'Submitted batch job 6373119'.
+
+[Tue Aug 24 10:40:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029203_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029203_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029203-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029203-taxa.tsv
+    jobid: 64
+    wildcards: sample=SRR10029203
+    threads: 4
+
+Submitted job 64 with external jobid 'Submitted batch job 6373120'.
+
+[Tue Aug 24 10:40:44 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029171_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029171_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029171-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029171-taxa.tsv
+    jobid: 67
+    wildcards: sample=SRR10029171
+    threads: 4
+
+Submitted job 67 with external jobid 'Submitted batch job 6373121'.
+
+[Tue Aug 24 10:40:44 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029262_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029262_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029262-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029262-taxa.tsv
+    jobid: 76
+    wildcards: sample=SRR10029262
+    threads: 4
+
+Submitted job 76 with external jobid 'Submitted batch job 6373122'.
+
+[Tue Aug 24 10:40:44 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029138_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029138_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029138-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029138-taxa.tsv
+    jobid: 63
+    wildcards: sample=SRR10029138
+    threads: 4
+
+Submitted job 63 with external jobid 'Submitted batch job 6373123'.
+
+[Tue Aug 24 10:40:44 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029229_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029229_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029229-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029229-taxa.tsv
+    jobid: 72
+    wildcards: sample=SRR10029229
+    threads: 4
+
+Submitted job 72 with external jobid 'Submitted batch job 6373124'.
+
+[Tue Aug 24 10:40:44 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029211_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029211_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029211-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029211-taxa.tsv
+    jobid: 70
+    wildcards: sample=SRR10029211
+    threads: 4
+
+Submitted job 70 with external jobid 'Submitted batch job 6373125'.
+
+[Tue Aug 24 10:40:44 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029196_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029196_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029196-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029196-taxa.tsv
+    jobid: 134
+    wildcards: sample=SRR10029196
+    threads: 4
+
+Submitted job 134 with external jobid 'Submitted batch job 6373126'.
+
+[Tue Aug 24 10:40:44 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029168_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029168_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029168-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029168-taxa.tsv
+    jobid: 128
+    wildcards: sample=SRR10029168
+    threads: 4
+
+Submitted job 128 with external jobid 'Submitted batch job 6373127'.
+
+[Tue Aug 24 10:40:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029133_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029133_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029133-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029133-taxa.tsv
+    jobid: 80
+    wildcards: sample=SRR10029133
+    threads: 4
+
+Submitted job 80 with external jobid 'Submitted batch job 6373128'.
+
+[Tue Aug 24 10:40:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029265_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029265_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029265-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029265-taxa.tsv
+    jobid: 116
+    wildcards: sample=SRR10029265
+    threads: 4
+
+Submitted job 116 with external jobid 'Submitted batch job 6373129'.
+
+[Tue Aug 24 10:40:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029253_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029253_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029253-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029253-taxa.tsv
+    jobid: 16
+    wildcards: sample=SRR10029253
+    threads: 4
+
+Submitted job 16 with external jobid 'Submitted batch job 6373130'.
+
+[Tue Aug 24 10:40:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029140_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029140_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029140-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029140-taxa.tsv
+    jobid: 20
+    wildcards: sample=SRR10029140
+    threads: 4
+
+Submitted job 20 with external jobid 'Submitted batch job 6373131'.
+
+[Tue Aug 24 10:40:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029173_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029173_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029173-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029173-taxa.tsv
+    jobid: 126
+    wildcards: sample=SRR10029173
+    threads: 4
+
+Submitted job 126 with external jobid 'Submitted batch job 6373132'.
+
+[Tue Aug 24 10:40:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029189_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029189_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029189-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029189-taxa.tsv
+    jobid: 109
+    wildcards: sample=SRR10029189
+    threads: 4
+
+Submitted job 109 with external jobid 'Submitted batch job 6373133'.
+
+[Tue Aug 24 10:40:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029183_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029183_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029183-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029183-taxa.tsv
+    jobid: 88
+    wildcards: sample=SRR10029183
+    threads: 4
+
+Submitted job 88 with external jobid 'Submitted batch job 6373134'.
+
+[Tue Aug 24 10:40:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029147_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029147_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029147-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029147-taxa.tsv
+    jobid: 21
+    wildcards: sample=SRR10029147
+    threads: 4
+
+Submitted job 21 with external jobid 'Submitted batch job 6373135'.
+
+[Tue Aug 24 10:40:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029157_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029157_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029157-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029157-taxa.tsv
+    jobid: 45
+    wildcards: sample=SRR10029157
+    threads: 4
+
+Submitted job 45 with external jobid 'Submitted batch job 6373136'.
+
+[Tue Aug 24 10:40:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029208_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029208_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029208-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029208-taxa.tsv
+    jobid: 48
+    wildcards: sample=SRR10029208
+    threads: 4
+
+Submitted job 48 with external jobid 'Submitted batch job 6373137'.
+
+[Tue Aug 24 10:40:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029145_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029145_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029145-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029145-taxa.tsv
+    jobid: 108
+    wildcards: sample=SRR10029145
+    threads: 4
+
+Submitted job 108 with external jobid 'Submitted batch job 6373138'.
+
+[Tue Aug 24 10:40:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029206_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029206_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029206-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029206-taxa.tsv
+    jobid: 71
+    wildcards: sample=SRR10029206
+    threads: 4
+
+Submitted job 71 with external jobid 'Submitted batch job 6373139'.
+
+[Tue Aug 24 10:40:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029146_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029146_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029146-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029146-taxa.tsv
+    jobid: 56
+    wildcards: sample=SRR10029146
+    threads: 4
+
+Submitted job 56 with external jobid 'Submitted batch job 6373140'.
+
+[Tue Aug 24 10:40:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029150_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029150_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029150-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029150-taxa.tsv
+    jobid: 43
+    wildcards: sample=SRR10029150
+    threads: 4
+
+Submitted job 43 with external jobid 'Submitted batch job 6373141'.
+
+[Tue Aug 24 10:40:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029127_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029127_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029127-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029127-taxa.tsv
+    jobid: 60
+    wildcards: sample=SRR10029127
+    threads: 4
+
+Submitted job 60 with external jobid 'Submitted batch job 6373142'.
+
+[Tue Aug 24 10:40:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029182_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029182_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029182-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029182-taxa.tsv
+    jobid: 50
+    wildcards: sample=SRR10029182
+    threads: 4
+
+Submitted job 50 with external jobid 'Submitted batch job 6373143'.
+
+[Tue Aug 24 10:40:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029148_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029148_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029148-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029148-taxa.tsv
+    jobid: 29
+    wildcards: sample=SRR10029148
+    threads: 4
+
+Submitted job 29 with external jobid 'Submitted batch job 6373144'.
+
+[Tue Aug 24 10:40:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029217_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029217_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029217-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029217-taxa.tsv
+    jobid: 137
+    wildcards: sample=SRR10029217
+    threads: 4
+
+Submitted job 137 with external jobid 'Submitted batch job 6373145'.
+
+[Tue Aug 24 10:40:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029185_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029185_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029185-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029185-taxa.tsv
+    jobid: 35
+    wildcards: sample=SRR10029185
+    threads: 4
+
+Submitted job 35 with external jobid 'Submitted batch job 6373146'.
+
+[Tue Aug 24 10:40:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029155_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029155_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029155-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029155-taxa.tsv
+    jobid: 107
+    wildcards: sample=SRR10029155
+    threads: 4
+
+Submitted job 107 with external jobid 'Submitted batch job 6373147'.
+
+[Tue Aug 24 10:40:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029149_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029149_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029149-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029149-taxa.tsv
+    jobid: 19
+    wildcards: sample=SRR10029149
+    threads: 4
+
+Submitted job 19 with external jobid 'Submitted batch job 6373148'.
+
+[Tue Aug 24 10:40:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029141_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029141_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029141-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029141-taxa.tsv
+    jobid: 81
+    wildcards: sample=SRR10029141
+    threads: 4
+
+Submitted job 81 with external jobid 'Submitted batch job 6373149'.
+
+[Tue Aug 24 10:40:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029218_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029218_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029218-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029218-taxa.tsv
+    jobid: 105
+    wildcards: sample=SRR10029218
+    threads: 4
+
+Submitted job 105 with external jobid 'Submitted batch job 6373150'.
+
+[Tue Aug 24 10:40:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029152_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029152_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029152-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029152-taxa.tsv
+    jobid: 123
+    wildcards: sample=SRR10029152
+    threads: 4
+
+Submitted job 123 with external jobid 'Submitted batch job 6373151'.
+
+[Tue Aug 24 10:40:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029167_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029167_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029167-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029167-taxa.tsv
+    jobid: 73
+    wildcards: sample=SRR10029167
+    threads: 4
+
+Submitted job 73 with external jobid 'Submitted batch job 6373152'.
+
+[Tue Aug 24 10:40:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029210_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029210_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029210-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029210-taxa.tsv
+    jobid: 100
+    wildcards: sample=SRR10029210
+    threads: 4
+
+Submitted job 100 with external jobid 'Submitted batch job 6373153'.
+
+[Tue Aug 24 10:40:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029214_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029214_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029214-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029214-taxa.tsv
+    jobid: 32
+    wildcards: sample=SRR10029214
+    threads: 4
+
+Submitted job 32 with external jobid 'Submitted batch job 6373154'.
+
+[Tue Aug 24 10:40:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029232_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029232_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029232-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029232-taxa.tsv
+    jobid: 34
+    wildcards: sample=SRR10029232
+    threads: 4
+
+Submitted job 34 with external jobid 'Submitted batch job 6373155'.
+
+[Tue Aug 24 10:40:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029128_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029128_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029128-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029128-taxa.tsv
+    jobid: 69
+    wildcards: sample=SRR10029128
+    threads: 4
+
+Submitted job 69 with external jobid 'Submitted batch job 6373156'.
+
+[Tue Aug 24 10:40:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029130_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029130_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029130-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029130-taxa.tsv
+    jobid: 78
+    wildcards: sample=SRR10029130
+    threads: 4
+
+Submitted job 78 with external jobid 'Submitted batch job 6373157'.
+
+[Tue Aug 24 10:40:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029126_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029126_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029126-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029126-taxa.tsv
+    jobid: 4
+    wildcards: sample=SRR10029126
+    threads: 4
+
+Submitted job 4 with external jobid 'Submitted batch job 6373158'.
+
+[Tue Aug 24 10:40:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029236_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029236_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029236-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029236-taxa.tsv
+    jobid: 97
+    wildcards: sample=SRR10029236
+    threads: 4
+
+Submitted job 97 with external jobid 'Submitted batch job 6373159'.
+
+[Tue Aug 24 10:40:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029190_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029190_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029190-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029190-taxa.tsv
+    jobid: 110
+    wildcards: sample=SRR10029190
+    threads: 4
+
+Submitted job 110 with external jobid 'Submitted batch job 6373160'.
+
+[Tue Aug 24 10:40:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029233_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029233_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029233-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029233-taxa.tsv
+    jobid: 94
+    wildcards: sample=SRR10029233
+    threads: 4
+
+Submitted job 94 with external jobid 'Submitted batch job 6373161'.
+
+[Tue Aug 24 10:40:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029193_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029193_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029193-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029193-taxa.tsv
+    jobid: 130
+    wildcards: sample=SRR10029193
+    threads: 4
+
+Submitted job 130 with external jobid 'Submitted batch job 6373162'.
+
+[Tue Aug 24 10:40:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029154_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029154_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029154-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029154-taxa.tsv
+    jobid: 18
+    wildcards: sample=SRR10029154
+    threads: 4
+
+Submitted job 18 with external jobid 'Submitted batch job 6373163'.
+
+[Tue Aug 24 10:40:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029215_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029215_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029215-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029215-taxa.tsv
+    jobid: 101
+    wildcards: sample=SRR10029215
+    threads: 4
+
+Submitted job 101 with external jobid 'Submitted batch job 6373164'.
+
+[Tue Aug 24 10:40:54 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029164_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029164_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029164-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029164-taxa.tsv
+    jobid: 26
+    wildcards: sample=SRR10029164
+    threads: 4
+
+Submitted job 26 with external jobid 'Submitted batch job 6373165'.
+
+[Tue Aug 24 10:40:54 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029228_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029228_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029228-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029228-taxa.tsv
+    jobid: 104
+    wildcards: sample=SRR10029228
+    threads: 4
+
+Submitted job 104 with external jobid 'Submitted batch job 6373166'.
+
+[Tue Aug 24 10:40:54 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029221_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029221_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029221-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029221-taxa.tsv
+    jobid: 147
+    wildcards: sample=SRR10029221
+    threads: 4
+
+Submitted job 147 with external jobid 'Submitted batch job 6373167'.
+
+[Tue Aug 24 10:40:54 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029184_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029184_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029184-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029184-taxa.tsv
+    jobid: 87
+    wildcards: sample=SRR10029184
+    threads: 4
+
+Submitted job 87 with external jobid 'Submitted batch job 6373168'.
+
+[Tue Aug 24 10:40:54 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029256_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029256_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029256-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029256-taxa.tsv
+    jobid: 117
+    wildcards: sample=SRR10029256
+    threads: 4
+
+Submitted job 117 with external jobid 'Submitted batch job 6373169'.
+
+[Tue Aug 24 10:40:54 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029136_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029136_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029136-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029136-taxa.tsv
+    jobid: 142
+    wildcards: sample=SRR10029136
+    threads: 4
+
+Submitted job 142 with external jobid 'Submitted batch job 6373170'.
+
+[Tue Aug 24 10:40:54 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029257_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029257_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029257-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029257-taxa.tsv
+    jobid: 114
+    wildcards: sample=SRR10029257
+    threads: 4
+
+Submitted job 114 with external jobid 'Submitted batch job 6373171'.
+
+[Tue Aug 24 10:40:54 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029212_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029212_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029212-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029212-taxa.tsv
+    jobid: 66
+    wildcards: sample=SRR10029212
+    threads: 4
+
+Submitted job 66 with external jobid 'Submitted batch job 6373172'.
+
+[Tue Aug 24 10:40:54 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029259_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029259_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029259-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029259-taxa.tsv
+    jobid: 7
+    wildcards: sample=SRR10029259
+    threads: 4
+
+Submitted job 7 with external jobid 'Submitted batch job 6373173'.
+
+[Tue Aug 24 10:40:55 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029235_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029235_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029235-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029235-taxa.tsv
+    jobid: 55
+    wildcards: sample=SRR10029235
+    threads: 4
+
+Submitted job 55 with external jobid 'Submitted batch job 6373174'.
+
+[Tue Aug 24 10:40:55 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029174_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029174_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029174-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029174-taxa.tsv
+    jobid: 36
+    wildcards: sample=SRR10029174
+    threads: 4
+
+Submitted job 36 with external jobid 'Submitted batch job 6373175'.
+
+[Tue Aug 24 10:40:55 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029250_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029250_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029250-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029250-taxa.tsv
+    jobid: 86
+    wildcards: sample=SRR10029250
+    threads: 4
+
+Submitted job 86 with external jobid 'Submitted batch job 6373176'.
+
+[Tue Aug 24 10:40:55 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029192_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029192_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029192-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029192-taxa.tsv
+    jobid: 148
+    wildcards: sample=SRR10029192
+    threads: 4
+
+Submitted job 148 with external jobid 'Submitted batch job 6373177'.
+
+[Tue Aug 24 10:40:55 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029243_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029243_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029243-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029243-taxa.tsv
+    jobid: 83
+    wildcards: sample=SRR10029243
+    threads: 4
+
+Submitted job 83 with external jobid 'Submitted batch job 6373178'.
+
+[Tue Aug 24 10:40:55 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029209_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029209_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029209-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029209-taxa.tsv
+    jobid: 99
+    wildcards: sample=SRR10029209
+    threads: 4
+
+Submitted job 99 with external jobid 'Submitted batch job 6373179'.
+
+[Tue Aug 24 10:40:56 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029159_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029159_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029159-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029159-taxa.tsv
+    jobid: 38
+    wildcards: sample=SRR10029159
+    threads: 4
+
+Submitted job 38 with external jobid 'Submitted batch job 6373180'.
+
+[Tue Aug 24 10:40:56 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029188_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029188_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029188-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029188-taxa.tsv
+    jobid: 30
+    wildcards: sample=SRR10029188
+    threads: 4
+
+Submitted job 30 with external jobid 'Submitted batch job 6373181'.
+
+[Tue Aug 24 10:40:56 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029175_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029175_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029175-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029175-taxa.tsv
+    jobid: 65
+    wildcards: sample=SRR10029175
+    threads: 4
+
+Submitted job 65 with external jobid 'Submitted batch job 6373182'.
+
+[Tue Aug 24 10:40:56 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029234_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029234_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029234-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029234-taxa.tsv
+    jobid: 77
+    wildcards: sample=SRR10029234
+    threads: 4
+
+Submitted job 77 with external jobid 'Submitted batch job 6373183'.
+
+[Tue Aug 24 10:40:56 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029197_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029197_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029197-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029197-taxa.tsv
+    jobid: 144
+    wildcards: sample=SRR10029197
+    threads: 4
+
+Submitted job 144 with external jobid 'Submitted batch job 6373184'.
+[Tue Aug 24 10:47:57 2021]
+Error in rule kraken2_classify_report:
+    jobid: 18
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029154-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029154-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029154-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029154_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029154_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029154-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373163
+
+Error executing rule kraken2_classify_report on cluster (jobid: 18, external: Submitted batch job 6373163, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.18.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 10:48:48 2021]
+Error in rule kraken2_classify_report:
+    jobid: 144
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029197-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029197-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029197-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029197_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029197_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029197-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373184
+
+Error executing rule kraken2_classify_report on cluster (jobid: 144, external: Submitted batch job 6373184, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.144.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 10:48:55 2021]
+Error in rule kraken2_classify_report:
+    jobid: 130
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029193-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029193-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029193-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029193_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029193_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029193-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373162
+
+Error executing rule kraken2_classify_report on cluster (jobid: 130, external: Submitted batch job 6373162, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.130.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 10:49:06 2021]
+Error in rule kraken2_classify_report:
+    jobid: 77
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029234-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029234-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029234-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029234_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029234_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029234-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373183
+
+Error executing rule kraken2_classify_report on cluster (jobid: 77, external: Submitted batch job 6373183, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.77.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:05:55 2021]
+Error in rule kraken2_classify_report:
+    jobid: 133
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029261-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029261-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029261-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029261_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029261_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029261-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373086
+
+Error executing rule kraken2_classify_report on cluster (jobid: 133, external: Submitted batch job 6373086, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.133.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:07:52 2021]
+Error in rule kraken2_classify_report:
+    jobid: 146
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029181-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029181-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029181-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029181_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029181_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029181-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373116
+
+Error executing rule kraken2_classify_report on cluster (jobid: 146, external: Submitted batch job 6373116, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.146.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:08:09 2021]
+Error in rule kraken2_classify_report:
+    jobid: 74
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029201-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029201-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029201-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029201_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029201_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029201-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373092
+
+Error executing rule kraken2_classify_report on cluster (jobid: 74, external: Submitted batch job 6373092, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.74.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:11:21 2021]
+Error in rule kraken2_classify_report:
+    jobid: 102
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029207-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029207-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029207-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029207_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029207_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029207-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373114
+
+Error executing rule kraken2_classify_report on cluster (jobid: 102, external: Submitted batch job 6373114, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.102.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:18:39 2021]
+Error in rule kraken2_classify_report:
+    jobid: 8
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029205-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029205-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029205-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029205_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029205_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029205-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373119
+
+Error executing rule kraken2_classify_report on cluster (jobid: 8, external: Submitted batch job 6373119, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.8.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:21:48 2021]
+Error in rule kraken2_classify_report:
+    jobid: 24
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029139-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029139-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029139-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029139_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029139_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029139-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373102
+
+Error executing rule kraken2_classify_report on cluster (jobid: 24, external: Submitted batch job 6373102, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.24.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:21:53 2021]
+Error in rule kraken2_classify_report:
+    jobid: 4
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029126-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029126-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029126-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029126_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029126_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029126-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373158
+
+Error executing rule kraken2_classify_report on cluster (jobid: 4, external: Submitted batch job 6373158, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.4.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:22:48 2021]
+Error in rule kraken2_classify_report:
+    jobid: 94
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029233-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029233-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029233-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029233_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029233_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029233-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373161
+
+Error executing rule kraken2_classify_report on cluster (jobid: 94, external: Submitted batch job 6373161, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.94.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:22:58 2021]
+Error in rule kraken2_classify_report:
+    jobid: 101
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029215-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029215-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029215-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029215_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029215_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029215-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373164
+
+Error executing rule kraken2_classify_report on cluster (jobid: 101, external: Submitted batch job 6373164, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.101.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:22:59 2021]
+Error in rule kraken2_classify_report:
+    jobid: 79
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029191-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029191-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029191-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029191_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029191_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029191-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373085
+
+Error executing rule kraken2_classify_report on cluster (jobid: 79, external: Submitted batch job 6373085, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.79.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:25:04 2021]
+Error in rule kraken2_classify_report:
+    jobid: 26
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029164-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029164-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029164-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029164_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029164_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029164-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373165
+
+Error executing rule kraken2_classify_report on cluster (jobid: 26, external: Submitted batch job 6373165, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.26.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:28:49 2021]
+Error in rule kraken2_classify_report:
+    jobid: 110
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029190-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029190-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029190-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029190_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029190_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029190-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373160
+
+Error executing rule kraken2_classify_report on cluster (jobid: 110, external: Submitted batch job 6373160, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.110.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:31:45 2021]
+Error in rule kraken2_classify_report:
+    jobid: 92
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029263-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029263-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029263-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029263_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029263_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029263-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373113
+
+Error executing rule kraken2_classify_report on cluster (jobid: 92, external: Submitted batch job 6373113, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.92.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:41:06 2021]
+Error in rule kraken2_classify_report:
+    jobid: 71
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029206-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029206-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029206-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029206_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029206_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029206-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373139
+
+Error executing rule kraken2_classify_report on cluster (jobid: 71, external: Submitted batch job 6373139, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.71.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:41:22 2021]
+Error in rule kraken2_classify_report:
+    jobid: 62
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029178-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029178-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029178-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029178_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029178_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029178-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373118
+
+Error executing rule kraken2_classify_report on cluster (jobid: 62, external: Submitted batch job 6373118, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.62.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:47:40 2021]
+Error in rule kraken2_classify_report:
+    jobid: 103
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029223-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029223-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029223-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029223_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029223_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029223-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373115
+
+Error executing rule kraken2_classify_report on cluster (jobid: 103, external: Submitted batch job 6373115, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.103.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:52:50 2021]
+Error in rule kraken2_classify_report:
+    jobid: 69
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029128-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029128-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029128-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029128_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029128_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029128-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373156
+
+Error executing rule kraken2_classify_report on cluster (jobid: 69, external: Submitted batch job 6373156, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.69.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:52:50 2021]
+Error in rule kraken2_classify_report:
+    jobid: 97
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029236-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029236-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029236-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029236_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029236_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029236-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373159
+
+Error executing rule kraken2_classify_report on cluster (jobid: 97, external: Submitted batch job 6373159, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.97.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:53:05 2021]
+Error in rule kraken2_classify_report:
+    jobid: 134
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029196-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029196-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029196-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029196_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029196_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029196-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373126
+
+Error executing rule kraken2_classify_report on cluster (jobid: 134, external: Submitted batch job 6373126, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.134.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:53:06 2021]
+Error in rule kraken2_classify_report:
+    jobid: 80
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029133-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029133-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029133-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029133_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029133_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029133-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373128
+
+Error executing rule kraken2_classify_report on cluster (jobid: 80, external: Submitted batch job 6373128, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.80.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:53:41 2021]
+Error in rule kraken2_classify_report:
+    jobid: 29
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029148-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029148-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029148-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029148_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029148_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029148-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373144
+
+Error executing rule kraken2_classify_report on cluster (jobid: 29, external: Submitted batch job 6373144, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.29.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:54:51 2021]
+Error in rule kraken2_classify_report:
+    jobid: 100
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029210-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029210-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029210-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029210_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029210_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029210-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373153
+
+Error executing rule kraken2_classify_report on cluster (jobid: 100, external: Submitted batch job 6373153, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.100.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:55:52 2021]
+Error in rule kraken2_classify_report:
+    jobid: 142
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029136-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029136-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029136-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029136_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029136_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029136-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373170
+
+Error executing rule kraken2_classify_report on cluster (jobid: 142, external: Submitted batch job 6373170, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.142.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:57:52 2021]
+Error in rule kraken2_classify_report:
+    jobid: 7
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029259-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029259-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029259-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029259_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029259_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029259-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373173
+
+Error executing rule kraken2_classify_report on cluster (jobid: 7, external: Submitted batch job 6373173, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.7.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:58:43 2021]
+Error in rule kraken2_classify_report:
+    jobid: 104
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029228-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029228-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029228-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029228_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029228_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029228-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373166
+
+Error executing rule kraken2_classify_report on cluster (jobid: 104, external: Submitted batch job 6373166, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.104.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 11:59:35 2021]
+Error in rule kraken2_classify_report:
+    jobid: 99
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029209-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029209-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029209-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029209_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029209_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029209-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373179
+
+Error executing rule kraken2_classify_report on cluster (jobid: 99, external: Submitted batch job 6373179, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.99.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:00:25 2021]
+Error in rule kraken2_classify_report:
+    jobid: 86
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029250-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029250-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029250-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029250_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029250_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029250-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373176
+
+Error executing rule kraken2_classify_report on cluster (jobid: 86, external: Submitted batch job 6373176, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.86.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:01:15 2021]
+Error in rule kraken2_classify_report:
+    jobid: 65
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029175-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029175-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029175-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029175_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029175_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029175-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373182
+
+Error executing rule kraken2_classify_report on cluster (jobid: 65, external: Submitted batch job 6373182, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.65.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:06:23 2021]
+Error in rule kraken2_classify_report:
+    jobid: 109
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029189-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029189-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029189-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029189_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029189_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029189-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373133
+
+Error executing rule kraken2_classify_report on cluster (jobid: 109, external: Submitted batch job 6373133, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.109.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:08:17 2021]
+Error in rule kraken2_classify_report:
+    jobid: 123
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029152-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029152-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029152-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029152_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029152_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029152-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373151
+
+Error executing rule kraken2_classify_report on cluster (jobid: 123, external: Submitted batch job 6373151, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.123.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:10:05 2021]
+Error in rule kraken2_classify_report:
+    jobid: 96
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029137-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029137-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029137-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029137_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029137_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029137-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373096
+
+Error executing rule kraken2_classify_report on cluster (jobid: 96, external: Submitted batch job 6373096, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.96.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:10:08 2021]
+Error in rule kraken2_classify_report:
+    jobid: 21
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029147-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029147-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029147-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029147_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029147_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029147-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373135
+
+Error executing rule kraken2_classify_report on cluster (jobid: 21, external: Submitted batch job 6373135, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.21.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:10:55 2021]
+Error in rule kraken2_classify_report:
+    jobid: 64
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029203-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029203-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029203-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029203_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029203_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029203-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373120
+
+Error executing rule kraken2_classify_report on cluster (jobid: 64, external: Submitted batch job 6373120, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.64.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:18:06 2021]
+Error in rule kraken2_classify_report:
+    jobid: 30
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029188-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029188-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029188-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029188_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029188_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029188-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373181
+
+Error executing rule kraken2_classify_report on cluster (jobid: 30, external: Submitted batch job 6373181, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.30.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:18:09 2021]
+Error in rule kraken2_classify_report:
+    jobid: 48
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029208-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029208-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029208-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029208_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029208_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029208-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373137
+
+Error executing rule kraken2_classify_report on cluster (jobid: 48, external: Submitted batch job 6373137, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.48.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:22:05 2021]
+Error in rule kraken2_classify_report:
+    jobid: 147
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029221-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029221-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029221-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029221_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029221_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029221-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373167
+
+Error executing rule kraken2_classify_report on cluster (jobid: 147, external: Submitted batch job 6373167, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.147.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:22:05 2021]
+Error in rule kraken2_classify_report:
+    jobid: 117
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029256-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029256-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029256-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029256_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029256_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029256-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373169
+
+Error executing rule kraken2_classify_report on cluster (jobid: 117, external: Submitted batch job 6373169, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.117.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:22:09 2021]
+Error in rule kraken2_classify_report:
+    jobid: 56
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029146-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029146-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029146-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029146_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029146_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029146-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373140
+
+Error executing rule kraken2_classify_report on cluster (jobid: 56, external: Submitted batch job 6373140, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.56.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:24:09 2021]
+Error in rule kraken2_classify_report:
+    jobid: 16
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029253-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029253-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029253-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029253_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029253_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029253-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373130
+
+Error executing rule kraken2_classify_report on cluster (jobid: 16, external: Submitted batch job 6373130, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.16.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:25:55 2021]
+Error in rule kraken2_classify_report:
+    jobid: 126
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029173-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029173-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029173-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029173_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029173_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029173-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373132
+
+Error executing rule kraken2_classify_report on cluster (jobid: 126, external: Submitted batch job 6373132, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.126.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:27:40 2021]
+Error in rule kraken2_classify_report:
+    jobid: 93
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029251-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029251-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029251-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029251_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029251_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029251-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373117
+
+Error executing rule kraken2_classify_report on cluster (jobid: 93, external: Submitted batch job 6373117, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.93.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:27:52 2021]
+Error in rule kraken2_classify_report:
+    jobid: 148
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029192-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029192-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029192-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029192_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029192_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029192-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373177
+
+Error executing rule kraken2_classify_report on cluster (jobid: 148, external: Submitted batch job 6373177, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.148.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:29:40 2021]
+Error in rule kraken2_classify_report:
+    jobid: 72
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029229-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029229-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029229-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029229_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029229_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029229-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373124
+
+Error executing rule kraken2_classify_report on cluster (jobid: 72, external: Submitted batch job 6373124, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.72.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:29:42 2021]
+Error in rule kraken2_classify_report:
+    jobid: 32
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029214-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029214-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029214-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029214_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029214_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029214-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373154
+
+Error executing rule kraken2_classify_report on cluster (jobid: 32, external: Submitted batch job 6373154, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.32.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:29:42 2021]
+Error in rule kraken2_classify_report:
+    jobid: 34
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029232-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029232-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029232-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029232_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029232_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029232-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373155
+
+Error executing rule kraken2_classify_report on cluster (jobid: 34, external: Submitted batch job 6373155, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.34.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:32:40 2021]
+Error in rule kraken2_classify_report:
+    jobid: 108
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029145-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029145-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029145-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029145_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029145_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029145-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373138
+
+Error executing rule kraken2_classify_report on cluster (jobid: 108, external: Submitted batch job 6373138, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.108.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:32:57 2021]
+Error in rule kraken2_classify_report:
+    jobid: 105
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029218-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029218-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029218-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029218_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029218_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029218-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373150
+
+Error executing rule kraken2_classify_report on cluster (jobid: 105, external: Submitted batch job 6373150, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.105.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:33:11 2021]
+Error in rule kraken2_classify_report:
+    jobid: 137
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029217-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029217-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029217-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029217_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029217_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029217-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373145
+
+Error executing rule kraken2_classify_report on cluster (jobid: 137, external: Submitted batch job 6373145, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.137.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:33:12 2021]
+Error in rule kraken2_classify_report:
+    jobid: 19
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029149-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029149-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029149-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029149_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029149_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029149-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373148
+
+Error executing rule kraken2_classify_report on cluster (jobid: 19, external: Submitted batch job 6373148, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.19.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:36:10 2021]
+Error in rule kraken2_classify_report:
+    jobid: 87
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029184-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029184-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029184-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029184_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029184_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029184-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373168
+
+Error executing rule kraken2_classify_report on cluster (jobid: 87, external: Submitted batch job 6373168, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.87.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:36:13 2021]
+Error in rule kraken2_classify_report:
+    jobid: 45
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029157-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029157-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029157-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029157_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029157_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029157-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373136
+
+Error executing rule kraken2_classify_report on cluster (jobid: 45, external: Submitted batch job 6373136, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.45.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:38:16 2021]
+Error in rule kraken2_classify_report:
+    jobid: 83
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029243-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029243-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029243-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029243_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029243_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029243-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373178
+
+Error executing rule kraken2_classify_report on cluster (jobid: 83, external: Submitted batch job 6373178, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.83.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:38:30 2021]
+Error in rule kraken2_classify_report:
+    jobid: 66
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029212-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029212-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029212-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029212_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029212_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029212-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373172
+
+Error executing rule kraken2_classify_report on cluster (jobid: 66, external: Submitted batch job 6373172, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.66.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:39:26 2021]
+Error in rule kraken2_classify_report:
+    jobid: 38
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029159-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029159-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029159-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029159_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029159_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029159-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373180
+
+Error executing rule kraken2_classify_report on cluster (jobid: 38, external: Submitted batch job 6373180, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.38.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:41:20 2021]
+Error in rule kraken2_classify_report:
+    jobid: 9
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029247-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029247-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029247-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029247_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029247_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029247-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373100
+
+Error executing rule kraken2_classify_report on cluster (jobid: 9, external: Submitted batch job 6373100, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.9.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:41:21 2021]
+Error in rule kraken2_classify_report:
+    jobid: 67
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029171-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029171-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029171-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029171_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029171_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029171-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373121
+
+Error executing rule kraken2_classify_report on cluster (jobid: 67, external: Submitted batch job 6373121, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.67.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:43:25 2021]
+Error in rule kraken2_classify_report:
+    jobid: 55
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029235-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029235-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029235-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029235_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029235_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029235-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373174
+
+Error executing rule kraken2_classify_report on cluster (jobid: 55, external: Submitted batch job 6373174, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.55.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:46:30 2021]
+Error in rule kraken2_classify_report:
+    jobid: 20
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029140-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029140-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029140-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029140_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029140_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029140-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373131
+
+Error executing rule kraken2_classify_report on cluster (jobid: 20, external: Submitted batch job 6373131, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.20.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:47:22 2021]
+Error in rule kraken2_classify_report:
+    jobid: 116
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029265-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029265-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029265-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029265_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029265_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029265-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373129
+
+Error executing rule kraken2_classify_report on cluster (jobid: 116, external: Submitted batch job 6373129, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.116.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:47:35 2021]
+Error in rule kraken2_classify_report:
+    jobid: 88
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029183-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029183-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029183-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029183_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029183_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029183-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373134
+
+Error executing rule kraken2_classify_report on cluster (jobid: 88, external: Submitted batch job 6373134, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.88.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:50:37 2021]
+Error in rule kraken2_classify_report:
+    jobid: 60
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029127-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029127-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029127-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029127_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029127_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029127-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373142
+
+Error executing rule kraken2_classify_report on cluster (jobid: 60, external: Submitted batch job 6373142, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.60.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:52:36 2021]
+Error in rule kraken2_classify_report:
+    jobid: 78
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029130-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029130-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029130-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029130_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029130_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029130-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373157
+
+Error executing rule kraken2_classify_report on cluster (jobid: 78, external: Submitted batch job 6373157, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.78.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:52:48 2021]
+Error in rule kraken2_classify_report:
+    jobid: 50
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029182-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029182-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029182-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029182_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029182_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029182-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373143
+
+Error executing rule kraken2_classify_report on cluster (jobid: 50, external: Submitted batch job 6373143, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.50.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:53:41 2021]
+Error in rule kraken2_classify_report:
+    jobid: 81
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029141-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029141-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029141-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029141_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029141_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029141-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373149
+
+Error executing rule kraken2_classify_report on cluster (jobid: 81, external: Submitted batch job 6373149, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.81.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:53:41 2021]
+Error in rule kraken2_classify_report:
+    jobid: 73
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029167-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029167-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029167-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029167_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029167_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029167-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373152
+
+Error executing rule kraken2_classify_report on cluster (jobid: 73, external: Submitted batch job 6373152, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.73.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:56:42 2021]
+Error in rule kraken2_classify_report:
+    jobid: 35
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029185-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029185-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029185-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029185_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029185_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029185-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373146
+
+Error executing rule kraken2_classify_report on cluster (jobid: 35, external: Submitted batch job 6373146, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.35.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 12:59:42 2021]
+Error in rule kraken2_classify_report:
+    jobid: 36
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029174-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029174-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029174-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029174_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029174_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029174-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373175
+
+Error executing rule kraken2_classify_report on cluster (jobid: 36, external: Submitted batch job 6373175, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.36.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 13:03:32 2021]
+Error in rule kraken2_classify_report:
+    jobid: 114
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029257-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029257-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029257-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029257_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029257_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029257-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373171
+
+Error executing rule kraken2_classify_report on cluster (jobid: 114, external: Submitted batch job 6373171, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.114.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 13:11:10 2021]
+Error in rule kraken2_classify_report:
+    jobid: 107
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029155-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029155-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029155-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029155_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029155_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029155-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373147
+
+Error executing rule kraken2_classify_report on cluster (jobid: 107, external: Submitted batch job 6373147, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.107.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 13:18:59 2021]
+Error in rule kraken2_classify_report:
+    jobid: 43
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029150-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029150-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029150-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029150_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029150_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029150-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373141
+
+Error executing rule kraken2_classify_report on cluster (jobid: 43, external: Submitted batch job 6373141, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.43.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 13:24:47 2021]
+Error in rule kraken2_classify_report:
+    jobid: 70
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029211-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029211-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029211-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029211_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029211_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029211-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373125
+
+Error executing rule kraken2_classify_report on cluster (jobid: 70, external: Submitted batch job 6373125, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.70.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Tue Aug 24 13:28:35 2021]
+Error in rule kraken2_classify_report:
+    jobid: 76
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029262-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029262-taxa.tsv
+    shell:
+        
+        kraken2 --gzip-compressed                 --db /mnt/isilon/zackular_lab_hpc/resources/krakendb                 --report /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029262-taxa.tsv                 --paired /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029262_1.fastq.gz /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029262_2.fastq.gz                 > /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029262-raw.tsv
+        
+        (exited with non-zero exit code)
+    cluster_jobid: Submitted batch job 6373122
+
+Error executing rule kraken2_classify_report on cluster (jobid: 76, external: Submitted batch job 6373122, jobscript: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/.snakemake/tmp.poe1y9fa/snakejob.kraken2_classify_report.76.sh). For error details see the cluster log and the log files of the involved rule(s).
+Terminating processes on user request, this might take some time.
+Will exit after finishing currently running jobs.

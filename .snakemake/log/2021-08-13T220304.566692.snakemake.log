@@ -1,0 +1,1108 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 100
+Job counts:
+	count	jobs
+	1	all_classify
+	1	classic_k2_biom
+	1	kraken2_biom
+	148	kraken2_classify_report
+	151
+
+[Fri Aug 13 22:03:56 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029155_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029155_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029155-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029155-taxa.tsv
+    jobid: 107
+    wildcards: sample=SRR10029155
+    threads: 4
+
+Submitted job 107 with external jobid 'Submitted batch job 6109672'.
+
+[Fri Aug 13 22:04:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029229_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029229_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029229-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029229-taxa.tsv
+    jobid: 72
+    wildcards: sample=SRR10029229
+    threads: 4
+
+Submitted job 72 with external jobid 'Submitted batch job 6109673'.
+
+[Fri Aug 13 22:04:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029217_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029217_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029217-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029217-taxa.tsv
+    jobid: 137
+    wildcards: sample=SRR10029217
+    threads: 4
+
+Submitted job 137 with external jobid 'Submitted batch job 6109674'.
+
+[Fri Aug 13 22:04:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029191_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029191_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029191-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029191-taxa.tsv
+    jobid: 79
+    wildcards: sample=SRR10029191
+    threads: 4
+
+Submitted job 79 with external jobid 'Submitted batch job 6109675'.
+
+[Fri Aug 13 22:04:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029228_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029228_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029228-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029228-taxa.tsv
+    jobid: 104
+    wildcards: sample=SRR10029228
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:04:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029177_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029177_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029177-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029177-taxa.tsv
+    jobid: 59
+    wildcards: sample=SRR10029177
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:04:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029208_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029208_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029208-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029208-taxa.tsv
+    jobid: 48
+    wildcards: sample=SRR10029208
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:04:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029124_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029124_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029124-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029124-taxa.tsv
+    jobid: 115
+    wildcards: sample=SRR10029124
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:04:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029147_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029147_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029147-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029147-taxa.tsv
+    jobid: 21
+    wildcards: sample=SRR10029147
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:04:20 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029159_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029159_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029159-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029159-taxa.tsv
+    jobid: 38
+    wildcards: sample=SRR10029159
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:04:21 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029181_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029181_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029181-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029181-taxa.tsv
+    jobid: 146
+    wildcards: sample=SRR10029181
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:04:50 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029267_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029267_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029267-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029267-taxa.tsv
+    jobid: 122
+    wildcards: sample=SRR10029267
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:18 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029192_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029192_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029192-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029192-taxa.tsv
+    jobid: 148
+    wildcards: sample=SRR10029192
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:19 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029149_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029149_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029149-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029149-taxa.tsv
+    jobid: 19
+    wildcards: sample=SRR10029149
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:19 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029214_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029214_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029214-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029214-taxa.tsv
+    jobid: 32
+    wildcards: sample=SRR10029214
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:19 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029135_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029135_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029135-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029135-taxa.tsv
+    jobid: 47
+    wildcards: sample=SRR10029135
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:19 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029259_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029259_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029259-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029259-taxa.tsv
+    jobid: 7
+    wildcards: sample=SRR10029259
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:19 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029212_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029212_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029212-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029212-taxa.tsv
+    jobid: 66
+    wildcards: sample=SRR10029212
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:19 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029126_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029126_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029126-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029126-taxa.tsv
+    jobid: 4
+    wildcards: sample=SRR10029126
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:19 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029256_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029256_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029256-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029256-taxa.tsv
+    jobid: 117
+    wildcards: sample=SRR10029256
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:19 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029200_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029200_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029200-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029200-taxa.tsv
+    jobid: 6
+    wildcards: sample=SRR10029200
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:41 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029203_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029203_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029203-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029203-taxa.tsv
+    jobid: 64
+    wildcards: sample=SRR10029203
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029189_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029189_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029189-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029189-taxa.tsv
+    jobid: 109
+    wildcards: sample=SRR10029189
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029128_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029128_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029128-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029128-taxa.tsv
+    jobid: 69
+    wildcards: sample=SRR10029128
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029247_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029247_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029247-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029247-taxa.tsv
+    jobid: 9
+    wildcards: sample=SRR10029247
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029250_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029250_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029250-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029250-taxa.tsv
+    jobid: 86
+    wildcards: sample=SRR10029250
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029268_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029268_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029268-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029268-taxa.tsv
+    jobid: 17
+    wildcards: sample=SRR10029268
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029206_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029206_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029206-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029206-taxa.tsv
+    jobid: 71
+    wildcards: sample=SRR10029206
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029156_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029156_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029156-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029156-taxa.tsv
+    jobid: 113
+    wildcards: sample=SRR10029156
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029263_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029263_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029263-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029263-taxa.tsv
+    jobid: 92
+    wildcards: sample=SRR10029263
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:42 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029182_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029182_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029182-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029182-taxa.tsv
+    jobid: 50
+    wildcards: sample=SRR10029182
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029211_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029211_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029211-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029211-taxa.tsv
+    jobid: 70
+    wildcards: sample=SRR10029211
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029245_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029245_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029245-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029245-taxa.tsv
+    jobid: 145
+    wildcards: sample=SRR10029245
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029171_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029171_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029171-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029171-taxa.tsv
+    jobid: 67
+    wildcards: sample=SRR10029171
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029176_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029176_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029176-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029176-taxa.tsv
+    jobid: 89
+    wildcards: sample=SRR10029176
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029129_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029129_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029129-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029129-taxa.tsv
+    jobid: 140
+    wildcards: sample=SRR10029129
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029188_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029188_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029188-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029188-taxa.tsv
+    jobid: 30
+    wildcards: sample=SRR10029188
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029183_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029183_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029183-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029183-taxa.tsv
+    jobid: 88
+    wildcards: sample=SRR10029183
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029236_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029236_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029236-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029236-taxa.tsv
+    jobid: 97
+    wildcards: sample=SRR10029236
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029130_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029130_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029130-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029130-taxa.tsv
+    jobid: 78
+    wildcards: sample=SRR10029130
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:43 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029261_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029261_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029261-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029261-taxa.tsv
+    jobid: 133
+    wildcards: sample=SRR10029261
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:44 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029154_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029154_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029154-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029154-taxa.tsv
+    jobid: 18
+    wildcards: sample=SRR10029154
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:44 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029142_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029142_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029142-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029142-taxa.tsv
+    jobid: 119
+    wildcards: sample=SRR10029142
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:44 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029145_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029145_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029145-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029145-taxa.tsv
+    jobid: 108
+    wildcards: sample=SRR10029145
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:44 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029152_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029152_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029152-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029152-taxa.tsv
+    jobid: 123
+    wildcards: sample=SRR10029152
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:44 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029254_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029254_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029254-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029254-taxa.tsv
+    jobid: 95
+    wildcards: sample=SRR10029254
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:44 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029150_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029150_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029150-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029150-taxa.tsv
+    jobid: 43
+    wildcards: sample=SRR10029150
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:44 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029244_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029244_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029244-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029244-taxa.tsv
+    jobid: 141
+    wildcards: sample=SRR10029244
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:44 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029253_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029253_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029253-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029253-taxa.tsv
+    jobid: 16
+    wildcards: sample=SRR10029253
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:44 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029175_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029175_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029175-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029175-taxa.tsv
+    jobid: 65
+    wildcards: sample=SRR10029175
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:44 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029243_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029243_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029243-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029243-taxa.tsv
+    jobid: 83
+    wildcards: sample=SRR10029243
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029140_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029140_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029140-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029140-taxa.tsv
+    jobid: 20
+    wildcards: sample=SRR10029140
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029201_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029201_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029201-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029201-taxa.tsv
+    jobid: 74
+    wildcards: sample=SRR10029201
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029202_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029202_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029202-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029202-taxa.tsv
+    jobid: 46
+    wildcards: sample=SRR10029202
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029196_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029196_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029196-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029196-taxa.tsv
+    jobid: 134
+    wildcards: sample=SRR10029196
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029173_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029173_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029173-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029173-taxa.tsv
+    jobid: 126
+    wildcards: sample=SRR10029173
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029137_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029137_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029137-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029137-taxa.tsv
+    jobid: 96
+    wildcards: sample=SRR10029137
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029157_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029157_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029157-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029157-taxa.tsv
+    jobid: 45
+    wildcards: sample=SRR10029157
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029252_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029252_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029252-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029252-taxa.tsv
+    jobid: 125
+    wildcards: sample=SRR10029252
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:45 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029138_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029138_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029138-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029138-taxa.tsv
+    jobid: 63
+    wildcards: sample=SRR10029138
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029146_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029146_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029146-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029146-taxa.tsv
+    jobid: 56
+    wildcards: sample=SRR10029146
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029257_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029257_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029257-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029257-taxa.tsv
+    jobid: 114
+    wildcards: sample=SRR10029257
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029132_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029132_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029132-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029132-taxa.tsv
+    jobid: 136
+    wildcards: sample=SRR10029132
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029209_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029209_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029209-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029209-taxa.tsv
+    jobid: 99
+    wildcards: sample=SRR10029209
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029133_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029133_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029133-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029133-taxa.tsv
+    jobid: 80
+    wildcards: sample=SRR10029133
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029185_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029185_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029185-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029185-taxa.tsv
+    jobid: 35
+    wildcards: sample=SRR10029185
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029141_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029141_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029141-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029141-taxa.tsv
+    jobid: 81
+    wildcards: sample=SRR10029141
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029148_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029148_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029148-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029148-taxa.tsv
+    jobid: 29
+    wildcards: sample=SRR10029148
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029174_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029174_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029174-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029174-taxa.tsv
+    jobid: 36
+    wildcards: sample=SRR10029174
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:46 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029167_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029167_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029167-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029167-taxa.tsv
+    jobid: 73
+    wildcards: sample=SRR10029167
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029251_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029251_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029251-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029251-taxa.tsv
+    jobid: 93
+    wildcards: sample=SRR10029251
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029218_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029218_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029218-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029218-taxa.tsv
+    jobid: 105
+    wildcards: sample=SRR10029218
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029125_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029125_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029125-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029125-taxa.tsv
+    jobid: 53
+    wildcards: sample=SRR10029125
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029168_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029168_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029168-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029168-taxa.tsv
+    jobid: 128
+    wildcards: sample=SRR10029168
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029221_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029221_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029221-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029221-taxa.tsv
+    jobid: 147
+    wildcards: sample=SRR10029221
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029158_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029158_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029158-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029158-taxa.tsv
+    jobid: 41
+    wildcards: sample=SRR10029158
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029260_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029260_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029260-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029260-taxa.tsv
+    jobid: 44
+    wildcards: sample=SRR10029260
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029205_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029205_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029205-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029205-taxa.tsv
+    jobid: 8
+    wildcards: sample=SRR10029205
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029160_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029160_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029160-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029160-taxa.tsv
+    jobid: 75
+    wildcards: sample=SRR10029160
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:47 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029193_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029193_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029193-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029193-taxa.tsv
+    jobid: 130
+    wildcards: sample=SRR10029193
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029233_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029233_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029233-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029233-taxa.tsv
+    jobid: 94
+    wildcards: sample=SRR10029233
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029184_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029184_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029184-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029184-taxa.tsv
+    jobid: 87
+    wildcards: sample=SRR10029184
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029139_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029139_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029139-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029139-taxa.tsv
+    jobid: 24
+    wildcards: sample=SRR10029139
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029210_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029210_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029210-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029210-taxa.tsv
+    jobid: 100
+    wildcards: sample=SRR10029210
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029190_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029190_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029190-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029190-taxa.tsv
+    jobid: 110
+    wildcards: sample=SRR10029190
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029178_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029178_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029178-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029178-taxa.tsv
+    jobid: 62
+    wildcards: sample=SRR10029178
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029136_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029136_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029136-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029136-taxa.tsv
+    jobid: 142
+    wildcards: sample=SRR10029136
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029235_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029235_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029235-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029235-taxa.tsv
+    jobid: 55
+    wildcards: sample=SRR10029235
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029234_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029234_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029234-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029234-taxa.tsv
+    jobid: 77
+    wildcards: sample=SRR10029234
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:48 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029197_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029197_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029197-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029197-taxa.tsv
+    jobid: 144
+    wildcards: sample=SRR10029197
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:49 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029127_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029127_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029127-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029127-taxa.tsv
+    jobid: 60
+    wildcards: sample=SRR10029127
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:49 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029207_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029207_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029207-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029207-taxa.tsv
+    jobid: 102
+    wildcards: sample=SRR10029207
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:49 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029164_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029164_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029164-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029164-taxa.tsv
+    jobid: 26
+    wildcards: sample=SRR10029164
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:49 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029215_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029215_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029215-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029215-taxa.tsv
+    jobid: 101
+    wildcards: sample=SRR10029215
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:49 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029265_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029265_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029265-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029265-taxa.tsv
+    jobid: 116
+    wildcards: sample=SRR10029265
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:49 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029223_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029223_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029223-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029223-taxa.tsv
+    jobid: 103
+    wildcards: sample=SRR10029223
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:49 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029232_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029232_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029232-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029232-taxa.tsv
+    jobid: 34
+    wildcards: sample=SRR10029232
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:49 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029270_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029270_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029270-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029270-taxa.tsv
+    jobid: 82
+    wildcards: sample=SRR10029270
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:49 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029264_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029264_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029264-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029264-taxa.tsv
+    jobid: 124
+    wildcards: sample=SRR10029264
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+
+[Fri Aug 13 22:05:49 2021]
+rule kraken2_classify_report:
+    input: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029262_1.fastq.gz, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/qc/decontam/SRR10029262_2.fastq.gz
+    output: /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/raw/SRR10029262-raw.tsv, /mnt/isilon/zackular_lab_hpc/users/dic/projects/DYNAMIC_metagenomics_2020/sunbeam_output/classify/kraken/SRR10029262-taxa.tsv
+    jobid: 76
+    wildcards: sample=SRR10029262
+    threads: 4
+
+Error submitting jobscript (exit code 1):
+
+Terminating processes on user request, this might take some time.
+Will exit after finishing currently running jobs.

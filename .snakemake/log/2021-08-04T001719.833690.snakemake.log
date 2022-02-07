@@ -1,0 +1,3 @@
+SyntaxError in line 23 of /mnt/isilon/dbhi_bfx/dic/tools/sunbeam-stable/rules/qc/qc.rules:
+invalid syntax
+  File "/mnt/isilon/dbhi_bfx/dic/tools/sunbeam-stable/Snakefile", line 114, in <module>

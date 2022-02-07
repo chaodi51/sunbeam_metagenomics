@@ -1,0 +1,3 @@
+SyntaxError in line 19 of /mnt/isilon/dbhi_bfx/dic/tools/sunbeam/rules/assembly/assembly.smk:
+invalid syntax
+  File "/mnt/isilon/dbhi_bfx/dic/tools/sunbeam/Snakefile", line 119, in <module>
